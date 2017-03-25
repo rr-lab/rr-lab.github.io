@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rellán-Álvarez Lab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="people.html">
+    <span class="fa fa-users"></span>
+     
+    People
+  </a>
+</li>
+<li>
+  <a href="research.html">
+    <span class="fa fa-cog"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="publications.html">
+    <span class="fa fa-file-text"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="esfoyaza.html">
+    <span class="fa fa-fire"></span>
+     
+    Esfoyaza
+  </a>
+</li>
+<li>
+  <a href="news.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    News
+  </a>
+</li>
+<li>
+  <a href="collaborators.html">
+    <span class="fa fa-handshake-o"></span>
+     
+    Collaborators
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<!-- break -->
+<p><br> <!-- break --></p>
+<div id="lab-members" class="section level2">
+<h2>Lab Members</h2>
+<!-- break -->
+<p><br> <!-- break --></p>
+<div style="float: left">
+<p></a><img src="images/elohim.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Elohim Bello</strong>. PhD Student <em>co-advised with Luis Herrera-Estrella</em></p>
+<p>Elohim studies natural variation of root soil penetration using Arabidopsis.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/jessy.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Jessica Carcaño</strong> <em>Administrative assistant</em>.<br />
+Jessy helps to run our lab and Ruairidh Sawers’ and Stewart Gillmor´s labs.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/patricio.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Patricio Cid</strong> <em>Field Manager</em>.<br />
+Patricio directs all the field operations of our lab and of ours and Sawers’ labs.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/juan.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Patricio Cid</strong> <em>Wet Lab Manager</em>.<br />
+Juan runs all the major genotyping, GBS and cloning operations of ours and Sawers’ labs.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/karla.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Karla Juarez</strong> <em>Master Student</em>.<a href="https://twitter.com/KarlaJuarez30"><img src="images/Twitter_logo_blue.png" style="width: 15px;"></a> Karla studies the role of phospholipids in maize adaptation to low phosphorus and low temperature.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/jonathan.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Jonathan Ojeda</strong>. PhD Student <em>co-advised with Luis Herrera-Estrella</em>.<a href="https://twitter.com/jonojedarivera"><img src="images/Twitter_logo_blue.png" style="width: 15px;"></a></p>
+<p>Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/ruben.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Rubén Rellán-Álvarez. PI</strong> <a href="https://twitter.com/rrellanalvarez"><img src="images/Twitter_logo_blue.png" style="width: 15px;"></a><a href="https://github.com/rellan"><img src="images/GitHub-Mark-32px.png" style="width:15px;"></a></p>
+<p>Rubén is a professor at Plant Biotechnology and Integrative Biology graduate programs. He started his lab in Langebio in 2015.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div style="float: left">
+<p><img src="images/sofia.png" style="border:10px solid white"; width=100px></p>
+</div>
+<p><strong>Sofía Estefany Sánchez</strong> Master Student <em>co-advised with Ruairidh Sawers</em>.<br />
+Sofía is working with the <em>xipotl</em> family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.</p>
+<!-- break -->
+<p><br><br><br> <!-- break --></p>
+<div id="former-lab-members" class="section level3">
+<h3>Former lab members</h3>
+<p><strong>Vladimir Torres</strong>. Master Student <em>co-advised with Ruairidh Sawers</em>.<br />
+Vladimir studied how an introgression of Teosinte parviglumis in B73 affects root growth and phoshorus deficiency. He is currently doing his PhD with Ruairidh Sawers.</p>
+<p><strong>Christian Escoto</strong>. Master Student <em>co-advised with Ruairidh Sawers</em>.<br />
+Christian is working in the analysis of different morphological traits affected by Phosphorus deficiency using a CML228 x B73 RIL mapping population.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

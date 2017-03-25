@@ -1,0 +1,31 @@
+name: "Rellán-Álvarez lab page"
+navbar:
+  title: "Rellán-Álvarez Lab"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "People"
+      icon: fa-users
+      href: people.html
+    - text: "Research"
+      icon: fa-cog
+      href: research.html
+    - text: "Publications"
+      icon: fa-file-text
+      href: publications.html
+    - text: "Esfoyaza"
+      icon: fa-fire
+      href: esfoyaza.html
+    - text: "News"
+      icon: fa-newspaper-o
+      href: news.html
+    - text: "Collaborators"
+      icon: fa-handshake-o
+      href: collaborators.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: kate
+exclude: [".Rproj","README.md"]
+output_dir: "."

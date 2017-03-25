@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rellán-Álvarez Lab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="people.html">
+    <span class="fa fa-users"></span>
+     
+    People
+  </a>
+</li>
+<li>
+  <a href="research.html">
+    <span class="fa fa-cog"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="publications.html">
+    <span class="fa fa-file-text"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="esfoyaza.html">
+    <span class="fa fa-fire"></span>
+     
+    Esfoyaza
+  </a>
+</li>
+<li>
+  <a href="news.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    News
+  </a>
+</li>
+<li>
+  <a href="collaborators.html">
+    <span class="fa fa-handshake-o"></span>
+     
+    Collaborators
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<!-- break -->
+<p><br> <!-- break --></p>
+<div id="news" class="section level2">
+<h2>News!</h2>
+<div id="section" class="section level3">
+<h3>2017</h3>
+<ul>
+<li><p>February 6 and 8. Rubén gave talks at the Carnegie Plant Biology Department in Stanford and at the Genome Center in UC Davis as part of a trip to meet collaborators in both places and attend the first <a href="zeabigdata.org">ZeaBigData</a> hackaton.</p></li>
+<li><p>January 30. Rubén gave a talk at <a href="https://www.grc.org/programs.aspx?id=13966">Plant Lipids Gordon Research Conference</a>, in Gastonville, Texas.</p></li>
+<li><p>January 24. Rubén gave a talk at the Future of Bean and Maize Research meeting in México organized by our colleagues Alejandra Covarrubias and Arnaud Ronceret in the IBT, Cuernavaca.</p></li>
+<li><p>January. Several of us headed to Bucerias to work on our Winter Nursery. <img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/winter_nursery.png" width="500"></p></li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3>2016</h3>
+<ul>
+<li><p>December 19. Our collaboration with Luis Herrera-Estrella´s lab on <em>Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate</em> is now up on <a href="http://biorxiv.org/content/early/2016/12/19/095497">biorxiv</a>. <img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/malata_fe_model.png" width="500"></p></li>
+<li><p>December 12. <a href="http://plantmodelling.xyz/">Guillaume Lobet</a> visited us briefly before heading to the Phenomics conference at Cimmyt. He gave a talk on how his brand new lab is using plant modelling to understand how plants integrate signals from both soil and the atmosphere to grow.</p></li>
+<li><p>October 4. Our white paper on <a href="http://biorxiv.org/content/early/2016/10/04/078832">Morphological plant modeling: Unleashing geometric and topologic potential within the plant sciences</a> has been uploaded to biorxiv. Great collaborative effort as result of a NimBios workshop last year.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/nimbios_group_picture.png" width="500"></p>
+<ul>
+<li>September 5-7. <a href="http://plantscience.psu.edu/research/labs/roots">Jonathan Lynch</a> from Penn State visited us and gave a seminar at Langebio. Roots FTW!!</li>
+<li><p>August 12. My colleagues Jeffrey Ross-Ibarra, Matt Hufford, Sherryl Flint-García, Graham Coop and Ruairidh Sawers got a PGRP-NSF grant to work on <a href="http://www.highlandadaptation.org/">Maize Highland Adaptation</a> and we will be closely collaborating with them.</p></li>
+<li><p>August 5. <a href="http://ucmexus.ucr.edu/">UC-Mexus</a> has funded our project in collaboration with the <a href="http://fiehnlab.ucdavis.edu/">FiehnLab</a> to work on the <a href="https://github.com/rr-lab/uc_mexus_16/blob/master/project_plan/uc_mexus_2016_rellan_fiehn.pdf">phospholipid metabolism reorganization in maize adapatation to highland conditions</a>.</p></li>
+<li><p>July 28 . Rubén has been awarded an <a href="https://elifesciences.org/elife-news/five-more-early-career-researchers-awarded-elife-travel-grants">eLife travel grant</a> to attend the 7th <a href="http://www.7icsc.com.cn/home.html">International Crop Science Congress Beijing</a>.</p></li>
+<li><p>July 26. <a href="https://www.gmi.oeaw.ac.at/research-groups/wolfgang-busch/">Wolfang Busch</a> visited our lab and gave a talk on <em>Approaching The Genetic And Molecular Bases Of Environmental Regulation Of Root Growth</em></p></li>
+<li><p>July 6. Work led by colleagues José Sebastian and MC Yee at José Dinneny´s lab showing a nice use of GLO-Roots to study how grasses arrest crown root growth <a href="http://www.pnas.org/content/early/2016/07/14/1604021113.full">has been published</a>.</p></li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/CR-gloroots.png" width="500"></p>
+<p>Time lapse showing rapid induction of setaria crown roots (marked with blue arrow)</p>
+<ul>
+<li>June 7. Together with Guillaume Lobet, Malia Gehan and Srikant Srinivasan we are editing an Special Issue on Plant Phenomics for GigaScience. Check the blog article presenting the special issue <a href="http://blogs.biomedcentral.com/gigablog/2016/06/07/complexities-modern-plant-phenomics-guest-blog-plant-phenomics-series-guest-editors/">here</a>. We are very excited to collaborate with the folks at GigaScience on this.</li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

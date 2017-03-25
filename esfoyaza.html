@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rellán-Álvarez Lab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="people.html">
+    <span class="fa fa-users"></span>
+     
+    People
+  </a>
+</li>
+<li>
+  <a href="research.html">
+    <span class="fa fa-cog"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="publications.html">
+    <span class="fa fa-file-text"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="esfoyaza.html">
+    <span class="fa fa-fire"></span>
+     
+    Esfoyaza
+  </a>
+</li>
+<li>
+  <a href="news.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    News
+  </a>
+</li>
+<li>
+  <a href="collaborators.html">
+    <span class="fa fa-handshake-o"></span>
+     
+    Collaborators
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="esfoyaza" class="section level2">
+<h2><a href="http://dle.rae.es/?id=GPtv23E">Esfoyaza</a></h2>
+<p>Informal meeting to talk (mainly) about maize, local adaptation, plant nutrition and related areas.</p>
+<p>We meet on Wednesdays at the library terrace of the administrative building at 5 PM. See the list of papers below. Suggest more on slack.</p>
+<div class="figure">
+<img src="http://asturies.com/sites/default/files/Esfoyaza.jpg" alt="Esfoyaza" />
+<p class="caption">Esfoyaza</p>
+</div>
+</div>
+<div id="section" class="section level2">
+<h2>2017</h2>
+<div id="wednesday-march-29" class="section level4">
+<h4>Wednesday March 29</h4>
+<p><strong>Fustier et al</strong> (2014)<a href="http://onlinelibrary.wiley.com/doi/10.1111/mec.14082/full">Signatures of local adaptation in lowland and highland teosintes from whole genome sequencing of pooled samples</a></p>
+</div>
+<div id="wednesday-march-22" class="section level4">
+<h4>Wednesday March 22</h4>
+<p><strong>Lemmon et al</strong> (2014)<a href="http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004745">The Role of cis Regulatory Evolution in Maize Domestication</a></p>
+</div>
+<div id="wednesday-march-15" class="section level4">
+<h4>Wednesday March 15</h4>
+<p><strong>Liu et al</strong> (2012)<a href="https://t.co/PNISopAxb3">Changes in genome content generated via segregation of non-allelic homologs</a></p>
+</div>
+<div id="wednesday-march-8" class="section level4">
+<h4>Wednesday March 8</h4>
+<p><strong>Plessis et al</strong> (2015) <a href="https://elifesciences.org/content/4/e08411">Multiple abiotic stimuli are integrated in the regulation of rice gene expression under field conditions</a></p>
+</div>
+<div id="wednesday-march-1" class="section level4">
+<h4>Wednesday March 1</h4>
+<p><strong>Maron et al</strong> (2017) <a href="http://www.pnas.org/content/110/13/5241">Aluminum tolerance in maize is associated with higher MATE1 gene copy number</a></p>
+</div>
+<div id="wednesday-february-22" class="section level4">
+<h4>Wednesday February 22</h4>
+<p><strong>Waters et al</strong> (2017) <a href="http://onlinelibrary.wiley.com/doi/10.1111/tpj.13414/full">Natural variation for gene expression responses to abiotic stress in maize</a></p>
+</div>
+<div id="wednesday-january-11" class="section level4">
+<h4>Wednesday January 11</h4>
+<p><strong>Shaw et al</strong> (2014) <a href="http://mbe.oxfordjournals.org/content/31/11/3002">Natural Selection Canalizes Expression Variation of Environmentally Induced Plasticity-Enabling Genes</a></p>
+</div>
+</div>
+<div id="section-1" class="section level2">
+<h2>2016</h2>
+<div id="wednesday-december-28" class="section level4">
+<h4>Wednesday December 28</h4>
+<p><strong>Renny-Byfield, Rodgers-Melnick &amp; Ross-Ibarra</strong> (2016) <a href="http://biorxiv.org/content/early/2016/12/19/095547">Gene fractionation and function in the ancient subgenomes of maize</a></p>
+</div>
+<div id="wednesday-november-30" class="section level4">
+<h4>Wednesday November 30</h4>
+<p><strong>Todesco el al</strong> (2012) <a href="https://www.dropbox.com/s/udyj3axclat89bs/todesco2010.pdf?dl=0">Natural allelic variation underlying a major fitness trade-off in Arabidopsis thaliana</a></p>
+</div>
+<div id="wednesday-november-23" class="section level4">
+<h4>Wednesday November 23</h4>
+<p><strong>Gould et al</strong> (2016) <a href="http://onlinelibrary.wiley.com/doi/10.1111/mec.13881/abstract">Pooled ecotype sequencing reveals candidate genetic mechanisms for adaptive differentiation and reproductive isolation</a></p>
+</div>
+<div id="wednesday-november-16" class="section level4">
+<h4>Wednesday November 16</h4>
+<p><strong>Jian-Yang et al</strong> (2015) <a href="http://www.genetics.org/content/genetics/early/2016/10/10/genetics.116.194928.full.pdf">A gene for genetic background in Zea mays: fine-mapping enhancer of teosinte branched1.2 (etb1.2) to a YABBY class transcription factor</a></p>
+</div>
+<div id="wednesday-november-9" class="section level4">
+<h4>Wednesday November 9</h4>
+<p><em>Postponed for general depression after Trump won the elections.</em></p>
+</div>
+<div id="wednesday-november-2" class="section level4">
+<h4>Wednesday November 2</h4>
+<p><strong>Thieme et al</strong> (2015) <a href="http://www.nature.com.sci-hub.bz/articles/nplants201525">Endogenous Arabidopsis messenger RNAs transported to distant tissues</a></p>
+</div>
+<div id="wednesday-october-26" class="section level4">
+<h4>Wednesday October 26</h4>
+<p><strong>Selinger &amp; Chandler</strong> (1999) <a href="http://www.pnas.org/content/96/26/15007.full.pdf">Major recent and independent changes in levels and patterns of expression have occurred at the <em>b</em> gene, a regulatory locus in maize</a></p>
+<p><strong>Selinger, Lisch &amp; Chandler</strong> (1998) <a href="http://www.genetics.org/content/genetics/149/2/1125.full.pdf">The Maize Regulatory Gene <em>B-Peru</em> Contains a DNA Rearrangement That Specifies Tissue-Specific Expression Through Both Positive and Negative Promoter Elements</a></p>
+</div>
+<div id="wednesday-october-19" class="section level4">
+<h4>Wednesday October 19</h4>
+<p><strong>Je et al</strong> (2016) <a href="http://www.nature.com/ng/journal/v48/n7/full/ng.3567.html">Signaling from maize organ primordia via FASCIATED EAR3 regulates stem cell proliferation and yield traits</a></p>
+<p>See commentary <a href="http://www.nature.com/ng/journal/v48/n7/full/ng.3601.html">here</a></p>
+</div>
+<div id="wednesday-october-12" class="section level4">
+<h4>Wednesday October 12</h4>
+<p><strong>Gray et al</strong> (2016) <a href="nature.com/articles/nplants2016132">Intensifying drought eliminates the expected benefits of elevated carbon dioxide for soybean</a></p>
+</div>
+<div id="wednesday-october-5" class="section level4">
+<h4>Wednesday October 5</h4>
+<p><strong>Lovell et al</strong> (2016) <a href="http://www.plantcell.org/content/27/4/969.short">Exploiting Differential Gene Expression and Epistasis to Discover Candidate Genes for Drought-Associated QTLs in Arabidopsis thaliana</a></p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

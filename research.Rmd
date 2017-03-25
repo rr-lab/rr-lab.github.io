@@ -1,0 +1,4 @@
+Research
+--------
+
+We are interested in understanding the metabolic and morphological mechanisms that plant have developed to adapt to soils with low nutrient availability. In particular, we study the Phosphorus Use Effciency metabolic processes involved in maize adaptation to the Mexican Transvolcanic belt, a highland region characterized by Andosol soils with low P availability. We use a variety of techniques ranging from high precision biochemical phenotyping combined with natural variation to classical candidate gene reverse genetics approaches including heterologous expression of maize genes in Arabidopsis.

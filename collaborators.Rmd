@@ -1,0 +1,33 @@
+<!-- break -->
+<br>
+<!-- break -->
+
+Collaborators
+-----------------
+
+At Langebio I share space, resources, students and  a research interest in understanding maize adaptation to low phosphorus conditions with my colleague [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369).
+
+### Root Modeling and Root Phenotyping
+
+- [José Dinneny](https://dinnenylab.wordpress.com/)
+- [Guillaume Lobet](http://www.guillaumelobet.be/)
+- [Xavier Draye](http://www.uclouvain.be/xavier.draye)
+
+### Phosphorus deficiency and nutrient crosstalk
+
+- [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)
+- [Luis Herrera-Estrella](http://www.langebio.cinvestav.mx/?pag=346)
+- [Sandrine Ruffel](https://www.researchgate.net/profile/Sandrine_Ruffel)
+- [Gabriel Krouk](https://sites.google.com/site/gabrielkroukresearch/)
+
+### Maize adaption to highlands
+
+- [Jeffrey Ross-Ibarra](http://www.rilab.org/)
+- [Matt Hufford](http://www.public.iastate.edu/~mhufford/HuffordLab/home.html)
+- [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)
+- [Sherryl Flint-García](http://web.missouri.edu/~flint-garcias/home.html)
+- [Dan Runcie](http://runcielab.ucdavis.edu/)
+
+### Metabolomics.
+
+- [Oliver Fiehn](http://fiehnlab.ucdavis.edu/)

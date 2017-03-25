@@ -1,0 +1,48 @@
+<!-- break -->
+<br>
+<!-- break -->
+
+News!
+--------------
+
+### 2017
+
+- February 6 and 8. Rubén gave talks at the Carnegie Plant Biology Department in Stanford and at the Genome Center in UC Davis as part of a trip to meet collaborators in both places and attend the first [ZeaBigData](zeabigdata.org) hackaton.
+
+- January 30. Rubén gave a talk at [Plant Lipids Gordon Research Conference](https://www.grc.org/programs.aspx?id=13966), in Gastonville, Texas.
+
+- January 24. Rubén gave a talk at the Future of Bean and Maize Research meeting in México organized by our colleagues Alejandra Covarrubias and Arnaud Ronceret in the IBT, Cuernavaca.
+
+- January. Several of us headed to Bucerias to work on our Winter Nursery.
+<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/winter_nursery.png" width="500">
+
+
+
+
+### 2016
+
+- December 19. Our collaboration with Luis Herrera-Estrella´s lab on *Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate* is now up on [biorxiv](http://biorxiv.org/content/early/2016/12/19/095497).
+<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/malata_fe_model.png" width="500">
+
+- December 12. [Guillaume Lobet](http://plantmodelling.xyz/) visited us briefly before heading to the Phenomics conference at Cimmyt. He gave a talk on how his brand new lab is using plant modelling to understand how plants integrate signals from both soil and the atmosphere to grow.
+
+- October 4. Our white paper on [Morphological plant modeling: Unleashing geometric and topologic potential within the plant sciences](http://biorxiv.org/content/early/2016/10/04/078832) has been uploaded to biorxiv. Great collaborative effort as result of a NimBios workshop last year.
+
+<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/nimbios_group_picture.png" width="500">
+
+- September 5-7. [Jonathan Lynch](http://plantscience.psu.edu/research/labs/roots) from Penn State visited us and gave a seminar at Langebio. Roots FTW!!
+- August 12. My colleagues Jeffrey Ross-Ibarra, Matt Hufford, Sherryl Flint-García, Graham Coop and Ruairidh Sawers got a PGRP-NSF grant to work on [Maize Highland Adaptation](http://www.highlandadaptation.org/) and we will be closely collaborating with them.
+
+- August 5. [UC-Mexus](http://ucmexus.ucr.edu/) has funded our project in collaboration with the [FiehnLab](http://fiehnlab.ucdavis.edu/) to work on the [phospholipid metabolism reorganization in maize adapatation to highland conditions](https://github.com/rr-lab/uc_mexus_16/blob/master/project_plan/uc_mexus_2016_rellan_fiehn.pdf).
+
+- July 28 . Rubén has been awarded an [eLife travel grant](https://elifesciences.org/elife-news/five-more-early-career-researchers-awarded-elife-travel-grants) to attend the 7th [International Crop Science Congress Beijing](http://www.7icsc.com.cn/home.html).
+
+- July 26. [Wolfang Busch](https://www.gmi.oeaw.ac.at/research-groups/wolfgang-busch/) visited our lab and gave a talk on *Approaching The Genetic And Molecular Bases Of Environmental Regulation Of Root Growth*
+
+- July 6. Work led by colleagues José Sebastian and MC Yee at José Dinneny´s lab showing a nice use of GLO-Roots to study how grasses arrest crown root growth [has been published](http://www.pnas.org/content/early/2016/07/14/1604021113.full).
+
+<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/CR-gloroots.png" width="500">
+
+Time lapse showing rapid induction of setaria crown roots (marked with blue arrow)
+
+- June 7. Together with Guillaume Lobet, Malia Gehan and Srikant Srinivasan we are editing an Special Issue on Plant Phenomics for GigaScience. Check the blog article presenting the special issue [here](http://blogs.biomedcentral.com/gigablog/2016/06/07/complexities-modern-plant-phenomics-guest-blog-plant-phenomics-series-guest-editors/). We are very excited to collaborate with the folks at GigaScience on this.
