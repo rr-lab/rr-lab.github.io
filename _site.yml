@@ -21,7 +21,7 @@ navbar:
       icon: fa-newspaper-o
       href: news.html
     - text: "Collaborators"
-      icon: fa-handshake-o
+      icon: icon-globe
       href: collaborators.html
 output:
   html_document:

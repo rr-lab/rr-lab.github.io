@@ -34,7 +34,7 @@ Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.
 <img src="images/patricio.png" style="border:10px solid white"; width=100px>
 </div>
 **Patricio Cid** *Field Manager*.  
-Patricio directs all the field operations of our lab and of ours and Sawers' labs.    
+Patricio directs all the field operations of our lab and of ours and Sawers' labs.
 
 <!-- break -->
 <br><br><br>
@@ -43,8 +43,8 @@ Patricio directs all the field operations of our lab and of ours and Sawers' lab
 <div style="float: left">
 <img src="images/juan.png" style="border:10px solid white"; width=100px>
 </div>
-**Patricio Cid** *Wet Lab Manager*.  
-Juan runs all the major genotyping, GBS and cloning operations of ours and Sawers' labs.    
+**Juan Estévez** *Wet Lab Manager*.  
+Juan runs all the big genotyping, GBSing and cloning of our and Sawers´ labs.     
 
 <!-- break -->
 <br><br><br>
@@ -101,3 +101,5 @@ Vladimir studied how an introgression of Teosinte parviglumis in B73 affects roo
 
 **Christian Escoto**. Master Student *co-advised with Ruairidh Sawers*.   
 Christian is working in the analysis of different morphological traits affected by Phosphorus deficiency using a CML228 x B73 RIL mapping population.  
+
+**Dario Alávez**. Dario worked as lab and field tech mainly developing a collection of Uniform-Mu mutants targetting a number of glycerolipid sysnthesis and degradation genes.
