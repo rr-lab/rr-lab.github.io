@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rellán-Álvarez Lab</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="people.html">
+    <span class="fa fa-users"></span>
+     
+    People
+  </a>
+</li>
+<li>
+  <a href="research.html">
+    <span class="fa fa-cog fa-spin"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="publications.html">
+    <span class="fa fa-file-text"></span>
+     
+    Publications
+  </a>
+</li>
+<li>
+  <a href="talks.html">
+    <span class="fa fa-slideshare"></span>
+     
+    Talks
+  </a>
+</li>
+<li>
+  <a href="esfoyaza.html">
+    <span class="fa fa-fire"></span>
+     
+    Esfoyaza
+  </a>
+</li>
+<li>
+  <a href="news.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    News
+  </a>
+</li>
+<li>
+  <a href="collaborators.html">
+    <span class="fa fa-handshake-o"></span>
+     
+    Collaborators
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="talks" class="section level2">
+<h2>Talks</h2>
+<div id="section" class="section level3">
+<h3>2017</h3>
+<div id="may" class="section level4">
+<h4>May</h4>
+<ul>
+<li>Donald Danforth Plant Science Center Scientific Retreat. <em>Invited Plenary Speaker</em>. Convergent phospholipid metabolism in highland adapted maize?.</li>
+</ul>
+</div>
+<div id="march" class="section level4">
+<h4>March</h4>
+<ul>
+<li>Michigan State University, East Lansing. <em>Invited Seminar</em>, Laboratory of David Lowry. Identification of phospholipid metabolic patterns involved in maize adaptation to low phosphorus and cold conditions.</li>
+</ul>
+</div>
+<div id="february" class="section level4">
+<h4>February</h4>
+<ul>
+<li><p>UC Davis, Genome Center. <em>Seminar</em> (Fiehn &amp; Ross-Ibarra Labs) Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.</p></li>
+<li><p>Carnegie Institution for Science. Plant Biology. <em>Seminar</em> (Dinneny Lab). Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.</p></li>
+</ul>
+</div>
+<div id="january" class="section level4">
+<h4>January</h4>
+<ul>
+<li><p>Gordon Research Conference Plant Lipids. Structure, Metabolism &amp; Function. Galveston, USA (2017). <em>Invited Talk</em>. The Role of Phospholipid Metabolism in Maize Adaptation to Low Phosphorus and Cold Conditions.</p></li>
+<li><p>Future Trends in Common Bean and Maize Research. Instituto de Biotecnología, Cuernavaca, Mexico.(2017). <em>Invited Talk</em>. Convergent phospholipid metabolism in highland adapted maize?.</p></li>
+</ul>
+</div>
+</div>
+<div id="section-1" class="section level3">
+<h3>2016</h3>
+<ul>
+<li><p>7th International Crop Science Congress. Beijing, China (2016). <em>Invited Talk</em>. <a href="https://speakerdeck.com/rellan/the-role-of-phospholipid-metabolism-in-maize-adaptation-to-low-phosphorus-and-cold-conditions">The role of polar lipid metabolism reorganization in maize adaptation to low phosphorus soils of the Trans-Mexican volcanic belt highlands</a></p></li>
+<li><p>Ecology Institute. Mexico City, Mexico <em>Invited Seminar</em>. <a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></p></li>
+</ul>
+</div>
+<div id="section-2" class="section level3">
+<h3>2015</h3>
+<ul>
+<li><p>Langebio´s Academic Days. <a href="https://speakerdeck.com/rellan/towards-a-faster-more-open-and-collaborative-science-the-future-of-scientific-publishing-beyond-journals-and-impact-factors">Towards a faster, more open and collaborative science. The future of scientific publishing beyond journals and impact factors</a></p></li>
+<li><p>XVI National Congress of Biochemistry and Plant Molecular Biology, IX Simposium Mexico-USA Queretaro, México. (December-2015). <em>Invited Talk</em> <a href="https://speakerdeck.com/rellan/towards-an-understanding-of-root-system-wide-integration-of-environmental-cues">Towards a root system level understanding of how plants adjust root function and shape and integrate heterogeneous environmental cues</a>.</p></li>
+<li><p>Guanajuato University. GTO, Mexico. <em>Invited Seminar</em>. <a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></p></li>
+<li><p>Rhizosphere 4, Maastricht, The Netherlands. (June-2015). <em>Roundtable Organization</em> Emerging technologies for root systems scale imaging and phenotyping.</p></li>
+<li><p>Biotechnology Institute. Cuernavaca, Mexico. <em>Invited Seminar</em>. <a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></p></li>
+</ul>
+</div>
+<div id="section-3" class="section level3">
+<h3>2014</h3>
+<ul>
+<li><p>BASF 2014 Symposium on Unlocking Yield Potential in Soil. <em>Invited Seminar</em> Limburgerhof, Germanay.</p></li>
+<li><p>Santa Clara University, CA. <em>Invited Seminar</em>. <a href="https://speakerdeck.com/rellan/from-root-cells-to-root-systems-visualizing-the-plant-s-hidden-half">From root cells to root systems: visualizing the plant´s hidden half</a></p></li>
+<li><p>California State University Monterey Bay, CA. <em>Invited Seminar</em>. <a href="https://speakerdeck.com/rellan/from-root-cells-to-root-systems-visualizing-the-plant-s-hidden-half">From root cells to root systems: visualizing the plant´s hidden half</a></p></li>
+<li><p>Annual Scientific Meeting of the American Society of Plant Biology. Portland, USA. <em>Invited Seminar</em> The Ground Truth: Understanding Root Physiology in Soil Using a Novel Imaging Platform.</p></li>
+<li><p>PAG XXII Plant Phenotypes Workshop. San Diego, USA. <em>Invited Seminar</em> Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.</p></li>
+</ul>
+</div>
+<div id="before-2014" class="section level3">
+<h3>Before 2014</h3>
+<ul>
+<li><p>XVII International Plant Nutrition Colloquium, Istanbul, Turkey. (2013) <em>Invited presentation (Marschner Young Scientist Award)</em> Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.</p></li>
+<li><p>30th Annual IPG Symposium on Root Biology, Columbia, Missouri. USA. (2013) <em>Selected Talk</em> Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.</p></li>
+<li><p>3rd Japan-China Joint Workshop on Plant Nutrition, Kurashiki, Japan. (2011) <em>Invited talk</em> Iron xylem transport, the long and short of it.</p></li>
+<li><p>XV International Symposium on Iron Nutrition and Interactions in Plants, Budapest, Hungary. (2010) <em>Selected talk</em> Delving into iron deficiency metabolomics.</p></li>
+<li><p>XVI International Plant Nutrition Colloquium. Sacramento, California, USA. (2009) <em>Selected talk</em> Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply.</p></li>
+<li><p>XVIII Reunión de la Sociedad Española de Fisiología Vegetal. XI Congreso Hispano-Luso de Fisiología Vegetal, Zaragoza, Spain (2009). <em>Selected talk</em> Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport.</p></li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

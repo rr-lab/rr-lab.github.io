@@ -20,7 +20,7 @@ At Langebio I share space, resources, students and  a research interest in under
 - [Sandrine Ruffel](https://www.researchgate.net/profile/Sandrine_Ruffel)
 - [Gabriel Krouk](https://sites.google.com/site/gabrielkroukresearch/)
 
-### Maize adaption to highlands
+### Maize adaption to highlands<a href="http://highlandadaptation.org"><img src="images/hilo_logo.png" style="border:10px solid white"; width=50px></a>
 
 - [Jeffrey Ross-Ibarra](http://www.rilab.org/)
 - [Matt Hufford](http://www.public.iastate.edu/~mhufford/HuffordLab/home.html)

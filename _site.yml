@@ -9,11 +9,14 @@ navbar:
       icon: fa-users
       href: people.html
     - text: "Research"
-      icon: fa-cog
+      icon: fa-cog fa-spin
       href: research.html
     - text: "Publications"
       icon: fa-file-text
       href: publications.html
+    - text: "Talks"
+      icon: fa-slideshare
+      href: talks.html
     - text: "Esfoyaza"
       icon: fa-fire
       href: esfoyaza.html
@@ -21,7 +24,7 @@ navbar:
       icon: fa-newspaper-o
       href: news.html
     - text: "Collaborators"
-      icon: icon-globe
+      icon: fa-handshake-o
       href: collaborators.html
 output:
   html_document:

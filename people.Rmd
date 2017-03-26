@@ -12,7 +12,6 @@ Lab Members
 </a><img src="images/elohim.png" style="border:10px solid white"; width=100px>
 </div>
 **Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*  
-
 Elohim studies natural variation of root soil penetration using Arabidopsis.
 
 <!-- break -->
@@ -53,9 +52,11 @@ Juan runs all the big genotyping, GBSing and cloning of our and Sawers´ labs.
 <div style="float: left">
 <img src="images/karla.png" style="border:10px solid white"; width=100px>
 </div>
-**Karla Juarez** *Master Student*.<a href="https://twitter.com/KarlaJuarez30"><img src="images/Twitter_logo_blue.png" style="width: 15px;"></a>
-Karla studies the role of phospholipids in maize adaptation to low phosphorus and low temperature.
-
+**Karla Juarez** *Master Student*.   
+Karla studies the role of phospholipids in maize adaptation to low phosphorus and low temperature.  
+<a href="https://twitter.com/KarlaJuarez30">
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+</a>
 <!-- break -->
 <br><br><br>
 <!-- break -->
@@ -63,10 +64,11 @@ Karla studies the role of phospholipids in maize adaptation to low phosphorus an
 <div style="float: left">
 <img src="images/jonathan.png" style="border:10px solid white"; width=100px>
 </div>
-**Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.<a href="https://twitter.com/jonojedarivera"><img src="images/Twitter_logo_blue.png" style="width: 15px;"></a>
-
+**Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
 Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.  
-
+<a href="https://twitter.com/jonojedarivera">
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+</a>
 <!-- break -->
 <br><br><br>
 <!-- break -->  
@@ -75,9 +77,16 @@ Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root
 <div style="float: left">
 <img src="images/ruben.png" style="border:10px solid white"; width=100px>
 </div>
-**Rubén Rellán-Álvarez. PI** <a href="https://twitter.com/rrellanalvarez"><img src="images/Twitter_logo_blue.png" style="width: 15px;"></a><a href="https://github.com/rellan"><img src="images/GitHub-Mark-32px.png" style="width:15px;"></a>
-
+**Rubén Rellán-Álvarez. PI**  
 Rubén is a professor at Plant Biotechnology and Integrative Biology graduate programs. He started his lab in Langebio in 2015.  
+<a href="https://twitter.com/rrellanalvarez">
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+</a>  <a href="https://github.com/rellan">
+<i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+</a> <a href="mailto:rubenrellan@gmail.com">
+<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+</a>
+
 
 <!-- break -->
 <br><br><br>
