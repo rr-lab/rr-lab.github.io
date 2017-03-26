@@ -5,104 +5,103 @@
 Publications
 --------------------
 
-## Summary
-
-- 24 Publications (3 Reviews, 1 opinion article)
-- 1315 citations
-- 9 first authorships
-- h-index: 19
-- h10: 19
-
-Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en)
+Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
 
 ## Preprints
 
-- Javier Mora-Macias, **Jonathan Odilon Ojeda-Rivera**, Dolores Gutierrez-Alanis, Lenin Yong-Villalobos, Araceli Oropeza-Aburto, Javier Raya-Gonzalez, Gabriel Jimenez-Dominguez, Gabriela Chavez-Calvillo,  **Ruben Rellan-Alvarez**, Luis Rafael Herrera-Estrella (2016) **Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate** [Biorxiv](http://biorxiv.org/content/early/2016/12/19/095497)  
-<!-- break -->
-<br>
-<!-- break -->
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/malata_fe_model.png" width="400">
-<!-- break -->
-<br>
-<!-- break -->
+**24** [Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate](http://biorxiv.org/content/early/2016/12/19/095497)  
+Javier Mora-Macias, **Jonathan Odilon Ojeda-Rivera**, Dolores Gutierrez-Alanis, Lenin Yong-Villalobos, Araceli Oropeza-Aburto, Javier Raya-Gonzalez, Gabriel Jimenez-Dominguez, Gabriela Chavez-Calvillo, **Ruben Rellan-Alvarez**, Luis Rafael Herrera-Estrella.
 
-- Alexander Bucksch, Acheampong Atta-Boateng, Akomian Fortune Azihou, Mathilde Balduzzi, Dorjsuren Battogtokh, Aly Baumgartner, Brad Binder, Siobhan Braybrook, Cynthia Chang, Viktoriya Coneva, Thomas DeWitt, Alexander Fletcher, Malia Gehan, Diego Hernan Diaz Martinez, Lilan Hong, Anjali Iyer-Pascuzzi, Laura Klein, Samuel Leiboff, Mao Li, Jonathan Lynch, Alexis Maizel, Julin Maloof, RJ Cody Markelz, Ciera Martinez, Laura Miller, Washington Mio, Wojtek Palubicki, Hendrik Poorter, Christophe Pradal, Charles Price, Eetu Puttonen, John Reese, **Ruben Rellan-Alvarez**, Edgar Spalding, Erin Sparks, Chris Topp, Joseph Williams, Daniel Chitwood (2016) **Morphological plant modeling: Unleashing geometric and topological potential within the plant sciences** [Biorxiv](http://biorxiv.org/content/early/2017/02/08/078832)
+**23** [Morphological plant modeling: Unleashing geometric and topological potential within the plant sciences](http://biorxiv.org/content/early/2017/02/08/078832) Alexander Bucksch, Acheampong Atta-Boateng, Akomian Fortune Azihou, Mathilde Balduzzi, Dorjsuren Battogtokh, Aly Baumgartner, Brad Binder, Siobhan Braybrook, Cynthia Chang, Viktoriya Coneva, Thomas DeWitt, Alexander Fletcher, Malia Gehan, Diego Hernan Diaz Martinez, Lilan Hong, Anjali Iyer-Pascuzzi, Laura Klein, Samuel Leiboff, Mao Li, Jonathan Lynch, Alexis Maizel, Julin Maloof, RJ Cody Markelz, Ciera Martinez, Laura Miller, Washington Mio, Wojtek Palubicki, Hendrik Poorter, Christophe Pradal, Charles Price, Eetu Puttonen, John Reese, **Ruben Rellan-Alvarez**, Edgar Spalding, Erin Sparks, Chris Topp, Joseph Williams, Daniel Chitwood.
 
 
-## Selected publications organized by research themes.
+## Publications.
 
-### Root Biology
 
-**Rellán-Álvarez R**, Lobet G, Dinneny J.R. (2016) **Environmental control of Root System Biology** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/26905656)
-<!-- break -->
-<br>
-<!-- break -->
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/combined_figures.png" width="400">
-<!-- break -->
-<br>
-<!-- break -->
-**Rellán-Álvarez R**, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee MC, Yu G, La Rue T, Trontin C, Schrager A, Haney C, Nieu R, Maloof J, Vogel J, Dinneny JR  (2015) **GLO-Roots: an imaging platform enabling multidimensional characterization of soil-grown roots systems** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/26287479)  
-<!-- break -->
-<br>
-<!-- break -->
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/elife-07597-fig1-v2.png" width="400">  
-<!-- break -->
-<br>
-<!-- break -->
+### 2016
 
-Highlighted [here](http://www.nature.com/nmeth/journal/v12/n11/full/nmeth.3640.html).  See news coverage [here](https://www.insidescience.org/content/glowing-roots-illuminate-secrets-plant-life/3166), [here](http://www.technology.org/2015/08/20/firefly-protein-enables-visualization-of-roots-in-soil/), [here](http://www.upi.com/Science_News/2015/08/19/Firefly-protein-causes-plant-roots-to-glow-in-the-dark/5671440005884/), [here](http://www.rdmag.com/news/2015/08/firefly-protein-enables-visualization-roots-soil) and [here](http://txchnologist.com/post/127170451860/the-world-under-our-feet-is-filled-with-smart). Ian Street also wrote [a nice blog](https://thequietbranches.com/2015/10/03/roots-of-modern-plant-biology/) about our work.  
-<!-- break -->
-<br>
-<!-- break -->
+**22** [Grasses suppress shoot-borne roots to conserve water during drought](http://www.pnas.org/content/113/31/8861.full)  
+Jose Sebastian, Muh-Ching Yee, Willian Goudinho Viana, **Ruben Rellan-Alvarez**, Max Feldman, Henry D. Priest, Charlotte Trontin, Tak Lee, Hui Jiang, Ivan Baxter, Todd C Mockler, Frank Hochholdinger, Thomas P. Brutnell, José R. Dinneny.
 
-Jose Sebastian , Muh-Ching Yee , Willian Goudinho Viana , **Ruben Rellan-Alvarez** , Max Feldman , Henry D. Priest , Charlotte Trontin , Tak Lee , Hui Jiang , Ivan Baxter , Todd C Mockler , Frank Hochholdinger , Thomas P. Brutnell , José R. Dinneny. (2016) **Grasses suppress shoot-borne roots to conserve water during drought** [Pubmed](http://www.ncbi.nlm.nih.gov/pubmed/27422554)  
-<!-- break -->
-<br>
-<!-- break -->
+**21** [Plant scientists:GM technology is safe](http://science.sciencemag.org/content/351/6275/824.1) [[Github repo]](https://github.com/nfahlgren/plant_scientists_support_gmo/blob/master/submitted_article.md).  
+Noah Fahlgren, Rebecca Bart, Luis Herrera-Estrella, **Rubén Rellán-Álvarez**, Daniel H. Chitwood, José R. Dinneny.  
 
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/CR-gloroots.png" width="400">
-<!-- break -->
-<br>
-<!-- break -->
+**20** [Environmental control of Root System Biology](http://arjournals.annualreviews.org/eprint/IZTJBGTdd3P8yv4MCmFP/full/10.1146/annurev-arplant-043015-111848).  
+**Rellán-Álvarez R**, Lobet G, Dinneny J.R.
 
-### Long Distance Iron Transport and Metal Speciation
+### 2015
 
-Schüler M, **Rellán-Álvarez R**, Fink-Straube C, Abadía J, Petra Bauer (2012) **New functions of nicotianamine in the phloem-based transport of iron to sink organs, in pollen development and in pollen tube growth.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22706286)
+**19** [GLO-Roots: an imaging platform enabling multidimensional characterization of soil-grown roots systems](http://dx.doi.org/10.7554/eLife.07597). [[Github repo]](https://github.com/rr-lab/GLO-Roots).  
+**Rellán-Álvarez R**, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee MC, Yu G, La Rue T, Trontin C, Schrager A, Haney C, Nieu R, Maloof J, Vogel J, Dinneny JR
 
-**Rellán-Álvarez R**, Giner-Martínez-Sierra J, Orduna J, Orera I, Rodríguez- Castrillón JA, García-Alonso JI, Abadía J, Álvarez-Fernández A (2010) **Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/19942594)
-<!-- break -->
-<br>
-<!-- break -->  
+### 2013
 
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/fe3cit3.png" width="400">
-<!-- break -->
-<br>
-<!-- break -->
-**Rellán-Álvarez R**, Abadía J, Álvarez-Fernández A (2008) **Formation of metal- nicotianamine complexes as affected by pH, ligand exchange with citrate and metal exchange. A study by electrospray ionization time-of-flight mass spectrometry.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/18421700)
-<!-- break -->
-<br>
-<!-- break -->
+**18** [Iron-dependent modifications of the flower transcriptome, proteome, metabolome and hormonal content in an Arabidopsis ferritin mutant](http://jxb.oxfordjournals.org/content/early/2013/05/15/jxb.ert112.abstract).  
+Sudre D, Gutiérrez-Carbonell E, Lattanzio G, **Rellán-Álvarez R**, Gaymard F, Wohlgemuth G, Fiehn O, Álvarez Fernández A, Zamarreño AM, Bacaicoa E, Duy D, Garcíamina JM, Abadía J, Philippar K, López-Millán AF, Briat JF.
 
-### Metabolomics of the iron deficiency and resupply response
+### 2012
 
-**Rellán-Álvarez R**, El Jendoubi H, Wohlgemuth G, Fiehn O, Abadía A, Abadía J, Álvarez Fernández A (2011) **Metabolite profile changes in xylem sap and leaves of Strategy I plants in response to iron deficiency and iron resupply.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/22645546)
+**17** [New functions of nicotianamine in the phloem-based transport of iron to sink organs, in pollen development and in pollen tube growth](www.plantcell.org/content/24/6/2380.abstract).  
+Schüler M, **Rellán-Álvarez R**, Fink-Straube C, Abadía J, Petra Bauer.
 
-**Rellán-Álvarez R**, Andaluz S, Rodríguez-Celma J, Wohlgemuth G, Zocchi G, Álvarez-Fernández A, Fiehn O, López-Millán AF, Abadía J (2010) **Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/20565974)
-<!-- break -->
-<br>
-<!-- break -->
+**16** [Oxidative stress is a consequence, not a cause, of aluminum toxicity in the forage legume Lotus corniculatus](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03978.x/abstract).  
+Navascués J, Pérez-Rontomé C, Sánchez DH, Staudinger C, Wienkoop S, **Rellán- Álvarez R**, Becana M.
 
-### Development of metabolite targeted profiling methods
+### 2011
 
-**Rellán-Álvarez R**, López-Gomollón S, Abadía J, Álvarez-Fernández A. (2011) **Development of a new high-performance liquid chromatography electrospray ionization time-of-flight mass spectrometry method for the determination of low molecular mass organic acids in plant tissue extracts.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/21619056)
+**15** [Metabolite profile changes in xylem sap and leaves of Strategy I plants in response to iron deficiency and iron resupply](http://www.frontiersin.org/Plant_Nutrition/10.3389/fpls.2011.00066/abstract).  
+**Rellán-Álvarez R**, El Jendoubi H, Wohlgemuth G, Fiehn O, Abadía A, Abadía J, Álvarez Fernández A.
 
-**Rellán-Álvarez R**, Hernández LE, Abadía J, Álvarez-Fernández A (2006) **Direct and simultaneous determination of reduced and oxidized glutathione and homoglutathione by liquid chromatography-electrospray/mass spectrometry in plant tissue extracts.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/16828049)
-<!-- break -->
-<br>
-<!-- break -->
+**14** [Development of a new high-performance liquid chromatography electrospray ionization time-of-flight mass spectrometry method for the determination of low molecular mass organic acids in plant tissue extracts](http://pubs.acs.org/doi/abs/10.1021/jf200482a). [[PDF]](pdfs/14-2011-rra.pdf)  
+**Rellán-Álvarez R**, López-Gomollón S, Abadía J, Álvarez-Fernández A.  
 
-### Heavy metal and oxidative stress in plants
+**13** [Towards a knowledge-based correction of iron chlorosis](http://www.sciencedirect.com/science/article/pii/S0981942811000428). [[PDF]](pdfs/13-2011-abadia.pdf)    
+Abadía J, Vázquez S, **Rellán-Álvarez R**, El Jendoubi H, Abadía A, Álvarez- Fernández A, López-Millán AF.
 
-**Rellán-Álvarez R**, Ortega-Villasante C,Álvarez-Fernández A, Del Campo FF, Hernández LE (2006) **Stress responses of *Zea mays* to cadmium and mercury.** [Publisher link](http://rd.springer.com/article/10.1007/s11104-005-3900-1)
+**12** [Carboxylate metabolism in sugar beet plants grown with excess Zn](http://www.sciencedirect.com/science/article/pii/S0176161710005511). [[PDF]](pdfs/12-2011-sagardoy.pdf)  
+Sagardoy R, Morales F, **Rellán-Álvarez R**, Abadía A, Abadía J, López-Millán AF.
 
-Ortega-Villasante C, **Rellán-Álvarez R**, Del Campo FF, Carpena-Ruíz RO, Hernández LE (2005) **Cellular damage induced by cadmium and mercury in Medicago sativa.** [PubMed](http://www.ncbi.nlm.nih.gov/pubmed/15996984).
+**11** [Metabolic response in roots of Prunus rootstocks submitted to iron chlorosis](http://www.sciencedirect.com/science/article/pii/S0176161710004165).  
+Jiménez S, Ollat N, Deborde C, Maucourt M, **Rellán-Álvarez R**, Moreno MA, Gogorcena Y.
+
+### 2010
+
+**10** [Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply](http://www.biomedcentral.com/1471-2229/10/120).  
+**Rellán-Álvarez R**, Andaluz S, Rodríguez-Celma J, Wohlgemuth G, Zocchi G, Álvarez-Fernández A, Fiehn O, López-Millán AF, Abadía J.
+
+**9** [Changes induced by two levels of cadmium toxicity in the 2-DE protein profile of tomato roots](http://www.sciencedirect.com/science/article/pii/S1874391910001351). [[PDF]](pdfs/09-2010-rod-celma.pdf)  
+Rodríguez-Celma J, **Rellán-Álvarez R**, Abadía A, Abadía J, López-Millán AF.
+
+**8** [Growth, yield and fruit quality of pepper plants amended with two sanitized sewage sludges](http://pubs.acs.org/doi/abs/10.1021/jf100282f). [[PDF]](pdfs/08-2010-pascual.pdf)
+Pascual I, Azcona I, Aguirreolea J, Morales F, Corpas FJ, Palma JM **Rellán-Álvarez R**, Sánchez-Díaz M. G.  
+
+**7** [Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport](http://pcp.oxfordjournals.org/content/51/1/91.long).  
+**Rellán-Álvarez R**, Giner-Martínez-Sierra J, Orduna J, Orera I, Rodríguez- Castrillón JA, García-Alonso JI, Abadía J, Álvarez-Fernández A.
+
+### 2009
+
+**6** [Effect of oil refinery sludges on the growth and antioxidant system of alfalfa plants](http://www.sciencedirect.com/science/article/pii/S0304389409010152). [[PDF]](pdfs/06-2009-marti.pdf)  
+Martí MC, Camejo D, Fernández-García N, **Rellán-Álvarez R**, Marques S, Sevilla F, Jiménez A.
+
+### 2008
+
+**5** [Formation of metal- nicotianamine complexes as affected by pH, ligand exchange with citrate and metal exchange. A study by electrospray ionization time-of-flight mass spectrometry](http://onlinelibrary.wiley.com/doi/10.1002/rcm.3523/abstract). [[PDF]](pdfs/05-2008-rra.pdf)  
+**Rellán-Álvarez R**, Abadía J, Álvarez-Fernández A.
+
+### 2007
+
+**4** [Rapid alteration of cellular redox homeostasis upon exposure to cadmium and mercury in alfalfa seedlings](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02162.x/full).  
+Ortega-Villasante C, Hernández LE, **Rellán-Álvarez R**, Del Campo FF, Carpena- Ruíz RO.
+
+### 2006
+
+**3** [Direct and simultaneous determination of reduced and oxidized glutathione and homoglutathione by liquid chromatography-electrospray/mass spectrometry in plant tissue extracts](http://www.sciencedirect.com/science/article/pii/S0003269706004015). [[PDF]](pdfs/03-2006-rra.pdf)  
+**Rellán-Álvarez R**, Hernández LE, Abadía J, Álvarez-Fernández A.
+
+**2** [Stress responses of *Zea mays* to cadmium and mercury](http://rd.springer.com/article/10.1007/s11104-005-3900-1). [[PDF]](pdfs/02-2006-rra.pdf)  
+**Rellán-Álvarez R**, Ortega-Villasante C,Álvarez-Fernández A, Del Campo FF, Hernández LE.
+
+### 2005
+
+**1** [Cellular damage induced by cadmium and mercury in Medicago sativa](http://jxb.oxfordjournals.org/content/56/418/2239.abstract).  
+Ortega-Villasante C, **Rellán-Álvarez R**, Del Campo FF, Carpena-Ruíz RO, Hernández LE.
