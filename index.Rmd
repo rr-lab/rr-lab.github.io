@@ -6,8 +6,10 @@
 title: "Rellan-Álvarez Lab"
 ---
 
-Welcome to the Rellán-Álvarez Lab  at the [Langebio](http://www.langebio.cinvestav.mx). We work on plant adaptation to abiotic streses. Check out who we are and what we do and feel free to contact or visit us if you want to know more.   
+Welcome to the Rellán-Álvarez Lab  at [Langebio](http://www.langebio.cinvestav.mx). We work on plant adaptation to abiotic stress.
+
+If your are interested in joining our lab please take a look at our [current research areas](http://www.rrlab.org/research.html) for possible projects. Please read also our [lab philosophy](http://www.rrlab.org/expectations.html) about what to expect from me and what I would expect from you if we both decided to work together.     
 
 <br>
 
-<img src="images/winter_nursery_jan_2017.jpg" style="width: 900px;">
+<img src="images/winter_nursery_jan_2017.png" style="width: 900px;">

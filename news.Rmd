@@ -7,6 +7,10 @@ News!
 
 ### 2017
 
+- March 12-15. Rubén visited [David Lowry´s lab] at MSU to give a seminar and discuss future collaborations with
+
+- March 9-12. We had a great time at the [maize meeting](http://www.maizegdb.org/maize_meeting/2017/).
+
 - February 6 and 8. Rubén gave talks at the Carnegie Plant Biology Department in Stanford and at the Genome Center in UC Davis as part of a trip to meet collaborators in both places and attend the first [ZeaBigData](zeabigdata.org) hackaton.
 
 - January 30. Rubén gave a talk at [Plant Lipids Gordon Research Conference](https://www.grc.org/programs.aspx?id=13966), in Gastonville, Texas.
@@ -15,8 +19,6 @@ News!
 
 - January. Several of us headed to Bucerias to work on our Winter Nursery.
 <img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/winter_nursery.png" width="500">
-
-
 
 
 ### 2016
