@@ -22,11 +22,12 @@ At Langebio I share space, resources, students and  a research interest in under
 
 ### Maize adaption to highlands<a href="http://highlandadaptation.org"><img src="images/hilo_logo.png" style="border:10px solid white"; width=50px></a>
 
-- [Jeffrey Ross-Ibarra](http://www.rilab.org/)
-- [Matt Hufford](http://www.public.iastate.edu/~mhufford/HuffordLab/home.html)
-- [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)
-- [Sherryl Flint-García](http://web.missouri.edu/~flint-garcias/home.html)
-- [Dan Runcie](http://runcielab.ucdavis.edu/)
+- [Graham Coop](https://gcbias.org/)    
+- [Sherryl Flint-García](http://web.missouri.edu/~flint-garcias/home.html)  
+- [Matt Hufford](http://www.public.iastate.edu/~mhufford/HuffordLab/home.html)   
+- [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)  
+- [Jeffrey Ross-Ibarra](http://www.rilab.org/)  
+- [Dan Runcie](http://runcielab.ucdavis.edu/)  
 
 ### Metabolomics.
 
