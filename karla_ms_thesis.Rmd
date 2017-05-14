@@ -1,0 +1,40 @@
+<!-- break -->
+<br>
+<!-- break -->
+
+Karla Juarez Msc Thesis 
+--------------
+
+# Patterns of lipid remodeling in maize highland adaptation
+
+## Abstract
+
+After domestication from lowland teosinte (Zea mays ssp. parviglumis), maize colonized the Trans-Mexican volcanic belt highlands (>2500 masl), which are characterized –among other factors- by low temperatures and lower bioavailability of nutrients, especially phosphorus. 
+Under low phosphorus, plants increase the level of non-phosphated lipids while decreasing glycerophospholipids; membrane glycerophospholipids are replaced by galactolipids, releasing and transporting phosphate to young tissues, which are energetically more vulnerable to this deficit. Conversely, at low temperatures, plants increase glycerophospholipids and decrease non-phosphated lipids in order to maintain membrane fluidity. 
+We hypothesize that low temperature and phosphorus bioavailability were major selective forces during the process of maize adaptation to Mexican highlands. Recent population genetics data, in fact, point to this idea as genes with high differentiation between highland and lowland sites are related with phospholipid metabolism and phosphorus acquisition.
+In order to identify the genetic architecture of phospholipid metabolism and its role on maize highland adaptation, we grew under highland conditions, on a field located in Metepec (2500 masl), a maize Recombinant Inbred Line (RIL) mapping population developed using Palomero Toluqueño (PT) (a mexican highland landrace) and B73 an inbred line adapted to temperate conditions; and a landrace diversity panel composed of highland and lowland landraces from Mesoamerica and South America. We we sampled leaves from plants at V3-V6 developmental stage and performed biochemical phenotyping (UPLC-QTOF MS/MS) on these samples and used the lipid intensities as a phenotype for QTL analysis. We identified a QTL peak at 8.6 Mb in chromosome 3 that seems to be explaining the conversion of phosphatidylcholine (PC) to lysophosphatidylcholine (LPC). At the marker in the QTL peak, PT alleles lead to a higher PC/LPC ratio than the B73 alleles, suggesting that this conversion of PC to LPC was selected for in the highland landrace Palomero Toluqueño. This biochemical phenotype seems to be characteristic of Mexican highland landraces. 
+
+
+### Supplementary data and material of Karla Juarez´s Msc Thesis 
+
+#### Supplementary Files 
+
+[File S1. Data processing for Batch 1](https://drive.google.com/open?id=0B6wkaKX6UZRRSGVKUVRiT1FEaWs)
+
+[File S2. Data processing for Batch 2](https://drive.google.com/open?id=0B6wkaKX6UZRROXN4NGRPeFpVUU0)
+
+[File S3. Data processing for Batch 3](https://drive.google.com/open?id=0B6wkaKX6UZRRVk9MVlpHNDF5V1U)
+
+[File S4. Data processing for Batch 4](https://drive.google.com/open?id=0B6wkaKX6UZRRdkZ1aU9tUUt1WVU)  
+
+#### Supplementary Tables
+
+[Table S1. Information of the Diversity Panel landraces](data/karla_thesis/sup_table_1.csv)
+
+[Table S2. Developmental stage at which each plant of the RIL population was sampled](data/karla_thesis/sup_table_2.csv)
+
+[Table S3. Developmental stage at which each plant of DP population was sampled](data/karla_thesis/sup_table_3.csv)
+
+[Table S4. Variable contribution to PC1 and PC2 of Figures 9 and 10](data/karla_thesis/sup_table_4.csv)
+
+[Table S7. Fold changes and p values of significantly different lipids between B73 and PT in Figure 14](data/karla_thesis/sup_table_7.csv)
