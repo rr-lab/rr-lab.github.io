@@ -38,3 +38,6 @@ In order to identify the genetic architecture of phospholipid metabolism and its
 [Table S4. Variable contribution to PC1 and PC2 of Figures 9 and 10](https://github.com/rr-lab/rr-lab.github.io/blob/master/data/karla_thesis/sup_table_4.csv)
 
 [Table S7. Fold changes and p values of significantly different lipids between B73 and PT in Figure 14](https://github.com/rr-lab/rr-lab.github.io/blob/master/data/karla_thesis/sup_table_7.csv)
+
+[Table S8. Ratios of RILS with extreme PC/LPC ratios](https://github.com/rr-lab/rr-lab.github.io/blob/master/data/karla_thesis/sup_table_8.csv)
+
