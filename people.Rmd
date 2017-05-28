@@ -33,7 +33,12 @@ Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.
 <img src="images/patricio.png" style="border:10px solid white"; width=100px>
 </div>
 **Patricio Cid** *Field Manager*.  
-Patricio directs all the field operations of our lab and of ours and Sawers' labs.
+Patricio directs all the field operations of our lab and of ours and Sawers' labs.  
+<a href="https://twitter.com/patriciocidcc">
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+</a> <a href="https://www.linkedin.com/in/patriciocid/">
+<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+</a>
 
 <!-- break -->
 <br><br><br>
