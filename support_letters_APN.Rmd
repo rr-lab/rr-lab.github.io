@@ -4,16 +4,23 @@
 
 ## Identificación de loci involucrados en el metabolismo de lípidos de razas de maíz que permitan la adaptación a futuros cambios climáticos.  
 
-#### Cartas Apoyo Proyecto de Atención a Problemas Nacionales.  
+### Cartas Apoyo Proyecto de Atención a Problemas Nacionales.  
 
+----
 
-[Unisem](data/misc/cartas_apoyo_APN_16/unisem.jpg)
+**Unisem**
 
-[Inifap](data/misc/cartas_apoyo_APN_16/inifap.jpg)
+![**Unisem**](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
+**INIFAP**
 
-[Sarah Hearne, Cimmyt](data/misc/cartas_apoyo_APN_16/SH_cimmyt.jpg)
+![**Inifap**](data/misc/cartas_apoyo_APN_16/inifap.jpg)  
+**Cimmyt**
 
-[Denis Costich, Cimmyt](data/misc/cartas_apoyo_APN_16/DC_cimmyt.jpg)  
+![**Sarah Hearne, Cimmyt**](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
+**Cimmyt**
+
+![**Denis Costich, Cimmyt**](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
+
 
 
 
