@@ -16,11 +16,7 @@
 ![**Inifap**](data/misc/cartas_apoyo_APN_16/inifap.jpg)  
 **Cimmyt**
 
-![**Sarah Hearne, Cimmyt**](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
-**Cimmyt**
-
-![**Denis Costich, Cimmyt**](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
-
+![**Cimmyt**](data/misc/cartas_apoyo_APN_16/cimmyt.jpg)  
 
 
 
