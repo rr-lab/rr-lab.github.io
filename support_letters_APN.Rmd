@@ -10,14 +10,14 @@
 
 **Unisem**
 
-![**Unisem**](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
+![](data/misc/cartas_apoyo_APN_16/unisem.jpg)  
 **INIFAP**
 
-![**Inifap**](data/misc/cartas_apoyo_APN_16/inifap.jpg)  
+![](data/misc/cartas_apoyo_APN_16/inifap.jpg)  
 **Cimmyt-Costich**
 
-![**Cimmyt_costich**](data/misc/cartas_apoyo_APN_16/cimmyt_costich.jpg)  
+![](data/misc/cartas_apoyo_APN_16/cimmyt_costich.jpg)  
 **Cimmyt-Hearne**
 
-![**Cimmyt_Hake**](data/misc/cartas_apoyo_APN_16/cimmyt_hearne.jpg)  
+![](data/misc/cartas_apoyo_APN_16/cimmyt_hearne.jpg)  
 
