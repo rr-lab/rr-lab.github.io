@@ -14,9 +14,10 @@
 **INIFAP**
 
 ![**Inifap**](data/misc/cartas_apoyo_APN_16/inifap.jpg)  
-**Cimmyt**
+**Cimmyt-Costich**
 
-![**Cimmyt**](data/misc/cartas_apoyo_APN_16/cimmyt.jpg)  
+![**Cimmyt_costich**](data/misc/cartas_apoyo_APN_16/cimmyt_costich.jpg)  
+**Cimmyt-Hearne**
 
-
+![**Cimmyt_Hake**](data/misc/cartas_apoyo_APN_16/cimmyt_hearne.jpg)  
 
