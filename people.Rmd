@@ -90,6 +90,8 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
 </a> <a href="mailto:rubenrellan@gmail.com">
 <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+<a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing">
+<i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
 </a>
 
 
