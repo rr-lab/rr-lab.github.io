@@ -9,7 +9,7 @@ We are broadly interested in understanding the metabolic and morphological mecha
 
 </a><img src="images/adaptive_metabol.png"; width=500px; name="metabolism">
 
-### Genetics of glycerolopid metabolism in highland maize
+### Genetics of glycerolipid metabolism in highland maize
 
 The ancestor of maize, Balsas teosinte (*Zea mays ssp. parviglumis*), is native from low to mid elevation regions of southwest Mexico. A second subspecies, Chalco teosinte (*Zea mays ssp. mexicana*), is distributed in the cooler, drier highlands of central Mexico, over 1800 meters. Maize (*Zea mays ssp. mays*) was domesticated from *parviglumis* about 9,000 years ago in the Balsas valley. After domestication, maize colonized the Mexican highlands, possibly aided by significant introgression of adaptive variation from *mexicana*. After domestication, maize also move south an reached South America. There, a second, independent event of highland colonization ocurred in the Andes.   
 
