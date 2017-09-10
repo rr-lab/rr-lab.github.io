@@ -13,7 +13,11 @@ We meet on Wednesdays in the Sala Caracol at 8:30 AM. See the list of papers bel
 
 ## 2017
 
-#### Wednesday Sept 17
+#### Wednesday Sept 13
+
+**Swarts et al** (2017) [Genomic estimation of complex traits reveals ancient maize adaptation to temperate North America](http://science.sciencemag.org/content/357/6350/512)
+
+#### Wednesday Sept 6
 
 **Lee et al** (2017) [Young inversion with multiple linked QTLs under selection in a hybrid zone](https://www.nature.com/articles/s41559-017-0119)
 
