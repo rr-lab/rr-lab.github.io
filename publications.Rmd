@@ -1,5 +1,6 @@
 <!-- break -->
 <br>
+<br>
 <!-- break -->
 
 Publications
@@ -9,12 +10,14 @@ Complete list of publications can be found at [Google Scholar](https://scholar.g
 
 ## Preprints
 
-**25** [Coordinated changes in the accumulation of metal ions in maize (*Zea mays ssp. mays L.*) in response to inoculation with the arbuscular mycorrhizal fungus *Funneliformis mosseae*](http://biorxiv.org/content/early/2017/05/08/135459).  
-M. Rosario Flores-Ramirez, **Ruben Rellan-Alvarez**, Barbara Wozniak, Mesfin-Nigussie Gebreselassie, Iver Jakobsen, Victor Olalde-Portugal, Ivan Baxter, Uta Paszkowski, Ruairidh Sawers.  
+
 
 ## Publications.
 
 ### 2017
+
+**25** [Coordinated changes in the accumulation of metal ions in maize (*Zea mays ssp. mays L.*) in response to inoculation with the arbuscular mycorrhizal fungus *Funneliformis mosseae*](https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx100/4060515/Co-ordinated-Changes-in-the-Accumulation-of-Metal?redirectedFrom=fulltext).  
+M. Rosario Flores-Ramirez, **Ruben Rellan-Alvarez**, Barbara Wozniak, Mesfin-Nigussie Gebreselassie, Iver Jakobsen, Victor Olalde-Portugal, Ivan Baxter, Uta Paszkowski, Ruairidh Sawers.  
 
 **24** [Morphological plant modeling: Unleashing geometric and topological potential within the plant sciences](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/abstract).  
 Alexander Bucksch, Acheampong Atta-Boateng, Akomian Fortune Azihou, Mathilde Balduzzi, Dorjsuren Battogtokh, Aly Baumgartner, Brad Binder, Siobhan Braybrook, Cynthia Chang, Viktoriya Coneva, Thomas DeWitt, Alexander Fletcher, Malia Gehan, Diego Hernan Diaz Martinez, Lilan Hong, Anjali Iyer-Pascuzzi, Laura Klein, Samuel Leiboff, Mao Li, Jonathan Lynch, Alexis Maizel, Julin Maloof, RJ Cody Markelz, Ciera Martinez, Laura Miller, Washington Mio, Wojtek Palubicki, Hendrik Poorter, Christophe Pradal, Charles Price, Eetu Puttonen, John Reese, **Ruben Rellan-Alvarez**, Edgar Spalding, Erin Sparks, Chris Topp, Joseph Williams, Daniel Chitwood.
