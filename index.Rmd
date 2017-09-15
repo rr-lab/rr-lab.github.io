@@ -4,9 +4,8 @@
 <br>
 <!-- break -->
 
----
-title: "Rellan-Álvarez Lab"
----
+Rellán-Álvarez Lab
+--------------------
 
 Welcome to the Rellán-Álvarez Lab  at [Langebio](http://www.langebio.cinvestav.mx). We work on plant adaptation to abiotic stress.
 
