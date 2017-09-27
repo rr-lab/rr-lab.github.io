@@ -15,6 +15,10 @@ We meet on Wednesdays in the Sala Caracol at 8:30 AM. See the list of papers bel
 
 ## 2017
 
+#### Wednesday Oct 11
+
+** Soyk et al** (2017) [Bypassing Negative Epistasis on Yield in Tomato Imposed by a Domestication Gene](http://www.sciencedirect.com/science/article/pii/S0092867417304865)
+
 #### Wednesday Sept 27
 
 **Secco et al** (2017) [Stress induced gene expression drives transient DNA methylation changes at adjacent repetitive elements](https://elifesciences.org/articles/09343)
