@@ -17,121 +17,119 @@ We meet on Wednesdays in the Sala Caracol at 8:30 AM. See the list of papers bel
 
 #### Wednesday Oct 17
 
-**Soyk et al** (2017) [Bypassing Negative Epistasis on Yield in Tomato Imposed by a Domestication Gene](http://www.sciencedirect.com/science/article/pii/S0092867417304865)
+**29** **Soyk et al** (2017) [Bypassing Negative Epistasis on Yield in Tomato Imposed by a Domestication Gene](http://www.sciencedirect.com/science/article/pii/S0092867417304865)
 
 #### Wednesday Oct 11
 
-**Rodríguez-Leal et al** (2017) [Engineering Quantitative Trait Variation for Crop Improvement by Genome Editing](http://www.cell.com/cell/fulltext/S0092-8674(17)30988-1)
+**28** **Rodríguez-Leal et al** (2017) [Engineering Quantitative Trait Variation for Crop Improvement by Genome Editing](http://www.cell.com/cell/fulltext/S0092-8674(17)30988-1)
 
 #### Wednesday Sept 27
 
-**Secco et al** (2017) [Stress induced gene expression drives transient DNA methylation changes at adjacent repetitive elements](https://elifesciences.org/articles/09343)
+**27** **Secco et al** (2017) [Stress induced gene expression drives transient DNA methylation changes at adjacent repetitive elements](https://elifesciences.org/articles/09343)
 
 #### Wednesday Sept 20
 
-**Yan et al** (2017) [Parallels between artificial selection in temperate maize and natural selection in the cold-adapted crop-wild relative Tripsacum](http://www.biorxiv.org/content/early/2017/09/12/187575)
+**26** **Yan et al** (2017) [Parallels between artificial selection in temperate maize and natural selection in the cold-adapted crop-wild relative Tripsacum](http://www.biorxiv.org/content/early/2017/09/12/187575)
 
 #### Wednesday Sept 13
 
-**Swarts et al** (2017) [Genomic estimation of complex traits reveals ancient maize adaptation to temperate North America](http://science.sciencemag.org/content/357/6350/512)
+**25** **Swarts et al** (2017) [Genomic estimation of complex traits reveals ancient maize adaptation to temperate North America](http://science.sciencemag.org/content/357/6350/512)
 
 #### Wednesday Sept 6
 
-**Lee et al** (2017) [Young inversion with multiple linked QTLs under selection in a hybrid zone](https://www.nature.com/articles/s41559-017-0119)
+**24** **Lee et al** (2017) [Young inversion with multiple linked QTLs under selection in a hybrid zone](https://www.nature.com/articles/s41559-017-0119)
 
 #### Wednesday May 17
 
-**Xu et al** (2017) [A single-nucleotide polymorphism causes smaller grain size and loss of seed shattering during African rice domestication](https://www.nature.com/articles/nplants201764)
+**23** **Xu et al** (2017) [A single-nucleotide polymorphism causes smaller grain size and loss of seed shattering during African rice domestication](https://www.nature.com/articles/nplants201764)
 
 #### Wednesday May 10
 
-**Rogers-Melnick et al** (2016) [Open chromatin reveals the functional maize genome](https://www.ncbi.nlm.nih.gov/pubmed/27185945)
-
+**22** **Rogers-Melnick et al** (2016) [Open chromatin reveals the functional maize genome](https://www.ncbi.nlm.nih.gov/pubmed/27185945)
 
 #### Wednesday April 19
 
-**Meihls et al** (2013) [Natural Variation in Maize Aphid Resistance Is Associated with 2,4-Dihydroxy-7-Methoxy-1,4-Benzoxazin-3-One Glucoside Methyltransferase Activity](http://www.plantcell.org/content/early/2013/06/27/tpc.113.112409.abstract)
+**21** **Meihls et al** (2013) [Natural Variation in Maize Aphid Resistance Is Associated with 2,4-Dihydroxy-7-Methoxy-1,4-Benzoxazin-3-One Glucoside Methyltransferase Activity](http://www.plantcell.org/content/early/2013/06/27/tpc.113.112409.abstract)
 
 #### Wednesday April 12
 
-**Wu et al** (2012) [Presence of tannins in sorghum grains is conditioned by different natural alleles of Tannin1](http://www.pnas.org/content/109/26/10281.abstract)
+**20** **Wu et al** (2012) [Presence of tannins in sorghum grains is conditioned by different natural alleles of Tannin1](http://www.pnas.org/content/109/26/10281.abstract)
 
 #### Wednesday April 5
 
-**Mao et al** (2015) [A transposable element in a NAC gene is associated with drought tolerance in maize seedlings](http://www.nature.com/articles/ncomms9326)
+**19** **Mao et al** (2015) [A transposable element in a NAC gene is associated with drought tolerance in maize seedlings](http://www.nature.com/articles/ncomms9326)
 
 #### Wednesday March 29
 
-**Fustier et al** (2014)[Signatures of local adaptation in lowland and highland teosintes from whole genome sequencing of pooled samples](http://onlinelibrary.wiley.com/doi/10.1111/mec.14082/full)
+**18** **Fustier et al** (2014)[Signatures of local adaptation in lowland and highland teosintes from whole genome sequencing of pooled samples](http://onlinelibrary.wiley.com/doi/10.1111/mec.14082/full)
 
 #### Wednesday March 22
 
-**Lemmon et al** (2014)[The Role of cis Regulatory Evolution in Maize Domestication](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004745)
+**17** **Lemmon et al** (2014)[The Role of cis Regulatory Evolution in Maize Domestication](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004745)
 
 #### Wednesday March 15
 
-**Liu et al** (2012)[Changes in genome content generated via segregation of non-allelic homologs](https://t.co/PNISopAxb3)
-
+**16** **Liu et al** (2012)[Changes in genome content generated via segregation of non-allelic homologs](https://t.co/PNISopAxb3)
 
 #### Wednesday March 8
 
-**Plessis et al** (2015) [Multiple abiotic stimuli are integrated in the regulation of rice gene expression under field conditions](https://elifesciences.org/content/4/e08411)
+**15** **Plessis et al** (2015) [Multiple abiotic stimuli are integrated in the regulation of rice gene expression under field conditions](https://elifesciences.org/content/4/e08411)
 
 #### Wednesday March 1
 
-**Maron et al** (2017) [Aluminum tolerance in maize is associated with higher MATE1 gene copy number](http://www.pnas.org/content/110/13/5241)
-
+**14** **Maron et al** (2017) [Aluminum tolerance in maize is associated with higher MATE1 gene copy number](http://www.pnas.org/content/110/13/5241)
 
 #### Wednesday February 22
 
-**Waters et al** (2017) [Natural variation for gene expression responses to abiotic stress in maize](http://onlinelibrary.wiley.com/doi/10.1111/tpj.13414/full)
-
+**13** **Waters et al** (2017) [Natural variation for gene expression responses to abiotic stress in maize](http://onlinelibrary.wiley.com/doi/10.1111/tpj.13414/full)
 
 #### Wednesday January 11
 
-**Shaw et al** (2014) [Natural Selection Canalizes Expression Variation of Environmentally Induced Plasticity-Enabling Genes](http://mbe.oxfordjournals.org/content/31/11/3002)
+**12** **Shaw et al** (2014) [Natural Selection Canalizes Expression Variation of Environmentally Induced Plasticity-Enabling Genes](http://mbe.oxfordjournals.org/content/31/11/3002)
 
 ##2016
 
 #### Wednesday December 28
-**Renny-Byfield, Rodgers-Melnick & Ross-Ibarra** (2016) [Gene fractionation and function in the ancient subgenomes of maize](http://biorxiv.org/content/early/2016/12/19/095547)
+
+**11** **Renny-Byfield, Rodgers-Melnick & Ross-Ibarra** (2016) [Gene fractionation and function in the ancient subgenomes of maize](http://biorxiv.org/content/early/2016/12/19/095547)
 
 #### Wednesday November 30
-**Todesco el al** (2012) [Natural allelic variation underlying a major fitness trade-off in Arabidopsis thaliana](https://www.dropbox.com/s/udyj3axclat89bs/todesco2010.pdf?dl=0)
+
+**10** **Todesco el al** (2012) [Natural allelic variation underlying a major fitness trade-off in Arabidopsis thaliana](https://www.dropbox.com/s/udyj3axclat89bs/todesco2010.pdf?dl=0)
 
 #### Wednesday November 23
 
-**Gould et al** (2016) [Pooled ecotype sequencing reveals candidate genetic mechanisms for adaptive differentiation and reproductive isolation](http://onlinelibrary.wiley.com/doi/10.1111/mec.13881/abstract)
+**9** **Gould et al** (2016) [Pooled ecotype sequencing reveals candidate genetic mechanisms for adaptive differentiation and reproductive isolation](http://onlinelibrary.wiley.com/doi/10.1111/mec.13881/abstract)
 
 #### Wednesday November 16
 
-**Jian-Yang et al** (2015) [A gene for genetic background in Zea mays: fine-mapping enhancer of teosinte branched1.2 (etb1.2) to a YABBY class transcription factor](http://www.genetics.org/content/genetics/early/2016/10/10/genetics.116.194928.full.pdf)
+**8** **Jian-Yang et al** (2015) [A gene for genetic background in Zea mays: fine-mapping enhancer of teosinte branched1.2 (etb1.2) to a YABBY class transcription factor](http://www.genetics.org/content/genetics/early/2016/10/10/genetics.116.194928.full.pdf)
 
 #### Wednesday November 9
 
-*Postponed for general depression after Trump won the elections.*
+**7** **Postponed for general depression after Trump won the elections.*
 
 #### Wednesday November 2
 
-**Thieme et al** (2015) [Endogenous Arabidopsis messenger RNAs
+**6** **Thieme et al** (2015) [Endogenous Arabidopsis messenger RNAs
 transported to distant tissues](http://www.nature.com.sci-hub.bz/articles/nplants201525)
 
 #### Wednesday October 26
 
-**Selinger & Chandler** (1999) [Major recent and independent changes in levels and patterns of expression have occurred at the _b_ gene, a regulatory locus in maize](http://www.pnas.org/content/96/26/15007.full.pdf)
+**5** **Selinger & Chandler** (1999) [Major recent and independent changes in levels and patterns of expression have occurred at the _b_ gene, a regulatory locus in maize](http://www.pnas.org/content/96/26/15007.full.pdf)
 
-**Selinger, Lisch & Chandler** (1998) [The Maize Regulatory Gene _B-Peru_ Contains a DNA Rearrangement That Specifies Tissue-Specific Expression Through Both Positive and Negative Promoter Elements](http://www.genetics.org/content/genetics/149/2/1125.full.pdf)
+**4** **Selinger, Lisch & Chandler** (1998) [The Maize Regulatory Gene _B-Peru_ Contains a DNA Rearrangement That Specifies Tissue-Specific Expression Through Both Positive and Negative Promoter Elements](http://www.genetics.org/content/genetics/149/2/1125.full.pdf)
 
 #### Wednesday October 19
 
-**Je et al** (2016) [Signaling from maize organ primordia via FASCIATED EAR3 regulates stem cell proliferation and yield traits](http://www.nature.com/ng/journal/v48/n7/full/ng.3567.html)
+**3** **Je et al** (2016) [Signaling from maize organ primordia via FASCIATED EAR3 regulates stem cell proliferation and yield traits](http://www.nature.com/ng/journal/v48/n7/full/ng.3567.html)
 
 See commentary [here](http://www.nature.com/ng/journal/v48/n7/full/ng.3601.html)
 
 #### Wednesday October 12
 
-**Gray et al** (2016) [Intensifying drought eliminates the expected benefits of elevated carbon dioxide for soybean](nature.com/articles/nplants2016132)
+**2** **Gray et al** (2016) [Intensifying drought eliminates the expected benefits of elevated carbon dioxide for soybean](nature.com/articles/nplants2016132)
 
 #### Wednesday October 5
 
-**Lovell et al** (2016) [Exploiting Differential Gene Expression and Epistasis to Discover Candidate Genes for Drought-Associated QTLs in Arabidopsis thaliana](http://www.plantcell.org/content/27/4/969.short)
+**1** **Lovell et al** (2016) [Exploiting Differential Gene Expression and Epistasis to Discover Candidate Genes for Drought-Associated QTLs in Arabidopsis thaliana](http://www.plantcell.org/content/27/4/969.short)
