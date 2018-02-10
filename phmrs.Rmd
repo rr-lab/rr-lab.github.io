@@ -1,8 +1,17 @@
 <!-- break -->
 <br>
+<br>
+<br>
 <!-- break -->
 
-Purepecha Highland Maize Resilience Center 
---------------
+## Purepecha Highland Maize Resilience Center 
+<hr>
 
-Follow [this link](https://phmrs.carrd.co/) to get to the project webpage proposal
+
+Follow [this link](https://phmrs.carrd.co/) to see the project  proposal webpage.
+
+<br>
+
+<img src="images/patzcuaro.png" style="width: 900px;">
+
+<br>
