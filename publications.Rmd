@@ -8,6 +8,7 @@ Publications
 --------------------
 
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
+Click on the arrows to see a brief summary of what we did in the paper!
 
 ## Preprints
 
@@ -17,22 +18,25 @@ Complete list of publications can be found at [Google Scholar](https://scholar.g
 
 ### 2017
 
+<details>
+    <summary>
 **25** [Coordinated changes in the accumulation of metal ions in maize (*Zea mays ssp. mays L.*) in response to inoculation with the arbuscular mycorrhizal fungus *Funneliformis mosseae*](https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx100/4060515/Co-ordinated-Changes-in-the-Accumulation-of-Metal?redirectedFrom=fulltext).  
-M. Rosario Flores-Ramirez, **Ruben Rellan-Alvarez**, Barbara Wozniak, Mesfin-Nigussie Gebreselassie, Iver Jakobsen, Victor Olalde-Portugal, Ivan Baxter, Uta Paszkowski, Ruairidh Sawers.  
+Flores-Ramirez R, **Rellán-Álvarez R**, Wozniak B, Gebreselassie M-F, Jakobsen I, Olalde-Portugal V, Baxter I, Paszkowski U, Sawers R.</summary>
+ <p style="margin-left: 30px">We study the effect of mycorrizhal colonization on the ionome of a maize diversity panel a found patterns of coordinated changes among ions with similar biochemical properties </p></details>
 
 **24** [Morphological plant modeling: Unleashing geometric and topological potential within the plant sciences](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/abstract).  
-Alexander Bucksch, Acheampong Atta-Boateng, Akomian Fortune Azihou, Mathilde Balduzzi, Dorjsuren Battogtokh, Aly Baumgartner, Brad Binder, Siobhan Braybrook, Cynthia Chang, Viktoriya Coneva, Thomas DeWitt, Alexander Fletcher, Malia Gehan, Diego Hernan Diaz Martinez, Lilan Hong, Anjali Iyer-Pascuzzi, Laura Klein, Samuel Leiboff, Mao Li, Jonathan Lynch, Alexis Maizel, Julin Maloof, RJ Cody Markelz, Ciera Martinez, Laura Miller, Washington Mio, Wojtek Palubicki, Hendrik Poorter, Christophe Pradal, Charles Price, Eetu Puttonen, John Reese, **Ruben Rellan-Alvarez**, Edgar Spalding, Erin Sparks, Chris Topp, Joseph Williams, Daniel Chitwood.
+Bucksch A, Atta-Boateng A, Fortune Azihou A, Balduzzi M, Battogtokh D, Baumgartner A, Binder B, Braybrook S, Chang C, Coneva V, DeWitt T, Fletcher A, Gehan M, Hernan Diaz Martinez D, Hong L, Iyer-Pascuzzi A, Klein L, Leiboff S, Li M, Lynch J, Maizel A, Maloof J, Markelz RJ, Martinez C, Miller L, Mio W, Palubicki W, Poorter H, Pradal C, Price C, Puttonen E, Reese J, **Rellán-Alvarez R**, Spalding E, Sparks E, Topp C, Williams J, Chitwood D.
 
 **23** [Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate](http://www.pnas.org/content/114/17/E3563)  
-Javier Mora-Macias, **Jonathan Odilon Ojeda-Rivera**, Dolores Gutierrez-Alanis, Lenin Yong-Villalobos, Araceli Oropeza-Aburto, Javier Raya-Gonzalez, Gabriel Jimenez-Dominguez, Gabriela Chavez-Calvillo, **Ruben Rellan-Alvarez**, Luis Rafael Herrera-Estrella.
+Mora-Macias J, **Odilon Ojeda-Rivera J**, Gutierrez-Alanis D, Yong-Villalobos L, Oropeza-Aburto A, Raya-González J, Jiménez-Doménguez G, Chavez-Calvillo G, ** Rellán-Álvarez R**, Herrera-Estrella LR.
 
 ### 2016
 
 **22** [Grasses suppress shoot-borne roots to conserve water during drought](http://www.pnas.org/content/113/31/8861.full)  
-Jose Sebastian, Muh-Ching Yee, Willian Goudinho Viana, **Ruben Rellan-Alvarez**, Max Feldman, Henry D. Priest, Charlotte Trontin, Tak Lee, Hui Jiang, Ivan Baxter, Todd C Mockler, Frank Hochholdinger, Thomas P. Brutnell, José R. Dinneny.
+Sebastian J, Yee M-C, Goudinho Viana W, **Rellán-Álvarez R**, Feldman M, Priest HD, Trontin C, Lee T, Jiang H, Baxter I, Mockler TC, Hochholdinger F, Brutnell TP, Dinneny JR.
 
 **21** [Plant scientists:GM technology is safe](http://science.sciencemag.org/content/351/6275/824.1) [[Github repo]](https://github.com/nfahlgren/plant_scientists_support_gmo/blob/master/submitted_article.md).  
-Noah Fahlgren, Rebecca Bart, Luis Herrera-Estrella, **Rubén Rellán-Álvarez**, Daniel H. Chitwood, José R. Dinneny.  
+Fahlgren N, Bart R, Herrera-Estrella L, **Rellán-Álvarez R**, Chitwood DH, Dinneny JR.  
 
 **20** [Environmental control of Root System Biology](http://arjournals.annualreviews.org/eprint/IZTJBGTdd3P8yv4MCmFP/full/10.1146/annurev-arplant-043015-111848).  
 **Rellán-Álvarez R**, Lobet G, Dinneny J.R.
