@@ -94,6 +94,20 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
 </a>
 
+<!-- break -->
+<br><br><br>
+<!-- break -->
+
+<div style="float: left">
+<img src="images/fausto.png" style="border:10px solid white"; width=100px>
+</div>
+**Fausto Rodríguez Zapata** PhD Student.   
+Fausto will be working maize glycerolipid quantitative and population genetics and in finding genetic associations with soil variables involved in phosphorus deficiency.   
+
+<!-- break -->
+<br><br><br>
+<!-- break -->
+
 
 <!-- break -->
 <br><br><br>
@@ -104,6 +118,20 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 </div>
 **Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*.   
 Sofía is working with the *xipotl* family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.  
+
+<!-- break -->
+<br><br><br>
+<!-- break -->
+
+<!-- break -->
+<br><br><br>
+<!-- break -->
+
+<div style="float: left">
+<img src="images/fabian.png" style="border:10px solid white"; width=100px>
+</div>
+**Fabián Santa Maria** PhD Student.   
+Fabian works on *xipotl* genes, involved in phosphatydilcholine biosynthesis and in *opr7/opr8* involved in jasmonic acid biosynthesis   
 
 <!-- break -->
 <br><br><br>
