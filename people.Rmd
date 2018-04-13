@@ -18,12 +18,11 @@ Elohim studies natural variation of root soil penetration using Arabidopsis.
 <br><br><br>
 <!-- break -->
 
-
 <div style="float: left">
 <img src="images/jessy.png" style="border:10px solid white"; width=100px>
 </div>
 **Jessica Carcaño** *Administrative assistant*.  
-Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.   
+Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.  
 
 <!-- break -->
 <br><br><br>
@@ -48,7 +47,7 @@ Patricio directs all the field operations of our lab and of ours and Sawers' lab
 <img src="images/juan.png" style="border:10px solid white"; width=100px>
 </div>
 **Juan Estévez** *Wet Lab Manager*.  
-Juan runs all the big genotyping, GBSing and cloning of our and Sawers´ labs.     
+Juan runs all the big genotyping, GBSing and cloning of our and Sawers´ labs.
 
 <!-- break -->
 <br><br><br>
@@ -74,11 +73,10 @@ Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root
 <a href="https://twitter.com/jonojedarivera">
 <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 </a>
+
 <!-- break -->
 <br><br><br>
 <!-- break -->  
-
-
 <div style="float: left">
 <img src="images/ruben.png" style="border:10px solid white"; width=100px>
 </div>
@@ -93,7 +91,6 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 <a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing">
 <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
 </a>
-
 <!-- break -->
 <br><br><br>
 <!-- break -->
@@ -102,37 +99,27 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 <img src="images/fausto.png" style="border:10px solid white"; width=100px>
 </div>
 **Fausto Rodríguez Zapata** PhD Student.   
-Fausto will be working maize glycerolipid quantitative and population genetics and in finding genetic associations with soil variables involved in phosphorus deficiency.   
+Fausto will be working maize glycerolipid quantitative and population genetics and in finding genetic associations with soil variables involved in phosphorus deficiency.
+<a href="https://twitter.com/jonojedarivera">
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+</a>
 
 <!-- break -->
 <br><br><br>
 <!-- break -->
-
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
 <div style="float: left">
 <img src="images/sofia.png" style="border:10px solid white"; width=100px>
 </div>
-**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*.   
-Sofía is working with the *xipotl* family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.  
+**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. Sofía is working with the *xipotl* family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.
 
 <!-- break -->
 <br><br><br>
 <!-- break -->
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
 <div style="float: left">
 <img src="images/fabian.png" style="border:10px solid white"; width=100px>
 </div>
 **Fabián Santa Maria** PhD Student.   
 Fabian works on *xipotl* genes, involved in phosphatydilcholine biosynthesis and in *opr7/opr8* involved in jasmonic acid biosynthesis   
-
 <!-- break -->
 <br><br><br>
 <!-- break -->
