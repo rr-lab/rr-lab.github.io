@@ -13,7 +13,38 @@ We meet on Wednesdays in the Sala Caracol at 8:30 AM. See the list of papers bel
 
 ![Esfoyaza](http://asturies.com/sites/default/files/Esfoyaza.jpg)
 
+## 2018
+
+#### Wednesday April 18
+
+**49.** **Dubeaux et al** (2018) [Metal Sensing by the IRT1 Transporter-Receptor Orchestrates Its Own Degradation and Plant Metal Nutrition](http://www.cell.com/molecular-cell/fulltext/S1097-2765(18)30107-2)
+
+#### Wednesday April 11
+
+**39.** **Takahashi et al** (2018) [A small peptide modulates stomatal control via abscisic acid in long-distance signalling](https://www.nature.com/articles/s41586-018-0009-2)
+
+#### Wednesday April 4
+
+**38.** **Kremling et al** (2018) [Dysregulation of expression correlates with rare-allele burden and fitness loss in maize](https://www.nature.com/articles/nature25966)
+
+#### Wednesday March 14
+
+**37.** **Huang et al** (2018) [ZmCCT9 enhances maize adaptation to higher latitudes](http://www.pnas.org/content/115/2/E334)
+
+#### Wednesday Feb 7
+
+**36.** **Jian et al** (2017) [Maize (Zea mays L.) genome size indicated by 180-bp knob abundance is associated with flowering time](https://www.nature.com/articles/s41598-017-06153-8)
+
+#### Wednesday Jan 24
+
+**35.** **Jamman et al** (2017) [High-Throughput Resequencing of Maize Landraces at Genomic Regions Associated with Flowering Time](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0168910#sec002)
+
+#### Wednesday Jan 10
+
+**34.** **Hottes et al** (2013) [Bacterial Adaptation through Loss of Function](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003617)
+
 ## 2017
+
 #### Wednesday Dec 13
 
 **33.** **Strable et al** (2017) [Maize YABBY Genes drooping leaf1 and drooping leaf2 Regulate Plant Architecture](http://www.plantcell.org/content/early/2017/07/11/tpc.16.00477)
