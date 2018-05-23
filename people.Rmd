@@ -91,18 +91,19 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 <a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing">
 <i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
 </a>
+
 <!-- break -->
 <br><br><br>
-<!-- break -->
-
+<!-- break -->  
 <div style="float: left">
 <img src="images/fausto.png" style="border:10px solid white"; width=100px>
 </div>
 **Fausto Rodríguez Zapata** PhD Student.   
-Fausto will be working maize glycerolipid quantitative and population genetics and in finding genetic associations with soil variables involved in phosphorus deficiency.
-<a href="https://twitter.com/jonojedarivera">
+Fausto will study maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.
+<a href="https://twitter.com/chyscamuy">
 <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 </a>
+
 
 <!-- break -->
 <br><br><br>
