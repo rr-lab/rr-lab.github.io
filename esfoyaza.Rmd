@@ -14,6 +14,29 @@ We meet on Wednesdays in the lab at 9:00 AM. See the list of papers below. Sugge
 ![Esfoyaza](http://asturies.com/sites/default/files/Esfoyaza.jpg)
 
 ## 2018
+#### Wednesday June 6  
+
+**55.** **Saccenti et al** (2018) [Dysregulation of expression correlates with rare-allele burden and fit](https://www.nature.com/articles/nature25966)
+
+#### Wednesday May 23  
+
+**54.** **Saccenti et al** (2018) [Reflections on univariate and multivariate analysis of metabolomics data](https://link.springer.com/article/10.1007/s11306-013-0598-6)
+
+#### Wednesday May 16
+
+**53.** **Price et al** (2018) [Combining population genomics and fitness QTLs to identify the genetics of local adaptation in Arabidopsis thaliana](http://www.pnas.org/content/early/2018/04/19/1719998115)  
+
+#### Wednesday May 09  
+
+**52.** **Dong et al** (2018) [Ideal crop plant architecture is mediated by tassels replace upper ears1, a BTB/POZ ankyrin repeat gene directly targeted by TEOSINTE BRANCHED1](http://www.pnas.org/content/114/41/E8656)  
+
+#### Wednesday May 02
+
+**51.** **Ruan et al** (2018) [A new allele of the Brachytic2 gene in maize can efficiently modify plant architecture](https://www.nature.com/articles/s41437-018-0056-3)  
+
+#### Wednesday April 25
+
+**50.** **Ruan et al** (2018) [An SPX-RLI1 module regulates leaf inclination in response to phosphate availability in rice](http://www.plantcell.org/content/early/2018/04/02/tpc.17.00738)
 
 #### Wednesday April 18
 
