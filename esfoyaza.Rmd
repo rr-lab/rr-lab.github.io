@@ -14,7 +14,20 @@ We meet on Wednesdays in the lab at 9:00 AM. See the list of papers below. Sugge
 ![Esfoyaza](http://asturies.com/sites/default/files/Esfoyaza.jpg)
 
 ## 2018
-#### Wednesday June 13  
+
+#### Wednesday September 26  
+
+**60.** **Guo et al.** [Stepwise cis-Regulatory Changes in ZCN8 Contribute to Maize Flowering-Time Adaptation](https://www.sciencedirect.com/science/article/pii/S096098221830928X)
+
+#### Wednesday September 19  
+
+**59.** **Tsikou et al.** [Systemic control of legume susceptibility to rhizobial infection by a mobile microRNA](http://science.sciencemag.org/content/early/2018/08/29/science.aat6907)
+
+#### Wednesday September 12  
+
+**58.** **Hu et al.** [Plant iron acquisition strategy exploited by an insect herbivore](http://science.sciencemag.org/content/361/6403/694)
+
+#### Wednesday June 13
 
 **57.** **Saccenti et al** (2018) [Dysregulation of expression correlates with rare-allele burden and fit](https://www.nature.com/articles/nature25966)  
 
