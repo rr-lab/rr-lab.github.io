@@ -4,75 +4,6 @@
 
 Lab Members
 -------------
-<!-- break -->
-<br>
-<!-- break -->
-
-<div style="float: left">  
-</a><img src="images/elohim.png" style="border:10px solid white"; width=100px>
-</div>
-**Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*  
-Elohim studies natural variation of root soil penetration using Arabidopsis.
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
-<div style="float: left">
-<img src="images/jessy.png" style="border:10px solid white"; width=100px>
-</div>
-**Jessica Carcaño** *Administrative assistant*.  
-Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.  
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
-<div style="float: left">
-<img src="images/patricio.png" style="border:10px solid white"; width=100px>
-</div>
-**Patricio Cid** *Field Manager*.  
-Patricio directs all the field operations of our lab and of ours and Sawers' labs.  
-<a href="https://twitter.com/patriciocidcc">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-</a> <a href="https://www.linkedin.com/in/patriciocid/">
-<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
-</a>
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
-<div style="float: left">
-<img src="images/juan.png" style="border:10px solid white"; width=100px>
-</div>
-**Juan Estévez** *Wet Lab Manager*.  
-Juan runs all the big genotyping, GBSing and cloning of our and Sawers´ labs.
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
-<div style="float: left">
-<img src="images/karla.png" style="border:10px solid white"; width=100px>
-</div>
-**Karla Juarez** *Master Student*.   
-Karla studies the role of phospholipids in maize adaptation to low phosphorus and low temperature.  
-<a href="https://twitter.com/KarlaJuarez30">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-</a>
-<!-- break -->
-<br><br><br>
-<!-- break -->
-
-<div style="float: left">
-<img src="images/jonathan.png" style="border:10px solid white"; width=100px>
-</div>
-**Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
-Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.  
-<a href="https://twitter.com/jonojedarivera">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-</a>
 
 <!-- break -->
 <br><br><br>
@@ -99,8 +30,43 @@ Rubén is a professor at Plant Biotechnology and Integrative Biology graduate pr
 <img src="images/fausto.png" style="border:10px solid white"; width=100px>
 </div>
 **Fausto Rodríguez Zapata** PhD Student.   
-Fausto will study maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.
+Fausto will studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.
 <a href="https://twitter.com/chyscamuy">
+<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+</a>
+
+
+
+### Team in México  
+
+<!-- break -->
+<br><br><br>
+<!-- break -->
+<div style="float: left">  
+</a><img src="images/elohim.png" style="border:10px solid white"; width=100px>
+</div>
+**Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*  
+Elohim studies natural variation of root soil penetration using Arabidopsis.  
+
+<!-- break -->
+<br><br><br>
+<!-- break -->
+<div style="float: left">
+<img src="images/jessy.png" style="border:10px solid white"; width=100px>
+</div>
+**Jessica Carcaño** *Administrative assistant*.  
+Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.  
+
+
+<!-- break -->
+<br><br><br>
+<!-- break -->
+<div style="float: left">
+<img src="images/jonathan.png" style="border:10px solid white"; width=100px>
+</div>
+**Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
+Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.  
+<a href="https://twitter.com/jonojedarivera">
 <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
 </a>
 
@@ -109,17 +75,9 @@ Fausto will study maize glycerolipid quantitative and population genetics and ge
 <br><br><br>
 <!-- break -->
 <div style="float: left">
-<img src="images/sofia.png" style="border:10px solid white"; width=100px> 	
-</div>
-**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. Sofía is working with the *xipotl* family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-<div style="float: left">
 <img src="images/fabian.png" style="border:10px solid white"; width=100px>
 </div>
-**Fabián Santa Maria** PhD Student.   
+**Fabián Santa Maria** Master Student *co-advised with Luis Delaye*.   
 Fabian works on *xipotl* genes, involved in phosphatydilcholine biosynthesis and in *opr7/opr8* involved in jasmonic acid biosynthesis   
 <!-- break -->
 <br><br><br>
@@ -128,10 +86,22 @@ Fabian works on *xipotl* genes, involved in phosphatydilcholine biosynthesis and
 
 ### Former lab members  
 
+
+**Patricio Cid** *Field Manager*.  
+Patricio directed all the field operations of our lab and of ours and Sawers' labs.  
+
+**Juan Estévez** *Wet Lab Manager*.  
+Juan ran all the big genotyping, GBSing and cloning of our and Sawers´ labs.  
+
+**Karla Juarez** *Master Student*.   
+Karla studied the role of phospholipids in maize adaptation to low phosphorus and low temperature.  
+
+**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. Sofía worked with the *xipotl* family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.  
+
 **Vladimir Torres**. Master Student *co-advised with Ruairidh Sawers*.    
 Vladimir studied how an introgression of Teosinte parviglumis in B73 affects root growth and phoshorus deficiency. He is currently doing his PhD with Ruairidh Sawers.  
 
 **Christian Escoto**. Master Student *co-advised with Ruairidh Sawers*.   
-Christian is working in the analysis of different morphological traits affected by Phosphorus deficiency using a CML228 x B73 RIL mapping population.  
+Christian worked in the analysis of different morphological traits affected by Phosphorus deficiency using a CML228 x B73 RIL mapping population.  
 
 **Dario Alávez**. Dario worked as lab and field tech mainly developing a collection of Uniform-Mu mutants targetting a number of glycerolipid sysnthesis and degradation genes.
