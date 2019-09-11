@@ -4,79 +4,56 @@
 
 Lab Members
 -------------
-
 <!-- break -->
-<br><br><br>
-<!-- break -->  
-<div style="float: left">
-<img src="images/ruben.png" style="border:10px solid white"; width=100px>
-</div>
+<br>
+<!-- break -->
+**Allison Barnes** Postdoc.   
+Allison joined the lab in NCSU in June 2019. Among other things she is working in the functional characterization of a maize phospholipase.  
+<a href="https://twitter.com/asiekmanbarnes">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>  
+
+ 
 **Rubén Rellán-Álvarez. PI**  
-Rubén is a professor at Plant Biotechnology and Integrative Biology graduate programs. He started his lab in Langebio in 2015.  
+Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU  
 <a href="https://twitter.com/rrellanalvarez">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>
 </a>  <a href="https://github.com/rellan">
-<i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+<i class="fa fa-github-alt" aria-hidden="true"></i>
 </a> <a href="mailto:rrellan@ncsu.edu">
-<i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+<i class="fa fa-envelope" aria-hidden="true"></i>
 <a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing">
-<i class="fa fa-file-text fa-2x" aria-hidden="true"></i>
-</a>
+<i class="fa fa-file-text" aria-hidden="true"></i>
+</a>  
 
-<!-- break -->
-<br><br><br>
-<!-- break -->  
-<div style="float: left">
-<img src="images/fausto.png" style="border:10px solid white"; width=100px>
-</div>
-**Fausto Rodríguez Zapata** PhD Student.   
-Fausto will studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.
+
+**Fausto Rodríguez Zapata** PhD Student. NCSU Genetics program  
+Fausto studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.  
 <a href="https://twitter.com/chyscamuy">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+<i class="fa fa-twitter" aria-hidden="true"></i>  
+</a>  <a href="https://github.com/faustovrz">
+<i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
 
 
-
-### Team in México  
-
 <!-- break -->
-<br><br><br>
+<br>
 <!-- break -->
-<div style="float: left">  
-</a><img src="images/elohim.png" style="border:10px solid white"; width=100px>
-</div>
+
+### Team in México   
+
 **Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*  
-Elohim studies natural variation of root soil penetration using Arabidopsis.  
+Elohim studies natural variation of root soil penetration using Arabidopsis.   
 
-<!-- break -->
-<br><br><br>
-<!-- break -->
-<div style="float: left">
-<img src="images/jessy.png" style="border:10px solid white"; width=100px>
-</div>
 **Jessica Carcaño** *Administrative assistant*.  
-Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.  
+Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.    
 
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-<div style="float: left">
-<img src="images/jonathan.png" style="border:10px solid white"; width=100px>
-</div>
 **Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
-Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.  
+Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.    
 <a href="https://twitter.com/jonojedarivera">
-<i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-</a>
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>  
 
-
-<!-- break -->
-<br><br><br>
-<!-- break -->
-<div style="float: left">
-<img src="images/fabian.png" style="border:10px solid white"; width=100px>
-</div>
 **Fabián Santa Maria** Master Student *co-advised with Luis Delaye*.   
 Fabian works on *xipotl* genes, involved in phosphatydilcholine biosynthesis and in *opr7/opr8* involved in jasmonic acid biosynthesis   
 <!-- break -->
