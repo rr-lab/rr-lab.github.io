@@ -12,17 +12,23 @@ Click on the arrows to see a brief summary of what we did in the paper!
 
 ## Preprints
 
+**28** [Gene regulatory effects of a large chromosomal inversion in highland maize
+](https://www.biorxiv.org/content/10.1101/861583v1).  
+Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie
+
+
 <details>
     <summary>
 **27** [Single-gene resolution of locally adaptive genetic variation in Mexican maize](https://www.biorxiv.org/content/10.1101/706739v1).  
-Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, *Fausto Rodríguez-Zapata*, Ruairidh J. H. Sawers, *Rubén Rellán-Álvarez*, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra </summary>
+Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra </summary>
  <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>
 
 <details>
     <summary>
 **26** [Inoculation with the mycorrhizal fungus Rhizophagus irregularis increases nutrient uptake in maize (Zea mays) through hyphal foraging and promotion of root growth](https://www.biorxiv.org/content/10.1101/695411v1.full).  
 Flores-Ramirez R, **Elohim Bello-Bello**, **Rellán-Álvarez R**, Sawers R., Olalde-Portugal V </summary>
- <p style="margin-left: 30px">We studied the interaction of nutrient uptake with arbuscular mycorrhizal symbiosis. Most nutrients showed a correlation of nutrient uptake with enhanced root growth due to mycorrhizal colonization but some nutrients like P accumulated to levels that are indicative of an active fungal delivery to the roots</p></details>
+ <p style="margin-left: 30px">We studied the interaction of nutrient uptake with arbuscular mycorrhizal symbiosis. Most nutrients showed a correlation of nutrient uptake with enhanced root growth due to mycorrhizal colonization but some nutrients like P accumulated to levels that are indicative of an active fungal delivery to the roots</p></details>  
+ 
 
 
 ## Publications.

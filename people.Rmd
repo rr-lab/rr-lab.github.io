@@ -30,15 +30,10 @@ Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU
 **Fausto Rodríguez Zapata** PhD Student. NCSU Genetics program  
 Fausto studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.  
 <a href="https://twitter.com/chyscamuy">
-<i class="fa fa-twitter" aria-hidden="true"></i>  
+<i class="fa fa-twitter" aria-hidden="true"></i>
 </a>  <a href="https://github.com/faustovrz">
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
-
-
-<!-- break -->
-<br>
-<!-- break -->
 
 ### Team in México   
 
