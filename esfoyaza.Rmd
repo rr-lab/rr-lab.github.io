@@ -9,9 +9,73 @@
 
 Informal meeting to talk (mainly) about maize, local adaptation, plant nutrition and related areas.
 
-We meet on Wednesdays in the lab at 9:00 AM. See the list of papers below. Suggest more on slack.
+We meet on Thursday in Polk 124 at 1 PM. See the list of papers below. Suggest more on slack.
 
 ![Esfoyaza](http://asturies.com/sites/default/files/Esfoyaza.jpg)
+
+### 2019
+
+#### Thursday December 19th  
+
+**74.** **Xue et al.** [Hybrid Decay: A Transgenerational Epigenetic Decline in Vigor and Viability Triggered in Backcross Populations of Teosinte with Maize]
+(https://www.genetics.org/content/213/1/143)
+
+#### Thursday December 5th  
+
+**73.** **Arora et al.** [Resistance gene cloning from a wild crop relative by sequence capture and association genetics]
+(hhttps://www.nature.com/articles/s41477-019-0508-7)
+
+#### Thursday November 14  
+
+**72.** **Roessle et al.** [The genome-wide dynamics of purging during selfing in maize]
+(hhttps://www.nature.com/articles/s41477-019-0508-7)
+
+#### Thursday October 31  
+
+**71.** **Roessle et al.** [The genome-wide dynamics of purging during selfing in maize]
+(hhttps://www.nature.com/articles/s41477-019-0508-7)
+
+#### Thursday October 17  
+
+**70.** **Gates et al.** [Single-gene resolution of locally adaptive genetic variation in Mexican maize]
+(https://www.biorxiv.org/content/10.1101/706739v1)
+
+#### Thursday September 26  
+
+**69.** **Sartor et al.** [Identification of the expressome by machine learning on omics data]
+(https://www.pnas.org/content/116/36/18119)
+
+#### Thursday September 12  
+
+**68.** **Kremling et al.** [Transcriptome-Wide Association Supplements Genome-Wide Association in Zea mays]
+(https://www.g3journal.org/content/9/9/3023)
+
+#### Thursday July 12  
+
+**67.** **Vasseur et al.** [Nonlinear phenotypic variation uncovers the emergence of heterosis in Arabidopsis thaliana]
+(https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000214)
+
+#### Friday May 17  
+
+**65.** **Josephs et al.** [Detecting Adaptive Differentiation in Structured Populations with Genomic Data and Common Gardens]
+(https://www.genetics.org/content/211/3/989.full)
+
+#### Friday April 26  
+
+**64.** **Zhang et al.** [Rapid Cycling Genomic Selection in a Multiparental
+Tropical Maize Population)](http://www.g3journal.org/content/7/7/2315.article-info) 
+
+#### Friday April 12  
+
+**63.** **Liang et al.** [Distinct characteristics of genes associated with phenome-wide variation in maize (Zea mays)](https://www.biorxiv.org/content/10.1101/534503v3) 
+
+#### Friday March 22  
+
+**62.** **Sindhu et al.** [A guardian of grasses: Specific origin and conservation of a unique disease-resistance gene in the grass lineage](https://www.pnas.org/content/105/5/1762.short)  
+
+#### Friday March 8  
+
+**61.** **Lu et al.** [A Silk-Expressed Pectin Methylesterase Confers Cross-Incompatibility Between Wild and Domesticated Strains of Zea mays](https://www.biorxiv.org/content/10.1101/529032v1) 
 
 ## 2018
 

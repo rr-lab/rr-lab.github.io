@@ -10,11 +10,14 @@ Publications
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
 Click on the arrows to see a brief summary of what we did in the paper!
 
-## Preprints
+## Preprints  
 
+<details>
+    <summary>
 **28** [Gene regulatory effects of a large chromosomal inversion in highland maize
 ](https://www.biorxiv.org/content/10.1101/861583v1).  
-Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie
+Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie </summary>
+ <p style="margin-left: 30px">*Inv4m* is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of *Inv4m* in several fitness traits and identify possible adpative candidates genes within the inversion  </p></details>
 
 
 <details>
