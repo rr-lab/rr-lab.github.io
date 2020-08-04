@@ -14,6 +14,14 @@ Click on the arrows to see a brief summary of what we did in the paper!
 
 <details>
     <summary>
+**29** [Molecular Parallelism Underlies Convergent Highland Adaptation of Maize Landraces
+](https://www.biorxiv.org/content/10.1101/2020.07.31.227629v1).  
+Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Álvarez**, Jeffrey Ross-Ibarra, Matthew B. Hufford </summary>
+ <p style="margin-left: 30px">Maize has adapted to highland environments independently several times. In this study we studied highland adaptation in four highland groups: SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified outlier genes involved in highland adaptation </p></details>
+
+
+<details>
+    <summary>
 **28** [Gene regulatory effects of a large chromosomal inversion in highland maize
 ](https://www.biorxiv.org/content/10.1101/861583v1).  
 Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie </summary>
@@ -25,7 +33,6 @@ Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir T
 **27** [Single-gene resolution of locally adaptive genetic variation in Mexican maize](https://www.biorxiv.org/content/10.1101/706739v1).  
 Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra </summary>
  <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>  
- 
 
 ## Publications.
 
