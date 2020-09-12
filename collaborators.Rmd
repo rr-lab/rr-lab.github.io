@@ -1,11 +1,15 @@
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->
+---
+title: Collaborators
+pagetitle: Collaborators
+output: html_document
+---
 
-Collaborators
------------------
+<!-- break -->
+<br>
+<br>
+<br>
+<!-- break -->  
+
 
 At Langebio I share space, resources, students and  a research interest in understanding maize adaptation to low phosphorus conditions with my colleague [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369).
 

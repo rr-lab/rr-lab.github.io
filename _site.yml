@@ -1,6 +1,6 @@
-name: "Rellán-Álvarez lab page"
+name: "## **G**enetics, **E**volution and **M**etabolism of **M**aize **A**daptation Lab"
 navbar:
-  title: "Rellán-Álvarez Lab"
+  title: "GEMMALAB"
   left:
     - text: "Home"
       icon: fa-home
@@ -17,9 +17,6 @@ navbar:
     - text: "Talks"
       icon: fa-slideshare
       href: talks.html
-    - text: "Esfoyaza"
-      icon: fa-fire
-      href: esfoyaza.html
     - text: "News"
       icon: fa-newspaper-o
       href: news.html

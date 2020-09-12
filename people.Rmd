@@ -1,12 +1,16 @@
-<!-- break -->
-<br>
-<!-- break -->
+---
+title: Lab Members
+pagetitle: Lab Members
+output: html_document
+---
 
-Lab Members
--------------
 <!-- break -->
 <br>
-<!-- break -->
+<br>
+<br>
+<!-- break -->  
+
+
 **Allison Barnes** Postdoc.   
 Allison joined the lab in NCSU in June 2019. Among other things she is working in the functional characterization of a maize phospholipase.  
 <a href="https://twitter.com/asiekmanbarnes">

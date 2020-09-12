@@ -1,8 +1,15 @@
+---
+title: Expectations
+pagetitle: Expectations
+output: html_document
+---
+
 <!-- break -->
 <br>
 <br>
 <br>
-<!-- break -->
+<!-- break -->  
+
 
 ## General Rules
 

@@ -1,11 +1,15 @@
+---
+title: News
+pagetitle: News
+output: html_document
+---
+
 <!-- break -->
 <br>
 <br>
 <br>
 <!-- break -->
 
-News!
---------------
 
 ### 2020
 
@@ -104,13 +108,12 @@ News!
 ### 2016
 
 - December 19. Our collaboration with Luis Herrera-Estrella´s lab on *Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate* is now up on [biorxiv](http://biorxiv.org/content/early/2016/12/19/095497).
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/malata_fe_model.png" width="500">
+
 
 - December 12. [Guillaume Lobet](http://plantmodelling.xyz/) visited us briefly before heading to the Phenomics conference at Cimmyt. He gave a talk on how his brand new lab is using plant modelling to understand how plants integrate signals from both soil and the atmosphere to grow.
 
 - October 4. Our white paper on [Morphological plant modeling: Unleashing geometric and topologic potential within the plant sciences](http://biorxiv.org/content/early/2016/10/04/078832) has been uploaded to biorxiv. Great collaborative effort as result of a NimBios workshop last year.
 
-<img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/nimbios_group_picture.png" width="500">
 
 - September 5-7. [Jonathan Lynch](http://plantscience.psu.edu/research/labs/roots) from Penn State visited us and gave a seminar at Langebio. Roots FTW!!
 - August 12. My colleagues Jeffrey Ross-Ibarra, Matt Hufford, Sherryl Flint-García, Graham Coop and Ruairidh Sawers got a PGRP-NSF grant to work on [Maize Highland Adaptation](http://www.highlandadaptation.org/) and we will be closely collaborating with them.

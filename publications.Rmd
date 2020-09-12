@@ -1,11 +1,15 @@
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->
+---
+title: Publications
+pagetitle: Publications
+output: html_document
+---
 
-Publications
---------------------
+<!-- break -->
+<br>
+<br>
+<br>
+<!-- break -->  
+
 
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
 Click on the arrows to see a brief summary of what we did in the paper!
