@@ -4,12 +4,8 @@ pagetitle: Research
 output: html_document
 ---
 
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->  
 
+---
 
 
 We are broadly interested in understanding the metabolic and morphological mechanisms that plants have developed to adapt to soils with low nutrient availability. See below the major research interests of our lab.

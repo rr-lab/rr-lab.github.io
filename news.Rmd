@@ -4,11 +4,8 @@ pagetitle: News
 output: html_document
 ---
 
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->
+
+---
 
 
 ### 2020

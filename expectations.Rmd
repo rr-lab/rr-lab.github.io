@@ -4,11 +4,8 @@ pagetitle: Expectations
 output: html_document
 ---
 
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->  
+
+---
 
 
 ## General Rules

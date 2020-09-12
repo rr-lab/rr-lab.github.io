@@ -5,12 +5,7 @@ output: html_document
 ---
 
 
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->  
-
+---
 
 
 [Esfoyaza](http://dle.rae.es/?id=GPtv23E)

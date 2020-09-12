@@ -4,11 +4,8 @@ pagetitle: Lab Members
 output: html_document
 ---
 
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->  
+
+---
 
 
 **Allison Barnes** Postdoc.   

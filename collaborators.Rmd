@@ -4,14 +4,9 @@ pagetitle: Collaborators
 output: html_document
 ---
 
-<!-- break -->
-<br>
-<br>
-<br>
-<!-- break -->  
 
+---
 
-At Langebio I share space, resources, students and  a research interest in understanding maize adaptation to low phosphorus conditions with my colleague [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369).
 
 ### Maize adaption to highlands<a href="http://highlandadaptation.org"><img src="images/hilo_logo.png" style="border:10px solid white"; width=50px></a>
 
