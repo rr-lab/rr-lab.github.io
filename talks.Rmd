@@ -12,7 +12,11 @@ output: html_document
 
 #### August
 
--
+- Invited Seminar at the Genetics and Genomics Seminar Series, North Carolina State University.  
+*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*
+
+- Invited Seminar at the Plant Sciences & Plant Pathology Department, Montana State University.  
+*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*
 
 ### 2019
 
