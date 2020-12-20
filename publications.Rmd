@@ -12,7 +12,9 @@ output: html_document
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
 Click on the arrows to see a brief summary of what we did in the paper!
 
-## Preprints  
+## Preprints 
+
+### 2020
 
 <details>
     <summary>
@@ -21,22 +23,21 @@ Click on the arrows to see a brief summary of what we did in the paper!
 Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Álvarez**, Jeffrey Ross-Ibarra, Matthew B. Hufford </summary>
  <p style="margin-left: 30px">Maize has adapted to highland environments independently several times. In this study we studied highland adaptation in four highland groups: SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified outlier genes involved in highland adaptation </p></details>
 
-
 <details>
     <summary>
-**28** [Gene regulatory effects of a large chromosomal inversion in highland maize
-](https://www.biorxiv.org/content/10.1101/861583v1).  
-Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie </summary>
- <p style="margin-left: 30px">*Inv4m* is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of *Inv4m* in several fitness traits and identify possible adpative candidates genes within the inversion  </p></details>
-
-
-<details>
-    <summary>
-**27** [Single-gene resolution of locally adaptive genetic variation in Mexican maize](https://www.biorxiv.org/content/10.1101/706739v1).  
+**28** [Single-gene resolution of locally adaptive genetic variation in Mexican maize](https://www.biorxiv.org/content/10.1101/706739v1).  
 Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra </summary>
  <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>  
 
 ## Publications.
+
+### 2020
+<details>
+    <summary>
+**27** [Gene regulatory effects of a large chromosomal inversion in highland maize
+](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009213).  
+Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie </summary>
+ <p style="margin-left: 30px">*Inv4m* is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of *Inv4m* in several fitness traits and identify possible adpative candidates genes within the inversion  </p></details>
 
 ### 2019  
 <details>
