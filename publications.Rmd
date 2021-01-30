@@ -21,11 +21,10 @@ Click on the arrows to see a brief summary of what we did in the paper!
 **30** [Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time
 ](https://www.biorxiv.org/content/10.1101/2021.01.25.426574v1).  
 **Fausto Rodríguez-Zapata**, **Allison C Barnes**, **Karla A Blöcher-Juárez**, Dan Gates, **Andi Kur**, Li Wang, Garrett M Janzen, Sarah Jensen, **Juan M Estévez-Palmas**, Taylor Crow, Rocío Aguilar-Rangel, Edgar Demesa-Arevalo, Tara Skopelitis, Sergio Pérez-Limón, Whitney L Stutts, Peter Thompson, Yu-Chun Chiu, David Jackson, Oliver Fiehn, Daniel Runcie, Edward S Buckler, Jeffrey Ross-Ibarra, Matthew B. Hufford, Ruairidh JH Sawers and **Rubén Rellán-Álvarez** </summary>
- <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>
+ <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>  
 
-<details>
 
-### 2020  
+### 2020    
 
 <details>
     <summary>
@@ -38,7 +37,7 @@ Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Á
     <summary>
 **28** [Single-gene resolution of locally adaptive genetic variation in Mexican maize](https://www.biorxiv.org/content/10.1101/706739v1).  
 Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra </summary>
- <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>  
+ <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>    
 
 ## Publications.
 
