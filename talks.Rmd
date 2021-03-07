@@ -14,18 +14,24 @@ output: html_document
 - Invited Talk at the [Plant Genomes in a Changing Environment Conference 2021](https://www.maizegdb.org/mgc/maizemeeting/index.php), John Innes Center, UK.  
 *"The molecular and genetic basis of maize landrace local adaptation"*
 
+#### April
+
+- Invited Seminar at the [Center of Population Biology, University of California at Davis](https://www.maizegdb.org/mgc/maizemeeting/index.php), Davis, CA.  
+*"Tittle TBD"*
+
 #### March
 
 - Invited Talk at the [Maize Genetics Meeting 2021 ](https://www.maizegdb.org/mgc/maizemeeting/index.php).  
 *"Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time"*
 
 - Invited Seminar at the [Genetic Engineering and Society Center Colloquium](https://research.ncsu.edu/ges/event/colloquium-2021-03-02/).  
-*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*
+*"Drinking from the Maize Diversity Firehose"*
 
 #### February
 
 - Invited Seminar at the [Department of Plant Sciences, Pennsylvania State University](https://plantscience.psu.edu/events).  
-*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*
+*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*  
+
 - Invited Talk at the  [Corn Breeding Research Conference 2021](https://az659834.vo.msecnd.net/eventsairsthcusprod/production-uwccs-public/bef7344b759f4f718d6f41c0c2c6945c). 
 *"Adaptive teosinte introgression modulates phosphatidylcholine levels and maize flowering time"* 
 
