@@ -1,15 +1,12 @@
 ---
-title: Maize Meeting
+title: Maize Meeting 2021
 pagetitle: Maize Meeting
 output: html_document
 ---
-
-
 ---
 
 <!-- break -->	
-<br>	
-<br>	
+
 <br>	
 <!-- break -->	
 
