@@ -12,9 +12,20 @@ output: html_document
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
 Click on the arrows to see a brief summary of what we did in the paper!
 
-## Preprints 
 
-### 2021
+### 2021  
+
+<details>
+    <summary>
+**33** [The arches and spandrels of maize domestication, adaptation, and improvement](https://authors.elsevier.com/a/1d%7E0K4tPF3mLOQ).  
+María JazmínAbraham-Juárez, **Allison C.Barnes**, AlejandroAragón-Raygoza, **DestinyTyson**, **AndiKur**, JoshStrable, **RubénRellán-Álvarez** </summary>
+ <p style="margin-left: 30px">Review of the major genetic and physiological factors involved in maize domestication, adaptation and improvement </p></details>  
+
+<details>
+    <summary>
+**32** [A B73 x Palomero Toluqueño mapping population reveals local adaptation in Mexican highland maize](https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1).  
+Sergio Perez-Limón, Meng Li, G. Carolina Cintora-Martinez, M Rocio Aguilar-Rangel, M. Nancy Salazar-Vidal, Eric González-Segovia, **Karla Blöcher-Juárez**, Alejandro Guerrero-Zavala, Benjamin Barrales-Gamez, Jessica Carcaño-Macias, Denise E. Costich, Jorge Nieto-Sotelo, Octavio Martinez de la Vega, June Simpson, Matthew B. Hufford, Jeffrey Ross-Ibarra, Sherry Flint-Garcia, Luis Diaz-Garcia, **Rubén Rellán-Álvarez**, Ruairidh J. H. Sawers </summary>
+ <p style="margin-left: 30px">We describe GxE QTLs using a biparental mapping population grown in highland and lowland environments in México </p></details>  
 
 <details>
     <summary>
@@ -27,10 +38,10 @@ Garrett M. Janzen, María Rocío Aguilar-Rangel, Carolina Cíntora-Martínez, **
 **30** [Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time
 ](https://www.biorxiv.org/content/10.1101/2021.01.25.426574v1).  
 **Fausto Rodríguez-Zapata**, **Allison C Barnes**, **Karla A Blöcher-Juárez**, Dan Gates, **Andi Kur**, Li Wang, Garrett M Janzen, Sarah Jensen, **Juan M Estévez-Palmas**, Taylor Crow, Rocío Aguilar-Rangel, Edgar Demesa-Arevalo, Tara Skopelitis, Sergio Pérez-Limón, Whitney L Stutts, Peter Thompson, Yu-Chun Chiu, David Jackson, Oliver Fiehn, Daniel Runcie, Edward S Buckler, Jeffrey Ross-Ibarra, Matthew B. Hufford, Ruairidh JH Sawers and **Rubén Rellán-Álvarez** </summary>
- <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>  
+ <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>    
 
 
-### 2020    
+### 2020      
 
 <details>
     <summary>
@@ -45,7 +56,6 @@ Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Á
 Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra </summary>
  <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>    
 
-## Publications.
 
 ### 2020
 <details>
