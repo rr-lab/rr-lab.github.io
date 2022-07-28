@@ -13,8 +13,8 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -50,6 +50,7 @@
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -70,6 +71,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -222,7 +226,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -233,49 +237,49 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="people.html">
-    <span class="fas fa-users"></span>
+    <span class="fa fa-users"></span>
      
     People
   </a>
 </li>
 <li>
   <a href="research.html">
-    <span class="fas fa-cog fa-spin"></span>
+    <span class="fa fa-cog fa-spin"></span>
      
     Research
   </a>
 </li>
 <li>
   <a href="publications.html">
-    <span class="fas fa-file-text"></span>
+    <span class="fa fa-file-text"></span>
      
     Publications
   </a>
 </li>
 <li>
   <a href="talks.html">
-    <span class="fas fa-slideshare"></span>
+    <span class="fa fa-slideshare"></span>
      
     Talks
   </a>
 </li>
 <li>
   <a href="news.html">
-    <span class="fas fa-newspaper-o"></span>
+    <span class="fa fa-newspaper-o"></span>
      
     News
   </a>
 </li>
 <li>
   <a href="collaborators.html">
-    <span class="fas fa-handshake-o"></span>
+    <span class="fa fa-handshake-o"></span>
      
     Collaborators
   </a>
@@ -298,63 +302,170 @@ $(document).ready(function () {
 
 
 <hr />
-<p>Complete list of publications can be found at <a href="https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&amp;hl=en">Google Scholar</a>. Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided. Click on the arrows to see a brief summary of what we did in the paper!</p>
+<p>Complete list of publications can be found at <a
+href="https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&amp;hl=en">Google
+Scholar</a>. Journal names have been intentionally excluded. Lab member
+names are in bold. Links are provided to the published article and, if
+publisher does not offer free access, a pdf of the final version. Links
+to code if available are also provided. Click on the arrows to see a
+brief summary of what we did in the paper!</p>
 <div id="preprints" class="section level2">
 <h2>Preprints</h2>
-<div id="section" class="section level3">
-<h3>2021</h3>
+<p><strong>36</strong> <a
+href="https://www.biorxiv.org/content/10.1101/2022.07.15.500250v1">Allele-specific
+expression reveals multiple paths to highland adaptation in maize</a>
+Haixiao Hu, Taylor M Crow, Saghi Nojoomi, Aimee J Schulz, <strong>Juan M
+Estévez-Palmas</strong>, Matthew Hufford, Sherry Flint-Garcia, Ruairidh
+Sawers, <strong>Ruben Rellán-Álvarez</strong>, Jeffrey Ross-Ibarra,
+Daniel E Runcie</p>
+<p><strong>35</strong> <a
+href="https://www.biorxiv.org/content/10.1101/2022.06.03.494450v1">Portrait
+of a genus: genome sequencing reveals evidence of adaptive variation in
+Zea</a> Lu Chen, Jingyun Luo, Minliang Jin, Ning Yang, Xiangguo Liu,
+Yong Peng, Wenqiang Li, Alyssa Philips, Brenda Cameron, Julio Bernal,
+<strong>Rubén Rellán-Álvarez</strong>, Ruairidh JH Sawers, Liu Qing,
+Yuejia Yin, Xinnan Ye, Jiali Yan, Qinghua Zhang, Xiaoting Zhang,
+Shenshen Wu, Songtao Gui, Wenjie Wei, Yuebin Wang, Yun Luo, Chengling
+Jiang, Min Deng, Min Jin, Liumei Jian, Yanhui Yu, Maolin Zhang, Xiaohong
+Yang, Matthew B Hufford, Alisdair R Fernie, Marilyn L Warburton, Jeffrey
+Ross-Ibarra, Jianbing Yan</p>
 <details>
 <summary>
-<strong>31</strong> <a href="https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1">Demonstration of local adaptation of maize landraces by reciprocal transplantation</a>.<br />
-Garrett M. Janzen, María Rocío Aguilar-Rangel, Carolina Cíntora-Martínez, <strong>Karla Azucena Blöcher-Juárez</strong>, Eric González-Segovia, Anthony J. Studer, Daniel E. Runcie, Sherry A. Flint-Garcia, <strong>Rubén Rellán-Álvarez</strong>, Ruairidh J. H. Sawers, Matthew B. Hufford
+<strong>34</strong> <a
+href="https://www.biorxiv.org/content/10.1101/706739v1">Single-gene
+resolution of locally adaptive genetic variation in Mexican maize.</a>
+Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro,
+Martha Willcox, Kai Sonder, Samantha J. Snodgrass, <strong>Fausto
+Rodríguez-Zapata</strong>, Ruairidh J. H. Sawers, <strong>Rubén
+Rellán-Álvarez</strong>, Edward S. Buckler, Sarah Hearne, Matthew B.
+Hufford, Jeffrey Ross-Ibarra
+<p style="margin-left: 30px">
+In this collaboration with the Ross-Ibarra lab we show that some of our
+candidate genes involved in determining glycerolipid concentrations
+overlap identified environmental GWAS and plant peformance by genotype
+interactions in panel 4000 landraces that were top-crossed and evaluated
+in several environments in Mexico
+</p>
+</details>
+</div>
+<div id="publications" class="section level2">
+<h2>Publications</h2>
+<div id="section" class="section level3">
+<h3>2022</h3>
+<p><strong>33</strong> <a
+href="https://academic.oup.com/jxb/advance-article-abstract/doi/10.1093/jxb/erac188/6581266?redirectedFrom=fulltext">ROOT
+PENETRATION INDEX 3, a major quantitative trait locus (QTL) associated
+with root system penetrability in Arabidopsis</a><strong>Elohim Bello
+Bello</strong>, Thelma Y Rico Cambron, Lesly Abril Ortiz Ramírez,
+<strong>Rubén Rellán Álvarez</strong>, Luis Herrera Estrella</p>
+<details>
+<summary>
+<strong>32</strong> <a
+href="https://onlinelibrary.wiley.com/doi/10.1111/eva.13372">Demonstration
+of local adaptation of maize landraces by reciprocal
+transplantation.</a> Garrett M. Janzen, María Rocío Aguilar-Rangel,
+Carolina Cíntora-Martínez, <strong>Karla Azucena
+Blöcher-Juárez</strong>, Eric González-Segovia, Anthony J. Studer,
+Daniel E. Runcie, Sherry A. Flint-Garcia, <strong>Rubén
+Rellán-Álvarez</strong>, Ruairidh J. H. Sawers, Matthew B. Hufford.
 </summary>
 <p style="margin-left: 30px">
-Using a panel of highland and lowland landraces from Mesoamerica and South America grown in highland and lowland common gardens in México we show local adaptation of maize landraces
+Using a panel of highland and lowland landraces from Mesoamerica and
+South America grown in highland and lowland common gardens in México we
+show local adaptation of maize landraces
 </p>
 </details>
 <details>
 <summary>
-<strong>30</strong> <a href="https://www.biorxiv.org/content/10.1101/2021.01.25.426574v1">Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time</a>.<br />
-<strong>Fausto Rodríguez-Zapata</strong>, <strong>Allison C Barnes</strong>, <strong>Karla A Blöcher-Juárez</strong>, Dan Gates, <strong>Andi Kur</strong>, Li Wang, Garrett M Janzen, Sarah Jensen, <strong>Juan M Estévez-Palmas</strong>, Taylor Crow, Rocío Aguilar-Rangel, Edgar Demesa-Arevalo, Tara Skopelitis, Sergio Pérez-Limón, Whitney L Stutts, Peter Thompson, Yu-Chun Chiu, David Jackson, Oliver Fiehn, Daniel Runcie, Edward S Buckler, Jeffrey Ross-Ibarra, Matthew B. Hufford, Ruairidh JH Sawers and <strong>Rubén Rellán-Álvarez</strong>
+<strong>31</strong> <a
+href="https://www.pnas.org/doi/abs/10.1073/pnas.2100036119">An adaptive
+teosinte <em>mexicana</em> introgression modulates phosphatidylcholine
+levels and is associated with maize flowering time</a>.<br />
+<strong>Fausto Rodríguez-Zapata</strong>, <strong>Allison C
+Barnes</strong>, <strong>Karla A Blöcher-Juárez</strong>, Dan Gates,
+<strong>Andi Kur</strong>, Li Wang, Garrett M Janzen, Sarah Jensen,
+<strong>Juan M Estévez-Palmas</strong>, Taylor Crow, <strong>Heli S
+Kavi</strong>, <strong>Hannah D Pil</strong>, <strong>Ruthie L
+Stokes</strong>, Kevan T Knizner, Rocío Aguilar-Rangel, Edgar
+Demesa-Arevalo, Tara Skopelitis, Sergio Pérez-Limón, Whitney L Stutts,
+Peter Thompson, Yu-Chun Chiu, David Jackson, David C Muddiman, Oliver
+Fiehn, Daniel Runcie, Edward S Buckler, Jeffrey Ross-Ibarra, Matthew B.
+Hufford, Ruairidh JH Sawers and <strong>Rubén Rellán-Álvarez</strong>
 </summary>
 <p style="margin-left: 30px">
-Using genomic scans,linkage maping, lipidomics we identified <em>HPC1</em> a teosinte <em>mexicana</em> introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time
+Using genomic scans,linkage maping, lipidomics we identified
+<em>HPC1</em> a teosinte <em>mexicana</em> introgression gene encoding a
+phospholipase that leads to high levels of phosphotydilcholine and
+reduces flowering time
+</p>
+</details>
+<details>
+<summary>
+<strong>30</strong> <a
+href="https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1">A B73
+x Palomero Toluqueño mapping population reveals local adaptation in
+Mexican highland maize</a>.<br />
+Sergio Perez-Limón, Meng Li, G. Carolina Cintora-Martinez, M Rocio
+Aguilar-Rangel, M. Nancy Salazar-Vidal, Eric González-Segovia,
+<strong>Karla Blöcher-Juárez</strong>, Alejandro Guerrero-Zavala,
+Benjamin Barrales-Gamez, Jessica Carcaño-Macias, Denise E. Costich,
+Jorge Nieto-Sotelo, Octavio Martinez de la Vega, June Simpson, Matthew
+B. Hufford, Jeffrey Ross-Ibarra, Sherry Flint-Garcia, Luis Diaz-Garcia,
+<strong>Rubén Rellán-Álvarez</strong>, Ruairidh J. H. Sawers
+</summary>
+<p style="margin-left: 30px">
+We describe GxE QTLs using a biparental mapping population grown in
+highland and lowland environments in México
 </p>
 </details>
 </div>
 <div id="section-1" class="section level3">
-<h3>2020</h3>
+<h3>2021</h3>
+<p><strong>29</strong><a
+href="https://www.sciencedirect.com/science/article/abs/pii/S1369526621001242">The
+arches and spandrels of maize domestication, adaptation, and
+improvement</a>. María Jazmín Abraham-Juárez, <strong>Allison C
+Barnes</strong>, Alejandro Aragón-Raygoza, <strong>Destiny
+Tyson</strong>, <strong>Andi Kur</strong>, Josh Strable, <strong>Rubén
+Rellán-Álvarez</strong>.</p>
 <details>
 <summary>
-<strong>29</strong> <a href="https://www.biorxiv.org/content/10.1101/2020.07.31.227629v1">Molecular Parallelism Underlies Convergent Highland Adaptation of Maize Landraces</a>.<br />
-Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, <strong>Rubén Rellán-Álvarez</strong>, Jeffrey Ross-Ibarra, Matthew B. Hufford
+<strong>28</strong> <a
+href="https://academic.oup.com/mbe/article/38/9/3567/6255756">Molecular
+Parallelism Underlies Convergent Highland Adaptation of Maize
+Landraces</a>.<br />
+Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts,
+<strong>Rubén Rellán-Álvarez</strong>, Jeffrey Ross-Ibarra, Matthew B.
+Hufford
 </summary>
 <p style="margin-left: 30px">
-Maize has adapted to highland environments independently several times. In this study we studied highland adaptation in four highland groups: SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified outlier genes involved in highland adaptation
-</p>
-</details>
-<details>
-<summary>
-<strong>28</strong> <a href="https://www.biorxiv.org/content/10.1101/706739v1">Single-gene resolution of locally adaptive genetic variation in Mexican maize</a>.<br />
-Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, <strong>Fausto Rodríguez-Zapata</strong>, Ruairidh J. H. Sawers, <strong>Rubén Rellán-Álvarez</strong>, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra
-</summary>
-<p style="margin-left: 30px">
-In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico
+Maize has adapted to highland environments independently several times.
+In this study we studied highland adaptation in four highland groups:
+SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified
+outlier genes involved in highland adaptation
 </p>
 </details>
 </div>
-</div>
-<div id="publications." class="section level2">
-<h2>Publications.</h2>
 <div id="section-2" class="section level3">
 <h3>2020</h3>
 <details>
 <summary>
-<strong>27</strong> <a href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009213">Gene regulatory effects of a large chromosomal inversion in highland maize</a>.<br />
-Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, <strong>Ruben Rellan-Alvarez</strong>, Ruairidh Sawers, Daniel Runcie
+<strong>27</strong> <a
+href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009213">Gene
+regulatory effects of a large chromosomal inversion in highland
+maize</a>.<br />
+Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge
+Vladimir Torres Rodrǵuez, Daniel Gates, <strong>Ruben
+Rellan-Alvarez</strong>, Ruairidh Sawers, Daniel Runcie
 </summary>
 <p style="margin-left: 30px">
-<em>Inv4m</em> is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of <em>Inv4m</em> in several fitness traits and identify possible adpative candidates genes within the inversion
+<em>Inv4m</em> is a 13 Mb inversion on chr4 in maize that is the result
+of highland teosinte mexicana in highland maize. This inversion is
+suppossed to have contributed to maize adaptation to highlands. Using a
+combination of association mapping and transcriptomics using NILs
+containing the highland inverted haplotype in a B73 background we study
+the role of <em>Inv4m</em> in several fitness traits and identify
+possible adpative candidates genes within the inversion
 </p>
 </details>
 </div>
@@ -362,11 +473,20 @@ Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir T
 <h3>2019</h3>
 <details>
 <summary>
-<strong>26</strong> <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.192">Inoculation with the mycorrhizal fungus <em>Rhizophagus irregularis</em> modulates the relationship between root growth and nutrient content in maize (<em>Zea mays ssp. mays</em> L.)</a>.<br />
-Flores-Ramirez R, <strong>Elohim Bello-Bello</strong>, <strong>Rellán-Álvarez R</strong>, Sawers R., Olalde-Portugal V
+<strong>26</strong> <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.192">Inoculation
+with the mycorrhizal fungus <em>Rhizophagus irregularis</em> modulates
+the relationship between root growth and nutrient content in maize
+(<em>Zea mays ssp. mays</em> L.)</a>.<br />
+Flores-Ramirez R, <strong>Elohim Bello-Bello</strong>,
+<strong>Rellán-Álvarez R</strong>, Sawers R., Olalde-Portugal V
 </summary>
 <p style="margin-left: 30px">
-We studied the interaction of nutrient uptake with arbuscular mycorrhizal symbiosis. Most nutrients showed a correlation of nutrient uptake with enhanced root growth due to mycorrhizal colonization but some nutrients like P accumulated to levels that are indicative of an active fungal delivery to the roots
+We studied the interaction of nutrient uptake with arbuscular
+mycorrhizal symbiosis. Most nutrients showed a correlation of nutrient
+uptake with enhanced root growth due to mycorrhizal colonization but
+some nutrients like P accumulated to levels that are indicative of an
+active fungal delivery to the roots
 </p>
 </details>
 </div>
@@ -374,93 +494,215 @@ We studied the interaction of nutrient uptake with arbuscular mycorrhizal symbio
 <h3>2017</h3>
 <details>
 <summary>
-<strong>25</strong> <a href="https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx100/4060515/Co-ordinated-Changes-in-the-Accumulation-of-Metal?redirectedFrom=fulltext">Coordinated changes in the accumulation of metal ions in maize (<em>Zea mays ssp. mays L.</em>) in response to inoculation with the arbuscular mycorrhizal fungus <em>Funneliformis mosseae</em></a>.<br />
-Flores-Ramirez R, <strong>Rellán-Álvarez R</strong>, Wozniak B, Gebreselassie M-F, Jakobsen I, Olalde-Portugal V, Baxter I, Paszkowski U, Sawers R.
+<strong>25</strong> <a
+href="https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx100/4060515/Co-ordinated-Changes-in-the-Accumulation-of-Metal?redirectedFrom=fulltext">Coordinated
+changes in the accumulation of metal ions in maize (<em>Zea mays ssp.
+mays L.</em>) in response to inoculation with the arbuscular mycorrhizal
+fungus <em>Funneliformis mosseae</em></a>.<br />
+Flores-Ramirez R, <strong>Rellán-Álvarez R</strong>, Wozniak B,
+Gebreselassie M-F, Jakobsen I, Olalde-Portugal V, Baxter I, Paszkowski
+U, Sawers R.
 </summary>
 <p style="margin-left: 30px">
-We study the effect of mycorrizhal colonization on the ionome of a maize diversity panel a found patterns of coordinated changes among ions with similar biochemical properties
+We study the effect of mycorrizhal colonization on the ionome of a maize
+diversity panel a found patterns of coordinated changes among ions with
+similar biochemical properties
 </p>
 </details>
-<p><strong>24</strong> <a href="http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/abstract">Morphological plant modeling: Unleashing geometric and topological potential within the plant sciences</a>.<br />
-Bucksch A, Atta-Boateng A, Fortune Azihou A, Balduzzi M, Battogtokh D, Baumgartner A, Binder B, Braybrook S, Chang C, Coneva V, DeWitt T, Fletcher A, Gehan M, Hernan Diaz Martinez D, Hong L, Iyer-Pascuzzi A, Klein L, Leiboff S, Li M, Lynch J, Maizel A, Maloof J, Markelz RJ, Martinez C, Miller L, Mio W, Palubicki W, Poorter H, Pradal C, Price C, Puttonen E, Reese J, <strong>Rellán-Alvarez R</strong>, Spalding E, Sparks E, Topp C, Williams J, Chitwood D.</p>
-<p><strong>23</strong> <a href="http://www.pnas.org/content/114/17/E3563">Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate</a><br />
-Mora-Macias J, <strong>Odilon Ojeda-Rivera J</strong>, Gutierrez-Alanis D, Yong-Villalobos L, Oropeza-Aburto A, Raya-González J, Jiménez-Doménguez G, Chavez-Calvillo G, ** Rellán-Álvarez R**, Herrera-Estrella LR.</p>
+<p><strong>24</strong> <a
+href="http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/abstract">Morphological
+plant modeling: Unleashing geometric and topological potential within
+the plant sciences</a>.<br />
+Bucksch A, Atta-Boateng A, Fortune Azihou A, Balduzzi M, Battogtokh D,
+Baumgartner A, Binder B, Braybrook S, Chang C, Coneva V, DeWitt T,
+Fletcher A, Gehan M, Hernan Diaz Martinez D, Hong L, Iyer-Pascuzzi A,
+Klein L, Leiboff S, Li M, Lynch J, Maizel A, Maloof J, Markelz RJ,
+Martinez C, Miller L, Mio W, Palubicki W, Poorter H, Pradal C, Price C,
+Puttonen E, Reese J, <strong>Rellán-Alvarez R</strong>, Spalding E,
+Sparks E, Topp C, Williams J, Chitwood D.</p>
+<p><strong>23</strong> <a
+href="http://www.pnas.org/content/114/17/E3563">Malate-dependent Fe
+accumulation is a critical checkpoint in the root developmental response
+to low phosphate</a><br />
+Mora-Macias J, <strong>Odilon Ojeda-Rivera J</strong>, Gutierrez-Alanis
+D, Yong-Villalobos L, Oropeza-Aburto A, Raya-González J,
+Jiménez-Doménguez G, Chavez-Calvillo G, ** Rellán-Álvarez R**,
+Herrera-Estrella LR.</p>
 </div>
 <div id="section-5" class="section level3">
 <h3>2016</h3>
-<p><strong>22</strong> <a href="http://www.pnas.org/content/113/31/8861.full">Grasses suppress shoot-borne roots to conserve water during drought</a><br />
-Sebastian J, Yee M-C, Goudinho Viana W, <strong>Rellán-Álvarez R</strong>, Feldman M, Priest HD, Trontin C, Lee T, Jiang H, Baxter I, Mockler TC, Hochholdinger F, Brutnell TP, Dinneny JR.</p>
-<p><strong>21</strong> <a href="http://science.sciencemag.org/content/351/6275/824.1">Plant scientists:GM technology is safe</a> <a href="https://github.com/nfahlgren/plant_scientists_support_gmo/blob/master/submitted_article.md">[Github repo]</a>.<br />
-Fahlgren N, Bart R, Herrera-Estrella L, <strong>Rellán-Álvarez R</strong>, Chitwood DH, Dinneny JR.</p>
-<p><strong>20</strong> <a href="http://arjournals.annualreviews.org/eprint/IZTJBGTdd3P8yv4MCmFP/full/10.1146/annurev-arplant-043015-111848">Environmental control of Root System Biology</a>.<br />
+<p><strong>22</strong> <a
+href="http://www.pnas.org/content/113/31/8861.full">Grasses suppress
+shoot-borne roots to conserve water during drought</a><br />
+Sebastian J, Yee M-C, Goudinho Viana W, <strong>Rellán-Álvarez
+R</strong>, Feldman M, Priest HD, Trontin C, Lee T, Jiang H, Baxter I,
+Mockler TC, Hochholdinger F, Brutnell TP, Dinneny JR.</p>
+<p><strong>21</strong> <a
+href="http://science.sciencemag.org/content/351/6275/824.1">Plant
+scientists:GM technology is safe</a> <a
+href="https://github.com/nfahlgren/plant_scientists_support_gmo/blob/master/submitted_article.md">[Github
+repo]</a>.<br />
+Fahlgren N, Bart R, Herrera-Estrella L, <strong>Rellán-Álvarez
+R</strong>, Chitwood DH, Dinneny JR.</p>
+<p><strong>20</strong> <a
+href="http://arjournals.annualreviews.org/eprint/IZTJBGTdd3P8yv4MCmFP/full/10.1146/annurev-arplant-043015-111848">Environmental
+control of Root System Biology</a>.<br />
 <strong>Rellán-Álvarez R</strong>, Lobet G, Dinneny J.R.</p>
 </div>
 <div id="section-6" class="section level3">
 <h3>2015</h3>
-<p><strong>19</strong> <a href="http://dx.doi.org/10.7554/eLife.07597">GLO-Roots: an imaging platform enabling multidimensional characterization of soil-grown roots systems</a>. <a href="https://github.com/rr-lab/GLO-Roots">[Github repo]</a>.<br />
-<strong>Rellán-Álvarez R</strong>, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee MC, Yu G, La Rue T, Trontin C, Schrager A, Haney C, Nieu R, Maloof J, Vogel J, Dinneny JR</p>
+<p><strong>19</strong> <a
+href="http://dx.doi.org/10.7554/eLife.07597">GLO-Roots: an imaging
+platform enabling multidimensional characterization of soil-grown roots
+systems</a>. <a href="https://github.com/rr-lab/GLO-Roots">[Github
+repo]</a>.<br />
+<strong>Rellán-Álvarez R</strong>, Lobet G, Hildner H, Pradier PL,
+Sebastian J, Yee MC, Yu G, La Rue T, Trontin C, Schrager A, Haney C,
+Nieu R, Maloof J, Vogel J, Dinneny JR</p>
 </div>
 <div id="section-7" class="section level3">
 <h3>2013</h3>
-<p><strong>18</strong> <a href="http://jxb.oxfordjournals.org/content/early/2013/05/15/jxb.ert112.abstract">Iron-dependent modifications of the flower transcriptome, proteome, metabolome and hormonal content in an Arabidopsis ferritin mutant</a>.<br />
-Sudre D, Gutiérrez-Carbonell E, Lattanzio G, <strong>Rellán-Álvarez R</strong>, Gaymard F, Wohlgemuth G, Fiehn O, Álvarez Fernández A, Zamarreño AM, Bacaicoa E, Duy D, Garcíamina JM, Abadía J, Philippar K, López-Millán AF, Briat JF.</p>
+<p><strong>18</strong> <a
+href="http://jxb.oxfordjournals.org/content/early/2013/05/15/jxb.ert112.abstract">Iron-dependent
+modifications of the flower transcriptome, proteome, metabolome and
+hormonal content in an Arabidopsis ferritin mutant</a>.<br />
+Sudre D, Gutiérrez-Carbonell E, Lattanzio G, <strong>Rellán-Álvarez
+R</strong>, Gaymard F, Wohlgemuth G, Fiehn O, Álvarez Fernández A,
+Zamarreño AM, Bacaicoa E, Duy D, Garcíamina JM, Abadía J, Philippar K,
+López-Millán AF, Briat JF.</p>
 </div>
 <div id="section-8" class="section level3">
 <h3>2012</h3>
-<p><strong>17</strong> <a href="www.plantcell.org/content/24/6/2380.abstract">New functions of nicotianamine in the phloem-based transport of iron to sink organs, in pollen development and in pollen tube growth</a>.<br />
-Schüler M, <strong>Rellán-Álvarez R</strong>, Fink-Straube C, Abadía J, Petra Bauer.</p>
-<p><strong>16</strong> <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03978.x/abstract">Oxidative stress is a consequence, not a cause, of aluminum toxicity in the forage legume Lotus corniculatus</a>.<br />
-Navascués J, Pérez-Rontomé C, Sánchez DH, Staudinger C, Wienkoop S, <strong>Rellán- Álvarez R</strong>, Becana M.</p>
+<p><strong>17</strong> <a
+href="www.plantcell.org/content/24/6/2380.abstract">New functions of
+nicotianamine in the phloem-based transport of iron to sink organs, in
+pollen development and in pollen tube growth</a>.<br />
+Schüler M, <strong>Rellán-Álvarez R</strong>, Fink-Straube C, Abadía J,
+Petra Bauer.</p>
+<p><strong>16</strong> <a
+href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03978.x/abstract">Oxidative
+stress is a consequence, not a cause, of aluminum toxicity in the forage
+legume Lotus corniculatus</a>.<br />
+Navascués J, Pérez-Rontomé C, Sánchez DH, Staudinger C, Wienkoop S,
+<strong>Rellán- Álvarez R</strong>, Becana M.</p>
 </div>
 <div id="section-9" class="section level3">
 <h3>2011</h3>
-<p><strong>15</strong> <a href="http://www.frontiersin.org/Plant_Nutrition/10.3389/fpls.2011.00066/abstract">Metabolite profile changes in xylem sap and leaves of Strategy I plants in response to iron deficiency and iron resupply</a>.<br />
-<strong>Rellán-Álvarez R</strong>, El Jendoubi H, Wohlgemuth G, Fiehn O, Abadía A, Abadía J, Álvarez Fernández A.</p>
-<p><strong>14</strong> <a href="http://pubs.acs.org/doi/abs/10.1021/jf200482a">Development of a new high-performance liquid chromatography electrospray ionization time-of-flight mass spectrometry method for the determination of low molecular mass organic acids in plant tissue extracts</a>. <a href="pdfs/14-2011-rra.pdf">[PDF]</a><br />
-<strong>Rellán-Álvarez R</strong>, López-Gomollón S, Abadía J, Álvarez-Fernández A.</p>
-<p><strong>13</strong> <a href="http://www.sciencedirect.com/science/article/pii/S0981942811000428">Towards a knowledge-based correction of iron chlorosis</a>. <a href="pdfs/13-2011-abadia.pdf">[PDF]</a><br />
-Abadía J, Vázquez S, <strong>Rellán-Álvarez R</strong>, El Jendoubi H, Abadía A, Álvarez- Fernández A, López-Millán AF.</p>
-<p><strong>12</strong> <a href="http://www.sciencedirect.com/science/article/pii/S0176161710005511">Carboxylate metabolism in sugar beet plants grown with excess Zn</a>. <a href="pdfs/12-2011-sagardoy.pdf">[PDF]</a><br />
-Sagardoy R, Morales F, <strong>Rellán-Álvarez R</strong>, Abadía A, Abadía J, López-Millán AF.</p>
-<p><strong>11</strong> <a href="http://www.sciencedirect.com/science/article/pii/S0176161710004165">Metabolic response in roots of Prunus rootstocks submitted to iron chlorosis</a>.<br />
-Jiménez S, Ollat N, Deborde C, Maucourt M, <strong>Rellán-Álvarez R</strong>, Moreno MA, Gogorcena Y.</p>
+<p><strong>15</strong> <a
+href="http://www.frontiersin.org/Plant_Nutrition/10.3389/fpls.2011.00066/abstract">Metabolite
+profile changes in xylem sap and leaves of Strategy I plants in response
+to iron deficiency and iron resupply</a>.<br />
+<strong>Rellán-Álvarez R</strong>, El Jendoubi H, Wohlgemuth G, Fiehn O,
+Abadía A, Abadía J, Álvarez Fernández A.</p>
+<p><strong>14</strong> <a
+href="http://pubs.acs.org/doi/abs/10.1021/jf200482a">Development of a
+new high-performance liquid chromatography electrospray ionization
+time-of-flight mass spectrometry method for the determination of low
+molecular mass organic acids in plant tissue extracts</a>. <a
+href="pdfs/14-2011-rra.pdf">[PDF]</a><br />
+<strong>Rellán-Álvarez R</strong>, López-Gomollón S, Abadía J,
+Álvarez-Fernández A.</p>
+<p><strong>13</strong> <a
+href="http://www.sciencedirect.com/science/article/pii/S0981942811000428">Towards
+a knowledge-based correction of iron chlorosis</a>. <a
+href="pdfs/13-2011-abadia.pdf">[PDF]</a><br />
+Abadía J, Vázquez S, <strong>Rellán-Álvarez R</strong>, El Jendoubi H,
+Abadía A, Álvarez- Fernández A, López-Millán AF.</p>
+<p><strong>12</strong> <a
+href="http://www.sciencedirect.com/science/article/pii/S0176161710005511">Carboxylate
+metabolism in sugar beet plants grown with excess Zn</a>. <a
+href="pdfs/12-2011-sagardoy.pdf">[PDF]</a><br />
+Sagardoy R, Morales F, <strong>Rellán-Álvarez R</strong>, Abadía A,
+Abadía J, López-Millán AF.</p>
+<p><strong>11</strong> <a
+href="http://www.sciencedirect.com/science/article/pii/S0176161710004165">Metabolic
+response in roots of Prunus rootstocks submitted to iron
+chlorosis</a>.<br />
+Jiménez S, Ollat N, Deborde C, Maucourt M, <strong>Rellán-Álvarez
+R</strong>, Moreno MA, Gogorcena Y.</p>
 </div>
 <div id="section-10" class="section level3">
 <h3>2010</h3>
-<p><strong>10</strong> <a href="http://www.biomedcentral.com/1471-2229/10/120">Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply</a>.<br />
-<strong>Rellán-Álvarez R</strong>, Andaluz S, Rodríguez-Celma J, Wohlgemuth G, Zocchi G, Álvarez-Fernández A, Fiehn O, López-Millán AF, Abadía J.</p>
-<p><strong>9</strong> <a href="http://www.sciencedirect.com/science/article/pii/S1874391910001351">Changes induced by two levels of cadmium toxicity in the 2-DE protein profile of tomato roots</a>. <a href="pdfs/09-2010-rod-celma.pdf">[PDF]</a><br />
-Rodríguez-Celma J, <strong>Rellán-Álvarez R</strong>, Abadía A, Abadía J, López-Millán AF.</p>
-<p><strong>8</strong> <a href="http://pubs.acs.org/doi/abs/10.1021/jf100282f">Growth, yield and fruit quality of pepper plants amended with two sanitized sewage sludges</a>. <a href="pdfs/08-2010-pascual.pdf">[PDF]</a> Pascual I, Azcona I, Aguirreolea J, Morales F, Corpas FJ, Palma JM <strong>Rellán-Álvarez R</strong>, Sánchez-Díaz M. G.</p>
-<p><strong>7</strong> <a href="http://pcp.oxfordjournals.org/content/51/1/91.long">Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport</a>.<br />
-<strong>Rellán-Álvarez R</strong>, Giner-Martínez-Sierra J, Orduna J, Orera I, Rodríguez- Castrillón JA, García-Alonso JI, Abadía J, Álvarez-Fernández A.</p>
+<p><strong>10</strong> <a
+href="http://www.biomedcentral.com/1471-2229/10/120">Changes in the
+proteomic and metabolic profiles of Beta vulgaris root tips in response
+to iron deficiency and resupply</a>.<br />
+<strong>Rellán-Álvarez R</strong>, Andaluz S, Rodríguez-Celma J,
+Wohlgemuth G, Zocchi G, Álvarez-Fernández A, Fiehn O, López-Millán AF,
+Abadía J.</p>
+<p><strong>9</strong> <a
+href="http://www.sciencedirect.com/science/article/pii/S1874391910001351">Changes
+induced by two levels of cadmium toxicity in the 2-DE protein profile of
+tomato roots</a>. <a href="pdfs/09-2010-rod-celma.pdf">[PDF]</a><br />
+Rodríguez-Celma J, <strong>Rellán-Álvarez R</strong>, Abadía A, Abadía
+J, López-Millán AF.</p>
+<p><strong>8</strong> <a
+href="http://pubs.acs.org/doi/abs/10.1021/jf100282f">Growth, yield and
+fruit quality of pepper plants amended with two sanitized sewage
+sludges</a>. <a href="pdfs/08-2010-pascual.pdf">[PDF]</a> Pascual I,
+Azcona I, Aguirreolea J, Morales F, Corpas FJ, Palma JM
+<strong>Rellán-Álvarez R</strong>, Sánchez-Díaz M. G.</p>
+<p><strong>7</strong> <a
+href="http://pcp.oxfordjournals.org/content/51/1/91.long">Identification
+of a tri-iron(III), tri-citrate complex in the xylem sap of
+iron-deficient tomato resupplied with iron: new insights into plant iron
+long-distance transport</a>.<br />
+<strong>Rellán-Álvarez R</strong>, Giner-Martínez-Sierra J, Orduna J,
+Orera I, Rodríguez- Castrillón JA, García-Alonso JI, Abadía J,
+Álvarez-Fernández A.</p>
 </div>
 <div id="section-11" class="section level3">
 <h3>2009</h3>
-<p><strong>6</strong> <a href="http://www.sciencedirect.com/science/article/pii/S0304389409010152">Effect of oil refinery sludges on the growth and antioxidant system of alfalfa plants</a>. <a href="pdfs/06-2009-marti.pdf">[PDF]</a><br />
-Martí MC, Camejo D, Fernández-García N, <strong>Rellán-Álvarez R</strong>, Marques S, Sevilla F, Jiménez A.</p>
+<p><strong>6</strong> <a
+href="http://www.sciencedirect.com/science/article/pii/S0304389409010152">Effect
+of oil refinery sludges on the growth and antioxidant system of alfalfa
+plants</a>. <a href="pdfs/06-2009-marti.pdf">[PDF]</a><br />
+Martí MC, Camejo D, Fernández-García N, <strong>Rellán-Álvarez
+R</strong>, Marques S, Sevilla F, Jiménez A.</p>
 </div>
 <div id="section-12" class="section level3">
 <h3>2008</h3>
-<p><strong>5</strong> <a href="http://onlinelibrary.wiley.com/doi/10.1002/rcm.3523/abstract">Formation of metal- nicotianamine complexes as affected by pH, ligand exchange with citrate and metal exchange. A study by electrospray ionization time-of-flight mass spectrometry</a>. <a href="pdfs/05-2008-rra.pdf">[PDF]</a><br />
+<p><strong>5</strong> <a
+href="http://onlinelibrary.wiley.com/doi/10.1002/rcm.3523/abstract">Formation
+of metal- nicotianamine complexes as affected by pH, ligand exchange
+with citrate and metal exchange. A study by electrospray ionization
+time-of-flight mass spectrometry</a>. <a
+href="pdfs/05-2008-rra.pdf">[PDF]</a><br />
 <strong>Rellán-Álvarez R</strong>, Abadía J, Álvarez-Fernández A.</p>
 </div>
 <div id="section-13" class="section level3">
 <h3>2007</h3>
-<p><strong>4</strong> <a href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02162.x/full">Rapid alteration of cellular redox homeostasis upon exposure to cadmium and mercury in alfalfa seedlings</a>.<br />
-Ortega-Villasante C, Hernández LE, <strong>Rellán-Álvarez R</strong>, Del Campo FF, Carpena- Ruíz RO.</p>
+<p><strong>4</strong> <a
+href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02162.x/full">Rapid
+alteration of cellular redox homeostasis upon exposure to cadmium and
+mercury in alfalfa seedlings</a>.<br />
+Ortega-Villasante C, Hernández LE, <strong>Rellán-Álvarez R</strong>,
+Del Campo FF, Carpena- Ruíz RO.</p>
 </div>
 <div id="section-14" class="section level3">
 <h3>2006</h3>
-<p><strong>3</strong> <a href="http://www.sciencedirect.com/science/article/pii/S0003269706004015">Direct and simultaneous determination of reduced and oxidized glutathione and homoglutathione by liquid chromatography-electrospray/mass spectrometry in plant tissue extracts</a>. <a href="pdfs/03-2006-rra.pdf">[PDF]</a><br />
-<strong>Rellán-Álvarez R</strong>, Hernández LE, Abadía J, Álvarez-Fernández A.</p>
-<p><strong>2</strong> <a href="http://rd.springer.com/article/10.1007/s11104-005-3900-1">Stress responses of <em>Zea mays</em> to cadmium and mercury</a>. <a href="pdfs/02-2006-rra.pdf">[PDF]</a><br />
-<strong>Rellán-Álvarez R</strong>, Ortega-Villasante C,Álvarez-Fernández A, Del Campo FF, Hernández LE.</p>
+<p><strong>3</strong> <a
+href="http://www.sciencedirect.com/science/article/pii/S0003269706004015">Direct
+and simultaneous determination of reduced and oxidized glutathione and
+homoglutathione by liquid chromatography-electrospray/mass spectrometry
+in plant tissue extracts</a>. <a
+href="pdfs/03-2006-rra.pdf">[PDF]</a><br />
+<strong>Rellán-Álvarez R</strong>, Hernández LE, Abadía J,
+Álvarez-Fernández A.</p>
+<p><strong>2</strong> <a
+href="http://rd.springer.com/article/10.1007/s11104-005-3900-1">Stress
+responses of <em>Zea mays</em> to cadmium and mercury</a>. <a
+href="pdfs/02-2006-rra.pdf">[PDF]</a><br />
+<strong>Rellán-Álvarez R</strong>, Ortega-Villasante C,Álvarez-Fernández
+A, Del Campo FF, Hernández LE.</p>
 </div>
 <div id="section-15" class="section level3">
 <h3>2005</h3>
-<p><strong>1</strong> <a href="http://jxb.oxfordjournals.org/content/56/418/2239.abstract">Cellular damage induced by cadmium and mercury in Medicago sativa</a>.<br />
-Ortega-Villasante C, <strong>Rellán-Álvarez R</strong>, Del Campo FF, Carpena-Ruíz RO, Hernández LE.</p>
+<p><strong>1</strong> <a
+href="http://jxb.oxfordjournals.org/content/56/418/2239.abstract">Cellular
+damage induced by cadmium and mercury in Medicago sativa</a>.<br />
+Ortega-Villasante C, <strong>Rellán-Álvarez R</strong>, Del Campo FF,
+Carpena-Ruíz RO, Hernández LE.</p>
 </div>
 </div>
 

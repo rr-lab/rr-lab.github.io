@@ -7,6 +7,28 @@ output: html_document
 
 ---
 
+### 2022
+
+- Nirwan Tandukar, a PhD student from the Functional Genomics Program joined the lab to work in the DOE CAREER project in January 2022
+
+- Ruthie Stokes, a PhD student from the Biochemistry program joined the lab in January 2022
+
+- Ruthie Stokes was accepted into the [AgBioFews program.](https://research.ncsu.edu/ges/academics/agbiofews/students-3/)
+
+### 2020-2021  
+
+Lot's of things happened during this time in the world and our lab. To summarize:
+
+- Destiny Tyson joined our lab as a PhD student co-mentored with Jim Holland. 
+
+- Andi Kur left the lab to start a career in scientific illustration and now as mid-school teacher. Lucky students!  
+
+- We were funded with a DOE CAREER grant to study how to combine diverse geentic mapping datasets to improve our ability to discover candidate genes involved in adaptation to environmental stresses.
+
+- We are part of the team that got funded to start [STEPS](https://steps-center.org/), the Science and Technologies for Phosphorus Sustainability NSF Center. 
+
+- We got a Scientific Exchanges grant from the Foregign Agricultural Service to work with our colleagues in Perú.  
+
 
 ### 2020
 

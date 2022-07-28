@@ -14,14 +14,17 @@ Allison joined the lab in NCSU in June 2019. Among other things she is working i
 <i class="fa fa-twitter" aria-hidden="true"></i>
 </a>  
 
-**Andi Kur** PhD Student. NCSU Genetics program. AgBioFews Program.   
-Andi joined the lab in August 2020. Andi did a Masters at the University of Vermont and UC Davis working on the population genetics of African maize adaptation to New England. She will continue working on landrace local adaptation using a variety of mapping populations.  
-<a href="https://twitter.com/Andi_Kur_">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-</a>  
+**Pascual Blanco** Field Technician.
+Pascual joined the lab in the Fall of 2021. He manages all our field operations. 
 
-**Christina Merkel** Lab Tech   
-Christina recently got a Biochemistry Major at NCSU and is working with us a lab technician. 
+**Shannon Persaud** Undergraduate student. Genetics Major.
+Shannon joined the lab in the Summer of 2022. 
+
+**Hannah Pil** Undergraduate student. Genetics Major.
+Hannah joined the lab in the Summer of 2021 and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6)
+
+**Ruthie Stokes** PhD Student, Biochemistry Program   
+Ruthie joined the lab in the Fall of 2021 and is working on the characterization of lipid-protein interactions.  
  
 **Rubén Rellán-Álvarez. PI**  
 Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU  
@@ -35,8 +38,7 @@ Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU
 <i class="fa fa-file-text" aria-hidden="true"></i>
 </a>  
 
-
-**Fausto Rodríguez Zapata** PhD Student. NCSU Genetics program  
+**Fausto Rodríguez Zapata** PhD Student. NCSU Genetics program. STEPS Center.  
 Fausto studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.  
 <a href="https://twitter.com/chyscamuy">
 <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -44,45 +46,44 @@ Fausto studies maize glycerolipid quantitative and population genetics and genet
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
 
-### Team in México   
+**Nirwan Tandukar** PhD Student, Genetics Program.     
+Nirwan joined in the lab in January 2022. He is working on the development of approaches that use multiple genetic datasets to identify genes in adaptation to abiotic stresses.   
+
+**Destiny Tyson** PhD Student, Genetics Program. Co-advised with Jim Holland.    
+Destiny joined the lab in the Fall of 2020. She is working on developing gene editing approaches to study maize photoperiod adaptation.    
+
+### Former lab members  
+
+**Heli Kavi** Undergraduate student.
 
 **Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*  
-Elohim studies natural variation of root soil penetration using Arabidopsis.   
 
 **Jessica Carcaño** *Administrative assistant*.  
-Jessy helps to run our lab and Ruairidh Sawers' and Stewart Gillmor´s labs.    
 
 **Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
-Jonathan is studying an Arabidopsis mutant that shows indeterminate primary root growth in low Phosphorus conditions.    
 <a href="https://twitter.com/jonojedarivera">
 <i class="fa fa-twitter" aria-hidden="true"></i>
 </a>  
 
 **Fabián Santa Maria** Master Student *co-advised with Luis Delaye*.   
-Fabian works on *xipotl* genes, involved in phosphatydilcholine biosynthesis and in *opr7/opr8* involved in jasmonic acid biosynthesis   
-<!-- break -->
-<br><br><br>
-<!-- break -->
 
+**Andi Kur** PhD Student. NCSU Genetics program. AgBioFews Program.   
+<a href="https://twitter.com/Andi_Kur_">
+<i class="fa fa-twitter" aria-hidden="true"></i>
+</a>  
 
-### Former lab members  
-
+**Christina Merkel** Lab Tech   
 
 **Patricio Cid** *Field Manager*.  
-Patricio directed all the field operations of our lab and of ours and Sawers' labs.  
 
 **Juan Estévez** *Wet Lab Manager*.  
-Juan ran all the big genotyping, GBSing and cloning of our and Sawers´ labs.  
 
 **Karla Juarez** *Master Student*.   
-Karla studied the role of phospholipids in maize adaptation to low phosphorus and low temperature.  
 
-**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. Sofía worked with the *xipotl* family of genes in maize a set of genes that are involved in the methylation pathway of phosphatidylcholine.  
+**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. 
 
 **Vladimir Torres**. Master Student *co-advised with Ruairidh Sawers*.    
-Vladimir studied how an introgression of Teosinte parviglumis in B73 affects root growth and phoshorus deficiency. He is currently doing his PhD with Ruairidh Sawers.  
 
 **Christian Escoto**. Master Student *co-advised with Ruairidh Sawers*.   
-Christian worked in the analysis of different morphological traits affected by Phosphorus deficiency using a CML228 x B73 RIL mapping population.  
 
-**Dario Alávez**. Dario worked as lab and field tech mainly developing a collection of Uniform-Mu mutants targetting a number of glycerolipid sysnthesis and degradation genes.
+**Dario Alávez** *Lab Technician*. 
