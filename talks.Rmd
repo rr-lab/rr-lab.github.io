@@ -6,6 +6,29 @@ output: html_document
 
 
 ---
+### 2023
+
+#### August
+
+- Invited Talk. China Agricultural University, Workshop on Plant Responses to Abiotic Stresses and Environmental Signals. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
+
+#### May
+
+- Invited Seminar. University of California at Riverside. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
+
+#### April
+
+- Invited Seminar. Plant Breeding Consortium. North Carolina State University. “The genetics of Maize Wild Relatives and Maize Native Varieties local adaptation.”
+
+#### February
+
+- Invited Seminar. University of Madison Wisconsin. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
+
+### 2022
+
+#### April
+
+- Invited Seminar at University of Nebraska Lincoln. Center for Biological Chemistry and Redox Biology Center.“North, South, Up and Down. The genes and molecules that allow maize to move all around.”
 
 ### 2021
 
