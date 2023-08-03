@@ -13,7 +13,7 @@
 
 <title>Lab Members</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -131,11 +131,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -302,6 +306,18 @@ $(document).ready(function () {
 
 
 <hr />
+<p><img src="images/2022_nursery.jpg" style="width: 600px;"></p>
+<p><strong>Summer 2022 Nursery</strong></p>
+<p><br></p>
+<p><img src="images/2023_rna_seq_sampling.jpg" style="width: 600px;"></p>
+<p><strong>Sampling for lipidomics and RNA-Seq with the Gage and Strable
+labs</strong></p>
+<p><br></p>
+<p><img src="images/2022_Spring_lap_pic.png" style="width: 600px;"></p>
+<p><strong>Lab in May 2022</strong></p>
+<p><br></p>
+<div id="current-members-of-the-lab-august-2023" class="section level2">
+<h2>Current members of the lab, August 2023</h2>
 <p><strong>Allison Barnes</strong> Postdoc.<br />
 Allison joined the lab in NCSU in June 2019. Among other things she is
 working in the functional characterization of a maize
@@ -310,12 +326,19 @@ phospholipase.<br />
 <i class="fa fa-twitter" aria-hidden="true"></i> </a></p>
 <p><strong>Pascual Blanco</strong> Field Technician. Pascual joined the
 lab in the Fall of 2021. He manages all our field operations.</p>
+<p><strong>Aleya Mohammed</strong> Undergraduate student. Biochemistry
+Major. Aleya joined the lab in the Spring of 2023.</p>
 <p><strong>Shannon Persaud</strong> Undergraduate student. Genetics
 Major. Shannon joined the lab in the Summer of 2022.</p>
-<p><strong>Hannah Pil</strong> Undergraduate student. Genetics Major.
-Hannah joined the lab in the Summer of 2021 and since then <a
+<p><strong>Emily Phung</strong> Lab Technician. Emily joined the lab in
+the Spring of 2023. She manages several abiotic stress screens of our
+teosinte introgression populations.</p>
+<p><strong>Hannah Pil</strong> Lab Manager/Technician. Hannah joined the
+lab in the Summer of 2021 as an undergraduate and since then <a
 href="https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6">she has become a
-master corn pollinator</a></p>
+master corn pollinator</a>. She is currently working as a lab
+manager/technician before she starts her PhD in Genetics in the Fall of
+2023.</p>
 <p><strong>Ruthie Stokes</strong> PhD Student, Biochemistry
 Program<br />
 Ruthie joined the lab in the Fall of 2021 and is working on the
@@ -323,9 +346,7 @@ characterization of lipid-protein interactions.</p>
 <p><strong>Rubén Rellán-Álvarez. PI</strong><br />
 Rubén is an Assistant Professor at the Biochemistry Department at CALS -
 NCSU<br />
-<a href="https://twitter.com/rrellanalvarez">
-<i class="fa fa-twitter" aria-hidden="true"></i> </a>
-<a href="https://github.com/rellan">
+</a> <a href="https://github.com/rellan">
 <i class="fa fa-github-alt" aria-hidden="true"></i> </a>
 <a href="mailto:rrellan@ncsu.edu">
 <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -376,6 +397,7 @@ Ruairidh Sawers</em>.</p>
 <p><strong>Christian Escoto</strong>. Master Student <em>co-advised with
 Ruairidh Sawers</em>.</p>
 <p><strong>Dario Alávez</strong> <em>Lab Technician</em>.</p>
+</div>
 </div>
 
 

@@ -13,7 +13,7 @@
 
 <title>News</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -131,11 +131,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -303,19 +307,48 @@ $(document).ready(function () {
 
 <hr />
 <div id="section" class="section level3">
+<h3>2023</h3>
+<ul>
+<li><p>Nirwan visited the laboratory of Ed Buckler.</p></li>
+<li><p>Briana Parker and undergraduate student from California State
+University at Sacramento joined the lab for an REU stay.</p></li>
+<li><p>Aleya Mohammed a student from the Biochemistry major joined the
+lab.</p></li>
+<li><p>Emily Phung joined the lab to work as lab technician.</p></li>
+<li><p>Rubén visited UC Riverside to give a talk in the Institute for
+Integrative Genome Biology</p></li>
+<li><p>Destiny, Ruthie, Hannah, Nirwan and Rubén attented the Maize
+Meeting in Saint Louis.</p></li>
+<li><p>Fausto passed his prelims!</p></li>
+<li><p>Fausto visited our collaborators Jeff Ross-Ibarra and Dan Runcie
+in UC Davis.</p></li>
+<li><p>Hannah Pil graduated as a Genetics Major and is now working as a
+full time lab technician.</p></li>
+<li><p>Pascual Blanco is now working as full time field
+tecnhnician.</p></li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
 <h3>2022</h3>
 <ul>
 <li><p>Nirwan Tandukar, a PhD student from the Functional Genomics
 Program joined the lab to work in the DOE CAREER project in January
 2022</p></li>
 <li><p>Ruthie Stokes, a PhD student from the Biochemistry program joined
-the lab in January 2022</p></li>
+the lab in January 2022.</p></li>
+<li><p>Fausto and Allison won the Genetics and Genomics Academy paper of
+the year!</p></li>
+</ul>
+<p><img src="images/2022_gga_paper.jpg" style="width: 500px;"></p>
+<ul>
 <li><p>Ruthie Stokes was accepted into the <a
 href="https://research.ncsu.edu/ges/academics/agbiofews/students-3/">AgBioFews
 program.</a></p></li>
+<li><p>Pascual Blanco joined the lab as a part time field
+technician.</p></li>
 </ul>
 </div>
-<div id="section-1" class="section level3">
+<div id="section-2" class="section level3">
 <h3>2020-2021</h3>
 <p>Lot’s of things happened during this time in the world and our lab.
 To summarize:</p>
@@ -335,14 +368,14 @@ for Phosphorus Sustainability NSF Center.</p></li>
 Agricultural Service to work with our colleagues in Perú.</p></li>
 </ul>
 </div>
-<div id="section-2" class="section level3">
+<div id="section-3" class="section level3">
 <h3>2020</h3>
 <ul>
 <li>August. Andi Kur joined the lab and will start her PhD in the
 Genetics program with a fellowship from the AgBioFews Program.</li>
 </ul>
 </div>
-<div id="section-3" class="section level3">
+<div id="section-4" class="section level3">
 <h3>2019</h3>
 <ul>
 <li><p>October 10th Fausto gave a talk at NCSU’s Intrynsic
@@ -383,7 +416,7 @@ State University, Deparment of Structural and Molecular
 Biochemistry.</strong></p></li>
 </ul>
 </div>
-<div id="section-4" class="section level3">
+<div id="section-5" class="section level3">
 <h3>2018</h3>
 <ul>
 <li><p>August 5-10th. Karla gave a talk at the 12th International Plant
@@ -405,7 +438,7 @@ href="https://mexpopgen.wordpress.com/">MexPopGen</a> meeting organized
 in Langebio.</p></li>
 </ul>
 </div>
-<div id="section-5" class="section level3">
+<div id="section-6" class="section level3">
 <h3>2017</h3>
 <ul>
 <li><p>November 13-17th. We were part of the organizing committee of the
@@ -453,7 +486,7 @@ Nursery.
 <img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/winter_nursery.png" width="500"></p></li>
 </ul>
 </div>
-<div id="section-6" class="section level3">
+<div id="section-7" class="section level3">
 <h3>2016</h3>
 <ul>
 <li><p>December 19. Our collaboration with Luis Herrera-Estrella´s lab

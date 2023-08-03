@@ -8,6 +8,26 @@ output: html_document
 ---
 
 
+<img src="images/2022_nursery.jpg" style="width: 600px;">
+
+**Summer 2022 Nursery**
+
+<br>
+
+<img src="images/2023_rna_seq_sampling.jpg" style="width: 600px;">
+
+**Sampling for lipidomics and RNA-Seq with the Gage and Strable labs**
+
+<br>
+
+<img src="images/2022_Spring_lap_pic.png" style="width: 600px;">
+
+**Lab in May 2022**
+
+<br>
+
+## Current members of the lab, August 2023
+
 **Allison Barnes** Postdoc.   
 Allison joined the lab in NCSU in June 2019. Among other things she is working in the functional characterization of a maize phospholipase.  
 <a href="https://twitter.com/asiekmanbarnes">
@@ -17,19 +37,22 @@ Allison joined the lab in NCSU in June 2019. Among other things she is working i
 **Pascual Blanco** Field Technician.
 Pascual joined the lab in the Fall of 2021. He manages all our field operations. 
 
+**Aleya Mohammed** Undergraduate student. Biochemistry Major.
+Aleya joined the lab in the Spring of 2023. 
+
 **Shannon Persaud** Undergraduate student. Genetics Major.
 Shannon joined the lab in the Summer of 2022. 
 
-**Hannah Pil** Undergraduate student. Genetics Major.
-Hannah joined the lab in the Summer of 2021 and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6)
+**Emily Phung** Lab Technician. Emily joined the lab in the Spring of 2023. She manages several abiotic stress screens of our teosinte introgression populations. 
+
+**Hannah Pil** Lab Manager/Technician.
+Hannah joined the lab in the Summer of 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6). She is currently working as a lab manager/technician before she starts her PhD in Genetics in the Fall of 2023.
 
 **Ruthie Stokes** PhD Student, Biochemistry Program   
 Ruthie joined the lab in the Fall of 2021 and is working on the characterization of lipid-protein interactions.  
  
 **Rubén Rellán-Álvarez. PI**  
 Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU  
-<a href="https://twitter.com/rrellanalvarez">
-<i class="fa fa-twitter" aria-hidden="true"></i>
 </a>  <a href="https://github.com/rellan">
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a> <a href="mailto:rrellan@ncsu.edu">
