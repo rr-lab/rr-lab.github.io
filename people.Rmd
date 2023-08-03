@@ -14,6 +14,12 @@ output: html_document
 
 <br>
 
+<img src="images/2022_the4th_with_holland_lab.jpg" style="width: 600px;">
+
+**With the Holland lab enjoying the classic 4th of July Popsicles**
+
+<br>
+
 <img src="images/2023_rna_seq_sampling.jpg" style="width: 600px;">
 
 **Sampling for lipidomics and RNA-Seq with the Gage and Strable labs**

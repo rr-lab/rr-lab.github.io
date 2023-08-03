@@ -11,58 +11,50 @@ output: html_document
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
 Click on the arrows to see a brief summary of what we did in the paper!
 
-## Preprints
 
-**36** [Allele-specific expression reveals multiple paths to highland adaptation in maize](https://www.biorxiv.org/content/10.1101/2022.07.15.500250v1)
+### 2023
+
+**37** [Genetic mapping of maize metabolites using high-throughput mass profiling](https://www.sciencedirect.com/science/article/abs/pii/S0168945222003557). Tzitziki González-Rodríguez, Sergio Pérez-Limón, Héctor Peniche-Pavía, **Rubén Rellán-Álvarez**, Ruairidh J.H. Sawers, Robert Winkler
+
+
+### 2022
+
+**36** [Allele-specific expression reveals multiple paths to highland adaptation in maize](https://academic.oup.com/mbe/article/39/11/msac239/6795225)
 Haixiao Hu, Taylor M Crow, Saghi Nojoomi, Aimee J Schulz, **Juan M Estévez-Palmas**, Matthew Hufford, Sherry Flint-Garcia, Ruairidh Sawers, **Ruben Rellán-Álvarez**, Jeffrey Ross-Ibarra, Daniel E Runcie
 
-**35** [Portrait of a genus: genome sequencing reveals evidence of adaptive variation in Zea](https://www.biorxiv.org/content/10.1101/2022.06.03.494450v1)
+**35** [Genome sequencing reveals evidence of adaptive variation in the genus Zea](https://www.nature.com/articles/s41588-022-01184-y)
 Lu Chen, Jingyun Luo, Minliang Jin, Ning Yang, Xiangguo Liu, Yong Peng, Wenqiang Li, Alyssa Philips, Brenda Cameron, Julio Bernal, **Rubén Rellán-Álvarez**, Ruairidh JH Sawers, Liu Qing, Yuejia Yin, Xinnan Ye, Jiali Yan, Qinghua Zhang, Xiaoting Zhang, Shenshen Wu, Songtao Gui, Wenjie Wei, Yuebin Wang, Yun Luo, Chengling Jiang, Min Deng, Min Jin, Liumei Jian, Yanhui Yu, Maolin Zhang, Xiaohong Yang, Matthew B Hufford, Alisdair R Fernie, Marilyn L Warburton, Jeffrey Ross-Ibarra, Jianbing Yan
 
 <details>
     <summary>
-**34** [Single-gene resolution of locally adaptive genetic variation in Mexican maize.](https://www.biorxiv.org/content/10.1101/706739v1)
-Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra
-<p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>  
-
-## Publications
-
-### 2022
-
-**33** [ROOT PENETRATION INDEX 3, a major quantitative trait locus (QTL) associated with root system penetrability in Arabidopsis](https://academic.oup.com/jxb/advance-article-abstract/doi/10.1093/jxb/erac188/6581266?redirectedFrom=fulltext)**Elohim Bello Bello**, Thelma Y Rico Cambron, Lesly Abril Ortiz Ramírez, **Rubén Rellán Álvarez**, Luis Herrera Estrella  
-
-
-<details>
-    <summary>
-**32** [Demonstration of local adaptation of maize landraces by reciprocal transplantation.](https://onlinelibrary.wiley.com/doi/10.1111/eva.13372)
-Garrett M. Janzen, María Rocío Aguilar-Rangel, Carolina Cíntora-Martínez, **Karla Azucena Blöcher-Juárez**, Eric González-Segovia, Anthony J. Studer, Daniel E. Runcie, Sherry A. Flint-Garcia, **Rubén Rellán-Álvarez**, Ruairidh J. H. Sawers, Matthew B. Hufford. </summary>
- <p style="margin-left: 30px">Using a panel of highland and lowland landraces from Mesoamerica and South America grown in highland and lowland common gardens in México we show local adaptation of maize landraces </p></details>  
-
-
-<details>
-    <summary>
-**31** [An adaptive teosinte *mexicana* introgression modulates phosphatidylcholine levels and is associated with maize flowering time](https://www.pnas.org/doi/abs/10.1073/pnas.2100036119).  
+**34** [An adaptive teosinte *mexicana* introgression modulates phosphatidylcholine levels and is associated with maize flowering time](https://www.pnas.org/doi/abs/10.1073/pnas.2100036119).  
 **Fausto Rodríguez-Zapata**, **Allison C Barnes**, **Karla A Blöcher-Juárez**, Dan Gates, **Andi Kur**, Li Wang, Garrett M Janzen, Sarah Jensen, **Juan M Estévez-Palmas**, Taylor Crow, **Heli S Kavi**, **Hannah D Pil**, **Ruthie L Stokes**, Kevan T Knizner, Rocío Aguilar-Rangel, Edgar Demesa-Arevalo, Tara Skopelitis, Sergio Pérez-Limón, Whitney L Stutts, Peter Thompson, Yu-Chun Chiu, David Jackson, David C Muddiman, Oliver Fiehn, Daniel Runcie, Edward S Buckler, Jeffrey Ross-Ibarra, Matthew B. Hufford, Ruairidh JH Sawers and **Rubén Rellán-Álvarez** </summary>
  <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>  
 
 
 <details>
     <summary>
-**30** [A B73 x Palomero Toluqueño mapping population reveals local adaptation in Mexican highland maize](https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1).  
+**33** [A B73 x Palomero Toluqueño mapping population reveals local adaptation in Mexican highland maize](https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1).  
 Sergio Perez-Limón, Meng Li, G. Carolina Cintora-Martinez, M Rocio Aguilar-Rangel, M. Nancy Salazar-Vidal, Eric González-Segovia, **Karla Blöcher-Juárez**, Alejandro Guerrero-Zavala, Benjamin Barrales-Gamez, Jessica Carcaño-Macias, Denise E. Costich, Jorge Nieto-Sotelo, Octavio Martinez de la Vega, June Simpson, Matthew B. Hufford, Jeffrey Ross-Ibarra, Sherry Flint-Garcia, Luis Diaz-Garcia, **Rubén Rellán-Álvarez**, Ruairidh J. H. Sawers </summary>
  <p style="margin-left: 30px">We describe GxE QTLs using a biparental mapping population grown in highland and lowland environments in México </p></details>  
 
+<details>
+    <summary>
+**32** [Demonstration of local adaptation of maize landraces by reciprocal transplantation](https://onlinelibrary.wiley.com/doi/10.1111/eva.13372)
+Garrett M. Janzen, María Rocío Aguilar-Rangel, Carolina Cíntora-Martínez, **Karla Azucena Blöcher-Juárez**, Eric González-Segovia, Anthony J. Studer, Daniel E. Runcie, Sherry A. Flint-Garcia, **Rubén Rellán-Álvarez**, Ruairidh J. H. Sawers, Matthew B. Hufford. </summary>
+ <p style="margin-left: 30px">Using a panel of highland and lowland landraces from Mesoamerica and South America grown in highland and lowland common gardens in México we show local adaptation of maize landraces </p></details>  
 
 ### 2021
 
-**29**[The arches and spandrels of maize domestication, adaptation, and improvement
-](https://www.sciencedirect.com/science/article/abs/pii/S1369526621001242).
+**31** [ROOT PENETRATION INDEX 3, a major quantitative trait locus (QTL) associated with root system penetrability in Arabidopsis](https://academic.oup.com/jxb/advance-article-abstract/doi/10.1093/jxb/erac188/6581266?redirectedFrom=fulltext)**Elohim Bello Bello**, Thelma Y Rico Cambron, Lesly Abril Ortiz Ramírez, **Rubén Rellán Álvarez**, Luis Herrera Estrella 
+
+**30**[The arches and spandrels of maize domestication, adaptation, and improvement](https://www.sciencedirect.com/science/article/abs/pii/S1369526621001242).
 María Jazmín Abraham-Juárez, **Allison C Barnes**, Alejandro Aragón-Raygoza, **Destiny Tyson**, **Andi Kur**, Josh Strable, **Rubén Rellán-Álvarez**.  
 
 
 <details>
     <summary>
-**28** [Molecular Parallelism Underlies Convergent Highland Adaptation of Maize Landraces
+**29** [Molecular Parallelism Underlies Convergent Highland Adaptation of Maize Landraces
 ](https://academic.oup.com/mbe/article/38/9/3567/6255756).  
 Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Álvarez**, Jeffrey Ross-Ibarra, Matthew B. Hufford </summary>
  <p style="margin-left: 30px">Maize has adapted to highland environments independently several times. In this study we studied highland adaptation in four highland groups: SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified outlier genes involved in highland adaptation </p></details>  
@@ -71,13 +63,19 @@ Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Á
 ### 2020
 <details>
     <summary>
-**27** [Gene regulatory effects of a large chromosomal inversion in highland maize
+**28** [Gene regulatory effects of a large chromosomal inversion in highland maize
 ](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009213).  
 Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie </summary>
  <p style="margin-left: 30px">*Inv4m* is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of *Inv4m* in several fitness traits and identify possible adpative candidates genes within the inversion  </p></details>  
 
 
 ### 2019  
+
+<details>
+    <summary>
+**27** [Single-gene resolution of locally adaptive genetic variation in Mexican maize.](https://www.biorxiv.org/content/10.1101/706739v1)
+Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra. **PREPRINT**
+<p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>  
 
 
 <details>
