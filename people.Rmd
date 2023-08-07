@@ -54,8 +54,6 @@ Shannon joined the lab in the Summer of 2022.
 **Hannah Pil** Lab Manager/Technician.
 Hannah joined the lab in the Summer of 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6). She is currently working as a lab manager/technician before she starts her PhD in Genetics in the Fall of 2023.
 
-**Ruthie Stokes** PhD Student, Biochemistry Program   
-Ruthie joined the lab in the Fall of 2021 and is working on the characterization of lipid-protein interactions.  
  
 **Rubén Rellán-Álvarez. PI**  
 Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU  
@@ -74,6 +72,9 @@ Fausto studies maize glycerolipid quantitative and population genetics and genet
 </a>  <a href="https://github.com/faustovrz">
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
+
+**Ruthie Stokes** PhD Student, Biochemistry Program   
+Ruthie joined the lab in the Fall of 2021 and is working on the characterization of lipid-protein interactions.  
 
 **Nirwan Tandukar** PhD Student, Genetics Program.     
 Nirwan joined in the lab in January 2022. He is working on the development of approaches that use multiple genetic datasets to identify genes in adaptation to abiotic stresses.   
