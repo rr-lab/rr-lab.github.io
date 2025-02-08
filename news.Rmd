@@ -9,39 +9,13 @@ output: html_document
 
 ### 2023
 
-- Nirwan visited the laboratory of Ed Buckler. 
-
-- Briana Parker and undergraduate student from California State University at Sacramento joined the lab for an REU stay. 
-
-- Aleya Mohammed a student from the Biochemistry major joined the lab. 
-
-- Emily Phung joined the lab to work as lab technician. 
-
-- Rubén visited UC Riverside to give a talk in the Institute for Integrative Genome Biology
-
-- Destiny, Ruthie, Hannah, Nirwan and Rubén attented the Maize Meeting in Saint Louis.
-
-- Fausto passed his prelims!
-
-- Fausto visited our collaborators Jeff Ross-Ibarra and Dan Runcie in UC Davis. 
-
-- Hannah Pil graduated as a Genetics Major and is now working as a full time lab technician. 
-
-- Pascual Blanco is now working as full time field tecnhnician. 
-
 ### 2022
 
 - Nirwan Tandukar, a PhD student from the Functional Genomics Program joined the lab to work in the DOE CAREER project in January 2022
 
-- Ruthie Stokes, a PhD student from the Biochemistry program joined the lab in January 2022.
-
-- Fausto and Allison won the Genetics and Genomics Academy paper of the year!
-
-<img src="images/2022_gga_paper.jpg" style="width: 500px;">
+- Ruthie Stokes, a PhD student from the Biochemistry program joined the lab in January 2022
 
 - Ruthie Stokes was accepted into the [AgBioFews program.](https://research.ncsu.edu/ges/academics/agbiofews/students-3/)
-
-- Pascual Blanco joined the lab as a part time field technician. 
 
 ### 2020-2021  
 
