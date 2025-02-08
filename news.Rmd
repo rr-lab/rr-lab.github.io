@@ -8,21 +8,21 @@ output: html_document
 ---
 ### 🌽 2025  
 
-- Big congratulations to Fausto! His abstract ranked among the top 5 out of 84 submissions and was selected for an oral talk at the Maize Genetics Meeting.
+- Fausto's abstraact was selected for an oral talk at the Maize Genetics Meeting.
 
-- Hannah's abstract was chosen for a lightning talk at the 2025 maize meeting.
+- Hannah's abstract was selected for an oral talk at the Maize Genetics Meeting.
 
 - Nirwan gave a talk at the INTRINSyC seminar.
 
-- Ruben was awarded with the Presidential Early Career Award for Scientists and Engineers (PECASE), **the highest honor bestowed by the U.S. government on outstanding scientists and engineers early in their careers!!**  
+- Rubén was awarded with the Presidential Early Career Award for Scientists and Engineers (PECASE), **the highest honor bestowed by the U.S. government on outstanding scientists and engineers early in their careers!!**  
 
-- We secured an ARPA-E grant for $5,000,000, where we will collaborate with the University of Illinois, the University of Arizona, and Oak Ridge National Laboratory.  
+- We were awarded an ARPA-E grant for $5,000,000, where in collaboration with the University of Illinois, the University of Arizona, and Oak Ridge National Laboratory.  
 
 - Lauren joined the lab!  
 
 ### 🌽 2024  
 
-- Ruben visited severa EMBRAPA units in Brazil
+- Rubén visited severa EMBRAPA units in Brazil
 
 - Zehta joined the lab!  
 
@@ -32,7 +32,7 @@ output: html_document
 
 - Nirwan gave a talk at the Gordon Research Conference 
 
-- Ruben went to Peru to meet with collaborators
+- Rubén went to Peru to meet with collaborators
 
 - The lab participated in a week-long tutoring program with the **JUNTOS initiative**, providing Latino students with hands-on DNA extraction experience and a tour of our fields.
 

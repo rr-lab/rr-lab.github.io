@@ -34,7 +34,7 @@ output: html_document
 <div style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
 
 - [Edward Buckler](https://www.maizegenetics.net/)    
-- [Jim Holland](https://cals.ncsu.edu/crop-and-soil-sciences/people/jholland/)  
+- [Jim Holland](https://cals.ncsu.edu/crop-and-soil-sciences/people/jholland/) 
 - [Allison Barnes](https://scholar.google.com/citations?user=bpeDL5YAAAAJ&hl=en)   
 - [Victor Raboy](https://www.researchgate.net/scientific-contributions/Victor-Raboy-39880567)
 - [Seth Murray](https://soilcrop.tamu.edu/people/murray-seth-c/)
@@ -82,7 +82,7 @@ output: html_document
 
 - [Graham Coop](https://gcbias.org/)    
 - [Sherry Flint-García](http://web.missouri.edu/~flint-garcias/home.html)  
-- [Matt Hufford](http://www.public.iastate.edu/~mhufford/HuffordLab/home.html)   
+- [Matt Hufford](http://www.public.iastate.edu/~mhufford/HuffordLab/home.html) 
 - [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)  
 - [Jeffrey Ross-Ibarra](http://www.rilab.org/)  
 - [Dan Runcie](http://runcielab.ucdavis.edu/)  

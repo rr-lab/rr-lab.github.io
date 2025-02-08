@@ -45,14 +45,11 @@ Fausto studies maize glycerolipid quantitative and population genetics and genet
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
 
-**Allison Barnes** Postdoc.   
-Allison joined the lab in June 2019. She is working in the functional characterization of a maize phospholipase.  
-
 **Pascual Blanco** Field Technician.  
 Pascual joined the lab in fall 2021. He manages all our field operations.
 
-**Lina López** USDA Field Research Crop Scientist.  
-Lina joined in fall 2023.  
+**Lina López** ORISE Field Techncian.  
+Lina joined in fall 2023 to work in the CERCA project in collaboration with Jim Holland.
 
 **Carolina E. Weldt** Lab Manager/Technician.  
 Carolina joined the lab in summer 2024.
@@ -72,13 +69,15 @@ Zehta joined the lab in December 2024. She is working on the genetic mechanisms 
 **Lauren Insko** PhD Student, Structural and Molecular Biochemistry Program.     
 Lauren joined the lab in January 2025. She is working on identifying regulatory elements of the gene *High PhosphatidylCholine 1* as well as identifying structural elements of the phospholipase protein product.  
 
-**Isaac Fleming** PhD Student, Crop Science. Co-adviced with Dr. Alex Woodley.  
+**Isaac Fleming** PhD Student, Crop Science. Co-adviced with Alex Woodley.  
 Isaac joined the lab in January 2025. He is working on Biological nitrification in maize.
 <br>
 
 
 ### **Former lab members**  
 <br>
+
+**Allison Barnes** Postdoc. 
 
 **Ruthie Stokes** Master Student
 
