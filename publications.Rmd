@@ -9,100 +9,102 @@ output: html_document
 
 
 Complete list of publications can be found at [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en). Journal names have been intentionally excluded. Lab member names are in bold. Links are provided to the published article and, if publisher does not offer free access, a pdf of the final version. Links to code if available are also provided.
-Click on the arrows to see a brief summary of what we did in the paper!
+Click on the arrows to see a brief summary of what we did in the paper!  
+
+<br>
 
 
-### 2023
+### 🌽 **2024**  
 
-**37** [Genetic mapping of maize metabolites using high-throughput mass profiling](https://www.sciencedirect.com/science/article/abs/pii/S0168945222003557). Tzitziki González-Rodríguez, Sergio Pérez-Limón, Héctor Peniche-Pavía, **Rubén Rellán-Álvarez**, Ruairidh J.H. Sawers, Robert Winkler
+**39** [Swin-Roleaf: A new method for characterizing leaf azimuth angle in large-scale maize plants](https://www.sciencedirect.com/science/article/pii/S0168169924005118). Weilong He, Joseph L Gage, **Rubén Rellán-Álvarez**, Lirong Xiang.  
+
+**38** [The utility of environmental data from traditional varieties for climate-adaptive maize breeding](https://www.biorxiv.org/content/10.1101/2024.09.19.613351v1.abstract). Forrest Li, Daniel J Gates, Edward S Buckler, Matthew B Hufford, Garrett M Janzen, **Rubén Rellán-Álvarez, Fausto Rodríguez-Zapata**, J Alberto Romero Navarro, Ruairidh JH Sawers, Samantha J Snodgrass, Kai Sonder, Martha C Willcox, Sarah Hearne, Jeffrey Ross-Ibarra, Daniel E Runcie.    
+
+<br>
 
 
-### 2022
+### 🌽 **2023**  
+
+**37** [Genetic mapping of maize metabolites using high-throughput mass profiling](https://www.sciencedirect.com/science/article/abs/pii/S0168945222003557). Tzitziki González-Rodríguez, Sergio Pérez-Limón, Héctor Peniche-Pavía, **Rubén Rellán-Álvarez**, Ruairidh J.H. Sawers, Robert Winkler.  
+
+<br>
+
+
+### 🌽 **2022**  
 
 **36** [Allele-specific expression reveals multiple paths to highland adaptation in maize](https://academic.oup.com/mbe/article/39/11/msac239/6795225)
-Haixiao Hu, Taylor M Crow, Saghi Nojoomi, Aimee J Schulz, **Juan M Estévez-Palmas**, Matthew Hufford, Sherry Flint-Garcia, Ruairidh Sawers, **Ruben Rellán-Álvarez**, Jeffrey Ross-Ibarra, Daniel E Runcie
+Haixiao Hu, Taylor M Crow, Saghi Nojoomi, Aimee J Schulz, **Juan M Estévez-Palmas**, Matthew Hufford, Sherry Flint-Garcia, Ruairidh Sawers, **Ruben Rellán-Álvarez**, Jeffrey Ross-Ibarra, Daniel E Runcie  
 
 **35** [Genome sequencing reveals evidence of adaptive variation in the genus Zea](https://www.nature.com/articles/s41588-022-01184-y)
-Lu Chen, Jingyun Luo, Minliang Jin, Ning Yang, Xiangguo Liu, Yong Peng, Wenqiang Li, Alyssa Philips, Brenda Cameron, Julio Bernal, **Rubén Rellán-Álvarez**, Ruairidh JH Sawers, Liu Qing, Yuejia Yin, Xinnan Ye, Jiali Yan, Qinghua Zhang, Xiaoting Zhang, Shenshen Wu, Songtao Gui, Wenjie Wei, Yuebin Wang, Yun Luo, Chengling Jiang, Min Deng, Min Jin, Liumei Jian, Yanhui Yu, Maolin Zhang, Xiaohong Yang, Matthew B Hufford, Alisdair R Fernie, Marilyn L Warburton, Jeffrey Ross-Ibarra, Jianbing Yan
+Lu Chen, Jingyun Luo, Minliang Jin, Ning Yang, Xiangguo Liu, Yong Peng, Wenqiang Li, Alyssa Philips, Brenda Cameron, Julio Bernal, **Rubén Rellán-Álvarez**, Ruairidh JH Sawers, Liu Qing, Yuejia Yin, Xinnan Ye, Jiali Yan, Qinghua Zhang, Xiaoting Zhang, Shenshen Wu, Songtao Gui, Wenjie Wei, Yuebin Wang, Yun Luo, Chengling Jiang, Min Deng, Min Jin, Liumei Jian, Yanhui Yu, Maolin Zhang, Xiaohong Yang, Matthew B Hufford, Alisdair R Fernie, Marilyn L Warburton, Jeffrey Ross-Ibarra, Jianbing Yan  
 
-<details>
-    <summary>
 **34** [An adaptive teosinte *mexicana* introgression modulates phosphatidylcholine levels and is associated with maize flowering time](https://www.pnas.org/doi/abs/10.1073/pnas.2100036119).  
 **Fausto Rodríguez-Zapata**, **Allison C Barnes**, **Karla A Blöcher-Juárez**, Dan Gates, **Andi Kur**, Li Wang, Garrett M Janzen, Sarah Jensen, **Juan M Estévez-Palmas**, Taylor Crow, **Heli S Kavi**, **Hannah D Pil**, **Ruthie L Stokes**, Kevan T Knizner, Rocío Aguilar-Rangel, Edgar Demesa-Arevalo, Tara Skopelitis, Sergio Pérez-Limón, Whitney L Stutts, Peter Thompson, Yu-Chun Chiu, David Jackson, David C Muddiman, Oliver Fiehn, Daniel Runcie, Edward S Buckler, Jeffrey Ross-Ibarra, Matthew B. Hufford, Ruairidh JH Sawers and **Rubén Rellán-Álvarez** </summary>
- <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>  
+ <p style="margin-left: 30px">Using genomic scans,linkage maping, lipidomics we identified *HPC1* a teosinte *mexicana* introgression gene encoding a phospholipase that leads to high levels of phosphotydilcholine and reduces flowering time  </p></details>    
 
-
-<details>
-    <summary>
 **33** [A B73 x Palomero Toluqueño mapping population reveals local adaptation in Mexican highland maize](https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1).  
 Sergio Perez-Limón, Meng Li, G. Carolina Cintora-Martinez, M Rocio Aguilar-Rangel, M. Nancy Salazar-Vidal, Eric González-Segovia, **Karla Blöcher-Juárez**, Alejandro Guerrero-Zavala, Benjamin Barrales-Gamez, Jessica Carcaño-Macias, Denise E. Costich, Jorge Nieto-Sotelo, Octavio Martinez de la Vega, June Simpson, Matthew B. Hufford, Jeffrey Ross-Ibarra, Sherry Flint-Garcia, Luis Diaz-Garcia, **Rubén Rellán-Álvarez**, Ruairidh J. H. Sawers </summary>
  <p style="margin-left: 30px">We describe GxE QTLs using a biparental mapping population grown in highland and lowland environments in México </p></details>  
 
-<details>
-    <summary>
 **32** [Demonstration of local adaptation of maize landraces by reciprocal transplantation](https://onlinelibrary.wiley.com/doi/10.1111/eva.13372)
 Garrett M. Janzen, María Rocío Aguilar-Rangel, Carolina Cíntora-Martínez, **Karla Azucena Blöcher-Juárez**, Eric González-Segovia, Anthony J. Studer, Daniel E. Runcie, Sherry A. Flint-Garcia, **Rubén Rellán-Álvarez**, Ruairidh J. H. Sawers, Matthew B. Hufford. </summary>
- <p style="margin-left: 30px">Using a panel of highland and lowland landraces from Mesoamerica and South America grown in highland and lowland common gardens in México we show local adaptation of maize landraces </p></details>  
+ <p style="margin-left: 30px">Using a panel of highland and lowland landraces from Mesoamerica and South America grown in highland and lowland common gardens in México we show local adaptation of maize landraces 
+ </p></details>      
+ 
+ <br>
 
-### 2021
+
+### 🌽 **2021**  
 
 **31** [ROOT PENETRATION INDEX 3, a major quantitative trait locus (QTL) associated with root system penetrability in Arabidopsis](https://academic.oup.com/jxb/advance-article-abstract/doi/10.1093/jxb/erac188/6581266?redirectedFrom=fulltext)**Elohim Bello Bello**, Thelma Y Rico Cambron, Lesly Abril Ortiz Ramírez, **Rubén Rellán Álvarez**, Luis Herrera Estrella 
 
 **30**[The arches and spandrels of maize domestication, adaptation, and improvement](https://www.sciencedirect.com/science/article/abs/pii/S1369526621001242).
 María Jazmín Abraham-Juárez, **Allison C Barnes**, Alejandro Aragón-Raygoza, **Destiny Tyson**, **Andi Kur**, Josh Strable, **Rubén Rellán-Álvarez**.  
 
-
-<details>
-    <summary>
 **29** [Molecular Parallelism Underlies Convergent Highland Adaptation of Maize Landraces
 ](https://academic.oup.com/mbe/article/38/9/3567/6255756).  
 Li Wang, Emily B. Josephs, Kristin M. Lee, Lucas M. Roberts, **Rubén Rellán-Álvarez**, Jeffrey Ross-Ibarra, Matthew B. Hufford </summary>
- <p style="margin-left: 30px">Maize has adapted to highland environments independently several times. In this study we studied highland adaptation in four highland groups: SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified outlier genes involved in highland adaptation </p></details>  
+ <p style="margin-left: 30px">Maize has adapted to highland environments independently several times. In this study we studied highland adaptation in four highland groups: SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified outlier genes involved in highland adaptation </p></details>    
+
+<br>
 
 
-### 2020
-<details>
-    <summary>
+### 🌽 **2020**  
+
 **28** [Gene regulatory effects of a large chromosomal inversion in highland maize
 ](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009213).  
 Taylor Crow, James Ta, Saghi Nojoomi, M. Rocío Aguilar-Rangel, Jorge Vladimir Torres Rodrǵuez, Daniel Gates, **Ruben Rellan-Alvarez**, Ruairidh Sawers, Daniel Runcie </summary>
- <p style="margin-left: 30px">*Inv4m* is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of *Inv4m* in several fitness traits and identify possible adpative candidates genes within the inversion  </p></details>  
+ <p style="margin-left: 30px">*Inv4m* is a 13 Mb inversion on chr4 in maize that is the result of highland teosinte mexicana in highland maize. This inversion is suppossed to have contributed to maize adaptation to highlands. Using a combination of association mapping and transcriptomics using NILs containing the highland inverted haplotype in a B73 background we study the role of *Inv4m* in several fitness traits and identify possible adpative candidates genes within the inversion  </p></details>    
+<br>
 
+### 🌽 **2019**  
 
-### 2019  
-
-<details>
-    <summary>
 **27** [Single-gene resolution of locally adaptive genetic variation in Mexican maize.](https://www.biorxiv.org/content/10.1101/706739v1)
 Daniel J Gates, Dan Runcie, Garrett M. Janzen, Alberto Romero Navarro, Martha Willcox, Kai Sonder, Samantha J. Snodgrass, **Fausto Rodríguez-Zapata**, Ruairidh J. H. Sawers, **Rubén Rellán-Álvarez**, Edward S. Buckler, Sarah Hearne, Matthew B. Hufford, Jeffrey Ross-Ibarra. **PREPRINT**
 <p style="margin-left: 30px">In this collaboration with the Ross-Ibarra lab we show that some of our candidate genes involved in determining glycerolipid concentrations overlap identified environmental GWAS and plant peformance by genotype interactions in panel 4000 landraces that were top-crossed and evaluated in several environments in Mexico</p></details>  
 
-
-<details>
-    <summary>
 **26** [Inoculation with the mycorrhizal fungus *Rhizophagus irregularis* modulates the relationship between root growth and nutrient content in maize (*Zea mays ssp. mays* L.)](https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.192).  
 Flores-Ramirez R, **Elohim Bello-Bello**, **Rellán-Álvarez R**, Sawers R., Olalde-Portugal V </summary>
  <p style="margin-left: 30px">We studied the interaction of nutrient uptake with arbuscular mycorrhizal symbiosis. Most nutrients showed a correlation of nutrient uptake with enhanced root growth due to mycorrhizal colonization but some nutrients like P accumulated to levels that are indicative of an active fungal delivery to the roots</p></details>  
+ 
+<br>
 
 
-### 2017  
+### 🌽 **2017**  
 
-
-<details>
-    <summary>
 **25** [Coordinated changes in the accumulation of metal ions in maize (*Zea mays ssp. mays L.*) in response to inoculation with the arbuscular mycorrhizal fungus *Funneliformis mosseae*](https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx100/4060515/Co-ordinated-Changes-in-the-Accumulation-of-Metal?redirectedFrom=fulltext).  
 Flores-Ramirez R, **Rellán-Álvarez R**, Wozniak B, Gebreselassie M-F, Jakobsen I, Olalde-Portugal V, Baxter I, Paszkowski U, Sawers R.</summary>
  <p style="margin-left: 30px">We study the effect of mycorrizhal colonization on the ionome of a maize diversity panel a found patterns of coordinated changes among ions with similar biochemical properties </p></details>  
 
-
 **24** [Morphological plant modeling: Unleashing geometric and topological potential within the plant sciences](http://journal.frontiersin.org/article/10.3389/fpls.2017.00900/abstract).  
 Bucksch A, Atta-Boateng A, Fortune Azihou A, Balduzzi M, Battogtokh D, Baumgartner A, Binder B, Braybrook S, Chang C, Coneva V, DeWitt T, Fletcher A, Gehan M, Hernan Diaz Martinez D, Hong L, Iyer-Pascuzzi A, Klein L, Leiboff S, Li M, Lynch J, Maizel A, Maloof J, Markelz RJ, Martinez C, Miller L, Mio W, Palubicki W, Poorter H, Pradal C, Price C, Puttonen E, Reese J, **Rellán-Alvarez R**, Spalding E, Sparks E, Topp C, Williams J, Chitwood D.  
 
-
 **23** [Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate](http://www.pnas.org/content/114/17/E3563)  
-Mora-Macias J, **Odilon Ojeda-Rivera J**, Gutierrez-Alanis D, Yong-Villalobos L, Oropeza-Aburto A, Raya-González J, Jiménez-Doménguez G, Chavez-Calvillo G, ** Rellán-Álvarez R**, Herrera-Estrella LR.  
+Mora-Macias J, **Odilon Ojeda-Rivera J**, Gutierrez-Alanis D, Yong-Villalobos L, Oropeza-Aburto A, Raya-González J, Jiménez-Doménguez G, Chavez-Calvillo G, ** Rellán-Álvarez R**, Herrera-Estrella LR. 
 
-### 2016  
+<br>
+
+### 🌽 **2016**  
 
 
 **22** [Grasses suppress shoot-borne roots to conserve water during drought](http://www.pnas.org/content/113/31/8861.full)  
@@ -112,21 +114,28 @@ Sebastian J, Yee M-C, Goudinho Viana W, **Rellán-Álvarez R**, Feldman M, Pries
 Fahlgren N, Bart R, Herrera-Estrella L, **Rellán-Álvarez R**, Chitwood DH, Dinneny JR.  
 
 **20** [Environmental control of Root System Biology](http://arjournals.annualreviews.org/eprint/IZTJBGTdd3P8yv4MCmFP/full/10.1146/annurev-arplant-043015-111848).  
-**Rellán-Álvarez R**, Lobet G, Dinneny J.R.
+**Rellán-Álvarez R**, Lobet G, Dinneny J.R.  
 
-### 2015  
+<br>
 
+### 🌽 **2015**  
 
 
 **19** [GLO-Roots: an imaging platform enabling multidimensional characterization of soil-grown roots systems](http://dx.doi.org/10.7554/eLife.07597). [[Github repo]](https://github.com/rr-lab/GLO-Roots).  
 **Rellán-Álvarez R**, Lobet G, Hildner H, Pradier PL, Sebastian J, Yee MC, Yu G, La Rue T, Trontin C, Schrager A, Haney C, Nieu R, Maloof J, Vogel J, Dinneny JR
 
-### 2013
+<br>
+
+### 🌽 **2013**  
+
 
 **18** [Iron-dependent modifications of the flower transcriptome, proteome, metabolome and hormonal content in an Arabidopsis ferritin mutant](http://jxb.oxfordjournals.org/content/early/2013/05/15/jxb.ert112.abstract).  
 Sudre D, Gutiérrez-Carbonell E, Lattanzio G, **Rellán-Álvarez R**, Gaymard F, Wohlgemuth G, Fiehn O, Álvarez Fernández A, Zamarreño AM, Bacaicoa E, Duy D, Garcíamina JM, Abadía J, Philippar K, López-Millán AF, Briat JF.
 
-### 2012
+<br>
+
+### 🌽 **2012**  
+
 
 **17** [New functions of nicotianamine in the phloem-based transport of iron to sink organs, in pollen development and in pollen tube growth](www.plantcell.org/content/24/6/2380.abstract).  
 Schüler M, **Rellán-Álvarez R**, Fink-Straube C, Abadía J, Petra Bauer.
@@ -134,7 +143,9 @@ Schüler M, **Rellán-Álvarez R**, Fink-Straube C, Abadía J, Petra Bauer.
 **16** [Oxidative stress is a consequence, not a cause, of aluminum toxicity in the forage legume Lotus corniculatus](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2011.03978.x/abstract).  
 Navascués J, Pérez-Rontomé C, Sánchez DH, Staudinger C, Wienkoop S, **Rellán- Álvarez R**, Becana M.
 
-### 2011
+<br>
+
+### 🌽 **2011**  
 
 **15** [Metabolite profile changes in xylem sap and leaves of Strategy I plants in response to iron deficiency and iron resupply](http://www.frontiersin.org/Plant_Nutrition/10.3389/fpls.2011.00066/abstract).  
 **Rellán-Álvarez R**, El Jendoubi H, Wohlgemuth G, Fiehn O, Abadía A, Abadía J, Álvarez Fernández A.
@@ -151,7 +162,9 @@ Sagardoy R, Morales F, **Rellán-Álvarez R**, Abadía A, Abadía J, López-Mill
 **11** [Metabolic response in roots of Prunus rootstocks submitted to iron chlorosis](http://www.sciencedirect.com/science/article/pii/S0176161710004165).  
 Jiménez S, Ollat N, Deborde C, Maucourt M, **Rellán-Álvarez R**, Moreno MA, Gogorcena Y.
 
-### 2010
+<br>
+
+### 🌽 **2010**  
 
 **10** [Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply](http://www.biomedcentral.com/1471-2229/10/120).  
 **Rellán-Álvarez R**, Andaluz S, Rodríguez-Celma J, Wohlgemuth G, Zocchi G, Álvarez-Fernández A, Fiehn O, López-Millán AF, Abadía J.
@@ -165,22 +178,28 @@ Pascual I, Azcona I, Aguirreolea J, Morales F, Corpas FJ, Palma JM **Rellán-Ál
 **7** [Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport](http://pcp.oxfordjournals.org/content/51/1/91.long).  
 **Rellán-Álvarez R**, Giner-Martínez-Sierra J, Orduna J, Orera I, Rodríguez- Castrillón JA, García-Alonso JI, Abadía J, Álvarez-Fernández A.
 
-### 2009
+<br>
+
+### 🌽 **2009**  
 
 **6** [Effect of oil refinery sludges on the growth and antioxidant system of alfalfa plants](http://www.sciencedirect.com/science/article/pii/S0304389409010152). [[PDF]](pdfs/06-2009-marti.pdf)  
 Martí MC, Camejo D, Fernández-García N, **Rellán-Álvarez R**, Marques S, Sevilla F, Jiménez A.
 
-### 2008
+<br>
+
+### 🌽 **2008**  
 
 **5** [Formation of metal- nicotianamine complexes as affected by pH, ligand exchange with citrate and metal exchange. A study by electrospray ionization time-of-flight mass spectrometry](http://onlinelibrary.wiley.com/doi/10.1002/rcm.3523/abstract). [[PDF]](pdfs/05-2008-rra.pdf)  
 **Rellán-Álvarez R**, Abadía J, Álvarez-Fernández A.
 
-### 2007
+### 🌽 **2007**  
 
 **4** [Rapid alteration of cellular redox homeostasis upon exposure to cadmium and mercury in alfalfa seedlings](http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02162.x/full).  
 Ortega-Villasante C, Hernández LE, **Rellán-Álvarez R**, Del Campo FF, Carpena- Ruíz RO.
 
-### 2006
+<br>
+
+### 🌽 **2006**  
 
 **3** [Direct and simultaneous determination of reduced and oxidized glutathione and homoglutathione by liquid chromatography-electrospray/mass spectrometry in plant tissue extracts](http://www.sciencedirect.com/science/article/pii/S0003269706004015). [[PDF]](pdfs/03-2006-rra.pdf)  
 **Rellán-Álvarez R**, Hernández LE, Abadía J, Álvarez-Fernández A.
@@ -188,7 +207,9 @@ Ortega-Villasante C, Hernández LE, **Rellán-Álvarez R**, Del Campo FF, Carpen
 **2** [Stress responses of *Zea mays* to cadmium and mercury](http://rd.springer.com/article/10.1007/s11104-005-3900-1). [[PDF]](pdfs/02-2006-rra.pdf)  
 **Rellán-Álvarez R**, Ortega-Villasante C,Álvarez-Fernández A, Del Campo FF, Hernández LE.
 
-### 2005
+<br>
+
+### 🌽 **2005**  
 
 **1** [Cellular damage induced by cadmium and mercury in Medicago sativa](http://jxb.oxfordjournals.org/content/56/418/2239.abstract).  
 Ortega-Villasante C, **Rellán-Álvarez R**, Del Campo FF, Carpena-Ruíz RO, Hernández LE.

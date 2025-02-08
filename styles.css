@@ -1,0 +1,43 @@
+/* Background and Text Colors */
+body {
+  background-color: #fffde7; /* Light yellow background (corn kernels) */
+  color: #33691e; /* Dark green text (mature leaves) */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #ffd54f; /* Golden yellow navbar (ripe corn) */
+  border-color: #8d6e63; /* Brown border (corn stalks or husks) */
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  color: #33691e !important; /* Dark green text on navbar (mature leaves) */
+}
+
+.navbar-nav > li > a:hover {
+  background-color: #dcedc8; /* Light green hover effect (young leaves) */
+}
+
+/* Links */
+a {
+  color: #8d6e63; /* Brown links (corn stalks or husks) */
+}
+
+a:hover {
+  color: #ffd54f; /* Golden yellow hover effect (ripe corn) */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #33691e; /* Dark green headings (mature leaves) */
+}
+
+/* Buttons */
+.btn {
+  background-color: #ffd54f; /* Golden yellow buttons (ripe corn) */
+  color: #ffffff; /* White text */
+  border: none;
+}
+
+.btn:hover {
+  background-color: #dcedc8; /* Light green hover (young leaves) */

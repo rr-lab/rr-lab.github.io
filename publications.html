@@ -13,10 +13,10 @@
 
 <title>Publications</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -48,6 +48,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -168,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -177,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -271,7 +265,7 @@ $(document).ready(function () {
   <a href="talks.html">
     <span class="fa fa-slideshare"></span>
      
-    Talks
+    Photo Album
   </a>
 </li>
 <li>
@@ -313,17 +307,36 @@ names are in bold. Links are provided to the published article and, if
 publisher does not offer free access, a pdf of the final version. Links
 to code if available are also provided. Click on the arrows to see a
 brief summary of what we did in the paper!</p>
+<p><br></p>
 <div id="section" class="section level3">
-<h3>2023</h3>
+<h3>🌽 <strong>2024</strong></h3>
+<p><strong>39</strong> <a
+href="https://www.sciencedirect.com/science/article/pii/S0168169924005118">Swin-Roleaf:
+A new method for characterizing leaf azimuth angle in large-scale maize
+plants</a>. Weilong He, Joseph L Gage, <strong>Rubén
+Rellán-Álvarez</strong>, Lirong Xiang.</p>
+<p><strong>38</strong> <a
+href="https://www.biorxiv.org/content/10.1101/2024.09.19.613351v1.abstract">The
+utility of environmental data from traditional varieties for
+climate-adaptive maize breeding</a>. Forrest Li, Daniel J Gates, Edward
+S Buckler, Matthew B Hufford, Garrett M Janzen, <strong>Rubén
+Rellán-Álvarez, Fausto Rodríguez-Zapata</strong>, J Alberto Romero
+Navarro, Ruairidh JH Sawers, Samantha J Snodgrass, Kai Sonder, Martha C
+Willcox, Sarah Hearne, Jeffrey Ross-Ibarra, Daniel E Runcie.</p>
+<p><br></p>
+</div>
+<div id="section-1" class="section level3">
+<h3>🌽 <strong>2023</strong></h3>
 <p><strong>37</strong> <a
 href="https://www.sciencedirect.com/science/article/abs/pii/S0168945222003557">Genetic
 mapping of maize metabolites using high-throughput mass profiling</a>.
 Tzitziki González-Rodríguez, Sergio Pérez-Limón, Héctor Peniche-Pavía,
 <strong>Rubén Rellán-Álvarez</strong>, Ruairidh J.H. Sawers, Robert
-Winkler</p>
+Winkler.</p>
+<p><br></p>
 </div>
-<div id="section-1" class="section level3">
-<h3>2022</h3>
+<div id="section-2" class="section level3">
+<h3>🌽 <strong>2022</strong></h3>
 <p><strong>36</strong> <a
 href="https://academic.oup.com/mbe/article/39/11/msac239/6795225">Allele-specific
 expression reveals multiple paths to highland adaptation in maize</a>
@@ -342,8 +355,6 @@ Songtao Gui, Wenjie Wei, Yuebin Wang, Yun Luo, Chengling Jiang, Min
 Deng, Min Jin, Liumei Jian, Yanhui Yu, Maolin Zhang, Xiaohong Yang,
 Matthew B Hufford, Alisdair R Fernie, Marilyn L Warburton, Jeffrey
 Ross-Ibarra, Jianbing Yan</p>
-<details>
-<summary>
 <strong>34</strong> <a
 href="https://www.pnas.org/doi/abs/10.1073/pnas.2100036119">An adaptive
 teosinte <em>mexicana</em> introgression modulates phosphatidylcholine
@@ -366,8 +377,6 @@ phospholipase that leads to high levels of phosphotydilcholine and
 reduces flowering time
 </p>
 </details>
-<details>
-<summary>
 <strong>33</strong> <a
 href="https://www.biorxiv.org/content/10.1101/2021.03.25.437076v1">A B73
 x Palomero Toluqueño mapping population reveals local adaptation in
@@ -385,8 +394,6 @@ We describe GxE QTLs using a biparental mapping population grown in
 highland and lowland environments in México
 </p>
 </details>
-<details>
-<summary>
 <strong>32</strong> <a
 href="https://onlinelibrary.wiley.com/doi/10.1111/eva.13372">Demonstration
 of local adaptation of maize landraces by reciprocal transplantation</a>
@@ -402,9 +409,10 @@ South America grown in highland and lowland common gardens in México we
 show local adaptation of maize landraces
 </p>
 </details>
+<p><br></p>
 </div>
-<div id="section-2" class="section level3">
-<h3>2021</h3>
+<div id="section-3" class="section level3">
+<h3>🌽 <strong>2021</strong></h3>
 <p><strong>31</strong> <a
 href="https://academic.oup.com/jxb/advance-article-abstract/doi/10.1093/jxb/erac188/6581266?redirectedFrom=fulltext">ROOT
 PENETRATION INDEX 3, a major quantitative trait locus (QTL) associated
@@ -418,8 +426,6 @@ improvement</a>. María Jazmín Abraham-Juárez, <strong>Allison C
 Barnes</strong>, Alejandro Aragón-Raygoza, <strong>Destiny
 Tyson</strong>, <strong>Andi Kur</strong>, Josh Strable, <strong>Rubén
 Rellán-Álvarez</strong>.</p>
-<details>
-<summary>
 <strong>29</strong> <a
 href="https://academic.oup.com/mbe/article/38/9/3567/6255756">Molecular
 Parallelism Underlies Convergent Highland Adaptation of Maize
@@ -435,11 +441,10 @@ SWUSA, Mexican Highlands, Guatemalan Highlands and Andes and identified
 outlier genes involved in highland adaptation
 </p>
 </details>
+<p><br></p>
 </div>
-<div id="section-3" class="section level3">
-<h3>2020</h3>
-<details>
-<summary>
+<div id="section-4" class="section level3">
+<h3>🌽 <strong>2020</strong></h3>
 <strong>28</strong> <a
 href="https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1009213">Gene
 regulatory effects of a large chromosomal inversion in highland
@@ -458,11 +463,10 @@ the role of <em>Inv4m</em> in several fitness traits and identify
 possible adpative candidates genes within the inversion
 </p>
 </details>
+<p><br></p>
 </div>
-<div id="section-4" class="section level3">
-<h3>2019</h3>
-<details>
-<summary>
+<div id="section-5" class="section level3">
+<h3>🌽 <strong>2019</strong></h3>
 <strong>27</strong> <a
 href="https://www.biorxiv.org/content/10.1101/706739v1">Single-gene
 resolution of locally adaptive genetic variation in Mexican maize.</a>
@@ -479,8 +483,6 @@ interactions in panel 4000 landraces that were top-crossed and evaluated
 in several environments in Mexico
 </p>
 </details>
-<details>
-<summary>
 <strong>26</strong> <a
 href="https://onlinelibrary.wiley.com/doi/full/10.1002/pld3.192">Inoculation
 with the mycorrhizal fungus <em>Rhizophagus irregularis</em> modulates
@@ -497,11 +499,10 @@ some nutrients like P accumulated to levels that are indicative of an
 active fungal delivery to the roots
 </p>
 </details>
+<p><br></p>
 </div>
-<div id="section-5" class="section level3">
-<h3>2017</h3>
-<details>
-<summary>
+<div id="section-6" class="section level3">
+<h3>🌽 <strong>2017</strong></h3>
 <strong>25</strong> <a
 href="https://academic.oup.com/pcp/article-abstract/doi/10.1093/pcp/pcx100/4060515/Co-ordinated-Changes-in-the-Accumulation-of-Metal?redirectedFrom=fulltext">Coordinated
 changes in the accumulation of metal ions in maize (<em>Zea mays ssp.
@@ -536,9 +537,10 @@ Mora-Macias J, <strong>Odilon Ojeda-Rivera J</strong>, Gutierrez-Alanis
 D, Yong-Villalobos L, Oropeza-Aburto A, Raya-González J,
 Jiménez-Doménguez G, Chavez-Calvillo G, ** Rellán-Álvarez R**,
 Herrera-Estrella LR.</p>
+<p><br></p>
 </div>
-<div id="section-6" class="section level3">
-<h3>2016</h3>
+<div id="section-7" class="section level3">
+<h3>🌽 <strong>2016</strong></h3>
 <p><strong>22</strong> <a
 href="http://www.pnas.org/content/113/31/8861.full">Grasses suppress
 shoot-borne roots to conserve water during drought</a><br />
@@ -556,9 +558,10 @@ R</strong>, Chitwood DH, Dinneny JR.</p>
 href="http://arjournals.annualreviews.org/eprint/IZTJBGTdd3P8yv4MCmFP/full/10.1146/annurev-arplant-043015-111848">Environmental
 control of Root System Biology</a>.<br />
 <strong>Rellán-Álvarez R</strong>, Lobet G, Dinneny J.R.</p>
+<p><br></p>
 </div>
-<div id="section-7" class="section level3">
-<h3>2015</h3>
+<div id="section-8" class="section level3">
+<h3>🌽 <strong>2015</strong></h3>
 <p><strong>19</strong> <a
 href="http://dx.doi.org/10.7554/eLife.07597">GLO-Roots: an imaging
 platform enabling multidimensional characterization of soil-grown roots
@@ -567,9 +570,10 @@ repo]</a>.<br />
 <strong>Rellán-Álvarez R</strong>, Lobet G, Hildner H, Pradier PL,
 Sebastian J, Yee MC, Yu G, La Rue T, Trontin C, Schrager A, Haney C,
 Nieu R, Maloof J, Vogel J, Dinneny JR</p>
+<p><br></p>
 </div>
-<div id="section-8" class="section level3">
-<h3>2013</h3>
+<div id="section-9" class="section level3">
+<h3>🌽 <strong>2013</strong></h3>
 <p><strong>18</strong> <a
 href="http://jxb.oxfordjournals.org/content/early/2013/05/15/jxb.ert112.abstract">Iron-dependent
 modifications of the flower transcriptome, proteome, metabolome and
@@ -578,9 +582,10 @@ Sudre D, Gutiérrez-Carbonell E, Lattanzio G, <strong>Rellán-Álvarez
 R</strong>, Gaymard F, Wohlgemuth G, Fiehn O, Álvarez Fernández A,
 Zamarreño AM, Bacaicoa E, Duy D, Garcíamina JM, Abadía J, Philippar K,
 López-Millán AF, Briat JF.</p>
+<p><br></p>
 </div>
-<div id="section-9" class="section level3">
-<h3>2012</h3>
+<div id="section-10" class="section level3">
+<h3>🌽 <strong>2012</strong></h3>
 <p><strong>17</strong> <a
 href="www.plantcell.org/content/24/6/2380.abstract">New functions of
 nicotianamine in the phloem-based transport of iron to sink organs, in
@@ -593,9 +598,10 @@ stress is a consequence, not a cause, of aluminum toxicity in the forage
 legume Lotus corniculatus</a>.<br />
 Navascués J, Pérez-Rontomé C, Sánchez DH, Staudinger C, Wienkoop S,
 <strong>Rellán- Álvarez R</strong>, Becana M.</p>
+<p><br></p>
 </div>
-<div id="section-10" class="section level3">
-<h3>2011</h3>
+<div id="section-11" class="section level3">
+<h3>🌽 <strong>2011</strong></h3>
 <p><strong>15</strong> <a
 href="http://www.frontiersin.org/Plant_Nutrition/10.3389/fpls.2011.00066/abstract">Metabolite
 profile changes in xylem sap and leaves of Strategy I plants in response
@@ -628,9 +634,10 @@ response in roots of Prunus rootstocks submitted to iron
 chlorosis</a>.<br />
 Jiménez S, Ollat N, Deborde C, Maucourt M, <strong>Rellán-Álvarez
 R</strong>, Moreno MA, Gogorcena Y.</p>
+<p><br></p>
 </div>
-<div id="section-11" class="section level3">
-<h3>2010</h3>
+<div id="section-12" class="section level3">
+<h3>🌽 <strong>2010</strong></h3>
 <p><strong>10</strong> <a
 href="http://www.biomedcentral.com/1471-2229/10/120">Changes in the
 proteomic and metabolic profiles of Beta vulgaris root tips in response
@@ -658,18 +665,20 @@ long-distance transport</a>.<br />
 <strong>Rellán-Álvarez R</strong>, Giner-Martínez-Sierra J, Orduna J,
 Orera I, Rodríguez- Castrillón JA, García-Alonso JI, Abadía J,
 Álvarez-Fernández A.</p>
+<p><br></p>
 </div>
-<div id="section-12" class="section level3">
-<h3>2009</h3>
+<div id="section-13" class="section level3">
+<h3>🌽 <strong>2009</strong></h3>
 <p><strong>6</strong> <a
 href="http://www.sciencedirect.com/science/article/pii/S0304389409010152">Effect
 of oil refinery sludges on the growth and antioxidant system of alfalfa
 plants</a>. <a href="pdfs/06-2009-marti.pdf">[PDF]</a><br />
 Martí MC, Camejo D, Fernández-García N, <strong>Rellán-Álvarez
 R</strong>, Marques S, Sevilla F, Jiménez A.</p>
+<p><br></p>
 </div>
-<div id="section-13" class="section level3">
-<h3>2008</h3>
+<div id="section-14" class="section level3">
+<h3>🌽 <strong>2008</strong></h3>
 <p><strong>5</strong> <a
 href="http://onlinelibrary.wiley.com/doi/10.1002/rcm.3523/abstract">Formation
 of metal- nicotianamine complexes as affected by pH, ligand exchange
@@ -678,17 +687,18 @@ time-of-flight mass spectrometry</a>. <a
 href="pdfs/05-2008-rra.pdf">[PDF]</a><br />
 <strong>Rellán-Álvarez R</strong>, Abadía J, Álvarez-Fernández A.</p>
 </div>
-<div id="section-14" class="section level3">
-<h3>2007</h3>
+<div id="section-15" class="section level3">
+<h3>🌽 <strong>2007</strong></h3>
 <p><strong>4</strong> <a
 href="http://onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2007.02162.x/full">Rapid
 alteration of cellular redox homeostasis upon exposure to cadmium and
 mercury in alfalfa seedlings</a>.<br />
 Ortega-Villasante C, Hernández LE, <strong>Rellán-Álvarez R</strong>,
 Del Campo FF, Carpena- Ruíz RO.</p>
+<p><br></p>
 </div>
-<div id="section-15" class="section level3">
-<h3>2006</h3>
+<div id="section-16" class="section level3">
+<h3>🌽 <strong>2006</strong></h3>
 <p><strong>3</strong> <a
 href="http://www.sciencedirect.com/science/article/pii/S0003269706004015">Direct
 and simultaneous determination of reduced and oxidized glutathione and
@@ -703,9 +713,10 @@ responses of <em>Zea mays</em> to cadmium and mercury</a>. <a
 href="pdfs/02-2006-rra.pdf">[PDF]</a><br />
 <strong>Rellán-Álvarez R</strong>, Ortega-Villasante C,Álvarez-Fernández
 A, Del Campo FF, Hernández LE.</p>
+<p><br></p>
 </div>
-<div id="section-16" class="section level3">
-<h3>2005</h3>
+<div id="section-17" class="section level3">
+<h3>🌽 <strong>2005</strong></h3>
 <p><strong>1</strong> <a
 href="http://jxb.oxfordjournals.org/content/56/418/2239.abstract">Cellular
 damage induced by cadmium and mercury in Medicago sativa</a>.<br />

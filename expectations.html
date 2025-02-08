@@ -11,12 +11,12 @@
 
 
 
-<title>Expectations</title>
+<title>Lab Philosophy</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -48,6 +48,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -168,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -177,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -271,7 +265,7 @@ $(document).ready(function () {
   <a href="talks.html">
     <span class="fa fa-slideshare"></span>
      
-    Talks
+    Photo Album
   </a>
 </li>
 <li>
@@ -300,87 +294,79 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Expectations</h1>
+<h1 class="title toc-ignore">Lab Philosophy</h1>
 
 </div>
 
 
 <hr />
 <div id="general-rules" class="section level2">
-<h2>General Rules</h2>
+<h2>🌽 General Rules</h2>
 <div id="safety-first" class="section level3">
-<h3>Safety first</h3>
-<p>Your health and safety are more important than your research. This
-includes adhering to lab safety codes, as well as maintaining your
-physical and mental health. Never work in the lab if you are feeling
-sick, under medication that might affect your ability to work normally
-and definitely not under the effects of any kind of drugs. Try to avoid
-working in the lab by yousrself doing potentially dangerous things like
-extractions etc. If you are working alone in the lab, let the security
-guards where you are.</p>
+<h3><strong>Safety first</strong></h3>
+<p><strong>Your health and safety are more important than your
+research.</strong> This includes adhering to lab safety codes, as well
+as maintaining your physical and mental health. Never work in the lab if
+you are feeling sick, under medication that might affect your ability to
+work normally and definitely not under the effects of any kind of drugs.
+Try to avoid working in the lab by yousrself doing potentially dangerous
+things like extractions etc. If you are working alone in the lab, let
+the security guards where you are.</p>
 <p>Please read the official Langebio safety rules <a
 href="https://github.com/sawers-rellan-labs/docs/blob/master/docs/Reglamento%20general%20Langebio%20Nov2015%202.pdf">here</a>.
 You should</p>
 </div>
 <div id="respect" class="section level3">
-<h3>Respect</h3>
+<h3><strong>Respect</strong></h3>
 <ul>
-<li>Treat your colleagues with due respect. Racial or sexist comments
+<li>Treat your lab mates with due respect. Racial or sexist comments
 will not be tolerated under any circumstance. The lab should be a place
 where everybody feels welcome and appreciated.</li>
-<li>At any given time your colleagues in the lab will be doing different
-activities that require different levels of concentration. Respect this.
-No music in your speakers, keep the volume of your conversations at a
-reasonable volume. If you want to take a break with a colleague and have
-a chat, is ok, but do it outside in the garden or cafeteria and don´t
-distract your colleagues.</li>
+<li>At any given time your lab mates will be doing different activities
+that require different levels of concentration. Respect this.</li>
 </ul>
 </div>
-<div id="expectations-for-all-members." class="section level3">
-<h3>Expectations (for all members).</h3>
+<div id="expectations" class="section level3">
+<h3><strong>Expectations</strong></h3>
 <div id="work-hours." class="section level4">
-<h4>Work hours.</h4>
+<h4>- Work hours.</h4>
 <p>We are lucky enough to work in an area where flexible working hours
 are the norm. There will be times when your project requires to work in
-the weekends or late. Is OK then to take some time off. However in order
-to be able to interact with the rest of the persons in the labs we
-expect everyone to be in the lab <strong>between 9:00 to 14:00</strong>
-since this is when most of the academic activities will happen. If, for
-whatever reason you can´t make it on regularly basis we have to know. If
-you take holidays, let us know in advance and fill out the corresponding
-<em>comisión</em>. Same applies if you go to do field work. If you don´t
-do it becomes complicated to plan anything.</p>
+the weekends or late. Is OK then to take some time off. However, in
+order to be able to interact with the rest of the persons in the labs
+<strong>we expect everyone to be in the lab between 9:00 to
+14:00</strong> since this is when most of the academic activities will
+happen. If you take holidays, let us know in advance and fill out the
+corresponding <em>comisión</em>. Same applies if you go to do field
+work. If you don´t do it becomes complicated to plan activities.</p>
 </div>
 <div
 id="seminars-journal-clubs-and-other-lab-and-institutional-activities."
 class="section level4">
-<h4>Seminars, journal clubs and other lab and institutional
+<h4>- Seminars, journal clubs and other lab and institutional
 activities.</h4>
 <p>Assistance to institutional Tuesday seminars, journal clubs, lab
 meetings, LGACS etc, are <em>mandatory</em>. No excuses. If you are
 presenting in the journal club send manuscript <strong>1 week</strong>
-before. Lab meeting, journal clubs etc are as good as the amount of
+before. Lab meeting, journal clubs, etc are as good as the amount of
 dedication the speaker and the audience put on it. Don´t do a lousy job
 if you are presenting. Remember that your colleagues are taking time to
 listen to you. Respect that.</p>
 </div>
 <div id="conferences-and-field-work." class="section level4">
-<h4>Conferences and field work.</h4>
+<h4>- Conferences and field work.</h4>
 <p>Everybody is encouraged to assist to at least one conference a year.
 Master and PhD students can apply to the master and PhD program funding.
 Postdocs should speak with us to find ways to cover costs. Everybody
 should apply for every possible external source of funding to help cover
 travel expenses. You should send us the abstract you are submitting with
 enough time to check if everything looks good and ensure that
-authorship, acknowledgements, sources of funding etc are correct. If we
-don´t receive your abstract draft <strong>10 days before</strong> the
-abstract submission deadline we will assume that you don´t want to go to
-the conference.<br />
-Follow everything we said about respecting others when you are out in a
+authorship, acknowledgements, sources of funding etc are correct. Follow
+everything we said about respecting others when you are out in a
 conference or doing field work.</p>
 </div>
 <div id="authorship." class="section level4">
-<h4>Authorship.</h4>
+<h4>- Authorship.</h4>
 <p>We follow the <a
 href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">IJME
 rules for authorship rules</a>:<br />
@@ -398,14 +384,14 @@ will be re-evaluated accordingly.</p>
 </div>
 </div>
 </div>
-<div id="specific-rules-for-the-different-members-of-the-lab."
+<div id="specific-rules-for-the-different-members-of-the-lab"
 class="section level2">
-<h2>Specific rules for the different members of the lab.</h2>
-<div id="postdocs." class="section level3">
-<h3>Postdocs.</h3>
-<div id="our-responsibilities-to-postdocs-and-senior-phd-students"
-class="section level4">
-<h4>Our responsibilities to postdocs and senior PhD students:</h4>
+<h2>🌽 <strong>Specific rules for the different members of the
+lab</strong></h2>
+<div id="postdocs-and-senior-phd-students." class="section level3">
+<h3>Postdocs and senior PhD students.</h3>
+<div id="responsibilities" class="section level4">
+<h4>Responsibilities</h4>
 <ul>
 <li>Assist with identifying and writing postdoctoral fellowships.<br />
 </li>
@@ -419,9 +405,8 @@ goals.</li>
 <li>Meet weekly to discuss progress &amp; pitfalls.</li>
 </ul>
 </div>
-<div id="expectations-of-postdocs-and-senior-phd-students"
-class="section level4">
-<h4>Expectations of postdocs and senior PhD students:</h4>
+<div id="expectations-1" class="section level4">
+<h4>Expectations:</h4>
 <ul>
 <li>Prepare for our regular progress/pitfalls meetings and a follow up
 email of progress and goals.<br />
@@ -435,9 +420,7 @@ contributing to larger lab grant writing).<br />
 </li>
 <li>Maintain a set of lab notes, including directories of data,
 annotated codes &amp; versions, detailed methods. These need to
-sufficient to reproduce results without additional instructions. See
-more in the <a href="https://github.com/sawers-rellan-labs/data">data
-wiki</a>.</li>
+sufficient to reproduce results without additional instructions.</li>
 <li>Participate in general lab responsibilities (servers, maintain
 common areas, taking turns hosting visitors, communal sampling and field
 work etc). Participate in talk rehearsals of your colleagues.</li>
@@ -459,9 +442,8 @@ webpages) and read what we have done before. Rotations are the best way
 for you to get a feel of the labs, interact with us and other members of
 the labs and for us to get to know you better and if you will be a good
 fit to the labs and our labs for you.</p>
-<div id="our-responsibilities-to-master-and-junior-phd-students"
-class="section level4">
-<h4>Our responsibilities to Master and junior PhD students:</h4>
+<div id="responsibilities-1" class="section level4">
+<h4>Responsibilities:</h4>
 <ul>
 <li>Develop project ideas.<br />
 </li>
@@ -477,9 +459,8 @@ goals.<br />
 <li>Meet weekly to discuss progress and pitfalls.</li>
 </ul>
 </div>
-<div id="expectations-of-master-and-junior-phd-students"
-class="section level4">
-<h4>Expectations of Master and junior PhD students:</h4>
+<div id="expectations-2" class="section level4">
+<h4>Expectations:</h4>
 <ul>
 <li>Prepare for our regular progress/pitfalls meetings and a follow up
 email of progress and goals.<br />

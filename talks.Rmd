@@ -1,180 +1,85 @@
 ---
-title: Talks
-pagetitle: Talks
+title: Photo Album
+pagetitle: Photo Album
 output: html_document
 ---
 
 
 ---
-### 2023
-
-#### August
-
-- Invited Talk. China Agricultural University, Workshop on Plant Responses to Abiotic Stresses and Environmental Signals. “North, South, Up and Down. The genes and molecules that allow maize to move all around. https://github.com/rr-lab/rr-lab.github.io/blob/master/pdfs/genes_metabolites_move_around.pdf
-
-#### May
-
-- Invited Seminar. University of California at Riverside. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
-
-#### April
-
-- Invited Seminar. Plant Breeding Consortium. North Carolina State University. “The genetics of Maize Wild Relatives and Maize Native Varieties local adaptation.”
-
-#### February
-
-- Invited Seminar. University of Madison Wisconsin. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
-
-### 2022
-
-#### April
-
-- Invited Seminar at University of Nebraska Lincoln. Center for Biological Chemistry and Redox Biology Center.“North, South, Up and Down. The genes and molecules that allow maize to move all around.”
-
-### 2021
-
-#### October
-
-- Invited Talk at the [Plant Genomes in a Changing Environment Conference 2021](https://www.maizegdb.org/mgc/maizemeeting/index.php), John Innes Center, UK.  
-*"The molecular and genetic basis of maize landrace local adaptation"*
-
-#### April
-
-- Invited Seminar at the [Center of Population Biology, University of California at Davis](https://www.maizegdb.org/mgc/maizemeeting/index.php), Davis, CA.  
-*"Tittle TBD"*
-
-#### March
-
-- Invited Talk at the [Maize Genetics Meeting 2021 ](https://www.maizegdb.org/mgc/maizemeeting/index.php).  
-*"Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time"*
-
-- Invited Seminar at the [Genetic Engineering and Society Center Colloquium](https://research.ncsu.edu/ges/event/colloquium-2021-03-02/).  
-*"Drinking from the Maize Diversity Firehose"*
-
-#### February
-
-- Invited Seminar at the [Department of Plant Sciences, Pennsylvania State University](https://plantscience.psu.edu/events).  
-*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*  
-
-- Invited Talk at the  [Corn Breeding Research Conference 2021](https://az659834.vo.msecnd.net/eventsairsthcusprod/production-uwccs-public/bef7344b759f4f718d6f41c0c2c6945c). 
-*"Adaptive teosinte introgression modulates phosphatidylcholine levels and maize flowering time"* 
-
-### 2020
-
-#### August
-
-- Invited Seminar at the Genetics and Genomics Seminar Series, North Carolina State University.  
-*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*
-
-- Invited Seminar at the Plant Sciences & Plant Pathology Department, Montana State University.  
-*"North, South, Up and Down. The genes and molecules that allow maize to move all around"*
-
-### 2019
-
-#### October
-
-- Invited Seminar at the Plant and Microbial Biology Department, University of Minnesota. 
-
-#### September 
-
-- Talk at the North Carolina Plant Molecular Biology retreat. 
-
-#### August 
-
-- Seminar at Plant and Molecular Biology department, NCSU, Raleigh.
-
-- Talk Rubén at La Molina University in Lima, Perú. 
-
-- Talk at the Germplasm Enhacement of Maize meeting in Clayton, NC.
-
-#### May 
-
-- Talk at the Syngenta Plant Stress Symposium at Syngenta headquarters in the Research Triangle Park
-
-#### April
-
-- Invited Seminar at the [Plant Biology Department, UGA](https://www.plantbio.uga.edu/events/content/2019/ruben-rellan-alvarez-north-carolina-state) in Athens, Georgia 
-
-### 2018
-
-#### August
-
-- Invited Seminar at the [Misión Biológica de Galicia](http://www.mbg.csic.es/) in Pontevedra, Spain.
-
-#### July
-
-- Invited Seminar at the  at the [Aula Dei Experimental Station](http://www.eead.csic.es/spreading/showspreading?Id=771) in Zaragoza, Spain. 
-
-#### January
-
-- Talk at the [MexPopGen](https://mexpopgen.wordpress.com/) meeting organized in Langebio. 
-
-### 2017
-
-#### July
-
-* Iowa State University. Genetics and Genomics Graduate Group. *Invited Seminar* [Towards and understanding of maize adaptation to highlands using a combination of lipidomics and quantitative and population genetics](https://speakerdeck.com/rellan/towards-and-understanding-of-maize-adaptation-to-highlands-using-a-combination-of-lipidomics-and-quantitative-and-population-genetics)  
-
-#### May
-
-* Donald Danforth Plant Science Center Scientific Retreat. *Invited Keynote Speaker*. [Convergent	phospholipid metabolism	in	highland adapted maize?](https://speakerdeck.com/rellan/convergent-glycerolipid-metabolism-in-highland-adapted-maize)
-
-
-#### March
-
-* Michigan State University, East Lansing. *Invited Seminar*, Laboratory of David Lowry. Identification of phospholipid metabolic patterns involved in maize adaptation to low phosphorus and cold conditions.
-
-#### February
-
-* UC Davis, Genome Center. *Seminar* (Fiehn & Ross-Ibarra Labs) Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.  
-
-* Carnegie Institution for Science. Plant Biology. *Seminar* (Dinneny Lab). Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.
-
-#### January
-
-* Gordon Research Conference Plant Lipids. Structure, Metabolism & Function. Galveston, USA (2017). *Invited Talk*. The Role of Phospholipid Metabolism in Maize Adaptation to Low Phosphorus and Cold Conditions.
-
-* Future Trends in Common Bean and Maize Research. Instituto de Biotecnología, Cuernavaca, Mexico.(2017). *Invited Talk*. Convergent	phospholipid metabolism	in	highland adapted maize?.
-
-### 2016
-
-* 7th International Crop Science Congress. Beijing, China (2016). *Invited Talk*. [The role of polar lipid metabolism reorganization in maize adaptation to low phosphorus soils of the Trans-Mexican volcanic belt highlands](https://speakerdeck.com/rellan/the-role-of-phospholipid-metabolism-in-maize-adaptation-to-low-phosphorus-and-cold-conditions)  
-
-* Ecology Institute. Mexico City, Mexico *Invited Seminar*. [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
-
-### 2015
-
-* Langebio´s Academic Days. [Towards a faster, more open and collaborative science. The future of scientific publishing beyond journals and impact factors](https://speakerdeck.com/rellan/towards-a-faster-more-open-and-collaborative-science-the-future-of-scientific-publishing-beyond-journals-and-impact-factors)
-
-* XVI National Congress of Biochemistry and Plant Molecular Biology, IX Simposium Mexico-USA Queretaro, México. (December-2015). *Invited Talk* [Towards a root system level understanding of how plants adjust root function and shape and integrate heterogeneous environmental cues](https://speakerdeck.com/rellan/towards-an-understanding-of-root-system-wide-integration-of-environmental-cues).  
-
-* Guanajuato University. GTO, Mexico. *Invited Seminar*. [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)  
-
-* Rhizosphere 4, Maastricht, The Netherlands. (June-2015). *Roundtable Organization* Emerging technologies for root systems scale imaging and phenotyping.
-
-* Biotechnology Institute. Cuernavaca, Mexico. *Invited Seminar*. [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
-
-### 2014
-
-* BASF 2014 Symposium on Unlocking Yield Potential in Soil. *Invited Seminar* Limburgerhof, Germanay.
-
-* Santa Clara University, CA. *Invited Seminar*. [From root cells to root systems: visualizing the plant´s hidden half](https://speakerdeck.com/rellan/from-root-cells-to-root-systems-visualizing-the-plant-s-hidden-half)  
-
-* California State University Monterey Bay, CA. *Invited Seminar*. [From root cells to root systems: visualizing the plant´s hidden half](https://speakerdeck.com/rellan/from-root-cells-to-root-systems-visualizing-the-plant-s-hidden-half)  
-
-* Annual Scientific Meeting of the American Society of Plant Biology. Portland, USA. *Invited Seminar* The Ground Truth: Understanding Root Physiology in Soil Using a Novel Imaging Platform.
-
-* PAG XXII Plant Phenotypes Workshop. San Diego, USA. *Invited Seminar* Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.
-
-### Before 2014
-
-* XVII International Plant Nutrition Colloquium, Istanbul, Turkey. (2013) *Invited presentation (Marschner Young Scientist Award)* Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.   
-
-* 30th Annual IPG Symposium on Root Biology, Columbia, Missouri. USA. (2013) *Selected Talk* Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.
-
-* 3rd Japan-China Joint Workshop on Plant Nutrition, Kurashiki, Japan. (2011) *Invited talk*  Iron xylem transport, the long and short of it.
-
-- XV International Symposium on Iron Nutrition and Interactions in Plants, Budapest, Hungary. (2010) *Selected talk* Delving into iron deficiency metabolomics.   
-
-- XVI International Plant Nutrition Colloquium. Sacramento, California, USA. (2009) *Selected talk*  Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply.
-
-- XVIII Reunión de la Sociedad Española de Fisiología Vegetal. XI Congreso Hispano-Luso de Fisiología Vegetal, Zaragoza, Spain (2009). *Selected talk* Identification of a tri-iron(III), tri-citrate complex in the xylem sap of iron-deficient tomato resupplied with iron: new insights into plant iron long-distance transport.   
+<!-- Collage Style Photo Album -->
+<style>
+  .photo-album {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Increase the minimum column width */
+    gap: 20px; /* Adjust the spacing between images */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px; /* Maximize the width for larger screens */
+  }
+
+  .photo-album img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; /* Larger rounded corners */
+    object-fit: cover;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .photo-album img:hover {
+    transform: scale(1.2); /* Increase zoom effect on hover */
+    opacity: 0.9;
+  }
+
+  /* Specific classes for large images */
+  .large-img {
+    grid-column: span 2; /* Larger images span two columns */
+    grid-row: span 2; /* Larger images span two rows */
+  }
+
+  .extra-large-img {
+    grid-column: span 3; /* Extra-large images span three columns */
+    grid-row: span 2; /* Extra-large images span two rows */
+  }
+
+  h1 {
+    text-align: left; /* Align the title to the left */
+    font-size: 50px; /* Larger title */
+    color: #2c6b2f; /* Darker green color */
+    margin-bottom: 40px; /* More space below the title */
+    padding-left: 20px; /* Add padding to the left for some spacing */
+  }
+</style>
+
+
+<!-- Image Gallery -->
+<div class="photo-album">
+  <!-- First row of images -->
+  <img src="images/IMG_6091.jpg" class="large-img">
+  <img src="images/PXL_20240619_160211079.jpg">
+  <img src="images/IMG_4816.jpg">
+  <img src="images/wolf.jpg" class="extra-large-img">
+  <img src="images/PXL_20240524_202620539.jpg" class="large-img">
+  
+
+  <!-- Second row of images -->
+  <img src="images/20241212_135930.jpg">
+  <img src="images/PXL_20240619_151659240.jpg">
+  <img src="images/image (2).png" class="large-img">
+  <img src="images/20240301_203614.jpg">
+
+  <!-- Third row of images -->
+  <img src="images/ruben.jpg">
+  <img src="images/IMG_6097.jpg">
+
+  <!-- Fourth row of images -->
+  <img src="images/IMG_6087.jpg">
+  <img src="images/20240616_092651.jpg">
+ 
+   <!-- Fifth row of images -->
+  <img src="images/gruandruben.png" class="large-img">
+  <img src="images/minions.png">
+
+  <!-- Sixth row of images -->
+  <img src="images/bar.png" class="extra-large-img">
+  <img src="images/20250113_112944.jpg">
+</div>

@@ -13,10 +13,10 @@
 
 <title>index.knit</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -48,6 +48,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -168,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -177,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -271,7 +265,7 @@ $(document).ready(function () {
   <a href="talks.html">
     <span class="fa fa-slideshare"></span>
      
-    Talks
+    Photo Album
   </a>
 </li>
 <li>
@@ -307,25 +301,63 @@ $(document).ready(function () {
 <!-- break -->
 <p><br> <br> <!-- break --></p>
 <div id="genetics-evolution-and-metabolism-of-maize-adaptation-lab"
-class="section level2">
-<h2><strong>G</strong>enetics, <strong>E</strong>volution and
+class="section level1">
+<h1><strong>G</strong>enetics, <strong>E</strong>volution and
 <strong>M</strong>etabolism of <strong>M</strong>aize
-<strong>A</strong>daptation Lab</h2>
-<hr />
-<p><strong>We are at the North Carolina State University, Department of
-Structural and Molecular Biochemistry.</strong></p>
-<p>You can find us at Polk Hall, Room 145 (lab) and 148 office or shoot
-us an email at rrellan[at]ncsu.edu or call 919-515-4738.</p>
-<p>If you are interested in joining our lab please take a look at our <a
-href="http://www.gemmalab.org/research.html">current research areas</a>
-for possible projects. Please read also our <a
-href="http://www.gemmalab.org/expectations.html">lab philosophy</a>
-about what to expect from me and what I would expect from you if we both
-decided to work together.</p>
+<strong>A</strong>daptation Lab</h1>
 <p><br></p>
+<p>🌽       🌽       🌽       🌽       🌽       🌽       🌽       🌽
+      🌽       🌽       🌽       🌽       🌽       🌽       🌽       🌽
+      🌽       🌽       🌽       🌽       🌽       🌽</p>
+<p><br></p>
+<p><br></p>
+<!-- Contact Information -->
+<div class="text-center">
+<p>
+<b>We are at North Carolina State University, Department of Structural
+and Molecular Biochemistry.</b>
+</p>
+<p>
+📍 <b>Location:</b> Polk Hall, Room 134, Room 145 (Lab), Room 148
+(Office)
+</p>
+<p>
+📧 <b>Email:</b> <a href="mailto:rrellan@ncsu.edu">rrellan@ncsu.edu</a>
+| 📞 <b>Phone:</b> (919) 515-4738
+</p>
+</div>
+<p><br></p>
+<!-- Join -->
+<!-- Call to Action with Images on the Sides -->
+<div class="container p-3 text-center"
+style="background: #e8f5e9; border-radius: 10px; max-width: 900px; margin: auto; display: flex; align-items: center; justify-content: space-between;">
+<!-- Left Image -->
+<p><img src="images/ncstate.png" style="width: 100px; flex-shrink: 0;"/></p>
+<!-- Main Text -->
+<div class="container p-3 text-center"
+style="background: #e8f5e9; border-radius: 10px; max-width: 800px; margin: auto;">
+<p style="font-size: 18px;">
+<p><b>Interested in joining our lab?</b></p>
+</p>
+<p>
+Explore our
+<a href="research.html" class="text-success font-weight-bold">current
+research areas</a> for potential projects.
+</p>
+<p>
+Learn about our
+<a href="expectations.html" class="text-success font-weight-bold">lab
+philosophy</a> and expectations.
+</p>
+</div>
+<!-- Right Image -->
+<p><img src="images/cals.png" style="width: 200px; flex-shrink: 0;"/></p>
+</div>
+<!-- Images  -->
 <p><img src="images/nevado_de_toluca.png" style="width: 900px;"></p>
 <p><br></p>
 <p><img src="images/winter_nursery_jan_2017.png" style="width: 900px;"></p>
+<p><br></p>
 </div>
 
 

@@ -13,10 +13,10 @@
 
 <title>Lab Members</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -48,6 +48,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -168,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -177,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -271,7 +265,7 @@ $(document).ready(function () {
   <a href="talks.html">
     <span class="fa fa-slideshare"></span>
      
-    Talks
+    Photo Album
   </a>
 </li>
 <li>
@@ -306,44 +300,23 @@ $(document).ready(function () {
 
 
 <hr />
-<p><img src="images/2022_nursery.jpg" style="width: 600px;"></p>
-<p><strong>Summer 2022 Nursery</strong></p>
+<!-- Centered Images -->
+<style>
+  .centered {
+    text-align: center;
+  }
+</style>
+<div class="centered">
+<p><img src="images/2022_nursery.jpg" style="width: 600px;"> <br>
+<strong>Summer 2022 Nursery</strong> <br><br></p>
+<p><img src="images/wolf.jpg" style="width: 600px;"> <br>
+<strong>Celebrating 100 Years of Crop and Soil Sciences -
+2024</strong></p>
+</div>
+<div id="gemma-lab-crew" class="section level2">
+<h2>🌽 <strong>GEMMA lab crew</strong></h2>
 <p><br></p>
-<p><img src="images/2022_the4th_with_holland_lab.jpg" style="width: 600px;"></p>
-<p><strong>With the Holland lab enjoying the classic 4th of July
-Popsicles</strong></p>
-<p><br></p>
-<p><img src="images/2023_rna_seq_sampling.jpg" style="width: 600px;"></p>
-<p><strong>Sampling for lipidomics and RNA-Seq with the Gage and Strable
-labs</strong></p>
-<p><br></p>
-<p><img src="images/2022_Spring_lap_pic.png" style="width: 600px;"></p>
-<p><strong>Lab in May 2022</strong></p>
-<p><br></p>
-<div id="current-members-of-the-lab-august-2023" class="section level2">
-<h2>Current members of the lab, August 2023</h2>
-<p><strong>Allison Barnes</strong> Postdoc.<br />
-Allison joined the lab in NCSU in June 2019. Among other things she is
-working in the functional characterization of a maize
-phospholipase.<br />
-<a href="https://twitter.com/asiekmanbarnes">
-<i class="fa fa-twitter" aria-hidden="true"></i> </a></p>
-<p><strong>Pascual Blanco</strong> Field Technician. Pascual joined the
-lab in the Fall of 2021. He manages all our field operations.</p>
-<p><strong>Aleya Mohammed</strong> Undergraduate student. Biochemistry
-Major. Aleya joined the lab in the Spring of 2023.</p>
-<p><strong>Shannon Persaud</strong> Undergraduate student. Genetics
-Major. Shannon joined the lab in the Summer of 2022.</p>
-<p><strong>Emily Phung</strong> Lab Technician. Emily joined the lab in
-the Spring of 2023. She manages several abiotic stress screens of our
-teosinte introgression populations.</p>
-<p><strong>Hannah Pil</strong> Lab Manager/Technician. Hannah joined the
-lab in the Summer of 2021 as an undergraduate and since then <a
-href="https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6">she has become a
-master corn pollinator</a>. She is currently working as a lab
-manager/technician before she starts her PhD in Genetics in the Fall of
-2023.</p>
-<p><strong>Rubén Rellán-Álvarez. PI</strong><br />
+<p><strong>Rubén Rellán-Álvarez</strong> Principal Investigator.<br />
 Rubén is an Assistant Professor at the Biochemistry Department at CALS -
 NCSU<br />
 </a> <a href="https://github.com/rellan">
@@ -352,55 +325,78 @@ NCSU<br />
 <i class="fa fa-envelope" aria-hidden="true"></i>
 <a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing">
 <i class="fa fa-file-text" aria-hidden="true"></i> </a></p>
-<p><strong>Fausto Rodríguez Zapata</strong> PhD Student. NCSU Genetics
-program. STEPS Center.<br />
+<p><strong>Fausto Rodríguez Zapata</strong> Postdoc.<br />
 Fausto studies maize glycerolipid quantitative and population genetics
 and genetic associations with soil variables involved in phosphorus
 deficiency.<br />
-<a href="https://twitter.com/chyscamuy">
-<i class="fa fa-twitter" aria-hidden="true"></i> </a>
-<a href="https://github.com/faustovrz">
+</a> <a href="https://github.com/faustovrz">
 <i class="fa fa-github-alt" aria-hidden="true"></i> </a></p>
-<p><strong>Ruthie Stokes</strong> PhD Student, Biochemistry
-Program<br />
-Ruthie joined the lab in the Fall of 2021 and is working on the
-characterization of lipid-protein interactions.</p>
-<p><strong>Nirwan Tandukar</strong> PhD Student, Genetics Program.<br />
-Nirwan joined in the lab in January 2022. He is working on the
-development of approaches that use multiple genetic datasets to identify
-genes in adaptation to abiotic stresses.</p>
+<p><strong>Allison Barnes</strong> Postdoc.<br />
+Allison joined the lab in June 2019. She is working in the functional
+characterization of a maize phospholipase.</p>
+<p><strong>Pascual Blanco</strong> Field Technician.<br />
+Pascual joined the lab in fall 2021. He manages all our field
+operations.</p>
+<p><strong>Lina López</strong> USDA Field Research Crop Scientist.<br />
+Lina joined in fall 2023.</p>
+<p><strong>Carolina E. Weldt</strong> Lab Manager/Technician.<br />
+Carolina joined the lab in summer 2024.</p>
 <p><strong>Destiny Tyson</strong> PhD Student, Genetics Program.
 Co-advised with Jim Holland.<br />
-Destiny joined the lab in the Fall of 2020. She is working on developing
-gene editing approaches to study maize photoperiod adaptation.</p>
+Destiny joined the lab in Fall 2020. She is working on developing gene
+editing approaches to study maize photoperiod adaptation.</p>
+<p><strong>Nirwan Tandukar</strong> PhD Student, Genetics Program.<br />
+Nirwan joined the lab in January 2022. He is working on the development
+of approaches that use multiple genetic datasets to identify genes in
+adaptation to abiotic stresses.</p>
+<p><strong>Hannah Pil</strong> PhD Student, Genetics Program.<br />
+Hannah joined the lab in summer 2021 as an undergraduate and since then
+<a href="https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6">she has become a
+master corn pollinator</a>.</p>
+<p><strong>Zehta Glover</strong> PhD Student, Genetics Program.<br />
+Zehta joined the lab in December 2024. She is working on the genetic
+mechanisms that drive cold stress tolerance, with an emphasis on
+evolutionary diversity in maize.</p>
+<p><strong>Lauren Insko</strong> PhD Student, Structural and Molecular
+Biochemistry Program.<br />
+Lauren joined the lab in January 2025. She is working on identifying
+regulatory elements of the gene <em>High PhosphatidylCholine 1</em> as
+well as identifying structural elements of the phospholipase protein
+product.</p>
+<p><strong>Isaac Fleming</strong> PhD Student, Crop Science. Co-adviced
+with Dr. Alex Woodley.<br />
+Isaac joined the lab in January 2025. He is working on Biological
+nitrification in maize. <br></p>
 <div id="former-lab-members" class="section level3">
-<h3>Former lab members</h3>
-<p><strong>Heli Kavi</strong> Undergraduate student.</p>
+<h3><strong>Former lab members</strong></h3>
+<p><br></p>
+<p><strong>Ruthie Stokes</strong> Master Student</p>
+<p><strong>Ryan Pil</strong> Undergraduate student</p>
+<p><strong>Aleya Mohammed</strong> Undergraduate student</p>
+<p><strong>Shannon Persaud</strong> Undergraduate student</p>
+<p><strong>Emily Phung</strong> Lab Technician</p>
+<p><strong>Heli Kavi</strong> Undergraduate student</p>
 <p><strong>Elohim Bello</strong>. PhD Student <em>co-advised with Luis
-Herrera-Estrella</em></p>
+Herrera-Estrella</em>.</p>
 <p><strong>Jessica Carcaño</strong> <em>Administrative
-assistant</em>.</p>
+assistant</em></p>
 <p><strong>Jonathan Ojeda</strong>. PhD Student <em>co-advised with Luis
-Herrera-Estrella</em>.<br />
-<a href="https://twitter.com/jonojedarivera">
-<i class="fa fa-twitter" aria-hidden="true"></i> </a></p>
+Herrera-Estrella</em>.</p>
 <p><strong>Fabián Santa Maria</strong> Master Student <em>co-advised
-with Luis Delaye</em>.</p>
+with Luis Delaye</em></p>
 <p><strong>Andi Kur</strong> PhD Student. NCSU Genetics program.
-AgBioFews Program.<br />
-<a href="https://twitter.com/Andi_Kur_">
-<i class="fa fa-twitter" aria-hidden="true"></i> </a></p>
+AgBioFews Program.</p>
 <p><strong>Christina Merkel</strong> Lab Tech</p>
-<p><strong>Patricio Cid</strong> <em>Field Manager</em>.</p>
-<p><strong>Juan Estévez</strong> <em>Wet Lab Manager</em>.</p>
-<p><strong>Karla Juarez</strong> <em>Master Student</em>.</p>
+<p><strong>Patricio Cid</strong> Field Manager</p>
+<p><strong>Juan Estévez</strong> Wet Lab Manager</p>
+<p><strong>Karla Juarez</strong> Master Student</p>
 <p><strong>Sofía Estefany Sánchez</strong> Master Student <em>co-advised
 with Ruairidh Sawers</em>.</p>
 <p><strong>Vladimir Torres</strong>. Master Student <em>co-advised with
 Ruairidh Sawers</em>.</p>
 <p><strong>Christian Escoto</strong>. Master Student <em>co-advised with
 Ruairidh Sawers</em>.</p>
-<p><strong>Dario Alávez</strong> <em>Lab Technician</em>.</p>
+<p><strong>Dario Alávez</strong> Lab Technician</p>
 </div>
 </div>
 

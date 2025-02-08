@@ -1,23 +1,63 @@
 <!-- break -->
-<br>	<br>
-<!-- break -->  
 
-## **G**enetics, **E**volution and **M**etabolism of **M**aize **A**daptation Lab
+<br> <br> <!-- break -->
 
------------
+# **G**enetics, **E**volution and **M**etabolism of **M**aize **A**daptation Lab  
 
-**We are at the North Carolina State University, Department of Structural and Molecular Biochemistry.** 
+<br>  
 
-You can find us at Polk Hall, Room 145 (lab) and 148 office or shoot us an email at  rrellan[at]ncsu.edu or call 919-515-4738.
+🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 🌽 
 
-If you are interested in joining our lab please take a look at our [current research areas](http://www.gemmalab.org/research.html) for possible projects. Please read also our [lab philosophy](http://www.gemmalab.org/expectations.html) about what to expect from me and what I would expect from you if we both decided to work together.     
+<br>  
 
 <br>
+
+<!-- Contact Information -->
+
+::: text-center
+<p><b>We are at North Carolina State University, Department of Structural and Molecular Biochemistry.</b></p>
+
+<p>📍 <b>Location:</b> Polk Hall, Room 134, Room 145 (Lab), Room 148 (Office)</p>
+
+<p>📧 <b>Email:</b> <a href="mailto:rrellan@ncsu.edu">rrellan\@ncsu.edu</a> \| 📞 <b>Phone:</b> (919) 515-4738</p>
+:::
+
+<br>
+
+<!-- Join -->
+
+<!-- Call to Action with Images on the Sides -->
+
+:::: {.container .p-3 .text-center style="background: #e8f5e9; border-radius: 10px; max-width: 900px; margin: auto; display: flex; align-items: center; justify-content: space-between;"}
+<!-- Left Image -->
+
+<img src="images/ncstate.png" style="width: 100px; flex-shrink: 0;"/>
+
+<!-- Main Text -->
+
+::: {.container .p-3 .text-center style="background: #e8f5e9; border-radius: 10px; max-width: 800px; margin: auto;"}
+<p style="font-size: 18px;">
+
+<b>Interested in joining our lab?</b>
+
+</p>
+
+<p>Explore our <a href="research.html" class="text-success font-weight-bold">current research areas</a> for potential projects.</p>
+
+<p>Learn about our <a href="expectations.html" class="text-success font-weight-bold">lab philosophy</a> and expectations.</p>
+:::
+
+<!-- Right Image -->
+
+<img src="images/cals.png" style="width: 200px; flex-shrink: 0;"/>
+::::
+
+<!-- Images  -->
 
 <img src="images/nevado_de_toluca.png" style="width: 900px;">
 
 <br>
 
-<img src="images/winter_nursery_jan_2017.png" style="width: 900px;">  
+<img src="images/winter_nursery_jan_2017.png" style="width: 900px;"> 
 
-
+<br>

@@ -13,10 +13,10 @@
 
 <title>News</title>
 
-<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -48,6 +48,7 @@
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -168,8 +169,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -177,16 +178,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -271,7 +265,7 @@ $(document).ready(function () {
   <a href="talks.html">
     <span class="fa fa-slideshare"></span>
      
-    Talks
+    Photo Album
   </a>
 </li>
 <li>
@@ -307,9 +301,54 @@ $(document).ready(function () {
 
 <hr />
 <div id="section" class="section level3">
-<h3>2023</h3>
+<h3>🌽 2025</h3>
 <ul>
-<li><p>Nirwan visited the laboratory of Ed Buckler.</p></li>
+<li><p>Big congratulations to Fausto! His abstract ranked among the top
+5 out of 84 submissions and was selected for an oral talk at the Maize
+Genetics Meeting.</p></li>
+<li><p>Hannah’s abstract was chosen for a lightning talk at the 2025
+maize meeting.</p></li>
+<li><p>Nirwan gave a talk at the INTRINSyC seminar.</p></li>
+<li><p>Ruben was awarded with the Presidential Early Career Award for
+Scientists and Engineers (PECASE), <strong>the highest honor bestowed by
+the U.S. government on outstanding scientists and engineers early in
+their careers!!</strong></p></li>
+<li><p>We secured an ARPA-E grant for $5,000,000, where we will
+collaborate with the University of Illinois, the University of Arizona,
+and Oak Ridge National Laboratory.</p></li>
+<li><p>Lauren joined the lab!</p></li>
+</ul>
+</div>
+<div id="section-1" class="section level3">
+<h3>🌽 2024</h3>
+<ul>
+<li><p>Ruben visited severa EMBRAPA units in Brazil</p></li>
+<li><p>Zehta joined the lab!</p></li>
+<li><p>Ruthie graduated</p></li>
+<li><p>Hannah won the first place at the GGA Flash Talk Contest</p></li>
+<li><p>Nirwan gave a talk at the Gordon Research Conference</p></li>
+<li><p>Ruben went to Peru to meet with collaborators</p></li>
+<li><p>The lab participated in a week-long tutoring program with the
+<strong>JUNTOS initiative</strong>, providing Latino students with
+hands-on DNA extraction experience and a tour of our fields.</p></li>
+<li><p>Lina got her part 107 drone pilot license</p></li>
+<li><p>Hannah began co-hosting the research interest group
+INTRINSyC</p></li>
+<li><p>Carolina joined the lab as a Lab Tech/manager!</p></li>
+<li><p>Hannah, Nirwan, Ruthie, Ruben, Emily, Shannon, and Fausto
+assisted to the maize meeting conference</p></li>
+<li><p>Fausto’s abstract has been selected for a lightning talk at the
+maize meeting. It was one of the 6 abstracts (out of 120) that got the
+top score by the two reviewers that evaluated it!!</p></li>
+<li><p>Ruben was awarded with the <strong>M. Rhoades Early-Career Maize
+Genetics Award</strong>.</p></li>
+</ul>
+</div>
+<div id="section-2" class="section level3">
+<h3>🌽 2023</h3>
+<ul>
+<li><p>Nirwan visited the laboratory of Ed Buckler (Cornell
+University).</p></li>
 <li><p>Briana Parker and undergraduate student from California State
 University at Sacramento joined the lab for an REU stay.</p></li>
 <li><p>Aleya Mohammed a student from the Biochemistry major joined the
@@ -328,8 +367,8 @@ full time lab technician.</p></li>
 tecnhnician.</p></li>
 </ul>
 </div>
-<div id="section-1" class="section level3">
-<h3>2022</h3>
+<div id="section-3" class="section level3">
+<h3>🌽 2022</h3>
 <ul>
 <li><p>Nirwan Tandukar, a PhD student from the Functional Genomics
 Program joined the lab to work in the DOE CAREER project in January
@@ -337,10 +376,8 @@ Program joined the lab to work in the DOE CAREER project in January
 <li><p>Ruthie Stokes, a PhD student from the Biochemistry program joined
 the lab in January 2022.</p></li>
 <li><p>Fausto and Allison won the Genetics and Genomics Academy paper of
-the year!</p></li>
-</ul>
-<p><img src="images/2022_gga_paper.jpg" style="width: 500px;"></p>
-<ul>
+the year!
+<img src="images/2022_gga_paper.jpg" style="width: 500px;"></p></li>
 <li><p>Ruthie Stokes was accepted into the <a
 href="https://research.ncsu.edu/ges/academics/agbiofews/students-3/">AgBioFews
 program.</a></p></li>
@@ -348,8 +385,8 @@ program.</a></p></li>
 technician.</p></li>
 </ul>
 </div>
-<div id="section-2" class="section level3">
-<h3>2020-2021</h3>
+<div id="section-4" class="section level3">
+<h3>🌽 2020-2021</h3>
 <p>Lot’s of things happened during this time in the world and our lab.
 To summarize:</p>
 <ul>
@@ -368,15 +405,15 @@ for Phosphorus Sustainability NSF Center.</p></li>
 Agricultural Service to work with our colleagues in Perú.</p></li>
 </ul>
 </div>
-<div id="section-3" class="section level3">
-<h3>2020</h3>
+<div id="section-5" class="section level3">
+<h3>🌽 2020</h3>
 <ul>
 <li>August. Andi Kur joined the lab and will start her PhD in the
 Genetics program with a fellowship from the AgBioFews Program.</li>
 </ul>
 </div>
-<div id="section-4" class="section level3">
-<h3>2019</h3>
+<div id="section-6" class="section level3">
+<h3>🌽 2019</h3>
 <ul>
 <li><p>October 10th Fausto gave a talk at NCSU’s Intrynsic
 group.</p></li>
@@ -416,8 +453,8 @@ State University, Deparment of Structural and Molecular
 Biochemistry.</strong></p></li>
 </ul>
 </div>
-<div id="section-5" class="section level3">
-<h3>2018</h3>
+<div id="section-7" class="section level3">
+<h3>🌽 2018</h3>
 <ul>
 <li><p>August 5-10th. Karla gave a talk at the 12th International Plant
 Molecular Biology Congress in Montepellier.</p></li>
@@ -438,8 +475,8 @@ href="https://mexpopgen.wordpress.com/">MexPopGen</a> meeting organized
 in Langebio.</p></li>
 </ul>
 </div>
-<div id="section-6" class="section level3">
-<h3>2017</h3>
+<div id="section-8" class="section level3">
+<h3>🌽 2017</h3>
 <ul>
 <li><p>November 13-17th. We were part of the organizing committee of the
 SMB Plant Biochemistry Meeting in Puerto Vallarta.</p></li>
@@ -486,8 +523,8 @@ Nursery.
 <img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/winter_nursery.png" width="500"></p></li>
 </ul>
 </div>
-<div id="section-7" class="section level3">
-<h3>2016</h3>
+<div id="section-9" class="section level3">
+<h3>🌽 2016</h3>
 <ul>
 <li><p>December 19. Our collaboration with Luis Herrera-Estrella´s lab
 on <em>Malate-dependent Fe accumulation is a critical checkpoint in the

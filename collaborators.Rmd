@@ -7,8 +7,78 @@ output: html_document
 
 ---
 
+### 🌽 ARPA-e  
 
-### Maize adaption to highlands<a href="http://highlandadaptation.org"><img src="images/hilo_logo.png" style="border:10px solid white"; width=50px></a>
+<div style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+
+- [Joe Gage](https://gagelab.wordpress.ncsu.edu/)
+- [Alex Woodley](https://sustainablesoils.wordpress.ncsu.edu/research-group/)
+- [Angela Kent](https://microbiome.nres.illinois.edu/)
+- [Debjani Sihi](https://www.debjanisihi.com/)
+- [John Cahil](https://www.ornl.gov/staff-profile/john-f-cahill)
+- [Alonso Favela](https://www.favelalab.com/the-team)
+- [Martin Bohn](https://cropsciences.illinois.edu/directory/mbohn)
+- [Steve Moose](https://cropsciences.illinois.edu/directory/smoose)
+- [Shadi S. Atalla](https://ceos.illinois.edu/bio-shadiatallah)
+- [Mike Hyman](https://cals.ncsu.edu/plant-and-microbial-biology/people/mrhyman/)
+- [Christine Hawkes](https://hawkeslab.wordpress.ncsu.edu/)
+- [Frederick E. Below and Connor Sible](https://cropphysiology.cropsci.illinois.edu/staff/)
+
+</div>
+
+<br>
+
+### 🌽 CERCA: **C**ircular **E**conomy that **R**eimagines **C**orn **A**griculture 
+<br>
+
+<div style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
+
+- [Edward Buckler](https://www.maizegenetics.net/)    
+- [Jim Holland](https://cals.ncsu.edu/crop-and-soil-sciences/people/jholland/)  
+- [Allison Barnes](https://scholar.google.com/citations?user=bpeDL5YAAAAJ&hl=en)   
+- [Victor Raboy](https://www.researchgate.net/scientific-contributions/Victor-Raboy-39880567)
+- [Seth Murray](https://soilcrop.tamu.edu/people/murray-seth-c/)
+- [Rebecca Roston](https://www.rostonlab.com/)
+- [Mike Castellano](https://castellanolab.weebly.com/)
+- [Matthew Hufford](https://www.zeagenomics.org/)
+- [Natalia de Leon](https://cornbreeding.wisc.edu/)
+- [Shawn Kaepler](https://energy.wisc.edu/about/energy-experts/shawn-kaeppler)
+- [Bruno Basso](https://www.canr.msu.edu/people/basso_bruno)
+- [Lisa Ainsworth](https://sib.illinois.edu/directory/profile/ainswort)
+- [Miguel Pineros](https://scholar.google.com/citations?user=jfGIEM4AAAAJ&hl=en)
+- [Mike Gore](https://blogs.cornell.edu/gorelab/)
+- [Ruthie Angelovici](https://biology.missouri.edu/people/angelovici)
+- [Matt Brooks]()
+- [Wolfwang Busch](https://busch.salk.edu/)
+- [Junpin Chen](https://www.ars.usda.gov/plains-area/lubbock-tx/cropping-systems-research-laboratory/plant-stress-and-germplasm-development-research/people/jumping-chen/)
+- [Denise Costich](https://www.maizegenetics.net/denisecostich)
+- [Brian Emmet](https://www.ars.usda.gov/midwest-area/ames/nlae/people/bryan-emmett/)
+- [Sherry Flint-Garcia](https://flint-garcias.mufaculty.umsystem.edu/)
+- [Kaiyu Guan](http://faculty.nres.illinois.edu/~kaiyuguan/)
+- [Candice Hirsch](https://hirschlab.cfans.umn.edu/)
+- [David Holding](https://holdinglab.unl.edu/)
+- [Jian Hua](https://blogs.cornell.edu/jianhualab/)
+- [Carolos Messina](https://hos.ifas.ufl.edu/people/on-campus-faculty/carlos-d-messina/)
+- [Michael Todd](https://www.salk.edu/scientist/todd-michael/)
+- [Sakiko Okumoto](https://soilcrop.tamu.edu/people/okumoto-sakiko/)
+- [Nicholas Pugh](https://www.ars.usda.gov/people-locations/person/?person-id=56194)
+- [Cinta Romay](https://www.maizegenetics.net/cintaromay)
+- [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)
+- [Paul Scott](https://www.ars.usda.gov/midwest-area/ames/cicgru/people/paul-scott/)
+- [Jaccob Washburn](https://www.ars.usda.gov/people-locations/person?person-id=55047)
+- [Ray Collier](https://www.ars.usda.gov/people-locations/person?person-id=11078)
+
+</div>
+
+
+<br>
+
+<div style="text-align: center;">
+  <img src="images/image.avif" style="width: 600px;">
+</div>  
+<br>
+
+### 🌽 Maize adaption to highlands 
 
 - [Graham Coop](https://gcbias.org/)    
 - [Sherry Flint-García](http://web.missouri.edu/~flint-garcias/home.html)  
@@ -17,23 +87,17 @@ output: html_document
 - [Jeffrey Ross-Ibarra](http://www.rilab.org/)  
 - [Dan Runcie](http://runcielab.ucdavis.edu/)  
 
-### Metabolomics.
+### 🌽 Metabolomics
 
 - [Oliver Fiehn](http://fiehnlab.ucdavis.edu/)
 
 
-### Phosphorus deficiency and nutrient crosstalk
+### 🌽 Phosphorus nutrition
 
 - [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)
-- [Luis Herrera-Estrella](http://www.langebio.cinvestav.mx/?pag=346)
-- [Sandrine Ruffel](https://www.researchgate.net/profile/Sandrine_Ruffel)
-- [Gabriel Krouk](https://sites.google.com/site/gabrielkroukresearch/)
+- [Victor Raboy](https://www.researchgate.net/scientific-contributions/Victor-Raboy-39880567)
+- [Miguel Pineros](https://scholar.google.com/citations?user=jfGIEM4AAAAJ&hl=en)
 
-### Root Modeling and Root Phenotyping
-
-- [José Dinneny](https://dinnenylab.wordpress.com/)
-- [Guillaume Lobet](http://www.guillaumelobet.be/)
-- [Xavier Draye](http://www.uclouvain.be/xavier.draye)
 
 
 

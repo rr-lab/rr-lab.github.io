@@ -8,54 +8,28 @@ output: html_document
 ---
 
 
-<img src="images/2022_nursery.jpg" style="width: 600px;">
+<!-- Centered Images -->
+<style>
+  .centered {
+    text-align: center;
+  }
+</style>
 
-**Summer 2022 Nursery**
+<div class="centered">
+  <img src="images/2022_nursery.jpg" style="width: 600px;">
+  <br>
+  <strong>Summer 2022 Nursery</strong>
+  <br><br>
 
+  <img src="images/wolf.jpg" style="width: 600px;">
+  <br>
+  <strong>Celebrating 100 Years of Crop and Soil Sciences - 2024</strong>
+</div>
+
+## 🌽 **GEMMA lab crew**
 <br>
 
-<img src="images/2022_the4th_with_holland_lab.jpg" style="width: 600px;">
-
-**With the Holland lab enjoying the classic 4th of July Popsicles**
-
-<br>
-
-<img src="images/2023_rna_seq_sampling.jpg" style="width: 600px;">
-
-**Sampling for lipidomics and RNA-Seq with the Gage and Strable labs**
-
-<br>
-
-<img src="images/2022_Spring_lap_pic.png" style="width: 600px;">
-
-**Lab in May 2022**
-
-<br>
-
-## Current members of the lab, August 2023
-
-**Allison Barnes** Postdoc.   
-Allison joined the lab in NCSU in June 2019. Among other things she is working in the functional characterization of a maize phospholipase.  
-<a href="https://twitter.com/asiekmanbarnes">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-</a>  
-
-**Pascual Blanco** Field Technician.
-Pascual joined the lab in the Fall of 2021. He manages all our field operations. 
-
-**Aleya Mohammed** Undergraduate student. Biochemistry Major.
-Aleya joined the lab in the Spring of 2023. 
-
-**Shannon Persaud** Undergraduate student. Genetics Major.
-Shannon joined the lab in the Summer of 2022. 
-
-**Emily Phung** Lab Technician. Emily joined the lab in the Spring of 2023. She manages several abiotic stress screens of our teosinte introgression populations. 
-
-**Hannah Pil** Lab Manager/Technician.
-Hannah joined the lab in the Summer of 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6). She is currently working as a lab manager/technician before she starts her PhD in Genetics in the Fall of 2023.
-
- 
-**Rubén Rellán-Álvarez. PI**  
+**Rubén Rellán-Álvarez** Principal Investigator.  
 Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU  
 </a>  <a href="https://github.com/rellan">
 <i class="fa fa-github-alt" aria-hidden="true"></i>
@@ -65,50 +39,76 @@ Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU
 <i class="fa fa-file-text" aria-hidden="true"></i>
 </a>  
 
-**Fausto Rodríguez Zapata** PhD Student. NCSU Genetics program. STEPS Center.  
+**Fausto Rodríguez Zapata** Postdoc.  
 Fausto studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.  
-<a href="https://twitter.com/chyscamuy">
-<i class="fa fa-twitter" aria-hidden="true"></i>
 </a>  <a href="https://github.com/faustovrz">
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
 
-**Ruthie Stokes** PhD Student, Biochemistry Program   
-Ruthie joined the lab in the Fall of 2021 and is working on the characterization of lipid-protein interactions.  
+**Allison Barnes** Postdoc.   
+Allison joined the lab in June 2019. She is working in the functional characterization of a maize phospholipase.  
 
-**Nirwan Tandukar** PhD Student, Genetics Program.     
-Nirwan joined in the lab in January 2022. He is working on the development of approaches that use multiple genetic datasets to identify genes in adaptation to abiotic stresses.   
+**Pascual Blanco** Field Technician.  
+Pascual joined the lab in fall 2021. He manages all our field operations.
+
+**Lina López** USDA Field Research Crop Scientist.  
+Lina joined in fall 2023.  
+
+**Carolina E. Weldt** Lab Manager/Technician.  
+Carolina joined the lab in summer 2024.
 
 **Destiny Tyson** PhD Student, Genetics Program. Co-advised with Jim Holland.    
-Destiny joined the lab in the Fall of 2020. She is working on developing gene editing approaches to study maize photoperiod adaptation.    
+Destiny joined the lab in Fall 2020. She is working on developing gene editing approaches to study maize photoperiod adaptation. 
 
-### Former lab members  
+**Nirwan Tandukar** PhD Student, Genetics Program.     
+Nirwan joined the lab in January 2022. He is working on the development of approaches that use multiple genetic datasets to identify genes in adaptation to abiotic stresses.   
 
-**Heli Kavi** Undergraduate student.
+**Hannah Pil** PhD Student, Genetics Program.   
+Hannah joined the lab in summer 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
 
-**Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*  
+**Zehta Glover** PhD Student, Genetics Program.     
+Zehta joined the lab in December 2024. She is working on the genetic mechanisms that drive cold stress tolerance, with an emphasis on evolutionary diversity in maize.
 
-**Jessica Carcaño** *Administrative assistant*.  
+**Lauren Insko** PhD Student, Structural and Molecular Biochemistry Program.     
+Lauren joined the lab in January 2025. She is working on identifying regulatory elements of the gene *High PhosphatidylCholine 1* as well as identifying structural elements of the phospholipase protein product.  
+
+**Isaac Fleming** PhD Student, Crop Science. Co-adviced with Dr. Alex Woodley.  
+Isaac joined the lab in January 2025. He is working on Biological nitrification in maize.
+<br>
+
+
+### **Former lab members**  
+<br>
+
+**Ruthie Stokes** Master Student
+
+**Ryan Pil** Undergraduate student
+
+**Aleya Mohammed** Undergraduate student
+
+**Shannon Persaud** Undergraduate student 
+
+**Emily Phung** Lab Technician
+
+**Heli Kavi** Undergraduate student
+
+**Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*.
+
+**Jessica Carcaño** *Administrative assistant*  
 
 **Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
-<a href="https://twitter.com/jonojedarivera">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-</a>  
 
-**Fabián Santa Maria** Master Student *co-advised with Luis Delaye*.   
+**Fabián Santa Maria** Master Student *co-advised with Luis Delaye*
 
-**Andi Kur** PhD Student. NCSU Genetics program. AgBioFews Program.   
-<a href="https://twitter.com/Andi_Kur_">
-<i class="fa fa-twitter" aria-hidden="true"></i>
-</a>  
+**Andi Kur** PhD Student. NCSU Genetics program. AgBioFews Program.
 
 **Christina Merkel** Lab Tech   
 
-**Patricio Cid** *Field Manager*.  
+**Patricio Cid** Field Manager  
 
-**Juan Estévez** *Wet Lab Manager*.  
+**Juan Estévez** Wet Lab Manager  
 
-**Karla Juarez** *Master Student*.   
+**Karla Juarez** Master Student  
 
 **Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. 
 
@@ -116,4 +116,4 @@ Destiny joined the lab in the Fall of 2020. She is working on developing gene ed
 
 **Christian Escoto**. Master Student *co-advised with Ruairidh Sawers*.   
 
-**Dario Alávez** *Lab Technician*. 
+**Dario Alávez** Lab Technician

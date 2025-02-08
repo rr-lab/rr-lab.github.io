@@ -14,7 +14,7 @@ navbar:
     - text: "Publications"
       icon: fa-file-text
       href: publications.html
-    - text: "Talks"
+    - text: "Photo Album"
       icon: fa-slideshare
       href: talks.html
     - text: "News"
@@ -25,7 +25,8 @@ navbar:
       href: collaborators.html
 output:
   html_document:
-    theme: cosmo
-    highlight: kate
-exclude: [".Rproj","README.md"]
+    theme: flatly
+    highlight: zenburn
+    css: styles.css
+exclude: [".Rproj", "README.md"]
 output_dir: "."
