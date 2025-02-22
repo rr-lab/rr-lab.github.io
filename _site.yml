@@ -15,7 +15,7 @@ navbar:
       icon: fa-file-text
       href: publications.html
     - text: "Photo Album"
-      icon: fa-slideshare
+      icon: fa-camera
       href: photos.html
     - text: "News"
       icon: fa-newspaper-o
@@ -23,6 +23,9 @@ navbar:
     - text: "Collaborators"
       icon: fa-handshake-o
       href: collaborators.html
+    - text: "Talks"
+      icon: fa-slideshare
+      href: talks.html
 output:
   html_document:
     theme: flatly

@@ -8,7 +8,9 @@ output: html_document
 ---
 ### 🌽 2025  
 
-- Fausto's abstraact was selected for an oral talk at the Maize Genetics Meeting.
+
+
+- Fausto's abstract was selected for an oral talk at the Maize Genetics Meeting.
 
 - Hannah's abstract was selected for an oral talk at the Maize Genetics Meeting.
 
@@ -22,7 +24,7 @@ output: html_document
 
 ### 🌽 2024  
 
-- Rubén visited severa EMBRAPA units in Brazil
+- Rubén visited several EMBRAPA units in Brazil
 
 - Zehta joined the lab!  
 
@@ -42,7 +44,7 @@ output: html_document
 
 - Carolina joined the lab as a Lab Tech/manager! 
 
-- Hannah, Nirwan, Ruthie, Ruben, Emily, Shannon, and Fausto assisted to the maize meeting conference   
+- Rubén chaired the [66th Maize Genetics Meeting](https://www.maizegdb.org/mgc/maizemeeting/2024/) at the Raleigh Convention Center with more than 500 attendees. Everyone in the lab helped hosting and organizing the event. 
 
 - Fausto's abstract has been selected for a lightning talk at the maize meeting. It was one of the 6 abstracts (out of 120) that got the top score by the two reviewers that evaluated it!!     
 

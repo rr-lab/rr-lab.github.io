@@ -1,0 +1,148 @@
+---
+title: Talks
+pagetitle: Talks
+output: html_document
+---
+
+
+---
+
+---
+title: Talks
+pagetitle: Talks
+output: html_document
+---
+
+**Conference talks and invited seminars**
+
+**2025** 
+
+**53**. 	Mohammed VI Polytechnic University, Morocco, IV Science Week, 2025, **Invited Talk**. “Using crop natural genetic variation to improve phosphorus efficiency” 
+
+**2024**
+
+**52** 	North Carolina State University, 2024, Intrinsyc Seminar Series. Invited Seminar. “CERCA: Circular Economy that Reimagines Corn Agriculture”
+
+**2023**
+
+ **51**. 	China Agricultural University, Workshop on Plant Responses to Abiotic Stresses and Environmental Signals 2023,  **Invited Talk**. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
+
+ **50**. 	University of California Riverside 2023,  **Invited Seminar**. “North, South, Up and Down. The genes and molecules that allow maize to move all around.”
+
+**49**. 	Plant Breeding Consortium, North Carolina State University. International Plant Breeding Consortium,  **Invited Seminar**. “The genetics of Maize Wild Relatives and Maize Native Varieties local adaptation ”
+
+**48**. 	University of Madison Wisconsin 2023,  **Invited Seminar**. “North, South, Up and Down. The genes and molecules that allow maize to move all around.” 
+
+**2022**
+
+**47**. 	University of Nebraska Lincoln. Center for Biological Chemistry and Redox Biology Center. 2022, **Invited Seminar**. “North, South, Up and Down. The genes and molecules that allow maize to move all around.” 
+
+**2021**
+
+**46**. 	Wellcome Trust Plant Genomes in a Changing Environment Conference 2021, **Invited Talk**. John Innes Center, UK. “The molecular and genetic basis of maize landrace local adaptation”
+
+**45**. 	Maize Genetics Meeting 2021  **Invited Talk**. “Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time.”
+
+**44**. 	Genetic Engineering and Society Center Colloquium.  **Invited Seminar**. “Drinking from the maize diversity firehose.”
+
+**42**. 	Department of Plant Sciences, Pennsylvania State University. Invited Seminar. Invited Seminar. “North, South, Up and Down. The genes and molecules that allow maize to move all around”.
+
+**2020**
+
+**41**. 	Genetics and Genomics Seminar Series, North Carolina State University. Invited Seminar. “North, South, Up and Down. The genes and molecules that allow maize to move all around”.
+
+**40**. 	Plant Sciences & Plant Pathology Department, Montana State University. Invited Seminar“North, South, Up and Down. The genes and molecules that allow maize to move all around.”
+
+**2019**
+
+**39**. 	American Seed Trade Association 2019, Chicago. Invited Talk. “The genetics of phospholipid metabolism in highland maize.”
+
+**38**. 	Plant and Microbial Biology Department, University of Minnesota. Invited Seminar. “Evolutionary lipidomics of maize local adaptation”
+
+**37**. 	North Carolina Plant Molecular Biology retreat, **Invited talk**.
+
+**36**. 	Plant and Molecular Biology department, NC State,  **Invited talk**. 
+
+**35**. 	La Molina University in Lima, Perú. **Invited Talk**. “Evolutionary lipidomics of maize local adaptation”
+
+**34**. 	Germplasm Enhancement of Maize meeting in Clayton, NC, **Invited Talk**
+
+**33**. 	Syngenta Plant Stress Symposium at Syngenta headquarters in the Research Triangle Park, NC. **Invited Talk**
+
+**32**. 	Plant Biology Department, UGA in Athens, Georgia  **Invited Seminar**
+
+2018
+
+**31**. 	Misión Biológica de Galicia in Pontevedra, Spain. **Invited Seminar**
+
+**30**. 	Aula Dei Experimental Station in Zaragoza, Spain. **Invited Seminar**
+
+**29**. 	MexPopGen meeting. Irapuato, Mexico. **Invited talk**
+
+**2017**
+
+**28** 	Iowa State University. Genetics and Genomics Graduate Group. **Invited Seminar**. [Towards an understanding of maize adaptation to highlands using a combination of lipidomics and quantitative and population genetics](http://bit.ly/rra_ISU_2017).
+
+**27** 	Donald Danforth Plant Science Center Scientific Retreat. Mo. **Invited Plenary Seminar.** [Convergent phospholipid metabolism in highland adapted maize?](https://speakerdeck.com/rellan/convergent-glycerolipid-metabolism-in-highland-adapted-maize)
+
+**26** 	Michigan State University. **Invited seminar**, Laboratory of David Lowry. Identification of phospholipid metabolic patterns involved in maize adaptation to low phosphorus and cold conditions.
+
+**25** 	UC Davis, Genome Center. **Invited** **Seminar**. Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.  
+
+**24** 	Carnegie Institution for Science. Plant Biology Department, Stanford, CA. **Invited** **Seminar**. Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.
+
+**23** 	Gordon Research Conference Plant Lipids. Structure, Metabolism & Function, Galveston, TX. **Invited talk**. The Role of Phospholipid Metabolism in Maize Adaptation to Low Phosphorus and Cold Conditions. 
+
+**22** 	Future Trends in Common Bean and Maize Research. Instituto de Biotecnología, Cuernavaca, México. **Invited talk**. Convergent phospholipid metabolism in highland adapted maize?
+
+**2016**
+
+**21** 	7th International Crop Science Congress. Beijing, China. **Invited talk.** [The role of polar lipid metabolism reorganization in maize adaptation to low phosphorus soils of the Trans-Mexican volcanic belt highlands](https://speakerdeck.com/rellan/the-role-of-phospholipid-metabolism-in-maize-adaptation-to-low-phosphorus-and-cold-conditions).
+
+**20** 	Langebio Academic Days, Langebio, Mexico. **Internal Seminar**. [Towards a faster, more open, and more collaborative science. The future of scientific publishing beyond journals and impact factors](https://speakerdeck.com/rellan/towards-a-faster-more-open-and-collaborative-science-the-future-of-scientific-publishing-beyond-journals-and-impact-factors)
+
+**19** 	Instituto de Ecología, UNAM, México City, México. **Invited seminar** [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
+
+**18** 	Universidad de Guanajuato, Guanajuato, México. **Invited seminar** [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
+
+**2015**
+
+**17** 	XVI National Congress of Biochemistry and Plant Molecular Biology, IX Simposium Mexico-USA Queretaro, México. **Keynote talk**. Towards a root system-level understanding of how plants adjust root function and shape and integrate heterogeneous environmental cues. 
+
+**16** 	Leibniz Institute of Plant Genetics and Crop Plant Research. Gatersleben, Germany. **Invited seminar** [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
+
+**15** 	UMR “Biochemistry and Plant Molecular Physiology” \- INRA Montpellier, France. **Invited seminar** [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
+
+**14** 	Rhizosphere 4, Maastricht, The Netherlands. **Roundtable Organization** Emerging technologies for root systems scale imaging and phenotyping.
+
+**13** 	Instituto de Biotecnología, UNAM, Cuernavaca, México. **Invited seminar** [Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system](https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system)
+
+**2014**
+
+**12** 	BASF 2014 Symposium on Unlocking Yield Potential in Soil. Limburgerhof, Germany. **Invited talk**
+
+**11** 	Annual Scientific Meeting of the American Society of Plant Biology. Portland, USA. Understanding Root Physiology in Soil Using a Novel Imaging Platform. **Selected talk**
+
+**10** 	PAG XXII Plant Phenotypes Workshop. San Diego, USA. **Selected talk.** Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil 
+
+**09** 	San José University, CA. **Invited seminar** Understanding Root Physiology in Soil Using a Novel Imaging Platform.
+
+**2013**
+
+**08** 	XVII International Plant Nutrition Colloquium, Istanbul, Turkey. **Invited talk. (Marschner Young Scientist Award)**. Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil. 
+
+**07** 	30th Annual IPG Symposium on Root Biology, Columbia, Missouri. **Selected talk**. Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil. 
+
+**06** 	California State University at Monterey Bay, CA. **Invited seminar**. Understanding Root Physiology in Soil Using a Novel Imaging Platform.
+
+**2012–2009**
+
+**05** 	3rd Japan-China Joint Workshop on Plant Nutrition, Kurashiki, Japan. (2011). Iron xylem transport, the long and short of it. **Invited seminar**
+
+**04** 	XV International Symposium on Iron Nutrition and Interactions in Plants, Budapest, Hungary (2010). Delving into iron deficiency metabolomics. **Selected talk**
+
+**03** 	6th International Franco-Spanish Workshop on Bio-Inorganic Analytical Chemistry, Pau, Francia. 2010 Iron speciation in plant xylem sap using LC-ESI-TOFMS. **Selected talk**
+
+**02** 	XVI International Plant Nutrition Colloquium. Sacramento, California, USA (2009). Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply **Selected talk**
+
+**01**. 	XVIII Reunión de la Sociedad Española de Fisiología Vegetal. XI Congreso Hispano-Luso de Fisiología Vegetal, Zaragoza, Spain (2009). Iron is transported as a tri-Fe(III), tri-citrate complex in plant xylem sap. **Selected talk**

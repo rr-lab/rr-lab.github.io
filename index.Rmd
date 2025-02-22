@@ -56,8 +56,3 @@
 
 <img src="images/nevado_de_toluca.png" style="width: 900px;">
 
-<br>
-
-<img src="images/winter_nursery_jan_2017.png" style="width: 900px;"> 
-
-<br>
