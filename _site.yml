@@ -16,7 +16,7 @@ navbar:
       href: publications.html
     - text: "Photo Album"
       icon: fa-slideshare
-      href: talks.html
+      href: photos.html
     - text: "News"
       icon: fa-newspaper-o
       href: news.html
