@@ -17,6 +17,8 @@ output: html_document
 
 **2025** 
 
+**54**. 	INRAE Montpellier, France, 2025, **Invited Talk**. “Unleashing natural variation of maize and maize wild relatives to improve nitrogen and phosphorus efficiency” 
+
 **53**. 	Mohammed VI Polytechnic University, Morocco, IV Science Week, 2025, **Invited Talk**. “Using crop natural genetic variation to improve phosphorus efficiency” 
 
 **2024**
