@@ -13,12 +13,17 @@ Click on the arrows to see a brief summary of what we did in the paper!
 
 <br>
 
+### 🌽 **2025**  
+
+**40** [Designing a nitrogen-efficient cold-tolerant maize for modern agricultural systems](https://doi.org/10.1093/plcell/koaf139). Jonathan Odilón Ojeda-Rivera, Allison C Barnes, Elizabeth A Ainsworth, Ruthie Angelovici, Bruno Basso, Lara J Brindisi, Matthew D Brooks, Wolfgang Busch, Gretta L Buttelmann, Michael J Castellano, Junping Chen, Denise E Costich, Natalia de Leon, Bryan D Emmett, David Ertl, Sarah L Fitzsimmons, Sherry A Flint-Garcia, Michael A Gore, Kaiyu Guan, Charles O Hale, Sam Herr, Candice N Hirsch, David H Holding, James B Holland, Sheng-Kai Hsu, Jian Hua, Matthew B Hufford, Shawn M Kaeppler, Emma N Leary, Zong-Yan Liu, Anthony A Mahama, Tyler J McCubbin, Carlos D Messina, Todd P Michael, Sara J Miller, Seth C Murray, Sakiko Okumoto, Elad Oren, Alexa N Park, Miguel A Piñeros, Nicholas Ace Pugh, Victor Raboy, **Rubén Rellán-Álvarez**, M Cinta Romay, Travis Rooney, Rebecca L Roston, Ruairidh JH Sawers, James C Schnable, Aimee J Schulz, M Paul Scott, Nathan M Springer, Jacob D Washburn, Michelle A Zambrano, Jingjing Zhai, Jitao Zou, Edward S Buckler.
+
+**39** [Environmental data provide marginal benefit for predicting climate adaptation](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1011714). Forrest Li, Daniel J Gates, Edward S Buckler, Matthew B Hufford, Garrett M Janzen, **Rubén Rellán-Álvarez, Fausto Rodríguez-Zapata**, J Alberto Romero Navarro, Ruairidh JH Sawers, Samantha J Snodgrass, Kai Sonder, Martha C Willcox, Sarah J Hearne, Jeffrey Ross-Ibarra, Daniel E Runcie.
+
+<br>
 
 ### 🌽 **2024**  
 
-**39** [Swin-Roleaf: A new method for characterizing leaf azimuth angle in large-scale maize plants](https://www.sciencedirect.com/science/article/pii/S0168169924005118). Weilong He, Joseph L Gage, **Rubén Rellán-Álvarez**, Lirong Xiang.  
-
-**38** [The utility of environmental data from traditional varieties for climate-adaptive maize breeding](https://www.biorxiv.org/content/10.1101/2024.09.19.613351v1.abstract). Forrest Li, Daniel J Gates, Edward S Buckler, Matthew B Hufford, Garrett M Janzen, **Rubén Rellán-Álvarez, Fausto Rodríguez-Zapata**, J Alberto Romero Navarro, Ruairidh JH Sawers, Samantha J Snodgrass, Kai Sonder, Martha C Willcox, Sarah Hearne, Jeffrey Ross-Ibarra, Daniel E Runcie.    
+**38** [Swin-Roleaf: A new method for characterizing leaf azimuth angle in large-scale maize plants](https://www.sciencedirect.com/science/article/pii/S0168169924005118). Weilong He, Joseph L Gage, **Rubén Rellán-Álvarez**, Lirong Xiang.  
 
 <br>
 
