@@ -48,6 +48,9 @@ Fausto studies maize glycerolipid quantitative and population genetics and genet
 **Jill Love** Postdoc.  
 Jill joined the lab in 2026.
 
+**Nirwan Tandukar** Postdoc.  
+Nirwan joined the lab in January 2022 as a PhD student, completed his PhD in July 2026 and is now a postdoc in the lab. He develops approaches that use multiple genetic datasets to identify genes involved in adaptation to abiotic stresses, and built the [Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).   
+
 **Pascual Blanco** Field Technician.  
 Pascual joined the lab in fall 2021. He manages all our field operations.
 
@@ -56,9 +59,6 @@ Lina joined the lab in fall 2023.
 
 **Carolina Escalona-Weldt** Lab Manager/Technician.  
 Carolina joined the lab in summer 2024.
-
-**Nirwan Tandukar** PhD, Functional Genomics Program (2026).     
-Nirwan joined the lab in January 2022 and completed his PhD in July 2026. He develops approaches that use multiple genetic datasets to identify genes involved in adaptation to abiotic stresses, and built the [Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).   
 
 **Hannah Pil** PhD Candidate, Genetics Program.   
 Hannah joined the lab in summer 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
