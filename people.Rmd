@@ -30,7 +30,7 @@ output: html_document
 <br>
 
 **Rubén Rellán-Álvarez** Principal Investigator.  
-Rubén is an Assistant Professor at the Biochemistry Department at CALS - NCSU  
+Rubén is an Associate Professor in the Department of Molecular and Structural Biochemistry at NC State  
 </a>  <a href="https://github.com/rellan">
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a> <a href="mailto:rrellan@ncsu.edu">
@@ -45,32 +45,48 @@ Fausto studies maize glycerolipid quantitative and population genetics and genet
 <i class="fa fa-github-alt" aria-hidden="true"></i>
 </a>
 
+**Jill Love** Postdoc.  
+Jill joined the lab in 2026.
+
 **Pascual Blanco** Field Technician.  
 Pascual joined the lab in fall 2021. He manages all our field operations.
 
-**Lina López** USDA Field Research Crop Scientist.  
-Lina joined in fall 2023.  
+**Lina López-Corona** Project Manager, ARPA-E NSave Maize project.  
+Lina joined the lab in fall 2023.  
 
-**Carolina E. Weldt** Lab Manager/Technician.  
+**Carolina Escalona-Weldt** Lab Manager/Technician.  
 Carolina joined the lab in summer 2024.
 
-**Nirwan Tandukar** PhD Student, Genetics Program.     
-Nirwan joined the lab in January 2022. He is working on the development of approaches that use multiple genetic datasets to identify genes in adaptation to abiotic stresses.   
+**Nirwan Tandukar** PhD, Functional Genomics Program (2026).     
+Nirwan joined the lab in January 2022 and completed his PhD in July 2026. He develops approaches that use multiple genetic datasets to identify genes involved in adaptation to abiotic stresses, and built the [Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).   
 
-**Hannah Pil** PhD Student, Genetics Program.   
+**Hannah Pil** PhD Candidate, Genetics Program.   
 Hannah joined the lab in summer 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
 
-**Zehta Glover** PhD Student, Genetics Program.     
+**Zehta Fazler** PhD Student, Genetics Program.     
 Zehta joined the lab in December 2024. She is working on the genetic mechanisms that drive cold stress tolerance, with an emphasis on evolutionary diversity in maize.
 
 **Lauren Insko** PhD Student, Structural and Molecular Biochemistry Program.     
 Lauren joined the lab in January 2025. She is working on identifying regulatory elements of the gene *High PhosphatidylCholine 1* as well as identifying structural elements of the phospholipase protein product.  
 
-**Youngeun Kim** Visiting Student on an Internship from South Korea goverment. 
+**Brock Davis** Undergraduate Researcher, Genetics major.  
+Brock joined the lab in 2025.
+
+**Sanaa Jain** Undergraduate Researcher, Biochemistry major.  
+Sanaa joined the lab in 2026 through the SAPLINGs program.
+
+**Maheera Hassan** Undergraduate Researcher, Genetics major.  
+Maheera joined the lab in 2026.
+
+**Sam Strimple** Undergraduate Researcher, Genetics major.  
+Sam joined the lab in 2026.
+
 
 
 ### **Former lab members**  
 <br>
+
+**Youngeun Kim** Visiting student from South Korea (until January 2026)
 
 **Destiny Tyson** PhD Student, Genetics Program. Co-advised with Jim Holland.    
 

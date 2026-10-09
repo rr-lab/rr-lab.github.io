@@ -15,9 +15,13 @@ output: html_document
 
 **Conference talks and invited seminars**
 
+**2026**
+
+**55**. 	Nagoya University, Japan, 2026, **Invited Talk**. “Blast from the past: understanding the impact of maize wild relatives in modern maize and leveraging lost traits to improve nitrogen use efficiency”
+
 **2025** 
 
-**54**. 	INRAE Montpellier, France, 2025, **Invited Talk**. “Unleashing natural variation of maize and maize wild relatives to improve nitrogen and phosphorus efficiency” 
+**54**. 	Montpellier University, France, 2025, **Invited Talk**. “Blast from the past: understanding the impact of maize wild relatives in modern maize and leveraging lost traits to improve nitrogen use efficiency”
 
 **53**. 	Mohammed VI Polytechnic University, Morocco, IV Science Week, 2025, **Invited Talk**. “Using crop natural genetic variation to improve phosphorus efficiency” 
 
