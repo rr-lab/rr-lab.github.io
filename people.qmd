@@ -85,15 +85,6 @@ Lina joined the lab in fall 2023.
 :::
 
 ::: {.person}
-[Carolina Escalona-Weldt]{.person-name}
-[Lab Manager / Technician]{.person-role}
-
-::: {.person-bio}
-Carolina joined the lab in summer 2024.
-:::
-:::
-
-::: {.person}
 [Hannah Pil]{.person-name}
 [PhD Candidate, Genetics Program]{.person-role}
 
@@ -165,6 +156,7 @@ Sam joined the lab in 2026.
 ## Former lab members
 
 ::: {.alumni-list}
+- **Carolina Escalona-Weldt** [Lab Manager / Technician]{.alum-role}
 - **Youngeun Kim** [Visiting student from South Korea (until January 2026)]{.alum-role}
 - **Destiny Tyson** [PhD Student, Genetics Program — co-advised with Jim Holland]{.alum-role}
 - **Allison Barnes** [Postdoc]{.alum-role}
