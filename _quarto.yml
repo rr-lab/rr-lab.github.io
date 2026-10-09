@@ -56,8 +56,9 @@ website:
       Funded by ARPA-E, NSF, FFAR, DOE and USDA.
     right: |
       [Gallery](photos.qmd) · [Collaborators](collaborators.qmd) ·
-      [Lab philosophy](expectations.qmd) · [Esfoyaza](esfoyaza.qmd)\
-      [GitHub](https://github.com/rr-lab) ·
+      [Lab philosophy](expectations.qmd)\
+      GitHub: [rr-lab](https://github.com/rr-lab) ·
+      [sawers-rellan-labs](https://github.com/sawers-rellan-labs)\
       [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en)
 
 format:
