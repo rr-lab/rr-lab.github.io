@@ -104,6 +104,7 @@ CML311, to find wild alleles worth keeping.
 | Rubén Rellán-Álvarez | Principal investigator |
 | Fausto Rodríguez-Zapata | Postdoc |
 | Jill Love | Postdoc |
+| Nirwan Tandukar | Postdoc |
 | Carolina Escalona-Weldt | Lab manager |
 | Lina López-Corona | Project manager, ARPA-E NSave Maize |
 | Pascual Blanco | Field technician |

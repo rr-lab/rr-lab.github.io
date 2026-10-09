@@ -54,6 +54,19 @@ Jill joined the lab in 2026.
 :::
 
 ::: {.person}
+[Nirwan Tandukar]{.person-name}
+[Postdoc]{.person-role}
+
+::: {.person-bio}
+Nirwan joined the lab in January 2022 as a PhD student, completed his PhD in
+July 2026 and is now a postdoc in the lab. He develops approaches that combine
+multiple genetic datasets to identify genes involved in adaptation to abiotic
+stresses, and built the
+[Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).
+:::
+:::
+
+::: {.person}
 [Pascual Blanco]{.person-name}
 [Field Technician]{.person-role}
 
@@ -77,18 +90,6 @@ Lina joined the lab in fall 2023.
 
 ::: {.person-bio}
 Carolina joined the lab in summer 2024.
-:::
-:::
-
-::: {.person}
-[Nirwan Tandukar]{.person-name}
-[PhD, Functional Genomics Program (2026)]{.person-role}
-
-::: {.person-bio}
-Nirwan joined the lab in January 2022 and completed his PhD in July 2026. He
-develops approaches that combine multiple genetic datasets to identify genes
-involved in adaptation to abiotic stresses, and built the
-[Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).
 :::
 :::
 
