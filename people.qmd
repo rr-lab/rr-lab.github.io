@@ -157,6 +157,7 @@ Sam joined the lab in 2026.
 
 ::: {.alumni-list}
 - **Carolina Escalona-Weldt** [Lab Manager / Technician]{.alum-role}
+- **Trinity McCleary** [Undergraduate Student, STEPS REU]{.alum-role}
 - **Youngeun Kim** [Visiting student from South Korea (until January 2026)]{.alum-role}
 - **Destiny Tyson** [PhD Student, Genetics Program — co-advised with Jim Holland]{.alum-role}
 - **Allison Barnes** [Postdoc]{.alum-role}
