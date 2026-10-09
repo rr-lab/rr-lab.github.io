@@ -65,6 +65,7 @@
     if (!loci.length) return "Not yet mapped";
     var chrs = [];
     loci.forEach(function (l) { if (chrs.indexOf(l.chr) < 0) chrs.push(l.chr); });
+    chrs.sort(function (a, b) { return a - b; });
     var text;
     if (loci.length === 1) {
       var l = loci[0];
