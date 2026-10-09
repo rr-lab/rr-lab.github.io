@@ -65,7 +65,7 @@ stories:
       genes *CCT9* and *CCT10* in an elite tropical line made it flower earlier under long days, opening
       tropical diversity to temperate breeding.
     genes: ["*ZmCCT9*", "*ZmCCT10*"]
-    status: Accepted in Nature Communications
+    status: Preprint, accepted for publication
     people: [Destiny Tyson (former PhD student), with Jim Holland and Syngenta]
     links:
       - {text: Preprint, href: "https://doi.org/10.21203/rs.3.rs-9555784/v1"}
