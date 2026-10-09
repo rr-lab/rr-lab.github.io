@@ -8,9 +8,13 @@ output: html_document
 ---
 ### 🌽 2026  
 
-- Nirwan defended his PhD in July 2026. Congratulations, Dr. Tandukar!
+- Hannah gave a talk at the INTRINSyC seminar in September.
 
-- Destiny's paper showing that editing photoperiod response genes lets tropical maize flower under long days was accepted in *Nature Communications*.
+- Tao won the Paper of the Year award at the NC State Genetics and Genomics Retreat.
+
+- Hannah and Lauren won best poster awards at the GGA retreat.
+
+- Nirwan defended his PhD in July 2026. Congratulations, Dr. Tandukar!
 
 - Our MexMAGIC paper with the Sawers lab is out in [*New Phytologist*](https://doi.org/10.1111/nph.71501).
 
