@@ -17,7 +17,8 @@
 ::: text-center
 <p><b>We are at North Carolina State University, Department of Structural and Molecular Biochemistry.</b></p>
 
-<p>📍 <b>Location:</b> Polk Hall, Room 134, Room 145 (Lab), Room 148 (Office)</p>
+<p>📍 <b>Location:</b> Plant Sciences Building, 840 Oval Dr, Raleigh, NC 27606<br>
+Room 3122 (Office), Room 3110 (Shared open space), Room 3105 (Shared wet lab)</p>
 
 <p>📧 <b>Email:</b> <a href="mailto:rrellan@ncsu.edu">rrellan\@ncsu.edu</a> \| 📞 <b>Phone:</b> (919) 515-4738</p>
 :::
