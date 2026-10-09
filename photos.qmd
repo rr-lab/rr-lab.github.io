@@ -10,6 +10,15 @@ Nurseries, field days, conferences and the occasional celebration.
 ::: {.column-page}
 ```{=html}
 <div class="gallery">
+  <a href="images/gallery-2024-08-nursery.jpg" class="g-big"><img src="images/gallery-2024-08-nursery.jpg" alt="Bagged ears in the summer nursery, August 2024" loading="lazy"></a>
+  <a href="images/gallery-2024-06-lab-sampling.jpg" class="g-tall"><img src="images/gallery-2024-06-lab-sampling.jpg" alt="Lab members processing leaf samples, June 2024" loading="lazy"></a>
+  <a href="images/gallery-field-data-collection.jpg"><img src="images/gallery-field-data-collection.jpg" alt="Collecting data in the field" loading="lazy"></a>
+  <a href="images/gallery-lab-microscope.jpg"><img src="images/gallery-lab-microscope.jpg" alt="Working at the microscope in the lab" loading="lazy"></a>
+  <a href="images/gallery-2024-06-leaf-sampling.jpg" class="g-tall"><img src="images/gallery-2024-06-leaf-sampling.jpg" alt="Preparing maize leaf samples, June 2024" loading="lazy"></a>
+  <a href="images/gallery-field-rows.jpg" class="g-wide"><img src="images/gallery-field-rows.jpg" alt="Between the maize rows in the field" loading="lazy"></a>
+  <a href="images/gallery-poster.jpg"><img src="images/gallery-poster.jpg" alt="Presenting a poster at a conference" loading="lazy"></a>
+  <a href="images/gallery-2024-07-tagged-plants.jpg"><img src="images/gallery-2024-07-tagged-plants.jpg" alt="Tagged plants in the nursery, July 2024" loading="lazy"></a>
+  <a href="images/gallery-2024-07-field-stake.jpg" class="g-tall"><img src="images/gallery-2024-07-field-stake.jpg" alt="A decorated row marker in the nursery, July 2024" loading="lazy"></a>
   <a href="images/IMG_6091.jpg" class="g-big"><img src="images/IMG_6091.jpg" alt="Lab members in the field" loading="lazy"></a>
   <a href="images/PXL_20240619_160211079.jpg"><img src="images/PXL_20240619_160211079.jpg" alt="Summer field work" loading="lazy"></a>
   <a href="images/IMG_4816.jpg"><img src="images/IMG_4816.jpg" alt="Lab members" loading="lazy"></a>
