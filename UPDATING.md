@@ -57,6 +57,7 @@ match this shape:
   url     = {https://doi.org/10.1234/whatever},
   pdf     = {pdfs/41-2026-doe.pdf},
   code    = {https://github.com/rr-lab/some-repo},
+  codelabel = {Code},
   note    = {PREPRINT},
   summary = {One or two sentences on what we actually did.}
 }
@@ -70,6 +71,7 @@ match this shape:
   `Rellan-Alvarez` in that file matches *Rubén Rellán-Álvarez*,
   *Ruben Rellan-Alvarez* and *Rellán- Álvarez R* alike. When someone new joins the
   lab, add their surname to `_lab_authors.txt` once and every paper updates.
+- `codelabel` is the text on the `code` link (default *Code*), e.g. `{SoLD Shiny app}`.
 - `summary` becomes the collapsible **What we did** panel under the paper.
 - Species names use markdown italics: `*mexicana*`.
 - Papers are grouped and sorted automatically by `year` and `number`. You never

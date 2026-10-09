@@ -173,7 +173,8 @@ def render_entry(e: dict, surnames: list[list[str]]) -> str:
         )
     if e.get("code"):
         links.append(
-            f'<a class="pub-tag" href="{html.escape(e["code"], quote=True)}">Code</a>'
+            f'<a class="pub-tag" href="{html.escape(e["code"], quote=True)}">'
+            f'{rich(e.get("codelabel", "Code"))}</a>'
         )
     if e.get("note"):
         links.append(

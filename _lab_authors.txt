@@ -28,3 +28,12 @@ Carcano
 Merkel
 Persaud
 Phung
+Juarez Nunez
+Fazler
+Locklear
+Love
+Jain
+Hassan
+Strimple
+# Not listed: Davis (Brock Davis). Too common, it would bold unrelated
+# authors. To bold Brock's papers, add the full name "Brock Davis" instead.

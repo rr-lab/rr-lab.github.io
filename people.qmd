@@ -18,8 +18,8 @@ wild relatives.
 [Principal Investigator]{.person-role}
 
 ::: {.person-bio}
-Assistant Professor in the Department of Molecular and Structural Biochemistry,
-CALS — NC State.
+Associate Professor in the Department of Molecular and Structural Biochemistry
+at NC State.
 :::
 
 ::: {.person-links}
@@ -31,7 +31,7 @@ CALS — NC State.
 :::
 
 ::: {.person}
-[Fausto Rodríguez Zapata]{.person-name}
+[Fausto Rodríguez-Zapata]{.person-name}
 [Postdoc]{.person-role}
 
 ::: {.person-bio}
@@ -45,6 +45,15 @@ genetic associations with soil variables involved in phosphorus deficiency.
 :::
 
 ::: {.person}
+[Jill Love]{.person-name}
+[Postdoc]{.person-role}
+
+::: {.person-bio}
+Jill joined the lab in 2026.
+:::
+:::
+
+::: {.person}
 [Pascual Blanco]{.person-name}
 [Field Technician]{.person-role}
 
@@ -54,8 +63,8 @@ Pascual joined the lab in fall 2021. He manages all our field operations.
 :::
 
 ::: {.person}
-[Lina López]{.person-name}
-[USDA Field Research Crop Scientist]{.person-role}
+[Lina López-Corona]{.person-name}
+[Project Manager, ARPA-E NSave Maize project]{.person-role}
 
 ::: {.person-bio}
 Lina joined the lab in fall 2023.
@@ -63,7 +72,7 @@ Lina joined the lab in fall 2023.
 :::
 
 ::: {.person}
-[Carolina E. Weldt]{.person-name}
+[Carolina Escalona-Weldt]{.person-name}
 [Lab Manager / Technician]{.person-role}
 
 ::: {.person-bio}
@@ -73,18 +82,19 @@ Carolina joined the lab in summer 2024.
 
 ::: {.person}
 [Nirwan Tandukar]{.person-name}
-[PhD Student, Genetics Program]{.person-role}
+[PhD, Functional Genomics Program (2026)]{.person-role}
 
 ::: {.person-bio}
-Nirwan joined the lab in January 2022. He develops approaches that combine
-multiple genetic datasets to identify genes involved in adaptation to abiotic
-stresses.
+Nirwan joined the lab in January 2022 and completed his PhD in July 2026. He
+develops approaches that combine multiple genetic datasets to identify genes
+involved in adaptation to abiotic stresses, and built the
+[Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).
 :::
 :::
 
 ::: {.person}
 [Hannah Pil]{.person-name}
-[PhD Student, Genetics Program]{.person-role}
+[PhD Candidate, Genetics Program]{.person-role}
 
 ::: {.person-bio}
 Hannah joined the lab in summer 2021 as an undergraduate and since then
@@ -93,7 +103,7 @@ Hannah joined the lab in summer 2021 as an undergraduate and since then
 :::
 
 ::: {.person}
-[Zehta Glover]{.person-name}
+[Zehta Fazler]{.person-name}
 [PhD Student, Genetics Program]{.person-role}
 
 ::: {.person-bio}
@@ -114,11 +124,38 @@ of the phospholipase protein product.
 :::
 
 ::: {.person}
-[Youngeun Kim]{.person-name}
-[Visiting Student]{.person-role}
+[Brock Davis]{.person-name}
+[Undergraduate Researcher, Genetics major]{.person-role}
 
 ::: {.person-bio}
-Visiting the lab on an internship funded by the South Korean government.
+Brock joined the lab in 2025.
+:::
+:::
+
+::: {.person}
+[Sanaa Jain]{.person-name}
+[Undergraduate Researcher, Biochemistry major]{.person-role}
+
+::: {.person-bio}
+Sanaa joined the lab in 2026 through the SAPLINGs program.
+:::
+:::
+
+::: {.person}
+[Maheera Hassan]{.person-name}
+[Undergraduate Researcher, Genetics major]{.person-role}
+
+::: {.person-bio}
+Maheera joined the lab in 2026.
+:::
+:::
+
+::: {.person}
+[Sam Strimple]{.person-name}
+[Undergraduate Researcher, Genetics major]{.person-role}
+
+::: {.person-bio}
+Sam joined the lab in 2026.
 :::
 :::
 
@@ -127,6 +164,7 @@ Visiting the lab on an internship funded by the South Korean government.
 ## Former lab members
 
 ::: {.alumni-list}
+- **Youngeun Kim** [Visiting student from South Korea (until January 2026)]{.alum-role}
 - **Destiny Tyson** [PhD Student, Genetics Program — co-advised with Jim Holland]{.alum-role}
 - **Allison Barnes** [Postdoc]{.alum-role}
 - **Ruthie Stokes** [Master's Student]{.alum-role}

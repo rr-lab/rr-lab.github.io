@@ -7,6 +7,24 @@ description: What's been happening in the lab.
 What's been happening in the lab.
 :::
 
+## 2026
+
+::: {.timeline}
+- Nirwan defended his PhD in July 2026. Congratulations, Dr. Tandukar!
+
+- Destiny's paper showing that editing photoperiod response genes lets tropical maize flower under long days was accepted in *Nature Communications*.
+
+- Our MexMAGIC paper with the Sawers lab is out in [*New Phytologist*](https://doi.org/10.1111/nph.71501).
+
+- Four new preprints from the lab: two companion *Inv4m* papers on [flowering time and plant height](https://doi.org/10.64898/2026.06.16.732082) and on [phosphorus deficiency responses](https://doi.org/10.64898/2026.05.22.727253), the [Sorghum Lipid Database](https://doi.org/10.64898/2026.06.05.727974), and the [*Zea Lip*](https://doi.org/10.64898/2026.05.07.723536) maize leaf lipid atlas.
+
+- The NSF Center for Science and Technology of Phosphorus Sustainability ([STEPS](https://steps-center.org/)) was renewed for 2026–2031.
+
+- Rubén gave an invited talk at Nagoya University, Japan.
+
+- Jill Love joined the lab as a postdoc, and Sanaa Jain, Maheera Hassan and Sam Strimple joined as undergraduate researchers. Welcome!
+:::
+
 ## 2025
 
 ::: {.timeline}
@@ -21,6 +39,8 @@ What's been happening in the lab.
 - We were awarded an ARPA-E grant for $5,000,000, where in collaboration with the University of Illinois, the University of Arizona, and Oak Ridge National Laboratory.
 
 - Lauren joined the lab!
+
+- Brock Davis joined the lab as an undergraduate researcher.
 :::
 
 ## 2024

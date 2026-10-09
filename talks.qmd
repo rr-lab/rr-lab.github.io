@@ -7,14 +7,26 @@ description: Conference talks and invited seminars given by the lab.
 Conference talks and invited seminars given by the lab.
 :::
 
+## 2026
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">55</div>
+  <div>
+    <span class="talk-venue">Nagoya University, Japan</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Blast from the past: understanding the impact of maize wild relatives in modern maize and leveraging lost traits to improve nitrogen use efficiency</div>
+  </div>
+</div>
+```
+
 ## 2025
 
 ```{=html}
 <div class="talk">
   <div class="talk-num">54</div>
   <div>
-    <span class="talk-venue">INRAE Montpellier, France</span><span class="talk-kind">Invited Talk</span>
-    <div class="talk-title">Unleashing natural variation of maize and maize wild relatives to improve nitrogen and phosphorus efficiency</div>
+    <span class="talk-venue">Montpellier University, France</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Blast from the past: understanding the impact of maize wild relatives in modern maize and leveraging lost traits to improve nitrogen use efficiency</div>
   </div>
 </div>
 ```
