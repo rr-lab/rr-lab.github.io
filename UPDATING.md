@@ -175,6 +175,10 @@ The "Stories in the genome" panel on the home page is drawn from
   position".
 - `inversion: true` adds the "Standard / Inverted in highland maize" bar.
 - Text fields take markdown, so `*HPC1*` comes out in italics.
+- A gene in `genes` can be plain text or `{name: "*HPC1*", id: Zm00001eb121780}`.
+  With an `id`, the gene links to its MaizeGDB page. B73 v5 positions for an
+  id can be looked up at
+  `https://rest.ensembl.org/lookup/id/<id>?content-type=application/json`.
 - Only list genes that are published or preprinted.
 
 A story can be linked to directly: `https://www.gemmalab.org/#story-hpc1`.

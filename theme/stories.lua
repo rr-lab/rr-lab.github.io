@@ -22,6 +22,18 @@ local function number(meta_value)
   return meta_value ~= nil and tonumber(pandoc.utils.stringify(meta_value)) or nil
 end
 
+local MAIZEGDB = "https://alpha.maizegdb.org/gene_center/gene/"
+
+-- A gene is either plain text or a map with `name` and an optional
+-- B73 v5 `id`; an id adds a MaizeGDB link.
+local function gene(g)
+  if type(g) == "table" and g.name ~= nil then
+    local id = text(g.id)
+    return { text = html(g.name), id = id, href = id and (MAIZEGDB .. id) or nil }
+  end
+  return { text = html(g) }
+end
+
 local function list(meta_value, f)
   local out = {}
   for _, v in ipairs(meta_value or {}) do
@@ -47,7 +59,7 @@ local function convert(s)
     end),
     title = html(s.title),
     story = html(s.story),
-    genes = list(s.genes, html),
+    genes = list(s.genes, gene),
     status = html(s.status),
     people = list(s.people, html),
     links = list(s.links, function(l)

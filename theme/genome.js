@@ -68,7 +68,9 @@
     var text;
     if (loci.length === 1) {
       var l = loci[0];
-      text = "Chromosome " + l.chr + ", about " + mb(l.start) + " to " + mb(l.end) + " Mb";
+      text = "Chromosome " + l.chr + (l.end - l.start < 1
+        ? ", at " + l.start.toFixed(1) + " Mb"
+        : ", about " + mb(l.start) + " to " + mb(l.end) + " Mb");
     } else {
       text = (chrs.length === 1 ? "Chromosome " : "Chromosomes ") + joinWords(chrs.map(String));
     }
@@ -158,19 +160,31 @@
     detail.appendChild(el("div", "gp-kicker", whereText(sel)));
 
     var loci = mappedLoci(sel);
+    // One zoom bar per chromosome, with every locus of the story on it.
+    var byChr = {};
+    var chrOrder = [];
     loci.forEach(function (l) {
-      var len = LENGTHS[l.chr - 1];
+      if (!byChr[l.chr]) { byChr[l.chr] = []; chrOrder.push(l.chr); }
+      byChr[l.chr].push(l);
+    });
+    chrOrder.sort(function (a, b) { return a - b; }).forEach(function (chr) {
+      var ls = byChr[chr];
+      var len = LENGTHS[chr - 1];
+      var named = ls.filter(function (l) { return l.gene; }).map(function (l) { return "<em>" + l.gene + "</em>"; });
       var zoom = el("div", "gp-zoom");
       var head = el("div", "gp-zoom-head");
       head.appendChild(el("span", null,
-        "Chromosome " + l.chr + (l.gene ? ", <em>" + l.gene + "</em>" : "")));
+        "Chromosome " + chr + (named.length ? ", " + named.join(", ") : "")));
       head.appendChild(el("span", null, len + " Mb"));
       zoom.appendChild(head);
       var track = el("div", "gp-zoom-track");
-      var hit = el("span", "gp-zoom-locus");
-      hit.style.left = pct(l.start / len);
-      hit.style.width = pct((l.end - l.start) / len);
-      track.appendChild(hit);
+      ls.forEach(function (l) {
+        var hit = el("span", "gp-zoom-locus");
+        hit.style.left = pct(l.start / len);
+        hit.style.width = pct((l.end - l.start) / len);
+        if (l.gene) hit.title = l.gene + ", " + l.start.toFixed(1) + " Mb";
+        track.appendChild(hit);
+      });
       zoom.appendChild(track);
       detail.appendChild(zoom);
     });
@@ -195,8 +209,15 @@
     }
     var genes = el("dd", "gp-genes");
     sel.genes.forEach(function (g) {
-      var chip = el("span", "gp-gene", g);
-      if (/^\[.*\]$/.test(plain(g))) chip.classList.add("is-placeholder");
+      var chip;
+      if (g.href) {
+        chip = el("a", "gp-gene", g.text);
+        chip.href = g.href;
+        chip.title = g.id + " on MaizeGDB";
+      } else {
+        chip = el("span", "gp-gene", g.text);
+        if (/^\[.*\]$/.test(plain(g.text))) chip.classList.add("is-placeholder");
+      }
       genes.appendChild(chip);
     });
     fact("Candidate genes", genes);

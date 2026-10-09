@@ -602,6 +602,12 @@ body:not(.home) main.content section:first-of-type > h2:not(.pub-year) { margin-
   &.is-placeholder { border-style: dashed; color: $muted; }
 }
 
+a.gp-gene {
+  color: $accent;
+  text-decoration: none;
+  &:hover { border-color: $accent; text-decoration: underline; }
+}
+
 .gp-links {
   margin-top: 1rem;
   display: flex;

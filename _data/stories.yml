@@ -9,10 +9,14 @@
 # then the panel labels the position "approximate".
 #
 #   - Inv4m uses B73 v4 coordinates (Crow et al. 2020); convert to v5.
-#   - HPC1, ZmCCT9 and ZmCCT10 use rough positions from the design mockup.
+#   - ZmCCT9 and ZmCCT10 use rough positions from the design mockup.
+#   - HPC1 is Zm00001eb121780, chr3:8,497,640-8,499,737 (Ensembl Plants, B73 v5).
 #
 # A story with `loci: []` shows "Not yet mapped".
 # Text fields accept markdown, e.g. *Inv4m* for italics.
+#
+# A gene can be plain text, or {name: ..., id: Zm00001eb...}; the id adds a
+# link to the gene's MaizeGDB page.
 
 stories:
 
@@ -39,14 +43,15 @@ stories:
     label: "*HPC1* and lipids"
     color: "#6A4BB5"
     loci:
-      - {chr: 3, start_mb: 21.4, end_mb: 26.2}
-    coords_verified: false
+      - {chr: 3, start_mb: 8.4976, end_mb: 8.4997, gene: HPC1}
+    coords_verified: true
     title: A teosinte phospholipase tuned for the highlands
     story: >-
       *HPC1* encodes a phospholipase A1. The highland allele came from teosinte *mexicana*, raises
       phosphatidylcholine and is linked to earlier flowering, and it survives today in northern US,
       Canadian and European breeding lines. We are now mapping its regulatory elements and protein structure.
-    genes: ["*HPC1*"]
+    genes:
+      - {name: "*HPC1*", id: Zm00001eb121780}
     status: Published in PNAS, 2022; follow-up in progress
     people: [Lauren Insko, Fausto Rodríguez-Zapata]
     links:
