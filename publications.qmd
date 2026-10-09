@@ -1,0 +1,18 @@
+---
+title: Publications
+description: Peer-reviewed papers and preprints from the GEMMA lab.
+---
+
+::: {.lede}
+Lab members are shown in **bold**. Journal names are intentionally omitted.
+Where the publisher does not offer free access, a PDF of the final version is
+linked, along with code when it is available.
+:::
+
+::: {.pub-intro}
+The complete list is also on
+[Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en).
+Expand **What we did** under a paper for a plain-language summary.
+:::
+
+{{< include _generated/publications-list.md >}}

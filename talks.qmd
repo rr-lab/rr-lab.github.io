@@ -1,0 +1,557 @@
+---
+title: Talks
+description: Conference talks and invited seminars given by the lab.
+---
+
+::: {.lede}
+Conference talks and invited seminars given by the lab.
+:::
+
+## 2025
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">54</div>
+  <div>
+    <span class="talk-venue">INRAE Montpellier, France</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Unleashing natural variation of maize and maize wild relatives to improve nitrogen and phosphorus efficiency</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">53</div>
+  <div>
+    <span class="talk-venue">Mohammed VI Polytechnic University, Morocco, IV Science Week</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Using crop natural genetic variation to improve phosphorus efficiency</div>
+  </div>
+</div>
+```
+
+## 2024
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">52</div>
+  <div>
+    <span class="talk-venue">North Carolina State University, Intrinsyc Seminar Series</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">CERCA: Circular Economy that Reimagines Corn Agriculture</div>
+  </div>
+</div>
+```
+
+## 2023
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">51</div>
+  <div>
+    <span class="talk-venue">China Agricultural University, Workshop on Plant Responses to Abiotic Stresses and Environmental Signals</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">50</div>
+  <div>
+    <span class="talk-venue">University of California Riverside</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">49</div>
+  <div>
+    <span class="talk-venue">Plant Breeding Consortium, North Carolina State University. International Plant Breeding Consortium</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">The genetics of Maize Wild Relatives and Maize Native Varieties local adaptation</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">48</div>
+  <div>
+    <span class="talk-venue">University of Madison Wisconsin</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+## 2022
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">47</div>
+  <div>
+    <span class="talk-venue">University of Nebraska Lincoln. Center for Biological Chemistry and Redox Biology Center</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+## 2021
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">46</div>
+  <div>
+    <span class="talk-venue">Wellcome Trust Plant Genomes in a Changing Environment Conference, John Innes Center, UK</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">The molecular and genetic basis of maize landrace local adaptation</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">45</div>
+  <div>
+    <span class="talk-venue">Maize Genetics Meeting</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Teosinte introgression modulates phosphatidylcholine levels and induces early maize flowering time.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">44</div>
+  <div>
+    <span class="talk-venue">Genetic Engineering and Society Center Colloquium</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Drinking from the maize diversity firehose.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">42</div>
+  <div>
+    <span class="talk-venue">Department of Plant Sciences, Pennsylvania State University</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+## 2020
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">41</div>
+  <div>
+    <span class="talk-venue">Genetics and Genomics Seminar Series, North Carolina State University</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">40</div>
+  <div>
+    <span class="talk-venue">Plant Sciences &amp; Plant Pathology Department, Montana State University</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">North, South, Up and Down. The genes and molecules that allow maize to move all around.</div>
+  </div>
+</div>
+```
+
+## 2019
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">39</div>
+  <div>
+    <span class="talk-venue">American Seed Trade Association, Chicago</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">The genetics of phospholipid metabolism in highland maize.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">38</div>
+  <div>
+    <span class="talk-venue">Plant and Microbial Biology Department, University of Minnesota</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Evolutionary lipidomics of maize local adaptation</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">37</div>
+  <div>
+    <span class="talk-venue">North Carolina Plant Molecular Biology retreat</span><span class="talk-kind">Invited Talk</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">36</div>
+  <div>
+    <span class="talk-venue">Plant and Molecular Biology department, NC State</span><span class="talk-kind">Invited Talk</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">35</div>
+  <div>
+    <span class="talk-venue">La Molina University in Lima, Perú</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Evolutionary lipidomics of maize local adaptation</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">34</div>
+  <div>
+    <span class="talk-venue">Germplasm Enhancement of Maize meeting in Clayton, NC</span><span class="talk-kind">Invited Talk</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">33</div>
+  <div>
+    <span class="talk-venue">Syngenta Plant Stress Symposium at Syngenta headquarters in the Research Triangle Park, NC</span><span class="talk-kind">Invited Talk</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">32</div>
+  <div>
+    <span class="talk-venue">Plant Biology Department, UGA in Athens, Georgia</span><span class="talk-kind">Invited Seminar</span>
+  </div>
+</div>
+```
+
+## 2018
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">31</div>
+  <div>
+    <span class="talk-venue">Misión Biológica de Galicia in Pontevedra, Spain</span><span class="talk-kind">Invited Seminar</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">30</div>
+  <div>
+    <span class="talk-venue">Aula Dei Experimental Station in Zaragoza, Spain</span><span class="talk-kind">Invited Seminar</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">29</div>
+  <div>
+    <span class="talk-venue">MexPopGen meeting. Irapuato, Mexico</span><span class="talk-kind">Invited Talk</span>
+  </div>
+</div>
+```
+
+## 2017
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">28</div>
+  <div>
+    <span class="talk-venue">Iowa State University. Genetics and Genomics Graduate Group</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title"><a href="http://bit.ly/rra_ISU_2017">Towards an understanding of maize adaptation to highlands using a combination of lipidomics and quantitative and population genetics</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">27</div>
+  <div>
+    <span class="talk-venue">Donald Danforth Plant Science Center Scientific Retreat. Mo.</span><span class="talk-kind">Invited Plenary Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/convergent-glycerolipid-metabolism-in-highland-adapted-maize">Convergent phospholipid metabolism in highland adapted maize?</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">26</div>
+  <div>
+    <span class="talk-venue">Michigan State University. Laboratory of David Lowry</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Identification of phospholipid metabolic patterns involved in maize adaptation to low phosphorus and cold conditions.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">25</div>
+  <div>
+    <span class="talk-venue">UC Davis, Genome Center</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">24</div>
+  <div>
+    <span class="talk-venue">Carnegie Institution for Science. Plant Biology Department, Stanford, CA</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Identification of phospholipid metabolic patterns involved in maize adaptation to highland conditions.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">23</div>
+  <div>
+    <span class="talk-venue">Gordon Research Conference Plant Lipids. Structure, Metabolism &amp; Function, Galveston, TX</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">The Role of Phospholipid Metabolism in Maize Adaptation to Low Phosphorus and Cold Conditions.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">22</div>
+  <div>
+    <span class="talk-venue">Future Trends in Common Bean and Maize Research. Instituto de Biotecnología, Cuernavaca, México</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title">Convergent phospholipid metabolism in highland adapted maize?</div>
+  </div>
+</div>
+```
+
+## 2016
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">21</div>
+  <div>
+    <span class="talk-venue">7th International Crop Science Congress. Beijing, China</span><span class="talk-kind">Invited Talk</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/the-role-of-phospholipid-metabolism-in-maize-adaptation-to-low-phosphorus-and-cold-conditions">The role of polar lipid metabolism reorganization in maize adaptation to low phosphorus soils of the Trans-Mexican volcanic belt highlands</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">20</div>
+  <div>
+    <span class="talk-venue">Langebio Academic Days, Langebio, Mexico</span><span class="talk-kind">Internal Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/towards-a-faster-more-open-and-collaborative-science-the-future-of-scientific-publishing-beyond-journals-and-impact-factors">Towards a faster, more open, and more collaborative science. The future of scientific publishing beyond journals and impact factors</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">19</div>
+  <div>
+    <span class="talk-venue">Instituto de Ecología, UNAM, México City, México</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">18</div>
+  <div>
+    <span class="talk-venue">Universidad de Guanajuato, Guanajuato, México</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></div>
+  </div>
+</div>
+```
+
+## 2015
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">17</div>
+  <div>
+    <span class="talk-venue">XVI National Congress of Biochemistry and Plant Molecular Biology, IX Simposium Mexico-USA Queretaro, México</span><span class="talk-kind">Keynote Talk</span>
+    <div class="talk-title">Towards a root system-level understanding of how plants adjust root function and shape and integrate heterogeneous environmental cues.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">16</div>
+  <div>
+    <span class="talk-venue">Leibniz Institute of Plant Genetics and Crop Plant Research. Gatersleben, Germany</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">15</div>
+  <div>
+    <span class="talk-venue">UMR “Biochemistry and Plant Molecular Physiology” - INRA Montpellier, France</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">14</div>
+  <div>
+    <span class="talk-venue">Rhizosphere 4, Maastricht, The Netherlands</span><span class="talk-kind">Roundtable Organization</span>
+    <div class="talk-title">Emerging technologies for root systems scale imaging and phenotyping.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">13</div>
+  <div>
+    <span class="talk-venue">Instituto de Biotecnología, UNAM, Cuernavaca, México</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title"><a href="https://speakerdeck.com/rellan/multidimensional-mapping-of-root-responses-to-soil-environmental-cues-using-a-luminescence-based-imaging-system">Multidimensional mapping of root responses to soil environmental cues using a luminescence-based imaging system</a></div>
+  </div>
+</div>
+```
+
+## 2014
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">12</div>
+  <div>
+    <span class="talk-venue">BASF 2014 Symposium on Unlocking Yield Potential in Soil. Limburgerhof, Germany</span><span class="talk-kind">Invited Talk</span>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">11</div>
+  <div>
+    <span class="talk-venue">Annual Scientific Meeting of the American Society of Plant Biology. Portland, USA</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Understanding Root Physiology in Soil Using a Novel Imaging Platform.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">10</div>
+  <div>
+    <span class="talk-venue">PAG XXII Plant Phenotypes Workshop. San Diego, USA</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">09</div>
+  <div>
+    <span class="talk-venue">San José University, CA</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Understanding Root Physiology in Soil Using a Novel Imaging Platform.</div>
+  </div>
+</div>
+```
+
+## 2013
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">08</div>
+  <div>
+    <span class="talk-venue">XVII International Plant Nutrition Colloquium, Istanbul, Turkey</span><span class="talk-kind">Invited talk. (Marschner Young Scientist Award)</span>
+    <div class="talk-title">Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">07</div>
+  <div>
+    <span class="talk-venue">30th Annual IPG Symposium on Root Biology, Columbia, Missouri</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Growth and Luminescence Observatory of Roots (GLO-Roots) A platform for the Analysis of Root Structure and Physiology in Soil.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">06</div>
+  <div>
+    <span class="talk-venue">California State University at Monterey Bay, CA</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Understanding Root Physiology in Soil Using a Novel Imaging Platform.</div>
+  </div>
+</div>
+```
+
+## 2009–2012
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">05</div>
+  <div>
+    <span class="talk-venue">3rd Japan-China Joint Workshop on Plant Nutrition, Kurashiki, Japan. (2011)</span><span class="talk-kind">Invited Seminar</span>
+    <div class="talk-title">Iron xylem transport, the long and short of it.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">04</div>
+  <div>
+    <span class="talk-venue">XV International Symposium on Iron Nutrition and Interactions in Plants, Budapest, Hungary (2010)</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Delving into iron deficiency metabolomics.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">03</div>
+  <div>
+    <span class="talk-venue">6th International Franco-Spanish Workshop on Bio-Inorganic Analytical Chemistry, Pau, Francia. (2010)</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Iron speciation in plant xylem sap using LC-ESI-TOFMS.</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">02</div>
+  <div>
+    <span class="talk-venue">XVI International Plant Nutrition Colloquium. Sacramento, California, USA (2009)</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Changes in the proteomic and metabolic profiles of Beta vulgaris root tips in response to iron deficiency and resupply</div>
+  </div>
+</div>
+```
+
+```{=html}
+<div class="talk">
+  <div class="talk-num">01</div>
+  <div>
+    <span class="talk-venue">XVIII Reunión de la Sociedad Española de Fisiología Vegetal. XI Congreso Hispano-Luso de Fisiología Vegetal, Zaragoza, Spain (2009)</span><span class="talk-kind">Selected Talk</span>
+    <div class="talk-title">Iron is transported as a tri-Fe(III), tri-citrate complex in plant xylem sap.</div>
+  </div>
+</div>
+```

@@ -1,0 +1,35 @@
+---
+title: Gallery
+description: Fields, nurseries, conferences and lab life.
+---
+
+::: {.lede}
+Nurseries, field days, conferences and the occasional celebration.
+:::
+
+::: {.column-page}
+```{=html}
+<div class="gallery">
+  <a href="images/IMG_6091.jpg" class="g-big"><img src="images/IMG_6091.jpg" alt="Lab members in the field" loading="lazy"></a>
+  <a href="images/PXL_20240619_160211079.jpg"><img src="images/PXL_20240619_160211079.jpg" alt="Summer field work" loading="lazy"></a>
+  <a href="images/IMG_4816.jpg"><img src="images/IMG_4816.jpg" alt="Lab members" loading="lazy"></a>
+  <a href="images/wolf.jpg" class="g-wide"><img src="images/wolf.jpg" alt="Celebrating 100 years of Crop and Soil Sciences" loading="lazy"></a>
+  <a href="images/PXL_20240524_202620539.jpg" class="g-big"><img src="images/PXL_20240524_202620539.jpg" alt="Maize plants in the field" loading="lazy"></a>
+  <a href="images/20241212_135930.jpg"><img src="images/20241212_135930.jpg" alt="Lab gathering" loading="lazy"></a>
+  <a href="images/PXL_20240619_151659240.jpg"><img src="images/PXL_20240619_151659240.jpg" alt="Field day" loading="lazy"></a>
+  <a href="images/image%20(2).png" class="g-wide"><img src="images/image%20(2).png" alt="Lab photo" loading="lazy"></a>
+  <a href="images/20240301_203614.jpg"><img src="images/20240301_203614.jpg" alt="Conference dinner" loading="lazy"></a>
+  <a href="images/ruben.jpg"><img src="images/ruben.jpg" alt="Rubén in the field" loading="lazy"></a>
+  <a href="images/IMG_6097.jpg"><img src="images/IMG_6097.jpg" alt="Lab members in the field" loading="lazy"></a>
+  <a href="images/IMG_6087.jpg"><img src="images/IMG_6087.jpg" alt="Lab members in the field" loading="lazy"></a>
+  <a href="images/20240616_092651.jpg"><img src="images/20240616_092651.jpg" alt="Summer nursery" loading="lazy"></a>
+  <a href="images/gruandruben.png" class="g-wide"><img src="images/gruandruben.png" alt="Lab humour" loading="lazy"></a>
+  <a href="images/minions.png"><img src="images/minions.png" alt="Lab humour" loading="lazy"></a>
+  <a href="images/bar.png" class="g-wide"><img src="images/bar.png" alt="Lab social" loading="lazy"></a>
+  <a href="images/20250113_112944.jpg"><img src="images/20250113_112944.jpg" alt="Winter nursery" loading="lazy"></a>
+  <a href="images/2022_nursery.jpg" class="g-wide"><img src="images/2022_nursery.jpg" alt="Summer 2022 nursery" loading="lazy"></a>
+  <a href="images/2022_the4th_with_holland_lab.jpg"><img src="images/2022_the4th_with_holland_lab.jpg" alt="Fourth of July with the Holland lab" loading="lazy"></a>
+  <a href="images/2023_rna_seq_sampling.jpg"><img src="images/2023_rna_seq_sampling.jpg" alt="RNA-seq sampling, 2023" loading="lazy"></a>
+</div>
+```
+:::

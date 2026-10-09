@@ -1,4 +1,13 @@
+# R / RStudio
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
+
+# Quarto build output — regenerated on every render, never commit
+/_site/
+/.quarto/
+/_generated/
+
+# OS
+.DS_Store

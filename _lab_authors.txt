@@ -1,0 +1,30 @@
+# Lab members whose names should be bolded automatically in the
+# publication list. One surname (or surname pair) per line.
+#
+# Matching is accent- and punctuation-insensitive, and works on whole
+# name-parts, so "Rellan-Alvarez" here matches all of:
+#   Rubén Rellán-Álvarez / Ruben Rellan-Alvarez / Rellán- Álvarez R
+#
+# Only add surnames distinctive enough not to collide with collaborators.
+# Lines starting with # are ignored.
+
+Rellan-Alvarez
+Rodriguez-Zapata
+Barnes
+Blocher-Juarez
+Kur
+Estevez-Palmas
+Kavi
+Pil
+Stokes
+Tyson
+Bello-Bello
+Ojeda-Rivera
+Tandukar
+Glover
+Insko
+Weldt
+Carcano
+Merkel
+Persaud
+Phung

@@ -1,0 +1,864 @@
+/*-- scss:defaults --*/
+
+// ============================================================
+// GEMMA Lab — refined maize palette
+// Edit the tokens below to re-colour the whole site.
+// ============================================================
+
+$cream:      #FCFAF4 !default;  // page background (husk)
+$cream-2:    #F4EFE2 !default;  // tinted panels
+$line:       #E3DDCC !default;  // hairline borders
+$line-dark:  #D5CBB2 !default;  // hairline, one shade deeper
+$ink:        #1E2B23 !default;  // body text (deep leaf)
+$stone:      #6B7A71 !default;  // muted / secondary text
+$green-900:  #14301F !default;  // navbar, footer
+$green-700:  #24603F !default;  // primary
+$green-500:  #3E8B5F !default;  // hover / bright leaf
+$gold:       #C9971C !default;  // accent (ripe kernel)
+$gold-500:   #E3B341 !default;
+$gold-100:   #F6E9C4 !default;
+
+// --- Bootstrap core -----------------------------------------
+$primary:    $green-700;
+$secondary:  $stone;
+$success:    $green-500;
+$body-bg:    $cream;
+$body-color: $ink;
+
+$link-color:        $green-700;
+$link-hover-color:  $gold;
+$link-decoration:   none;
+$link-hover-decoration: none;
+
+$border-color: $line;
+$border-radius:    .5rem;
+$border-radius-sm: .35rem;
+$border-radius-lg: .9rem;
+
+// --- Type ----------------------------------------------------
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$headings-font-family:   "Fraunces", "Iowan Old Style", Georgia, serif;
+$font-size-base:      1.0625rem;
+$line-height-base:    1.7;
+$headings-font-weight: 600;
+$headings-line-height: 1.2;
+$headings-color:      $green-900;
+
+$h1-font-size: 2.6rem;
+$h2-font-size: 1.85rem;
+$h3-font-size: 1.35rem;
+$h4-font-size: 1.1rem;
+
+// --- Components ----------------------------------------------
+$navbar-bg:  $green-900;
+$navbar-fg:  #EFE9D8;
+$navbar-hl:  $gold-500;
+
+$footer-bg:  $green-900;
+$footer-fg:  #C8D3CB;
+
+$code-bg:    $cream-2;
+$code-color: #7A4A1E;
+
+$table-border-color: $line;
+$blockquote-footer-color: $stone;
+
+/*-- scss:mixins --*/
+
+@mixin card-surface {
+  background: #fff;
+  border: 1px solid $line;
+  border-radius: $border-radius-lg;
+  box-shadow: 0 1px 2px rgba(20, 48, 31, .04);
+  transition: box-shadow .18s ease, transform .18s ease, border-color .18s ease;
+}
+
+@mixin card-surface-hover {
+  border-color: $line-dark;
+  box-shadow: 0 10px 26px rgba(20, 48, 31, .10);
+  transform: translateY(-2px);
+}
+
+/*-- scss:rules --*/
+
+// ============================================================
+// Base
+// ============================================================
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 { letter-spacing: -0.012em; }
+
+h1.title {
+  font-size: 2.9rem;
+  margin-bottom: .35rem;
+}
+
+// Quarto stamps a rule under the page title; make it a gold hairline.
+#title-block-header {
+  margin-bottom: 2rem;
+
+  .quarto-title-banner { background: none; }
+
+  &::after {
+    content: "";
+    display: block;
+    width: 68px;
+    height: 4px;
+    margin-top: 1.1rem;
+    border-radius: 4px;
+    background: linear-gradient(90deg, $gold 0%, $green-500 100%);
+  }
+}
+
+main.content {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+main a:not(.btn):not(.nav-link) {
+  border-bottom: 1px solid rgba($green-700, .28);
+  transition: border-color .15s ease, color .15s ease;
+
+  &:hover { border-bottom-color: $gold; }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: $line;
+  opacity: 1;
+  margin: 2.5rem 0;
+}
+
+// ============================================================
+// Navbar
+// ============================================================
+
+.navbar {
+  border-bottom: 3px solid $gold;
+  box-shadow: 0 1px 14px rgba(20, 48, 31, .16);
+
+  .navbar-brand {
+    font-family: $headings-font-family;
+    font-weight: 700;
+    font-size: 1.22rem;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-link {
+    font-size: .935rem;
+    font-weight: 500;
+    letter-spacing: .005em;
+    border-radius: $border-radius-sm;
+    padding: .4rem .7rem !important;
+    transition: background-color .15s ease, color .15s ease;
+
+    &:hover { background: rgba(255, 255, 255, .09); }
+  }
+
+  .nav-link.active,
+  .navbar-nav .show > .nav-link {
+    background: rgba($gold-500, .16);
+    color: $gold-500 !important;
+  }
+}
+
+// "Join us" call-to-action pill in the navbar.
+// Set in _quarto.yml as: text: "[Join us]{.nav-cta}"
+.navbar .nav-link .nav-cta {
+  display: inline-block;
+  background: $gold;
+  color: $green-900;
+  font-weight: 600;
+  border-radius: 999px;
+  padding: .2rem .9rem;
+  transition: background-color .15s ease;
+}
+
+.navbar .nav-link:has(.nav-cta) {
+  padding: .25rem .2rem !important;
+  &:hover { background: transparent; }
+  &:hover .nav-cta { background: $gold-500; }
+}
+
+// ============================================================
+// Footer
+// ============================================================
+
+.nav-footer {
+  border-top: 3px solid $gold;
+  font-size: .875rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+
+  a {
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    &:hover { color: $gold-500; border-bottom-color: $gold-500; }
+  }
+
+  strong { color: #fff; }
+}
+
+// ============================================================
+// Hero (home page)
+// ============================================================
+
+.hero {
+  position: relative;
+  min-height: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 4.5rem 1.5rem;
+  background-size: cover;
+  background-position: center 60%;
+  overflow: hidden;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+                rgba(10, 30, 18, .72) 0%,
+                rgba(10, 30, 18, .55) 45%,
+                rgba(10, 30, 18, .82) 100%);
+  }
+
+  > * { position: relative; z-index: 1; }
+
+  .hero-eyebrow {
+    display: inline-block;
+    font-size: .78rem;
+    font-weight: 600;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: $gold-500;
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-size: clamp(2rem, 4.6vw, 3.5rem);
+    color: #fff;
+    max-width: 20ch;
+    margin: 0 auto .9rem;
+    text-wrap: balance;
+  }
+
+  p {
+    color: rgba(255, 255, 255, .9);
+    font-size: 1.1rem;
+    max-width: 60ch;
+    margin: 0 auto;
+    text-wrap: pretty;
+  }
+
+  .hero-actions {
+    margin-top: 1.9rem;
+    display: flex;
+    gap: .75rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.btn-gold, .btn-ghost {
+  display: inline-block;
+  border-radius: 999px;
+  padding: .6rem 1.5rem;
+  font-weight: 600;
+  font-size: .95rem;
+  border: 1.5px solid transparent;
+  transition: all .16s ease;
+  border-bottom: 1.5px solid transparent !important;
+}
+
+.btn-gold {
+  background: $gold;
+  color: $green-900 !important;
+  &:hover { background: $gold-500; color: $green-900 !important; transform: translateY(-1px); }
+}
+
+.btn-ghost {
+  border-color: rgba(255, 255, 255, .55);
+  color: #fff !important;
+  &:hover { background: rgba(255, 255, 255, .12); color: #fff !important; }
+}
+
+// ============================================================
+// Generic building blocks
+// ============================================================
+
+.lede {
+  font-size: 1.2rem;
+  line-height: 1.65;
+  color: $stone;
+  max-width: 68ch;
+  text-wrap: pretty;
+}
+
+.eyebrow {
+  font-size: .76rem;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  color: $gold;
+  margin-bottom: .4rem;
+}
+
+.panel {
+  background: $cream-2;
+  border: 1px solid $line;
+  border-radius: $border-radius-lg;
+  padding: 1.75rem 2rem;
+  margin: 2rem 0;
+}
+
+.panel-accent {
+  background: linear-gradient(135deg, $gold-100 0%, $cream-2 100%);
+  border: 1px solid #DCD4BF;
+  border-radius: $border-radius-lg;
+  padding: 2rem;
+  margin: 2.5rem 0;
+}
+
+// Simple auto-fitting card grid used on several pages.
+.grid-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.4rem;
+  margin: 2rem 0;
+}
+
+.card-item {
+  @include card-surface;
+  padding: 1.4rem 1.5rem;
+
+  &:hover { @include card-surface-hover; }
+
+  h3, h4 { margin-top: 0; }
+  p:last-child { margin-bottom: 0; }
+}
+
+// ============================================================
+// Contact strip (home)
+// ============================================================
+
+.contact-strip {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 1rem;
+  margin: 2.5rem 0;
+
+  .contact-item {
+    background: #fff;
+    border: 1px solid $line;
+    border-radius: $border-radius-lg;
+    padding: 1.15rem 1.3rem;
+
+    .label {
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .13em;
+      text-transform: uppercase;
+      color: $gold;
+      display: block;
+      margin-bottom: .3rem;
+    }
+
+    p {
+      font-weight: 500;
+      color: $ink;
+      line-height: 1.55;
+      font-size: .94rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ============================================================
+// People
+// ============================================================
+
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.4rem;
+  margin: 1.8rem 0 3rem;
+}
+
+.person {
+  @include card-surface;
+  padding: 1.4rem 1.5rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+
+  &:hover { @include card-surface-hover; }
+
+  // Optional headshot — add `![](images/foo.jpg){.person-photo}` to a card.
+  .person-photo, img.person-photo {
+    width: 76px;
+    height: 76px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: .85rem;
+    border: 2px solid $gold-100;
+  }
+
+  .person-name {
+    display: block;
+    font-family: $headings-font-family;
+    font-weight: 600;
+    font-size: 1.13rem;
+    color: $green-900;
+    line-height: 1.3;
+    margin-bottom: .15rem;
+  }
+
+  .person-role {
+    display: block;
+    font-size: .8rem;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: $gold;
+    margin-bottom: .7rem;
+  }
+
+  .person-bio, .person-bio p {
+    font-size: .93rem;
+    color: $stone;
+    line-height: 1.6;
+    margin-bottom: .9rem;
+  }
+
+  .person-bio { flex-grow: 1; }
+  .person-bio p:last-child { margin-bottom: 0; }
+
+  // Pandoc wraps the name/role spans in a paragraph — tighten it up.
+  > p:first-of-type { margin-bottom: .1rem; }
+
+  .person-links, .person-links p {
+    display: flex;
+    gap: .55rem;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background: $cream-2;
+      color: $green-700 !important;
+      border-bottom: none !important;
+      font-size: .85rem;
+      transition: background .15s ease, color .15s ease;
+
+      &:hover { background: $gold; color: $green-900 !important; }
+    }
+  }
+}
+
+// Compact list for alumni — wraps an ordinary markdown bullet list.
+.alumni-list ul {
+  columns: 2;
+  column-gap: 2.5rem;
+  margin: 1.5rem 0 2rem;
+  padding: 0;
+  list-style: none;
+
+  li {
+    break-inside: avoid;
+    padding: .5rem 0;
+    border-bottom: 1px solid $line;
+    font-size: .95rem;
+
+    strong { color: $green-900; }
+    .alum-role { color: $stone; font-size: .87rem; display: block; }
+  }
+}
+
+// ============================================================
+// Publications
+// ============================================================
+
+// Section separators for long text pages.
+// Quarto wraps headings in <section>, so this must not be a child selector.
+// `.pub-year` brings its own rule, so it opts out.
+main.content h2:not(.pub-year) {
+  margin-top: 3.2rem;
+  padding-top: 1.6rem;
+  border-top: 1px solid $line;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    width: 42px;
+    height: 3px;
+    border-radius: 3px;
+    background: $gold;
+  }
+}
+
+main.content section:first-of-type > h2:not(.pub-year) { margin-top: 2.4rem; }
+
+// Year jump bar on the publications page
+.year-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .35rem;
+  margin: 1.5rem 0 .5rem;
+
+  a {
+    font-size: .8rem;
+    font-weight: 600;
+    padding: .2rem .6rem;
+    border-radius: 999px;
+    background: $cream-2;
+    color: $green-700 !important;
+    border-bottom: none !important;
+
+    &:hover { background: $gold; color: $green-900 !important; }
+  }
+}
+
+.pub-intro { margin-bottom: 2rem; }
+
+.pub-year {
+  font-family: $headings-font-family;
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: $green-900;
+  margin: 2.8rem 0 1.1rem;
+  padding-bottom: .45rem;
+  border-bottom: 2px solid $gold;
+  display: flex;
+  align-items: baseline;
+  gap: .7rem;
+
+  .pub-count {
+    font-family: $font-family-sans-serif;
+    font-size: .74rem;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: $stone;
+  }
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 2.9rem 1fr;
+  gap: 1rem;
+  padding: 1.1rem 0;
+  border-bottom: 1px solid $line;
+
+  &:last-child { border-bottom: none; }
+
+  .pub-num {
+    font-size: .8rem;
+    font-weight: 700;
+    color: $green-700;
+    background: $gold-100;
+    border-radius: $border-radius-sm;
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pub-body { min-width: 0; }
+
+  .pub-title {
+    font-weight: 600;
+    font-size: 1.03rem;
+    line-height: 1.45;
+    margin-bottom: .3rem;
+
+    a { color: $green-900; }
+    a:hover { color: $green-700; }
+  }
+
+  .pub-authors {
+    font-size: .9rem;
+    color: $stone;
+    line-height: 1.6;
+
+    strong { color: $ink; font-weight: 600; }
+  }
+
+  .pub-links {
+    margin-top: .5rem;
+    display: flex;
+    gap: .45rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .pub-tag {
+    font-size: .72rem;
+    font-weight: 600;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: .16rem .6rem;
+    border-radius: 999px;
+    border: 1px solid $line !important;
+    background: #fff;
+    color: $green-700 !important;
+
+    &:hover { background: $gold; border-color: $gold !important; color: $green-900 !important; }
+  }
+
+  .pub-tag-preprint {
+    background: $green-700;
+    border-color: $green-700 !important;
+    color: #fff !important;
+    cursor: default;
+  }
+
+  details {
+    margin-top: .6rem;
+
+    summary {
+      cursor: pointer;
+      font-size: .84rem;
+      font-weight: 600;
+      color: $green-700;
+      list-style: none;
+      display: inline-flex;
+      align-items: center;
+      gap: .35rem;
+      user-select: none;
+
+      &::-webkit-details-marker { display: none; }
+
+      &::before {
+        content: "▸";
+        transition: transform .15s ease;
+        display: inline-block;
+      }
+
+      &:hover { color: $gold; }
+    }
+
+    &[open] summary::before { transform: rotate(90deg); }
+
+    .pub-summary {
+      margin-top: .55rem;
+      padding: .85rem 1.1rem;
+      background: $cream-2;
+      border-left: 3px solid $gold;
+      border-radius: 0 $border-radius-sm $border-radius-sm 0;
+      font-size: .92rem;
+      color: $ink;
+      line-height: 1.65;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .pub { grid-template-columns: 1fr; gap: .35rem; }
+  .pub .pub-num { width: 2.9rem; }
+}
+
+// ============================================================
+// Talks
+// ============================================================
+
+.talk {
+  display: grid;
+  grid-template-columns: 2.9rem 1fr;
+  gap: 1rem;
+  padding: .85rem 0;
+  border-bottom: 1px solid $line;
+
+  &:last-child { border-bottom: none; }
+
+  .talk-num {
+    font-size: .78rem;
+    font-weight: 700;
+    color: $stone;
+    padding-top: .12rem;
+  }
+
+  .talk-venue { font-weight: 600; color: $green-900; }
+  .talk-title { color: $stone; font-size: .95rem; }
+
+  .talk-kind {
+    display: inline-block;
+    font-size: .68rem;
+    font-weight: 700;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: $green-700;
+    background: $gold-100;
+    padding: .1rem .5rem;
+    border-radius: 999px;
+    margin-left: .35rem;
+    vertical-align: 1px;
+  }
+}
+
+// ============================================================
+// News timeline
+// ============================================================
+
+// `.timeline` wraps an ordinary markdown bullet list.
+.timeline ul {
+  position: relative;
+  margin: 1.5rem 0 3rem;
+  padding-left: 1.6rem;
+  border-left: 2px solid $line;
+  list-style: none;
+
+  li {
+    position: relative;
+    padding: .55rem 0 .55rem .3rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: -2.02rem;
+      top: 1.15rem;
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: $gold;
+      border: 2px solid $cream;
+    }
+
+    img {
+      display: block;
+      margin: .8rem 0 .2rem;
+      border-radius: $border-radius;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
+
+// ============================================================
+// Photo gallery
+// ============================================================
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-auto-rows: 190px;
+  grid-auto-flow: dense;
+  gap: .85rem;
+  margin: 2rem 0;
+
+  figure, a { margin: 0; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: $border-radius;
+    display: block;
+    transition: transform .35s ease, filter .35s ease;
+  }
+
+  > * {
+    overflow: hidden;
+    border-radius: $border-radius;
+    background: $cream-2;
+  }
+
+  > *:hover img { transform: scale(1.05); filter: saturate(1.08); }
+
+  .g-wide  { grid-column: span 2; }
+  .g-tall  { grid-row: span 2; }
+  .g-big   { grid-column: span 2; grid-row: span 2; }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 130px;
+    .g-big, .g-wide { grid-column: span 2; }
+  }
+}
+
+// ============================================================
+// Collaborators / link lists
+// ============================================================
+
+// `.link-list` wraps an ordinary markdown bullet list.
+.link-list ul {
+  columns: 2;
+  column-gap: 2.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 2rem;
+
+  li {
+    break-inside: avoid;
+    padding: .34rem 0;
+    font-size: .96rem;
+
+    a { border-bottom: 1px solid transparent !important; }
+    a:hover { border-bottom-color: $gold !important; }
+  }
+}
+
+@media (max-width: 700px) {
+  .link-list ul, .alumni-list ul { columns: 1; }
+}
+
+// ============================================================
+// Logos row
+// ============================================================
+
+.logo-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  img {
+    height: 46px;
+    width: auto;
+    opacity: .8;
+    filter: grayscale(.25);
+    transition: opacity .2s ease, filter .2s ease;
+
+    &:hover { opacity: 1; filter: none; }
+  }
+}
+
+// ============================================================
+// Figures & images
+// ============================================================
+
+main img { border-radius: $border-radius; }
+
+figure.figure { margin: 2rem 0; }
+
+figcaption, .figure-caption {
+  font-size: .87rem;
+  color: $stone;
+  text-align: center;
+  margin-top: .55rem;
+}
+
+// ============================================================
+// Search overlay tweak
+// ============================================================
+
+.aa-DetachedSearchButton { border-radius: 999px; }

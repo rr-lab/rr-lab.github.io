@@ -1,0 +1,89 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: scripts/build_publications.py
+  render:
+    - "*.qmd"
+  resources:
+    - CNAME
+    - images/**
+    - pdfs/**
+    - data/**
+    - "!*.Rproj"
+
+website:
+  title: "GEMMA Lab"
+  site-url: "https://www.gemmalab.org"
+  description: >-
+    Genetics, Evolution and Metabolism of Maize Adaptation Lab.
+    Department of Molecular and Structural Biochemistry, NC State University.
+  favicon: images/ncstate.png
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true
+    collapse-below: lg
+    title: "🌽 GEMMA Lab"
+    left:
+      - text: "Research"
+        href: research.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Talks"
+        href: talks.qmd
+      - text: "News"
+        href: news.qmd
+      - text: "Gallery"
+        href: photos.qmd
+      - text: "More"
+        menu:
+          - text: "Collaborators"
+            href: collaborators.qmd
+          - text: "Lab Philosophy"
+            href: expectations.qmd
+          - text: "Esfoyaza (journal club)"
+            href: esfoyaza.qmd
+    right:
+      - text: "[Join us]{.nav-cta}"
+        href: expectations.qmd
+      - icon: github
+        href: https://github.com/rr-lab
+        aria-label: GitHub
+      - icon: envelope
+        href: mailto:rrellan@ncsu.edu
+        aria-label: Email
+
+  page-footer:
+    border: false
+    left: |
+      **GEMMA Lab** &middot; Dept. of Molecular and Structural Biochemistry
+      North Carolina State University &middot; Polk Hall, Raleigh, NC
+    center: |
+      [rrellan@ncsu.edu](mailto:rrellan@ncsu.edu) &middot; (919) 515-4738
+    right: |
+      [GitHub](https://github.com/rr-lab) &middot;
+      [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en)
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme/gemma.scss
+    include-in-header: theme/head.html
+    toc: false
+    anchor-sections: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    link-external-icon: false
+    grid:
+      body-width: 940px
+      sidebar-width: 200px
+      margin-width: 200px
+
+execute:
+  freeze: false
+
+editor: source

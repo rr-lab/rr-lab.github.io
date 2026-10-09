@@ -1,0 +1,8 @@
+---
+title: Purepecha Highland Maize Resilience Center
+description: Our proposal for a maize resilience center in the Purepecha highlands.
+---
+
+Follow [this link](https://phmrs.carrd.co/) to see the project proposal webpage.
+
+![](images/patzcuaro.png){fig-align="center" width="900"}
