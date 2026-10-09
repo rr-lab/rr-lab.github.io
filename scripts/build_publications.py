@@ -11,8 +11,11 @@ Inputs
     publications.bib    one @article per paper (see UPDATING.md)
     _lab_authors.txt    surnames to bold automatically
 
-Output
-    _generated/publications-list.md
+Outputs
+    _generated/publications-list.md   the full list, for publications.qmd
+    _generated/pubs-per-year.md       bar chart of papers per year (home page)
+    _generated/new-this-year.md       the newest year's papers (home page)
+    _generated/latest-news.md         the newest items from news.qmd (home page)
 """
 
 from __future__ import annotations
@@ -31,6 +34,11 @@ BIB_PATH = os.path.join(ROOT, "publications.bib")
 LAB_PATH = os.path.join(ROOT, "_lab_authors.txt")
 OUT_DIR = os.path.join(ROOT, "_generated")
 OUT_PATH = os.path.join(OUT_DIR, "publications-list.md")
+CHART_PATH = os.path.join(OUT_DIR, "pubs-per-year.md")
+NEW_PATH = os.path.join(OUT_DIR, "new-this-year.md")
+NEWS_PATH = os.path.join(ROOT, "news.qmd")
+LATEST_NEWS_PATH = os.path.join(OUT_DIR, "latest-news.md")
+LATEST_NEWS_COUNT = 4
 
 
 # --------------------------------------------------------------------------
@@ -204,6 +212,105 @@ def render_entry(e: dict, surnames: list[list[str]]) -> str:
     )
 
 
+# --------------------------------------------------------------------------
+# Home page blocks
+# --------------------------------------------------------------------------
+
+
+def raw_html(markup: str) -> str:
+    """Fence markup so Pandoc passes it through untouched."""
+    return "```{=html}\n" + markup + "\n```\n"
+
+
+def render_year_chart(entries: list[dict]) -> str:
+    """Bar chart of papers per year, oldest to newest, with empty years kept."""
+    counts: dict[int, int] = defaultdict(int)
+    for e in entries:
+        if e.get("year", "").isdigit():
+            counts[int(e["year"])] += 1
+    first, last = min(counts), max(counts)
+    peak = max(counts.values())
+    years = range(first, last + 1)
+
+    bars, labels, rows = [], [], []
+    for y in years:
+        n = counts.get(y, 0)
+        cls = "pc-bar is-current" if y == last else "pc-bar"
+        bars.append(
+            f'<div class="{cls}" style="height:{n / peak * 100:.1f}%" title="{y}: {n}"></div>'
+        )
+        show = y == last or (y % 5 == 0 and last - y >= 2)
+        labels.append(f"<span>{y if show else ''}</span>")
+        rows.append(f"<tr><th scope=\"row\">{y}</th><td>{n}</td></tr>")
+
+    total = sum(counts.values())
+    return (
+        '<div class="pub-chart">\n'
+        f'  <p class="pc-caption">{total} papers and preprints since {first}, per year.</p>\n'
+        f'  <div class="pc-bars" aria-hidden="true">{"".join(bars)}</div>\n'
+        f'  <div class="pc-labels" aria-hidden="true">{"".join(labels)}</div>\n'
+        '  <table class="visually-hidden"><caption>Papers and preprints per year</caption>'
+        '<thead><tr><th scope="col">Year</th><th scope="col">Papers</th></tr></thead>'
+        f'<tbody>{"".join(rows)}</tbody></table>\n'
+        "</div>"
+    )
+
+
+def render_new_this_year(entries: list[dict]) -> str:
+    years = [int(e["year"]) for e in entries if e.get("year", "").isdigit()]
+    latest = str(max(years))
+
+    def num(e: dict) -> int:
+        try:
+            return int(e.get("number", 0))
+        except ValueError:
+            return 0
+
+    items = []
+    for e in sorted((e for e in entries if e.get("year") == latest), key=num, reverse=True):
+        first_author = re.split(r"\s+and\s+", e.get("author", ""))[0].strip()
+        venue = e.get("journal") or e.get("note", "")
+        meta = f"{rich(first_author)} et al."
+        if venue:
+            meta += f" · {rich(venue)}"
+        title = rich(e.get("title", "Untitled"))
+        url = html.escape(e.get("url", ""), quote=True)
+        link = f'<a href="{url}">{title}</a>' if url else title
+        items.append(f'<li>{link}<div class="nty-meta">{meta}</div></li>')
+
+    return (
+        f'<h3 class="nty-heading">New in {latest}</h3>\n'
+        f'<ul class="new-this-year">\n{chr(10).join(items)}\n</ul>'
+    )
+
+
+def latest_news(path: str, count: int) -> str:
+    """The first `count` bullets of the first timeline in news.qmd, as markdown."""
+    if not os.path.exists(path):
+        return ""
+    with open(path, encoding="utf-8") as fh:
+        lines = fh.read().splitlines()
+
+    try:
+        start = next(i for i, l in enumerate(lines) if l.strip().startswith("::: {.timeline}"))
+    except StopIteration:
+        return ""
+
+    items: list[list[str]] = []
+    for line in lines[start + 1 :]:
+        if line.strip() == ":::":
+            break
+        if line.startswith("- "):
+            items.append([line[2:]])
+        elif items and line.strip() and line.startswith("  ") and not line.strip().startswith("!["):
+            items[-1].append(line.strip())
+
+    out = ["::: {.latest-news}"]
+    out += ["- " + " ".join(item) for item in items[:count]]
+    out.append(":::")
+    return "\n".join(out) + "\n"
+
+
 def main() -> int:
     if not os.path.exists(BIB_PATH):
         sys.stderr.write(f"build_publications: {BIB_PATH} not found\n")
@@ -249,6 +356,13 @@ def main() -> int:
         fh.write("```{=html}\n")
         fh.write("\n".join(chunks))
         fh.write("\n```\n")
+
+    with open(CHART_PATH, "w", encoding="utf-8") as fh:
+        fh.write(raw_html(render_year_chart(entries)))
+    with open(NEW_PATH, "w", encoding="utf-8") as fh:
+        fh.write(raw_html(render_new_this_year(entries)))
+    with open(LATEST_NEWS_PATH, "w", encoding="utf-8") as fh:
+        fh.write(latest_news(NEWS_PATH, LATEST_NEWS_COUNT))
 
     sys.stderr.write(
         f"build_publications: {len(entries)} entries across "

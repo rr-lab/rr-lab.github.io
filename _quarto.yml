@@ -9,6 +9,7 @@ project:
     - images/**
     - pdfs/**
     - data/**
+    - theme/genome.js
     - "!*.Rproj"
 
 website:
@@ -22,9 +23,11 @@ website:
     location: navbar
     type: overlay
   navbar:
-    pinned: true
+    pinned: false
     collapse-below: lg
-    title: "🌽 GEMMA Lab"
+    logo: images/chromosome-glyph.svg
+    logo-alt: ""
+    title: "GEMMA Lab"
     left:
       - text: "Research"
         href: research.qmd
@@ -32,39 +35,28 @@ website:
         href: people.qmd
       - text: "Publications"
         href: publications.qmd
-      - text: "Talks"
-        href: talks.qmd
       - text: "News"
         href: news.qmd
-      - text: "Gallery"
-        href: photos.qmd
-      - text: "More"
-        menu:
-          - text: "Collaborators"
-            href: collaborators.qmd
-          - text: "Lab Philosophy"
-            href: expectations.qmd
-          - text: "Esfoyaza (journal club)"
-            href: esfoyaza.qmd
+      - text: "Talks"
+        href: talks.qmd
     right:
-      - text: "[Join us]{.nav-cta}"
+      - text: "[Join the lab]{.nav-cta}"
         href: expectations.qmd
-      - icon: github
-        href: https://github.com/rr-lab
-        aria-label: GitHub
-      - icon: envelope
-        href: mailto:rrellan@ncsu.edu
-        aria-label: Email
 
   page-footer:
     border: false
     left: |
-      **GEMMA Lab** &middot; Dept. of Molecular and Structural Biochemistry
-      North Carolina State University &middot; Polk Hall, Raleigh, NC
+      **GEMMA Lab**\
+      Department of Molecular and Structural Biochemistry,
+      NC State University, Raleigh
     center: |
-      [rrellan@ncsu.edu](mailto:rrellan@ncsu.edu) &middot; (919) 515-4738
+      Polk Hall, Rooms 134 and 145 (lab), 148 (office)\
+      [rrellan@ncsu.edu](mailto:rrellan@ncsu.edu), (919) 515-4738\
+      Funded by ARPA-E, NSF, FFAR, DOE and USDA.
     right: |
-      [GitHub](https://github.com/rr-lab) &middot;
+      [Gallery](photos.qmd) · [Collaborators](collaborators.qmd) ·
+      [Lab philosophy](expectations.qmd) · [Esfoyaza](esfoyaza.qmd)\
+      [GitHub](https://github.com/rr-lab) ·
       [Google Scholar](https://scholar.google.com.mx/citations?user=hdSIEUAAAAAJ&hl=en)
 
 format:
@@ -79,7 +71,7 @@ format:
     link-external-newwindow: true
     link-external-icon: false
     grid:
-      body-width: 940px
+      body-width: 980px
       sidebar-width: 200px
       margin-width: 200px
 

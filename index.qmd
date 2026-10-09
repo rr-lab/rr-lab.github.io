@@ -1,90 +1,140 @@
 ---
-pagetitle: "GEMMA Lab — Genetics, Evolution and Metabolism of Maize Adaptation"
-description-meta: "The GEMMA Lab at NC State University studies the metabolic and morphological mechanisms plants use to adapt to soils with low nutrient availability."
+pagetitle: "GEMMA Lab: Genetics, Evolution and Metabolism of Maize Adaptation"
+description-meta: "The GEMMA Lab at NC State University maps the wild alleles that helped maize adapt, and puts them to work in modern maize."
+page-layout: full
 toc: false
+body-classes: home
+# The story panel's data. Edit _data/stories.yml to add or change a story.
+metadata-files:
+  - _data/stories.yml
+filters:
+  - theme/stories.lua
+include-after-body:
+  - text: '<script src="theme/genome.js"></script>'
 ---
 
-::: {.column-screen}
-```{=html}
-<div class="hero" style="background-image: url('images/nevado_de_toluca.png');">
-  <div>
-    <span class="hero-eyebrow">NC State University &middot; Molecular &amp; Structural Biochemistry</span>
-    <h1>Genetics, Evolution and Metabolism of Maize Adaptation</h1>
-    <p>We study the metabolic and morphological mechanisms that plants have evolved to
-    thrive in soils with low nutrient availability — from wild teosinte in the Mexican
-    highlands to modern maize and sorghum.</p>
-    <div class="hero-actions">
-      <a class="btn-gold" href="research.html">Explore our research</a>
-      <a class="btn-ghost" href="expectations.html">Join the lab</a>
-    </div>
-  </div>
-</div>
-```
+::: {.home-section .home-hero}
+# We map the wild alleles that helped maize adapt, and put them to work in modern maize.
+
+The Genetics, Evolution and Metabolism of Maize Adaptation Lab combines quantitative
+and population genetics, lipidomics and gene editing to study cold tolerance and
+nitrogen and phosphorus efficiency.
 :::
 
-## What we work on
-
-::: {.grid-cards}
-
-::: {.card-item}
-### Nutrient use efficiency
-Finding the alleles and metabolic pathways that let maize and sorghum do more with
-less nitrogen and phosphorus — and reduce the environmental cost of fertilizer.
+::: {.home-section}
+::: {#genome-panel .genome-panel aria-label="Research stories in the maize genome" role="region"}
+::: {.gp-fallback}
+Our research stories are drawn on the maize genome here when JavaScript is on.
+You can also read about them on the [Research page](research.qmd).
+:::
+:::
 :::
 
-::: {.card-item}
-### Local adaptation
-Highland maize and its teosinte relatives carry variation lost during domestication.
-We map it, and test what it is good for.
+::: {.home-section}
+## Research tracks
+
+::: {.tracks}
+::: {.track}
+[Local adaptation]{.track-name}
+
+How teosinte *mexicana* introgressions such as *Inv4m* and the phospholipase *HPC1*
+changed flowering time and lipid metabolism in highland maize.
 :::
 
-::: {.card-item}
-### Lipids and metabolism
-Glycerolipid remodelling sits at the intersection of cold tolerance and phosphorus
-limitation. We use lipidomics, quantitative genetics and population genetics to
-understand it.
+::: {.track}
+[Nitrogen and N₂O]{.track-name}
+
+NSave Maize, with ARPA-E: nitrification-suppressing and nitrogen-recycling alleles
+from wild relatives, to cut nitrous oxide emissions.
 :::
 
+::: {.track}
+[Cold tolerance]{.track-name}
+
+CERCA: highland alleles lost during domestication, like those in Palomero Toluqueño,
+so maize can be planted earlier.
 :::
 
-[See all research areas →](research.qmd)
+::: {.track}
+[Phosphorus]{.track-name}
 
-## Where to find us
-
-::: {.contact-strip}
-
-::: {.contact-item}
-[Institution]{.label}
-North Carolina State University\
-Department of Molecular and Structural Biochemistry
+With the NSF STEPS center: phosphorus use efficiency in maize and sorghum, and gene
+edits that lower phytate in the grain.
 :::
 
-::: {.contact-item}
-[Location]{.label}
-Polk Hall — Room 134\
-Room 145 (Lab) &middot; Room 148 (Office)
+::: {.track}
+[Lipidomics]{.track-name}
+
+Population-scale lipid profiles of maize and sorghum, open as the
+[Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/) and the
+*Zea Lip* leaf atlas.
 :::
 
-::: {.contact-item}
-[Get in touch]{.label}
-[rrellan@ncsu.edu](mailto:rrellan@ncsu.edu)\
-(919) 515-4738
+::: {.track}
+[Teosinte introgressions]{.track-name}
+
+BZea: 81 teosinte accessions crossed into B73, plus 2,208 near-isogenic lines in
+CML311, to find wild alleles worth keeping.
+:::
 :::
 
+[More about our research](research.qmd){.more-link}
 :::
 
-::: {.panel-accent}
-### Interested in joining our lab?
+::: {.home-section .home-split}
+::: {.home-col}
+## Publications
 
-We are always glad to hear from prospective students, postdocs and technicians.
+{{< include _generated/pubs-per-year.md >}}
 
-- Browse our [current research areas](research.qmd) for potential projects.
-- Read about our [lab philosophy and expectations](expectations.qmd) — what we ask of
-  you, and what you can ask of us.
-- Then email [Rubén Rellán-Álvarez](mailto:rrellan@ncsu.edu).
+[Full publication list](publications.qmd){.more-link}
 :::
 
-::: {.logo-row}
-![NC State University](images/ncstate.png)
-![College of Agriculture and Life Sciences](images/cals.png)
+::: {.home-col}
+{{< include _generated/new-this-year.md >}}
+:::
+:::
+
+::: {.home-section .home-split}
+::: {.home-col}
+## People
+
+| Name | Role |
+|------|------|
+| Rubén Rellán-Álvarez | Principal investigator |
+| Fausto Rodríguez-Zapata | Postdoc |
+| Jill Love | Postdoc |
+| Carolina Escalona-Weldt | Lab manager |
+| Lina López-Corona | Project manager, ARPA-E NSave Maize |
+| Pascual Blanco | Field technician |
+| Hannah Pil, Zehta Fazler, Lauren Insko | PhD students |
+| Brock Davis, Sanaa Jain, Maheera Hassan, Sam Strimple | Undergraduate researchers |
+: {.people-table}
+
+[Profiles and former members](people.qmd){.more-link}
+:::
+
+::: {.home-col .home-col-narrow}
+## News
+
+{{< include _generated/latest-news.md >}}
+
+[All news](news.qmd){.more-link}
+:::
+:::
+
+::: {.home-section}
+::: {.join-box}
+::: {.join-text}
+## Interested in joining?
+
+Read about our research areas and how we work together, then write to Rubén with what
+you would like to study.
+:::
+
+::: {.join-actions}
+[Lab philosophy](expectations.qmd){.btn-solid}
+[Email Rubén](mailto:rrellan@ncsu.edu){.btn-outline}
+:::
+:::
 :::

@@ -17,6 +17,8 @@ within a couple of minutes.
 | Add a paper | `publications.bib` |
 | Add a news item | `news.qmd` |
 | Add a talk | `talks.qmd` |
+| Add or change a home-page genome story | `_data/stories.yml` |
+| Change the home page | `index.qmd` |
 | Change a research description | `research.qmd` |
 | Add a photo to the gallery | `photos.qmd` (+ drop the image in `images/`) |
 | Add a collaborator | `collaborators.qmd` |
@@ -54,6 +56,7 @@ match this shape:
   title   = {The full title of the paper},
   author  = {Jane Doe and Fausto Rodríguez-Zapata and Rubén Rellán-Álvarez},
   year    = {2026},
+  journal = {New Phytologist},
   url     = {https://doi.org/10.1234/whatever},
   pdf     = {pdfs/41-2026-doe.pdf},
   code    = {https://github.com/rr-lab/some-repo},
@@ -71,6 +74,7 @@ match this shape:
   `Rellan-Alvarez` in that file matches *Rubén Rellán-Álvarez*,
   *Ruben Rellan-Alvarez* and *Rellán- Álvarez R* alike. When someone new joins the
   lab, add their surname to `_lab_authors.txt` once and every paper updates.
+- `journal` is shown next to the paper in the home page's *New this year* list.
 - `codelabel` is the text on the `code` link (default *Code*), e.g. `{SoLD Shiny app}`.
 - `summary` becomes the collapsible **What we did** panel under the paper.
 - Species names use markdown italics: `*mexicana*`.
@@ -159,22 +163,43 @@ If a filename contains spaces or brackets, replace each space with `%20` in the
 
 ---
 
+## Adding a story to the home page
+
+The "Stories in the genome" panel on the home page is drawn from
+`_data/stories.yml`. Each story is one entry; copy an existing one and edit it.
+
+- `loci` lists positions in Mb on B73 v5 (`chr`, `start_mb`, `end_mb`, and an
+  optional `gene`). Leave it as `loci: []` and the story shows "Not yet mapped".
+- Set `coords_verified: true` once the positions are checked against
+  [MaizeGDB](https://www.maizegdb.org). Until then the panel says "approximate
+  position".
+- `inversion: true` adds the "Standard / Inverted in highland maize" bar.
+- Text fields take markdown, so `*HPC1*` comes out in italics.
+- Only list genes that are published or preprinted.
+
+A story can be linked to directly: `https://www.gemmalab.org/#story-hpc1`.
+
+The home page's publication chart, *New this year* list and latest news are
+built automatically from `publications.bib` and the top of `news.qmd`.
+
+---
+
 ## Changing the look
 
 All colours, fonts and spacing live in `theme/gemma.scss`. The palette is at the
-very top of the file — change one of these and the whole site follows:
+very top of the file; change one of these and the whole site follows:
 
 ```scss
-$cream:      #FCFAF4;  // page background
-$ink:        #1E2B23;  // body text
-$green-900:  #14301F;  // navbar and footer
-$green-700:  #24603F;  // primary / links
-$gold:       #C9971C;  // accent
+$paper:   #FFFFFF;  // page background
+$ink:     #1B2430;  // body text, headings
+$muted:   #4A5866;  // labels, captions, metadata
+$panel:   #F3F5F7;  // tinted panels
+$rule:    #D3DAE1;  // hairlines
+$accent:  #1F5FA6;  // links, buttons, bars
 ```
 
-The two fonts are loaded in `theme/head.html` (Fraunces for headings, Inter for
-body text). Swap the Google Fonts link and the `$headings-font-family` /
-`$font-family-sans-serif` variables to change them.
+The fonts (IBM Plex Sans and IBM Plex Sans Condensed) are loaded in
+`theme/head.html`. Keep text at 4.5:1 contrast or better against its background.
 
 The menu bar, footer and site title are in `_quarto.yml`.
 
@@ -205,10 +230,14 @@ You need Python 3 available for the publications script — macOS already has it
 _quarto.yml                  site config: menu, footer, theme
 theme/gemma.scss             all colours, fonts and component styles
 theme/head.html              font loading
+theme/genome.js              draws the home page's genome panel
+theme/stories.lua            passes _data/stories.yml to genome.js
+_data/stories.yml            the home page's genome stories
 *.qmd                        one file per page
 publications.bib             the papers
 _lab_authors.txt             surnames to bold automatically
-scripts/build_publications.py  turns the .bib into the formatted list
+scripts/build_publications.py  turns the .bib into the formatted list and
+                             builds the home page's chart and lists
 .github/workflows/publish.yml  renders and publishes on every push
 _generated/                  script output — not committed
 _site/                       the built website — not committed

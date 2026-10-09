@@ -1,0 +1,97 @@
+# Research stories for the "Stories in the genome" panel on the home page.
+#
+# Adding a story = adding one entry under `stories:`. Only list genes that are
+# published or preprinted.
+#
+# Coordinates are in Mb on the B73 v5 assembly. Every locus below still needs
+# checking against MaizeGDB (https://www.maizegdb.org) before the site goes
+# live; when a story's loci are checked, set `coords_verified: true`. Until
+# then the panel labels the position "approximate".
+#
+#   - Inv4m uses B73 v4 coordinates (Crow et al. 2020); convert to v5.
+#   - HPC1, ZmCCT9 and ZmCCT10 use rough positions from the design mockup.
+#
+# A story with `loci: []` shows "Not yet mapped".
+# Text fields accept markdown, e.g. *Inv4m* for italics.
+
+stories:
+
+  - id: inv4m
+    label: "*Inv4m* and flowering"
+    color: "#B4561A"
+    inversion: true
+    loci:
+      - {chr: 4, start_mb: 171.7, end_mb: 185.9, assembly: B73 v4, source: "Crow et al. 2020, https://doi.org/10.1371/journal.pgen.1009213"}
+    coords_verified: false
+    title: A borrowed inversion that shifts flowering time
+    story: >-
+      *Inv4m* is an inversion of about 15 Mb that highland maize picked up from teosinte *mexicana*.
+      In near-isogenic lines it changes flowering time and plant height across field environments,
+      and those effects are separate from the leaf phosphorus response.
+    genes: [JMJ histone demethylase paralogs]
+    status: Two preprints, 2026
+    people: [Fausto Rodríguez-Zapata, Hannah Pil, Nirwan Tandukar, Lauren Insko, Carolina Escalona-Weldt, Zehta Fazler]
+    links:
+      - {text: Flowering time and height preprint, href: "https://doi.org/10.64898/2026.06.16.732082"}
+      - {text: Phosphorus responses preprint, href: "https://doi.org/10.64898/2026.05.22.727253"}
+
+  - id: hpc1
+    label: "*HPC1* and lipids"
+    color: "#6A4BB5"
+    loci:
+      - {chr: 3, start_mb: 21.4, end_mb: 26.2}
+    coords_verified: false
+    title: A teosinte phospholipase tuned for the highlands
+    story: >-
+      *HPC1* encodes a phospholipase A1. The highland allele came from teosinte *mexicana*, raises
+      phosphatidylcholine and is linked to earlier flowering, and it survives today in northern US,
+      Canadian and European breeding lines. We are now mapping its regulatory elements and protein structure.
+    genes: ["*HPC1*"]
+    status: Published in PNAS, 2022; follow-up in progress
+    people: [Lauren Insko, Fausto Rodríguez-Zapata]
+    links:
+      - {text: PNAS paper, href: "https://doi.org/10.1073/pnas.2100036119"}
+
+  - id: daylength
+    label: Day length
+    color: "#0E7C86"
+    loci:
+      - {chr: 9, start_mb: 146.7, end_mb: 150.0, gene: ZmCCT9}
+      - {chr: 10, start_mb: 94.2, end_mb: 97.3, gene: ZmCCT10}
+    coords_verified: false
+    title: Editing day-length genes to bring tropical maize north
+    story: >-
+      Tropical maize flowers late under the long days of temperate summers. Editing the photoperiod
+      genes *CCT9* and *CCT10* in an elite tropical line made it flower earlier under long days, opening
+      tropical diversity to temperate breeding.
+    genes: ["*ZmCCT9*", "*ZmCCT10*"]
+    status: Accepted in Nature Communications
+    people: [Destiny Tyson (former PhD student), with Jim Holland and Syngenta]
+    links:
+      - {text: Preprint, href: "https://doi.org/10.21203/rs.3.rs-9555784/v1"}
+
+  - id: nitrogen
+    label: Nitrogen from teosinte
+    color: "#4E7D2B"
+    loci: []
+    title: Wild alleles that keep nitrogen in the soil
+    story: >-
+      In NSave Maize, with ARPA-E, we screen teosinte introgression lines for alleles that slow
+      nitrification and recycle nitrogen, to cut nitrous oxide emissions from maize fields.
+    genes: ["[Candidate genes, once public]"]
+    status: Screening introgression lines
+    people: ["[Team members]"]
+    links: []
+
+  - id: vigor
+    label: Early-season vigor
+    color: "#2D6FB8"
+    loci: []
+    title: Alleles for planting earlier and colder
+    story: >-
+      In CERCA we test highland and wild alleles for early-season vigor and cold tolerance, so maize
+      can go in the ground earlier and take up nitrogen when it is available.
+    genes: ["[Candidate genes, once public]"]
+    status: Candidate genes in testing
+    people: ["[Team members]"]
+    links: []
