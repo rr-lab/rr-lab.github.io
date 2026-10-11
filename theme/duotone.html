@@ -1,0 +1,16 @@
+<!-- Duotone filter for People headshots: maps each photo onto the site's
+     ink (#1B2430) to pale blue (#E6EEF7). Used by .person-photo in gemma.scss. -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <filter id="gemma-duotone" color-interpolation-filters="sRGB">
+    <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"/>
+    <feComponentTransfer>
+      <feFuncR type="table" tableValues="0.106 0.902"/>
+      <feFuncG type="table" tableValues="0.141 0.933"/>
+      <feFuncB type="table" tableValues="0.188 0.969"/>
+    </feComponentTransfer>
+  </filter>
+</svg>
+<style>
+  .person img.person-photo:not(.is-placeholder) { filter: url(#gemma-duotone); }
+  .person:hover img.person-photo:not(.is-placeholder) { filter: none; }
+</style>

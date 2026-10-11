@@ -111,10 +111,13 @@ One or two sentences about what they work on.
 - Icon names come from [Bootstrap Icons](https://icons.getbootstrap.com); useful
   ones are `bi-github`, `bi-envelope`, `bi-file-text`, `bi-mortarboard`
   (Google Scholar), `bi-globe`, `bi-linkedin`.
-- **To add a headshot**, put the image in `images/` and add this line as the
-  first thing inside the `::: {.person}` block:
-  `![](images/their-photo.jpg){.person-photo}`. It gets cropped to a circle
-  automatically. Best results with a roughly square photo.
+- **Headshots** live in `images/people/`. Crop the photo to a square around the
+  face (about 320×320 px), save it as `firstname-lastname.jpg`, and make this
+  the first line inside the `::: {.person}` block:
+  `![](images/people/firstname-lastname.jpg){.person-photo}`. It is shown as a
+  circle in the site's blue duotone, and in full colour on hover.
+- With no photo yet, use the corn ear:
+  `![](images/people/corn-ear.svg){.person-photo .is-placeholder}`.
 - When someone leaves, move their name into the `## Former lab members` list at
   the bottom of the page — and remember to leave their surname in
   `_lab_authors.txt` so their papers stay bolded.

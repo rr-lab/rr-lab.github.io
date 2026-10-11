@@ -773,13 +773,21 @@ a.gp-gene {
   display: flex;
   flex-direction: column;
 
-  // Optional headshot: add `![](images/foo.jpg){.person-photo}` to a card.
-  .person-photo, img.person-photo {
-    width: 72px;
-    height: 72px;
+  // Headshot: `![](images/people/name.jpg){.person-photo}` as the first line
+  // of a card. Photos get the site duotone from theme/duotone.html; the
+  // corn-ear placeholder is already in the palette.
+  > p:first-child:has(.person-photo) { margin: 0 0 .8rem; }
+
+  img.person-photo {
+    display: block;
+    width: 88px;
+    height: 88px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: .75rem;
+    background: #E6EEF7;
+    box-shadow: 0 0 0 1px $rule;
+    transition: filter .2s ease;
+    // The duotone filter itself is applied in theme/duotone.html.
   }
 
   .person-name {

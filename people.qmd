@@ -1,5 +1,6 @@
 ---
 title: People
+include-after-body: theme/duotone.html
 description: The GEMMA lab crew — students, postdocs, technicians and alumni.
 ---
 
@@ -14,6 +15,8 @@ wild relatives.
 ::: {.people-grid}
 
 ::: {.person}
+![](images/people/ruben-rellan-alvarez.jpg){.person-photo}
+
 [Rubén Rellán-Álvarez]{.person-name}
 [Principal Investigator]{.person-role}
 
@@ -31,6 +34,8 @@ at NC State.
 :::
 
 ::: {.person}
+![](images/people/fausto-rodriguez-zapata.jpg){.person-photo}
+
 [Fausto Rodríguez-Zapata]{.person-name}
 [Postdoc]{.person-role}
 
@@ -45,6 +50,8 @@ genetic associations with soil variables involved in phosphorus deficiency.
 :::
 
 ::: {.person}
+![](images/people/jill-love.jpg){.person-photo}
+
 [Jill Love]{.person-name}
 [Postdoc]{.person-role}
 
@@ -54,6 +61,8 @@ Jill joined the lab in 2026.
 :::
 
 ::: {.person}
+![](images/people/nirwan-tandukar.jpg){.person-photo}
+
 [Nirwan Tandukar]{.person-name}
 [Postdoc]{.person-role}
 
@@ -67,6 +76,8 @@ stresses, and built the
 :::
 
 ::: {.person}
+![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+
 [Pascual Blanco]{.person-name}
 [Field Technician]{.person-role}
 
@@ -76,6 +87,8 @@ Pascual joined the lab in fall 2021. He manages all our field operations.
 :::
 
 ::: {.person}
+![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+
 [Lina López-Corona]{.person-name}
 [Project Manager, ARPA-E NSave Maize project]{.person-role}
 
@@ -85,6 +98,8 @@ Lina joined the lab in fall 2023.
 :::
 
 ::: {.person}
+![](images/people/hannah-pil.jpg){.person-photo}
+
 [Hannah Pil]{.person-name}
 [PhD Candidate, Genetics Program]{.person-role}
 
@@ -95,6 +110,8 @@ Hannah joined the lab in summer 2021 as an undergraduate and since then
 :::
 
 ::: {.person}
+![](images/people/zehta-fazler.jpg){.person-photo}
+
 [Zehta Fazler]{.person-name}
 [PhD Student, Genetics Program]{.person-role}
 
@@ -105,6 +122,8 @@ drive cold stress tolerance, with an emphasis on evolutionary diversity in maize
 :::
 
 ::: {.person}
+![](images/people/lauren-insko.jpg){.person-photo}
+
 [Lauren Insko]{.person-name}
 [PhD Student, Structural and Molecular Biochemistry]{.person-role}
 
@@ -116,6 +135,8 @@ of the phospholipase protein product.
 :::
 
 ::: {.person}
+![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+
 [Brock Davis]{.person-name}
 [Undergraduate Researcher, Genetics major]{.person-role}
 
@@ -125,6 +146,8 @@ Brock joined the lab in 2025.
 :::
 
 ::: {.person}
+![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+
 [Sanaa Jain]{.person-name}
 [Undergraduate Researcher, Biochemistry major]{.person-role}
 
@@ -134,6 +157,8 @@ Sanaa joined the lab in 2026 through the SAPLINGs program.
 :::
 
 ::: {.person}
+![](images/people/maheera-hassan.jpg){.person-photo}
+
 [Maheera Hassan]{.person-name}
 [Undergraduate Researcher, Genetics major]{.person-role}
 
@@ -143,6 +168,8 @@ Maheera joined the lab in 2026.
 :::
 
 ::: {.person}
+![](images/people/sam-strimple.jpg){.person-photo}
+
 [Sam Strimple]{.person-name}
 [Undergraduate Researcher, Genetics major]{.person-role}
 

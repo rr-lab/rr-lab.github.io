@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="320" height="320">
+  <!-- Placeholder headshot: a stylized ear of corn in the site palette. -->
+  <rect width="160" height="160" fill="#E6EEF7"/>
+  <g transform="rotate(-18 80 84)">
+    <!-- husk leaves -->
+    <path d="M80 150 C 52 128, 44 92, 58 62 C 62 92, 70 116, 80 132 Z" fill="#4A5866"/>
+    <path d="M80 150 C 108 128, 116 92, 102 62 C 98 92, 90 116, 80 132 Z" fill="#3B4754"/>
+    <!-- cob -->
+    <ellipse cx="80" cy="76" rx="21" ry="52" fill="#9FB7D3"/>
+    <!-- kernels -->
+    <g fill="#1F5FA6">
+      <g id="row">
+        <ellipse cx="68" cy="0" rx="4.2" ry="3.4"/>
+        <ellipse cx="77" cy="0" rx="4.2" ry="3.4"/>
+        <ellipse cx="86" cy="0" rx="4.2" ry="3.4"/>
+        <ellipse cx="94" cy="0" rx="3.4" ry="3.2"/>
+      </g>
+      <use href="#row" y="40"/><use href="#row" y="48" x="-2"/><use href="#row" y="56"/>
+      <use href="#row" y="64" x="-2"/><use href="#row" y="72"/><use href="#row" y="80" x="-2"/>
+      <use href="#row" y="88"/><use href="#row" y="96" x="-2"/><use href="#row" y="104"/>
+      <use href="#row" y="112" x="-1"/>
+    </g>
+    <!-- silk -->
+    <path d="M80 25 C 76 14, 70 10, 64 8 M80 25 C 82 13, 88 8, 95 6 M80 25 C 80 15, 79 9, 80 3"
+          fill="none" stroke="#1B2430" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>
