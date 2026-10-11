@@ -76,7 +76,7 @@ stresses, and built the
 :::
 
 ::: {.person}
-![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+![](images/people/pascual-blanco.jpg){.person-photo}
 
 [Pascual Blanco]{.person-name}
 [Field Technician]{.person-role}
@@ -87,7 +87,7 @@ Pascual joined the lab in fall 2021. He manages all our field operations.
 :::
 
 ::: {.person}
-![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+![](images/people/lina-lopez-corona.jpg){.person-photo}
 
 [Lina López-Corona]{.person-name}
 [Project Manager, ARPA-E NSave Maize project]{.person-role}
@@ -135,7 +135,7 @@ of the phospholipase protein product.
 :::
 
 ::: {.person}
-![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+![](images/people/brock-davis.jpg){.person-photo}
 
 [Brock Davis]{.person-name}
 [Undergraduate Researcher, Genetics major]{.person-role}
@@ -146,7 +146,7 @@ Brock joined the lab in 2025.
 :::
 
 ::: {.person}
-![](images/people/corn-ear.svg){.person-photo .is-placeholder}
+![](images/people/sanaa-jain.jpg){.person-photo}
 
 [Sanaa Jain]{.person-name}
 [Undergraduate Researcher, Biochemistry major]{.person-role}
