@@ -608,6 +608,28 @@ a.gp-gene {
   &:hover { border-color: $accent; text-decoration: underline; }
 }
 
+.gp-related {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+
+  button {
+    padding: .1rem 0;
+    border: 0;
+    background: none;
+    color: $accent;
+    font: inherit;
+    font-weight: 600;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: rgba($accent, .45);
+    text-underline-offset: .18em;
+    cursor: pointer;
+
+    &:hover { text-decoration-color: currentColor; }
+  }
+}
+
 .gp-links {
   margin-top: 1rem;
   display: flex;

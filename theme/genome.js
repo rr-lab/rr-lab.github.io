@@ -20,10 +20,12 @@
   // Lua writes an empty list as {}, so make sure list fields are arrays.
   function asArray(x) { return Array.isArray(x) ? x : []; }
   var stories = asArray(JSON.parse(source.textContent)).map(function (s) {
-    ["loci", "genes", "people", "links"].forEach(function (k) { s[k] = asArray(s[k]); });
+    ["loci", "genes", "people", "links", "related"].forEach(function (k) { s[k] = asArray(s[k]); });
     return s;
   });
   if (!stories.length) return;
+  var byId = {};
+  stories.forEach(function (s) { byId[s.id] = s; });
 
   function el(tag, cls, html) {
     var node = document.createElement(tag);
@@ -49,6 +51,46 @@
     return story.loci.filter(hasCoords);
   }
 
+  // A story can name `related` stories that cut across its theme.
+  function relatedStories(story) {
+    return story.related.map(function (id) { return byId[id]; }).filter(Boolean);
+  }
+
+  // The story's own loci plus those of its related stories, each tagged with
+  // the colour of the story it belongs to. A locus shared by two stories (such
+  // as ZCN8) is drawn once, in the colour of the selected story.
+  function themeLoci(story) {
+    var out = [];
+    var seen = {};
+    [story].concat(relatedStories(story)).forEach(function (s) {
+      mappedLoci(s).forEach(function (l) {
+        var key = l.chr + ":" + l.start + "-" + l.end;
+        if (seen[key]) return;
+        seen[key] = true;
+        out.push({ chr: l.chr, start: l.start, end: l.end, color: s.color,
+                   gene: l.gene || (s === story ? null : plain(s.label)) });
+      });
+    });
+    return out;
+  }
+
+  function themeVerified(story) {
+    return story.verified && relatedStories(story).every(function (r) { return r.verified; });
+  }
+
+  function inTheme(sel, s) {
+    return s.id === sel.id || sel.related.indexOf(s.id) >= 0;
+  }
+
+  // Related stories in both directions, for the "Related stories" links.
+  function linkedStories(story) {
+    var out = relatedStories(story);
+    stories.forEach(function (s) {
+      if (s.related.indexOf(story.id) >= 0 && out.indexOf(s) < 0) out.push(s);
+    });
+    return out;
+  }
+
   function plain(html) {
     var d = document.createElement("div");
     d.innerHTML = html;
@@ -61,7 +103,7 @@
   }
 
   function whereText(story) {
-    var loci = mappedLoci(story);
+    var loci = themeLoci(story);
     if (!loci.length) return "Not yet mapped";
     var chrs = [];
     loci.forEach(function (l) { if (chrs.indexOf(l.chr) < 0) chrs.push(l.chr); });
@@ -75,7 +117,7 @@
     } else {
       text = (chrs.length === 1 ? "Chromosome " : "Chromosomes ") + joinWords(chrs.map(String));
     }
-    return story.verified ? text : text + " (approximate position)";
+    return themeVerified(story) ? text : text + " (approximate position)";
   }
 
   // ---- Static frame ------------------------------------------------------
@@ -97,7 +139,7 @@
   chroms.setAttribute("role", "img");
   karyo.appendChild(chroms);
   karyo.appendChild(el("p", "gp-note",
-    "Every story with a mapped locus leaves a mark. The selected story is in colour."));
+    "Every story with a mapped locus leaves a mark. The selected story, and any related ones, are in colour."));
   body.appendChild(karyo);
 
   var detail = el("div", "gp-detail");
@@ -128,18 +170,29 @@
       var shape = el("div", "gp-chrom-body");
       shape.style.height = pct(len / MAX_LEN);
       var inSel = false;
+      // One mark per position. A locus shared by several stories takes the
+      // colour of the selected story first, then a related one, else grey;
+      // grey marks are drawn underneath coloured ones.
+      var marks = {};
       stories.forEach(function (s) {
         mappedLoci(s).forEach(function (l) {
           if (l.chr !== n) return;
-          var on = s.id === sel.id;
-          if (on) inSel = true;
-          var m = el("span", "gp-mark");
-          m.style.top = pct(l.start / len);
-          m.style.height = pct((l.end - l.start) / len);
-          m.style.background = on ? s.color : MUTED;
-          shape.appendChild(m);
+          var key = l.start + "-" + l.end;
+          var rank = s.id === sel.id ? 2 : (inTheme(sel, s) ? 1 : 0);
+          if (marks[key] && marks[key].rank >= rank) return;
+          marks[key] = { locus: l, rank: rank, color: rank ? s.color : MUTED };
         });
       });
+      Object.keys(marks).map(function (k) { return marks[k]; })
+        .sort(function (a, b) { return a.rank - b.rank; })
+        .forEach(function (mk) {
+          if (mk.rank) inSel = true;
+          var m = el("span", "gp-mark");
+          m.style.top = pct(mk.locus.start / len);
+          m.style.height = pct((mk.locus.end - mk.locus.start) / len);
+          m.style.background = mk.color;
+          shape.appendChild(m);
+        });
       if (inSel) {
         shape.classList.add("is-selected");
         marked.push(n);
@@ -160,8 +213,9 @@
     detail.style.setProperty("--story", sel.color);
     detail.appendChild(el("div", "gp-kicker", whereText(sel)));
 
-    var loci = mappedLoci(sel);
-    // One zoom bar per chromosome, with every locus of the story on it.
+    var loci = themeLoci(sel);
+    // One zoom bar per chromosome, with every locus of the story (and of its
+    // related stories) on it.
     var byChr = {};
     var chrOrder = [];
     loci.forEach(function (l) {
@@ -183,6 +237,7 @@
         var hit = el("span", "gp-zoom-locus");
         hit.style.left = pct(l.start / len);
         hit.style.width = pct((l.end - l.start) / len);
+        hit.style.background = l.color;
         if (l.gene) hit.title = l.gene + ", " + l.start.toFixed(1) + " Mb";
         track.appendChild(hit);
       });
@@ -190,7 +245,7 @@
       detail.appendChild(zoom);
     });
 
-    if (sel.inversion && loci.length) {
+    if (sel.inversion && mappedLoci(sel).length) {
       var inv = el("div", "gp-inversion");
       inv.appendChild(el("div", "gp-inv-std", "Standard →"));
       inv.appendChild(el("div", "gp-inv-flip", "← Inverted in highland maize"));
@@ -224,6 +279,20 @@
     fact("Candidate genes", genes);
     fact("Status", el("dd", null, sel.status));
     fact("People", el("dd", null, sel.people.join(", ")));
+    var linked = linkedStories(sel);
+    if (linked.length) {
+      var rel = el("dd", "gp-related");
+      linked.forEach(function (s) {
+        var b = el("button", null, s.label);
+        b.type = "button";
+        b.addEventListener("click", function () {
+          pick(s.id, true);
+          buttonById[s.id].focus({ preventScroll: true });
+        });
+        rel.appendChild(b);
+      });
+      fact("Related stories", rel);
+    }
     detail.appendChild(dl);
 
     if (sel.links.length) {

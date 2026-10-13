@@ -62,6 +62,7 @@ local function convert(s)
     genes = list(s.genes, gene),
     status = html(s.status),
     people = list(s.people, html),
+    related = list(s.related, text),
     links = list(s.links, function(l)
       return { text = html(l.text), href = text(l.href) }
     end),

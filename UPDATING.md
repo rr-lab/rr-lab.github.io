@@ -177,6 +177,9 @@ The "Stories in the genome" panel on the home page is drawn from
   [MaizeGDB](https://www.maizegdb.org). Until then the panel says "approximate
   position".
 - `inversion: true` adds the "Standard / Inverted in highland maize" bar.
+- `related: [inv4m, hpc1]` makes a story a theme that cuts across others: when
+  it is selected, those stories' loci light up too, and the stories link to each
+  other under "Related stories".
 - Text fields take markdown, so `*HPC1*` comes out in italics.
 - A gene in `genes` can be plain text or `{name: "*HPC1*", id: Zm00001eb121780}`.
   With an `id`, the gene links to its MaizeGDB page. B73 v5 positions for an

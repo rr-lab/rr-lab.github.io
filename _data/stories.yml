@@ -11,12 +11,17 @@
 #   - Inv4m uses B73 v4 coordinates (Crow et al. 2020); convert to v5.
 #   - ZmCCT9 and ZmCCT10 use rough positions from the design mockup.
 #   - HPC1 is Zm00001eb121780, chr3:8,497,640-8,499,737 (Ensembl Plants, B73 v5).
+#   - ZCN8 is Zm00001eb353250, chr8:126,678,681-126,680,474 (Ensembl Plants, B73 v5).
 #
 # A story with `loci: []` shows "Not yet mapped".
 # Text fields accept markdown, e.g. *Inv4m* for italics.
 #
 # A gene can be plain text, or {name: ..., id: Zm00001eb...}; the id adds a
 # link to the gene's MaizeGDB page.
+#
+# A story can name `related` stories (by id) that cut across its theme. When it
+# is selected, their loci light up too, in their own colours, and the stories
+# link to each other under "Related stories".
 
 stories:
 
@@ -25,7 +30,7 @@ stories:
     color: "#B4561A"
     inversion: true
     loci:
-      - {chr: 4, start_mb: 171.7, end_mb: 185.9, assembly: B73 v4, source: "Crow et al. 2020, https://doi.org/10.1371/journal.pgen.1009213"}
+      - {chr: 4, start_mb: 171.7, end_mb: 185.9, gene: Inv4m, assembly: B73 v4, source: "Crow et al. 2020, https://doi.org/10.1371/journal.pgen.1009213"}
     coords_verified: false
     title: A borrowed inversion that shifts flowering time
     story: >-
@@ -44,36 +49,51 @@ stories:
     color: "#6A4BB5"
     loci:
       - {chr: 3, start_mb: 8.4976, end_mb: 8.4997, gene: HPC1}
+      - {chr: 8, start_mb: 126.6787, end_mb: 126.6805, gene: ZCN8}
     coords_verified: true
     title: A teosinte phospholipase tuned for the highlands
     story: >-
       *HPC1* encodes a phospholipase A1. The highland allele came from teosinte *mexicana*, raises
       phosphatidylcholine and is linked to earlier flowering, and it survives today in northern US,
-      Canadian and European breeding lines. We are now mapping its regulatory elements and protein structure.
+      Canadian and European breeding lines. The same study connected *HPC1* with the florigen gene
+      *ZCN8*, linking lipid metabolism to flowering time. We are now mapping its regulatory elements and
+      protein structure.
     genes:
       - {name: "*HPC1*", id: Zm00001eb121780}
+      - {name: "*ZCN8*", id: Zm00001eb353250}
     status: Published in PNAS, 2022; follow-up in progress
     people: [Lauren Insko, Fausto Rodríguez-Zapata]
     links:
       - {text: PNAS paper, href: "https://doi.org/10.1073/pnas.2100036119"}
 
-  - id: daylength
-    label: Day length
+  - id: flowering
+    label: Photoperiod and flowering time regulation
     color: "#0E7C86"
+    # Inv4m and HPC1 also shift flowering time, so they are part of this theme.
+    related: [inv4m, hpc1]
     loci:
       - {chr: 9, start_mb: 146.7, end_mb: 150.0, gene: ZmCCT9}
       - {chr: 10, start_mb: 94.2, end_mb: 97.3, gene: ZmCCT10}
+      - {chr: 8, start_mb: 126.6787, end_mb: 126.6805, gene: ZCN8}
     coords_verified: false
-    title: Editing day-length genes to bring tropical maize north
+    title: Tuning when maize flowers
     story: >-
       Tropical maize flowers late under the long days of temperate summers. Editing the photoperiod
       genes *CCT9* and *CCT10* in an elite tropical line made it flower earlier under long days, opening
-      tropical diversity to temperate breeding.
-    genes: ["*ZmCCT9*", "*ZmCCT10*"]
-    status: Preprint, accepted for publication
+      tropical diversity to temperate breeding. Two teosinte *mexicana* introgressions in highland
+      maize also shift flowering time: the *Inv4m* inversion and the phospholipase *HPC1*, which we
+      connected with the florigen gene *ZCN8*.
+    genes:
+      - "*ZmCCT9*"
+      - "*ZmCCT10*"
+      - {name: "*ZCN8*", id: Zm00001eb353250}
+      - {name: "*HPC1*", id: Zm00001eb121780}
+    status: "*CCT9* and *CCT10* editing: preprint, accepted for publication"
     people: [Destiny Tyson (former PhD student), with Jim Holland and Syngenta]
     links:
-      - {text: Preprint, href: "https://doi.org/10.21203/rs.3.rs-9555784/v1"}
+      - {text: "*CCT9* and *CCT10* editing preprint", href: "https://doi.org/10.21203/rs.3.rs-9555784/v1"}
+      - {text: "*Inv4m* flowering time preprint", href: "https://doi.org/10.64898/2026.06.16.732082"}
+      - {text: "*HPC1* paper (PNAS)", href: "https://doi.org/10.1073/pnas.2100036119"}
 
   - id: nitrogen
     label: Nitrogen from teosinte
