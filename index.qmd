@@ -11,6 +11,7 @@ filters:
   - theme/stories.lua
 include-after-body:
   - text: '<script src="theme/genome.js"></script>'
+  - theme/duotone.html
 ---
 
 ::: {.home-section .home-hero}
@@ -99,16 +100,23 @@ CML311, to find wild alleles worth keeping.
 ::: {.home-col}
 ## People
 
+<!-- One row per current member, sorted by surname. Headshots: images/people/. -->
+
 | Name | Role |
 |------|------|
-| Rubén Rellán-Álvarez | Principal investigator |
-| Fausto Rodríguez-Zapata | Postdoc |
-| Jill Love | Postdoc |
-| Nirwan Tandukar | Postdoc |
-| Lina López-Corona | Project manager, ARPA-E NSave Maize |
-| Pascual Blanco | Field technician |
-| Hannah Pil, Zehta Fazler, Lauren Insko | PhD students |
-| Brock Davis, Sanaa Jain, Maheera Hassan, Sam Strimple | Undergraduate researchers |
+| [![](images/people/pascual-blanco.jpg){.person-thumb} Pascual Blanco]{.person-cell} | Field technician |
+| [![](images/people/brock-davis.jpg){.person-thumb} Brock Davis]{.person-cell} | Undergraduate researcher |
+| [![](images/people/zehta-fazler.jpg){.person-thumb} Zehta Fazler]{.person-cell} | PhD student |
+| [![](images/people/maheera-hassan.jpg){.person-thumb} Maheera Hassan]{.person-cell} | Undergraduate researcher |
+| [![](images/people/lauren-insko.jpg){.person-thumb} Lauren Insko]{.person-cell} | PhD student |
+| [![](images/people/sanaa-jain.jpg){.person-thumb} Sanaa Jain]{.person-cell} | Undergraduate researcher |
+| [![](images/people/lina-lopez-corona.jpg){.person-thumb} Lina López-Corona]{.person-cell} | Project manager, ARPA-E NSave Maize |
+| [![](images/people/jill-love.jpg){.person-thumb} Jill Love]{.person-cell} | Postdoc |
+| [![](images/people/hannah-pil.jpg){.person-thumb} Hannah Pil]{.person-cell} | PhD candidate |
+| [![](images/people/ruben-rellan-alvarez.jpg){.person-thumb} Rubén Rellán-Álvarez]{.person-cell} | Principal investigator |
+| [![](images/people/fausto-rodriguez-zapata.jpg){.person-thumb} Fausto Rodríguez-Zapata]{.person-cell} | Postdoc |
+| [![](images/people/sam-strimple.jpg){.person-thumb} Sam Strimple]{.person-cell} | Undergraduate researcher |
+| [![](images/people/nirwan-tandukar.jpg){.person-thumb} Nirwan Tandukar]{.person-cell} | Postdoc |
 : {.people-table}
 
 [Profiles and former members](people.qmd){.more-link}

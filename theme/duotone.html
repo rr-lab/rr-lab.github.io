@@ -1,4 +1,4 @@
-<!-- Duotone filter for People headshots: maps each photo onto the site's
+<!-- Duotone filter for headshots (People page and home page table): maps each photo onto the site's
      ink (#1B2430) to pale blue (#E6EEF7). Used by .person-photo in gemma.scss. -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <filter id="gemma-duotone" color-interpolation-filters="sRGB">
@@ -11,6 +11,8 @@
   </filter>
 </svg>
 <style>
-  .person img.person-photo:not(.is-placeholder) { filter: url(#gemma-duotone); }
-  .person:hover img.person-photo:not(.is-placeholder) { filter: none; }
+  .person img.person-photo:not(.is-placeholder),
+  img.person-thumb:not(.is-placeholder) { filter: url(#gemma-duotone); }
+  .person:hover img.person-photo:not(.is-placeholder),
+  tr:hover img.person-thumb:not(.is-placeholder) { filter: none; }
 </style>
