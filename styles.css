@@ -41,3 +41,43 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn:hover {
   background-color: #dcedc8; /* Light green hover (young leaves) */
+}
+
+/* People cards (people.Rmd builds them from people.yml).
+   Headshot size, rules and hover follow the quarto-redesign branch, in this site's colours. */
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0 32px;
+  margin: 18px 0 40px;
+  border-top: 1px solid #33691e;
+}
+.person-card {
+  padding: 18px 0 20px;
+  border-bottom: 1px solid #e3dab3;
+  display: flex;
+  flex-direction: column;
+}
+.person-card p { margin: 0 0 4px; }
+.person-card > p:first-child { margin-bottom: 13px; }
+.person-photo {
+  display: block;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 50%;
+  background: #f6f1d6;
+  box-shadow: 0 0 0 1px #e3dab3;
+  transition: filter .2s ease;
+}
+.person-card img.person-photo:not(.is-placeholder) { filter: url(#gemma-duotone); }
+.person-card:hover img.person-photo:not(.is-placeholder),
+.person-card:focus-within img.person-photo:not(.is-placeholder) { filter: none; }
+.person-name { font-weight: 700; font-size: 18px; line-height: 1.3; }
+.person-role { display: block; font-size: 15px; font-weight: 600; color: #6d5f3a; margin-bottom: 8px; }
+.person-card > p:not(.person-name):not(.person-links) { font-size: 15px; }
+.person-links { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
+.person-links a { color: #6d5f3a; font-size: 17px; padding: 5px 0; text-decoration: none; }
+.person-links a:hover { color: #33691e; }
+.former-list ul { columns: 2 320px; column-gap: 40px; }
+.former-list li { break-inside: avoid; margin-bottom: 6px; }

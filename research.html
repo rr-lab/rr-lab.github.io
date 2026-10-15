@@ -311,9 +311,11 @@ $(document).ready(function () {
 morphological mechanisms that plants have developed to adapt to soils
 with low nutrient availability. See below the major research interests
 of our lab.</p>
-<div
-id="nsave-maize-n_2o-suppression-and-ammonium-availability-enhancement"
-class="section level3">
+<link rel="stylesheet" href="assets/research-map.css">
+<div id="research-map"></div>
+<script type="application/json" id="research-map-data">{"genome_label":"Maize genome (B73)","chromosomes_mb":[308.5,243.7,238,250.3,226.4,181.4,185.8,182.4,163,152.4],"themes":[{"id":"highland","label":"Highland adaptation","color":"#B4561A","summary":"How maize adapted to the cold highlands of Mexico, including alleles it borrowed from teosinte *mexicana*.","sections":["hpc1-structure","highland-introgression","glycerolipids-highland","cold-tolerance"]},{"id":"lipids","label":"Lipid metabolism","color":"#6A4BB5","summary":"How remodeling of membrane lipids helps maize and sorghum cope with cold and low phosphorus.","sections":["hpc1-structure","glycerolipids-highland","sorghum-lipidomics","candidate-genes"]},{"id":"nitrogen","label":"Nitrogen","color":"#4E7D2B","summary":"Maize and sorghum that need less nitrogen fertilizer and release less N₂O.","sections":["nsave","nue-pue","diploperennis","predictive-modeling"]},{"id":"phosphorus","label":"Phosphorus","color":"#A4306B","summary":"Phosphorus use efficiency, from low-phosphorus soils to the phosphorus stored in grain.","sections":["nue-pue","crispr-phytate","glycerolipids-highland","predictive-modeling","candidate-genes"]},{"id":"cold","label":"Cold tolerance","color":"#2D6FB8","summary":"Alleles and pathways that let maize tolerate cold, so it can be planted earlier.","sections":["cold-tolerance","sorghum-lipidomics","candidate-genes"]},{"id":"wild","label":"Teosinte introgressions","color":"#0E7C86","genome_wide":true,"summary":"Populations that carry wild teosinte alleles across the whole maize genome, so we can find the useful ones.","sections":["bzea","cml311-nils","diploperennis","highland-introgression","nsave"]}],"loci":[{"id":"inv4m","label":"Inv4m","italic":true,"chr":4,"start_mb":171.7,"end_mb":185.9,"chr_length_mb":247,"themes":"highland","url":"https://doi.org/10.64898/2026.06.16.732082"},{"id":"hpc1","label":"HPC1","italic":true,"chr":3,"start_mb":8.4976,"end_mb":8.4997,"themes":["highland","lipids"],"url":"https://doi.org/10.1073/pnas.2100036119"}]}</script>
+<script src="assets/research-map.js"></script>
+<div id="nsave" class="section level3">
 <h3>🌽 NSave Maize: <strong>N</strong><span
 class="math inline">\(_2\)</span>O <strong>S</strong>uppression and
 <strong>A</strong>mmonium a<strong>V</strong>ailability
@@ -329,9 +331,7 @@ impacts, while partnerships with industry aim to promote widespread
 adoption and advance climate-resilient agriculture.<br />
 <br></p>
 </div>
-<div
-id="nitrogen-use-efficiency-and-phosphorus-use-efficiency-in-maize-and-sorghum"
-class="section level3">
+<div id="nue-pue" class="section level3">
 <h3>🌽 Nitrogen Use Efficiency and Phosphorus Use Efficiency in Maize
 and Sorghum</h3>
 <p>Nitrogen Use Efficiency (NUE) and Phosphorus Use Efficiency (PUE) are
@@ -353,8 +353,7 @@ identified several alleles and genes that regulate nutrient uptake,
 translocation, and utilization.<br />
 <br></p>
 </div>
-<div id="crispr-cas9-mediated-knockout-to-reduce-phosphorus-in-grains"
-class="section level3">
+<div id="crispr-phytate" class="section level3">
 <h3>🌽 CRISPR-Cas9-mediated knockout to reduce phosphorus in grains</h3>
 <p>Phosphorus is an essential nutrient for maize productivity, with a
 significant portion being allocated to the grains and subsequently
@@ -368,8 +367,7 @@ in phosphorus accumulation, aiming to mitigate its environmental impact
 while maintaining maize productivity.<br />
 <br></p>
 </div>
-<div id="exploring-nitrogen-recycling-alleles-from-zea-diploperennis"
-class="section level3">
+<div id="diploperennis" class="section level3">
 <h3>🌽 Exploring nitrogen-recycling alleles from <em>Zea
 diploperennis</em></h3>
 <p>Maize is largely inefficient with nitrogen, leading to significant
@@ -386,9 +384,7 @@ content. We hope to discover interesting <em>Z. diploperennis</em>
 regions that confer a notable change in N content.<br />
 <br></p>
 </div>
-<div
-id="transcriptomic-and-phenotypic-analysis-of-highland-maize-alleles-to-improve-cold-tolerance"
-class="section level3">
+<div id="cold-tolerance" class="section level3">
 <h3>🌽 Transcriptomic and phenotypic analysis of highland maize alleles
 to improve cold tolerance</h3>
 <p>Early maize planting can improve nitrogen uptake and reduce
@@ -407,8 +403,7 @@ earlier planting and better adaptation to fluctuating climates.</p>
 </div>
 <p><br></p>
 </div>
-<div id="structural-characterization-of-hpc1-in-highland-maize"
-class="section level3">
+<div id="hpc1-structure" class="section level3">
 <h3>🌽 Structural characterization of HPC1 in highland maize</h3>
 <p>Previously, we have characterized the HPC1 gene, or High
 PhosphatidylCholine 1, and mapped its location within the maize genome.
@@ -429,9 +424,7 @@ means to manipulate or select for these important structural components
 will help to create more adaptive maize.<br />
 <br></p>
 </div>
-<div
-id="testing-adaptive-value-of-highland-teosinte-introgression-into-maize"
-class="section level3">
+<div id="highland-introgression" class="section level3">
 <h3>🌽 Testing adaptive value of highland teosinte introgression into
 maize</h3>
 <p>This research employs genetic analysis to understand the impact of
@@ -450,8 +443,7 @@ alleles could enhance stress tolerance and reproductive fitness.</p>
 </div>
 <p><br></p>
 </div>
-<div id="harnessing-lipidomics-for-enhanced-sorghum-stress-tolerance"
-class="section level3">
+<div id="sorghum-lipidomics" class="section level3">
 <h3>🌽 Harnessing Lipidomics for Enhanced Sorghum Stress Tolerance</h3>
 <p>Our research leverages lipidomics to find the most important
 molecular mechanisms that enhance sorghum’s resilience to multiple
@@ -467,9 +459,7 @@ multi-stress tolerance through functional assays and molecular
 analysis.<br />
 <br></p>
 </div>
-<div
-id="predictive-modeling-for-adaptive-genotype-selection-and-cross-species-knowledge-transfer"
-class="section level3">
+<div id="predictive-modeling" class="section level3">
 <h3>🌽 Predictive Modeling for Adaptive Genotype Selection and
 Cross-Species Knowledge Transfer</h3>
 <p>We employ machine learning approaches to predict genotype-environment
@@ -488,9 +478,7 @@ biochemical and regulatory patterns, unlocking scalable insights into
 stress adaptation and metabolic plasticity.<br />
 <br></p>
 </div>
-<div
-id="bzea-a-diverse-teosinte-introgression-population-for-discovering-agronomically-relevant-alleles-in-maize"
-class="section level3">
+<div id="bzea" class="section level3">
 <h3>🌽 BZea: A diverse teosinte introgression population for discovering
 agronomically relevant alleles in maize</h3>
 <p>Teosinte, the wild ancestor of maize, harbors a rich reservoir of
@@ -508,9 +496,7 @@ the evaluation of teosinte alleles in a maize background in temperate
 conditions.<br />
 <br></p>
 </div>
-<div
-id="genetic-and-phenotypic-characterization-of-wild-teosinte-alleles-introgressed-into-elite-maize-line-cml311"
-class="section level3">
+<div id="cml311-nils" class="section level3">
 <h3>🌽 Genetic and phenotypic characterization of wild teosinte alleles
 introgressed into elite maize line CML311</h3>
 <p>This research focuses on the genetic and phenotypic characterization
@@ -524,8 +510,7 @@ three Mexican environments analyzed the consistency of QTLs among
 teosinte donors.<br />
 <br></p>
 </div>
-<div id="genetics-of-glycerolipid-metabolism-in-highland-maize"
-class="section level3">
+<div id="glycerolipids-highland" class="section level3">
 <h3>🌽 Genetics of glycerolipid metabolism in highland maize</h3>
 <p>Maize (<em>Zea mays</em>) originated from Balsas teosinte (<em>Zea
 mays ssp. parviglumis</em>) in southwest Mexico around 9,000 years ago,
@@ -557,9 +542,7 @@ conditions, we aim to identify loci involved in lipid remodeling in
 highland maize.<br />
 <br></p>
 </div>
-<div
-id="improving-candidate-gene-discovery-by-combining-multiple-genetic-mapping-datasets"
-class="section level3">
+<div id="candidate-genes" class="section level3">
 <h3>🌽 Improving candidate gene discovery by combining multiple genetic
 mapping datasets</h3>
 <p>Identifying genes involved in plant adaptation to local habitats and

@@ -27,106 +27,48 @@ output: html_document
 </div>
 
 ## 🌽 **GEMMA lab crew**
-<br>
 
-**Rubén Rellán-Álvarez** Principal Investigator.  
-Rubén is an Associate Professor in the Department of Molecular and Structural Biochemistry at NC State  
-</a>  <a href="https://github.com/rellan">
-<i class="fa fa-github-alt" aria-hidden="true"></i>
-</a> <a href="mailto:rrellan@ncsu.edu">
-<i class="fa fa-envelope" aria-hidden="true"></i>
-<a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing">
-<i class="fa fa-file-text" aria-hidden="true"></i>
-</a>  
+```{r crew, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+# Builds the people cards from people.yml (see the comments in that file).
+people <- yaml::yaml.load(paste(readLines("people.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n"))
 
-**Fausto Rodríguez Zapata** Postdoc.  
-Fausto studies maize glycerolipid quantitative and population genetics and genetic associations with soil variables involved in phosphorus deficiency.  
-</a>  <a href="https://github.com/faustovrz">
-<i class="fa fa-github-alt" aria-hidden="true"></i>
-</a>
+# Headshots are shown in the site's green duotone and switch to full colour on hover.
+cat("```{=html}\n",
+    '<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">',
+    '<filter id="gemma-duotone" color-interpolation-filters="sRGB">',
+    '<feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"/>',
+    '<feComponentTransfer>',
+    '<feFuncR type="table" tableValues="0.200 1.000"/>',
+    '<feFuncG type="table" tableValues="0.412 0.992"/>',
+    '<feFuncB type="table" tableValues="0.118 0.906"/>',
+    '</feComponentTransfer></filter></svg>\n```\n\n', sep = "")
 
-**Jill Love** Postdoc.  
-Jill joined the lab in 2026.
+card <- function(p) {
+  photo <- if (!is.null(p$photo) && file.exists(p$photo)) {
+    sprintf('<img class="person-photo" src="%s" alt="Photo of %s" loading="lazy">', p$photo, p$name)
+  } else {
+    '<img class="person-photo is-placeholder" src="images/people/corn-ear.svg" alt="">'
+  }
+  links <- ""
+  if (length(p$links)) {
+    links <- paste0('<p class="person-links">', paste(vapply(p$links, function(l)
+      sprintf('<a href="%s" aria-label="%s"><i class="fa %s" aria-hidden="true"></i></a>',
+              l$url, l$label, l$icon), ""), collapse = " "), "</p>")
+  }
+  paste0("::: {.person-card}\n", photo, "\n\n",
+         '<p class="person-name">', p$name, "</p>\n\n",
+         "[", p$role, "]{.person-role}\n\n",
+         if (!is.null(p$bio)) paste0(p$bio, "\n\n") else "",
+         links, "\n:::\n\n")
+}
 
-**Nirwan Tandukar** Postdoc.  
-Nirwan joined the lab in January 2022 as a PhD student, completed his PhD in July 2026 and is now a postdoc in the lab. He develops approaches that use multiple genetic datasets to identify genes involved in adaptation to abiotic stresses, and built the [Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).   
+for (g in people$current) {
+  cat("### ", g$group, "\n\n:::: {.people-grid}\n", sep = "")
+  for (p in g$members) cat(card(p))
+  cat("::::\n\n")
+}
 
-**Pascual Blanco** Field Technician.  
-Pascual joined the lab in fall 2021. He manages all our field operations.
-
-**Lina López-Corona** Project Manager, ARPA-E NSave Maize project.  
-Lina joined the lab in fall 2023.  
-
-**Hannah Pil** PhD Candidate, Genetics Program.   
-Hannah joined the lab in summer 2021 as an undergraduate and since then [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
-
-**Zehta Fazler** PhD Student, Genetics Program.     
-Zehta joined the lab in December 2024. She is working on the genetic mechanisms that drive cold stress tolerance, with an emphasis on evolutionary diversity in maize.
-
-**Lauren Insko** PhD Student, Structural and Molecular Biochemistry Program.     
-Lauren joined the lab in January 2025. She is working on identifying regulatory elements of the gene *High PhosphatidylCholine 1* as well as identifying structural elements of the phospholipase protein product.  
-
-**Brock Davis** Undergraduate Researcher, Genetics major.  
-Brock joined the lab in 2025.
-
-**Sanaa Jain** Undergraduate Researcher, Biochemistry major.  
-Sanaa joined the lab in 2026 through the SAPLINGs program.
-
-**Maheera Hassan** Undergraduate Researcher, Genetics major.  
-Maheera joined the lab in 2026.
-
-**Sam Strimple** Undergraduate Researcher, Genetics major.  
-Sam joined the lab in 2026.
-
-
-
-### **Former lab members**  
-<br>
-
-**Carolina Escalona-Weldt** Lab Manager/Technician.  
-
-**Trinity McCleary** Undergraduate Student, STEPS REU.  
-
-**Youngeun Kim** Visiting student from South Korea (until January 2026)
-
-**Destiny Tyson** PhD Student, Genetics Program. Co-advised with Jim Holland.    
-
-**Allison Barnes** Postdoc.   
-
-**Ruthie Stokes** Master Student
-
-**Ryan Pil** Undergraduate student
-
-**Aleya Mohammed** Undergraduate student
-
-**Shannon Persaud** Undergraduate student 
-
-**Emily Phung** Lab Technician
-
-**Heli Kavi** Undergraduate student
-
-**Elohim Bello**. PhD Student *co-advised with Luis Herrera-Estrella*.
-
-**Jessica Carcaño** *Administrative assistant*  
-
-**Jonathan Ojeda**. PhD Student *co-advised with Luis Herrera-Estrella*.  
-
-**Fabián Santa Maria** Master Student *co-advised with Luis Delaye*
-
-**Andi Kur** PhD Student. NCSU Genetics program. AgBioFews Program.
-
-**Christina Merkel** Lab Tech   
-
-**Patricio Cid** Field Manager  
-
-**Juan Estévez** Wet Lab Manager  
-
-**Karla Juarez** Master Student  
-
-**Sofía Estefany Sánchez** Master Student *co-advised with Ruairidh Sawers*. 
-
-**Vladimir Torres**. Master Student *co-advised with Ruairidh Sawers*.    
-
-**Christian Escoto**. Master Student *co-advised with Ruairidh Sawers*.   
-
-**Dario Alávez** Lab Technician
+cat("### **Former lab members**\n\n::: {.former-list}\n")
+for (p in people$former) cat("- **", p$name, "** ", p$role, "\n", sep = "")
+cat(":::\n")
+```
