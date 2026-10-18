@@ -27,6 +27,10 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v4
+        with:
+          # The PDFs are stored with git-lfs; without this the site would
+          # publish 132-byte pointer files instead of the papers.
+          lfs: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,6 +41,11 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
         with:
           version: "1.6.40"
+
+      # Quarto reads the generated publication files before its pre-render
+      # step runs, so a fresh checkout needs them built first.
+      - name: Build the publication list and home page blocks
+        run: python3 scripts/build_publications.py
 
       - name: Render the site
         run: quarto render

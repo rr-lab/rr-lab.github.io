@@ -224,8 +224,12 @@ If you'd rather preview changes before pushing:
 brew install --cask quarto     # or download from quarto.org
 
 # then, from the repo folder
+python3 scripts/build_publications.py   # first time in a fresh copy only
 quarto preview
 ```
+
+In a fresh copy, run the publications script once before the first preview:
+Quarto needs the files it generates (in `_generated/`) before it can start.
 
 This opens the site in your browser and reloads as you save. `quarto render`
 builds it into `_site/` without opening a browser.
