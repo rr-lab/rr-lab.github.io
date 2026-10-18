@@ -53,19 +53,6 @@ CRISPR-Cas9 gene editing technology to knock out specific genes involved in
 phosphorus accumulation, aiming to mitigate its environmental impact while
 maintaining maize productivity.
 
-## Exploring nitrogen-recycling alleles from *Zea diploperennis*
-
-Maize is largely inefficient with nitrogen, leading to significant contributions to
-N~2~O, a prominent greenhouse gas. We expect *Z. diploperennis*, a perennial
-teosinte species, to harbor nutrient recycling alleles useful for improving maize
-nitrogen use efficiency. To investigate this, we are assessing lines derived from
-*Z. diploperennis* generated as part of a large population of teosinte introgressed
-into maize. By planting them in nitrogen sufficient and deficient conditions, we can
-use hyperspectral reflectance, a reliable, nondestructive method of evaluating
-physiological traits, to evaluate these lines for nitrogen content. We hope to
-discover interesting *Z. diploperennis* regions that confer a notable change in N
-content.
-
 ## Transcriptomic and phenotypic analysis of highland maize alleles to improve cold tolerance
 
 Early maize planting can improve nitrogen uptake and reduce emissions, but it also
@@ -145,18 +132,34 @@ fine-tuning them for another, we exploit shared biochemical and regulatory
 patterns, unlocking scalable insights into stress adaptation and metabolic
 plasticity.
 
-## BZea: a diverse teosinte introgression population for discovering agronomically relevant alleles in maize
+## ZeaL: Zea Exotic Allele Library
+
+![ZeaL: 82 teosinte accessions crossed into the maize inbred line B73 and backcrossed
+to BC~2~S~3~ lines (left), and where the teosinte accessions were collected across
+Mexico and Central America, by species (right).](images/zeal.webp){fig-alt="Left: the ZeaL logo and crossing scheme, from B73 crossed with 82 teosinte accessions to 94 F1s, 413 BC1s, 1,967 BC2s and 2,178 BC2S3 lines, with about 4,000 planned. Right: a map of Mexico and Central America with each accession's collection site, colored by species: Zea diploperennis, Zea luxurians, and Zea mays subspecies huehuetenangensis, mexicana and parviglumis."}
 
 Teosinte, the wild ancestor of maize, harbors a rich reservoir of interesting
-traits that have been largely diminished during maize domestication. Recognizing
-the potential of these unknown alleles, we have developed a large teosinte
-introgression population that consists of 81 georeferenced teosinte accessions
-crossed into the temperate inbred line B73. Evaluating the impact of teosinte
-alleles on agronomic traits is inherently difficult due to the differences in
-photoperiod and growth habitat of maize. This population, "BZea," addresses this
-challenge by creating BC~2~S~3~ lines with B73, creating derived lines with 12.5% of
-the original teosinte donors. Introgression into B73 allows for the evaluation of
-teosinte alleles in a maize background in temperate conditions.
+traits that have been largely diminished during maize domestication. To recover
+these alleles, we developed ZeaL, the Zea Exotic Allele Library: a large teosinte
+introgression population built by crossing 82 georeferenced teosinte accessions,
+from five teosinte taxa collected across Mexico and Central America, into the
+temperate inbred line B73. Evaluating teosinte alleles directly is difficult because
+teosinte differs from maize in photoperiod response and growth habit. ZeaL addresses
+this by backcrossing twice to B73 and then selfing, producing BC~2~S~3~ lines that
+each carry about 12.5% of a teosinte donor genome in a maize background that can be
+evaluated in temperate fields. The library now holds 2,178 BC~2~S~3~ lines, with
+about 4,000 planned.
+
+We are using ZeaL to explore nutrient efficiency traits in wild relatives of maize.
+Maize is largely inefficient with nitrogen, leading to significant contributions to
+N~2~O, a prominent greenhouse gas. We expect *Zea diploperennis*, a perennial
+teosinte species, to harbor nutrient recycling alleles useful for improving maize
+nitrogen use efficiency. To investigate this, we are assessing ZeaL lines derived
+from *Z. diploperennis*. By planting them in nitrogen sufficient and deficient
+conditions, we can use hyperspectral reflectance, a reliable, nondestructive method
+of evaluating physiological traits, to evaluate these lines for nitrogen content. We
+hope to discover *Z. diploperennis* regions that confer a notable change in N
+content.
 
 ## Genetic and phenotypic characterization of wild teosinte alleles introgressed into elite maize line CML311
 

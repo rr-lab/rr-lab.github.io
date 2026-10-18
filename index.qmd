@@ -74,8 +74,8 @@ Population-scale lipid profiles of maize and sorghum, open as the
 ::: {.track}
 [Teosinte introgressions]{.track-name}
 
-BZea: 81 teosinte accessions crossed into B73, plus 2,208 near-isogenic lines in
-CML311, to find wild alleles worth keeping.
+ZeaL, the Zea Exotic Allele Library: 82 teosinte accessions crossed into B73, plus
+2,208 near-isogenic lines in CML311, to find wild alleles worth keeping.
 :::
 :::
 
