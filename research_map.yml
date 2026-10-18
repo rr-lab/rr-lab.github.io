@@ -28,7 +28,7 @@ themes:
     label: Nitrogen
     color: "#4E7D2B"
     summary: Maize and sorghum that need less nitrogen fertilizer and release less N₂O.
-    sections: [nsave, nue-pue, diploperennis, predictive-modeling]
+    sections: [nsave, nue-pue, zeal, predictive-modeling]
 
   - id: phosphorus
     label: Phosphorus
@@ -47,7 +47,7 @@ themes:
     color: "#0E7C86"
     genome_wide: true
     summary: Populations that carry wild teosinte alleles across the whole maize genome, so we can find the useful ones.
-    sections: [bzea, cml311-nils, diploperennis, highland-introgression, nsave]
+    sections: [zeal, cml311-nils, highland-introgression, nsave]
 
 loci:
   - id: inv4m
