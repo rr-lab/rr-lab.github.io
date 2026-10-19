@@ -21,6 +21,25 @@ cat("```{=html}\n",
     "</script>\n",
     '<script src="assets/research-map.js"></script>\n',
     "```\n", sep = "")
+
+# The "Genes we are editing with CRISPR" boxes under the projects (crispr_targets in research_map.yml).
+crispr_box <- function(set_id) {
+  set <- Filter(function(s) s$id == set_id, research_map$crispr_targets)[[1]]
+  md <- function(x) {
+    x <- gsub("&", "&amp;", x, fixed = TRUE)
+    x <- gsub("<", "&lt;", x, fixed = TRUE)
+    x <- gsub("\\[([^\\]]+)\\]\\(([^)]+)\\)", '<a href="\\2">\\1</a>', x, perl = TRUE)
+    gsub("\\*([^*]+)\\*", "<em>\\1</em>", x)
+  }
+  genes <- vapply(set$genes, function(g) sprintf(
+    '<li><a href="https://www.maizegdb.org/gene_center/gene/%s">%s</a></li>', g$id, md(g$name)), "")
+  cat("```{=html}\n",
+      '<div class="crispr-box">\n',
+      '<p class="crispr-title">Genes we are editing with CRISPR <span class="crispr-flag">Unpublished</span></p>\n',
+      sprintf('<p class="crispr-intro">%s</p>\n', md(set$intro)),
+      '<ul class="crispr-genes">\n', paste(genes, collapse = "\n"), "\n</ul>\n</div>\n",
+      "```\n", sep = "")
+}
 ```
 
 ### Finding adaptive genes and predicting performance {#genes-prediction}
@@ -67,6 +86,10 @@ Maize and sorghum need large amounts of nitrogen and phosphorus fertilizer, and 
 
 **Less nitrogen and phosphorus in the grain.** Much of the nitrogen and phosphorus a crop takes up goes into the grain and leaves the field at harvest. We aim to lower the nitrogen and phosphorus content of maize and sorghum grain so crops depend less on fertilizer, and with population genetics and genome-wide association studies we have found alleles and genes that control nutrient uptake, transport and use. Most grain phosphorus is stored as phytate, which people cannot digest; it is excreted and contributes to the eutrophication of lakes and rivers. We are using CRISPR-Cas9 to knock out genes involved in phosphorus accumulation in the grain while keeping maize productive.
 
+```{r crispr-phosphorus, echo=FALSE, results='asis'}
+crispr_box("phosphorus")
+```
+
 ### Cold tolerance for earlier planting {#cold-tolerance}
 
 Planting maize earlier in spring can improve nitrogen uptake and reduce emissions, but it exposes young plants to cold that limits growth and yield. Highland landraces from Mexico, such as Palomero Toluqueño, carry unique alleles that modern maize has lost, which may be key to improving its cold tolerance. We are measuring cold-stress responses and gene expression in recombinant inbred lines from a cross between Palomero Toluqueño and a commercial line, to find the alleles and pathways that would let maize be planted earlier and cope with a changing climate.
@@ -74,6 +97,10 @@ Planting maize earlier in spring can improve nitrogen uptake and reduce emission
 <div style="text-align: center;">
   <img src="images/plot.avif" alt="Diagram of the season from spring to winter: an arrow shifts the crop's growth curve earlier, into the cold of early spring." style="width: 300px; max-width: 100%;">
 </div>
+
+```{r crispr-cold-nitrogen, echo=FALSE, results='asis'}
+crispr_box("cold-nitrogen")
+```
 
 Read more: [Designing a nitrogen-efficient cold-tolerant maize for modern agricultural systems](https://doi.org/10.1093/plcell/koaf139) (*The Plant Cell*, 2025).
 

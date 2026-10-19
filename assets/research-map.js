@@ -42,6 +42,7 @@
     return 'rgba(' + (n >> 16 & 255) + ',' + (n >> 8 & 255) + ',' + (n & 255) + ',' + a + ')';
   }
   function locusName(l) { return l.italic ? '<em>' + esc(l.label) + '</em>' : esc(l.label); }
+  function plain(s) { return String(s).replace(/\*/g, ''); }
 
   /* ---- Build the widget ---- */
   root.innerHTML = '';
@@ -98,6 +99,26 @@
     return { locus: l, mark: m, tag: tag, chrom: c };
   }).filter(Boolean);
 
+  /* Genes we are editing with CRISPR (not yet published): thin ticks without labels.
+     A gene that is already a labeled locus above (HPC1) keeps its labeled mark instead of a tick. */
+  var labeled = {};
+  loci.forEach(function (l) { labeled[String(l.label).toLowerCase()] = true; });
+  var targetSets = list(data.crispr_targets);
+  var ticks = [];
+  targetSets.forEach(function (set) {
+    set.themes = list(set.themes);
+    set.genes = list(set.genes);
+    set.genes.forEach(function (g) {
+      var c = chroms[g.chr - 1];
+      if (!c || labeled[plain(g.name).toLowerCase()]) return;
+      var mid = (Number(g.start_mb) + Number(g.end_mb)) / 2;
+      var tick = el('span', 'rm-target', c.wrap);
+      tick.style.top = Math.max(0, Math.min(100, mid / lens[g.chr - 1] * 100)) + '%';
+      tick.title = plain(g.name) + ', chromosome ' + g.chr + ': CRISPR target, not yet published';
+      ticks.push({ set: set, el: tick });
+    });
+  });
+
   var caption = el('div', 'rm-caption', body);
   var status = el('p', 'rm-status', root);
   status.setAttribute('aria-live', 'polite');
@@ -151,11 +172,19 @@
         if (id !== 'all') m.chrom.bar.style.boxShadow = '0 0 0 2px ' + t.color;
       }
     });
+    var tickSets = targetSets.filter(function (s) { return id === 'all' || s.themes.indexOf(id) !== -1; });
+    var tickTotal = tickSets.reduce(function (n, s) { return n + s.genes.length; }, 0);
+    ticks.forEach(function (k) {
+      k.el.style.display = tickSets.indexOf(k.set) !== -1 ? '' : 'none';
+      k.el.style.background = (themeById[k.set.themes[0]] || {}).color || '#33691e';
+    });
 
     var html;
     if (!t) {
       html = '<p class="rm-title">All research themes</p>' +
-        '<p>Each mark is a locus from our published work. Choose a theme to filter the projects below.</p>';
+        (ticks.length ?
+          '<p>Labeled marks are loci from our published work; thin ticks are genes we are editing with CRISPR, not yet published. Choose a theme to filter the projects below.</p>' :
+          '<p>Each mark is a locus from our published work. Choose a theme to filter the projects below.</p>');
     } else {
       html = '<p class="rm-title"><span class="rm-dot" style="background:' + t.color + '"></span>' + esc(t.label) + '</p>' +
         '<p>' + md(t.summary || '') + '</p>';
@@ -167,13 +196,20 @@
       }).join(', ') + '</p>';
     } else if (t && t.genome_wide) {
       html += '<p class="rm-loci">This work spans the whole genome.</p>';
-    } else if (t) {
+    } else if (t && !tickTotal) {
       html += '<p class="rm-loci">Loci for this theme are still being mapped.</p>';
+    }
+    if (tickTotal) {
+      html += '<p class="rm-loci">Ticks: genes we are editing with CRISPR, not yet published (' +
+        tickSets.map(function (s) {
+          return s.genes.length + ' for <a href="#' + esc(s.section) + '">' + esc(s.label) + '</a>';
+        }).join(', ') + ').</p>';
     }
     caption.innerHTML = html;
     kary.setAttribute('aria-label', (t ? t.label + ': ' : '') + (shown.length ?
       'loci ' + shown.map(function (l) { return l.label + ' on chromosome ' + l.chr; }).join(', ') :
-      'no mapped loci shown') + '.');
+      'no mapped loci shown') +
+      (tickTotal ? '; ' + tickTotal + ' genes we are editing with CRISPR, not yet published' : '') + '.');
 
     var count = 0;
     sections.forEach(function (s) {

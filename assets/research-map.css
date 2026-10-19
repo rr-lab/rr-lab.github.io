@@ -54,11 +54,23 @@
   overflow: hidden;
   transition: background-color .2s, box-shadow .2s;
 }
-.rm-mark { position: absolute; left: 0; right: 0; min-height: 5px; transition: background-color .2s; }
+/* Layers: chromosome bar < CRISPR ticks (1) < published loci (2) < their labels (3) */
+.rm-mark { position: absolute; left: 0; right: 0; min-height: 5px; z-index: 2; transition: background-color .2s; }
+/* Genes we are editing with CRISPR (not yet published): a thin tick across the chromosome */
+.rm-target {
+  position: absolute;
+  left: -4px;
+  width: 26px;
+  height: 3px;
+  border-radius: 2px;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: background-color .2s;
+}
 .rm-tag {
   position: absolute;
   left: 24px;
-  z-index: 2; /* above the next chromosome's bar, which would otherwise cover the label */
+  z-index: 3; /* above the next chromosome's bar, which would otherwise cover the label */
   transform: translateY(-50%);
   font-size: 16px;
   line-height: 1.15;
@@ -111,4 +123,33 @@
   #research-map { padding: 16px 14px; }
   .rm-bar, .rm-num { width: 14px; }
   .rm-tag { left: 17px; font-size: 14px; padding: 1px 4px; }
+  .rm-target { left: -3px; width: 20px; }
 }
+
+/* "Genes we are editing with CRISPR" boxes under the projects (crispr_targets in research_map.yml) */
+.crispr-box {
+  margin: 16px 0 14px;
+  padding: 14px 18px;
+  background: #ffffff;
+  border: 1px solid #ece3bf;
+  border-left: 4px solid #4E7D2B;
+  border-radius: 8px;
+}
+.crispr-title { margin: 0 0 4px; font-weight: 700; }
+.crispr-flag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 9px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  vertical-align: 2px;
+  color: #6b4a00;
+  background: #fff3cd;
+  border: 1px solid #e2c15a;
+  border-radius: 999px;
+}
+.crispr-intro { margin: 0 0 8px; font-size: 17px; }
+.crispr-genes { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 18px; }
+.crispr-genes li { margin: 0; }

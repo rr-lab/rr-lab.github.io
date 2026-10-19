@@ -6,6 +6,10 @@
 # loci:     only published or preprinted loci go here.
 #           start_mb / end_mb are positions on the chromosome; chr_length_mb is that chromosome's
 #           length in the assembly the coordinates come from, so the mark lands in the right place.
+# crispr_targets: genes we are editing with CRISPR, not yet published. The map draws them as thin
+#           ticks, and research.Rmd lists each set, flagged as unpublished, under the project
+#           section named in `section`. Rubén approved listing these publicly on October 19, 2026;
+#           add other unpublished genes only with his OK. Positions: B73 RefGen_v5 (Ensembl Plants).
 
 genome_label: Maize genome (B73)
 # Chromosome lengths used to draw the bars (B73 RefGen_v5, Mb)
@@ -57,5 +61,44 @@ loci:
     chr: 3
     start_mb: 8.4976         # Zm00001eb121780, chr3:8,497,640-8,499,737 (B73 RefGen_v5)
     end_mb: 8.4997           # no chr_length_mb: v5 coordinates use chromosomes_mb above
-    themes: [evolution, metabolism]
+    themes: [evolution, metabolism, resilience]   # resilience: also a CERCA CRISPR target (crispr_targets below)
     url: "https://doi.org/10.1073/pnas.2100036119"
+
+crispr_targets:
+  - id: cold-nitrogen
+    label: cold and nitrogen
+    section: cold-tolerance
+    themes: [resilience]
+    intro: >-
+      With our partners in [CERCA](https://doi.org/10.1093/plcell/koaf139), we are editing these
+      genes to test their roles in cold tolerance and nitrogen use. Most act in glycerolipid metabolism.
+    genes:
+      - {name: "*HPC1*", id: Zm00001eb121780, chr: 3, start_mb: 8.4976, end_mb: 8.4997}
+      - {name: "*LPCAT*", id: Zm00001eb250480, chr: 5, start_mb: 203.4162, end_mb: 203.4264}
+      - {name: "*DGATII2*", id: Zm00001eb381970, chr: 9, start_mb: 49.3419, end_mb: 49.3458}
+      - {name: "Zm00001eb314300", id: Zm00001eb314300, chr: 7, start_mb: 127.8499, end_mb: 127.8561}
+      - {name: "*mgd1* (*o5*)", id: Zm00001eb313310, chr: 7, start_mb: 122.8564, end_mb: 122.8636}
+      - {name: "*mgd2/3*", id: Zm00001eb258130, chr: 5, start_mb: 222.6910, end_mb: 222.6965}
+      - {name: "*dgd1*", id: Zm00001eb202120, chr: 4, start_mb: 219.1463, end_mb: 219.1506}
+      - {name: "*sqd2*", id: Zm00001eb297970, chr: 7, start_mb: 0.1806, end_mb: 0.1835}
+      - {name: "Zm00001eb399680", id: Zm00001eb399680, chr: 9, start_mb: 151.7320, end_mb: 151.7376}
+
+  - id: phosphorus
+    label: phosphorus
+    section: nutrient-efficiency
+    themes: [resilience]
+    intro: >-
+      With the [NSF STEPS center](https://steps-center.org/), we are editing phosphate transporters,
+      the phosphatases and phospholipases that recycle phosphorus, and genes of the phytic acid
+      pathway that stores phosphorus in the grain.
+    genes:
+      - {name: "*ZmPht1;3* (*pht7*)", id: Zm00001eb087690, chr: 2, start_mb: 101.7999, end_mb: 101.8019}
+      - {name: "*ZmPht1;7* (*pht1*)", id: Zm00001eb222510, chr: 5, start_mb: 33.2674, end_mb: 33.2698}
+      - {name: "*ZmPap26* (*acp1*)", id: Zm00001eb387030, chr: 9, start_mb: 99.5805, end_mb: 99.5869}
+      - {name: "*ZmPap10* (*pap1*)", id: Zm00001eb151650, chr: 3, start_mb: 196.8458, end_mb: 196.8501}
+      - {name: "*pld2*", id: Zm00001eb336760, chr: 8, start_mb: 17.9360, end_mb: 17.9406}
+      - {name: "*pld1*", id: Zm00001eb122860, chr: 3, start_mb: 12.1730, end_mb: 12.1779}
+      - {name: "*OsLpa1* ortholog Zm00001eb191270", id: Zm00001eb191270, chr: 4, start_mb: 176.1176, end_mb: 176.1222}
+      - {name: "*OsLpa1* ortholog Zm00001eb259060", id: Zm00001eb259060, chr: 5, start_mb: 224.3375, end_mb: 224.3433}
+      - {name: "*ZmItpk4*", id: Zm00001eb318540, chr: 7, start_mb: 145.9188, end_mb: 145.9260}
+      - {name: "*ZmIpk1-alpha*", id: Zm00001eb432760, chr: 10, start_mb: 148.8932, end_mb: 148.8971}
