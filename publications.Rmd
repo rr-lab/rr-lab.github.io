@@ -13,6 +13,23 @@ Click on the arrows to see a brief summary of what we did in the paper!
 
 <br>
 
+```{r themes, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+# Builds the theme cards from publication_themes.yml (see the comments in that file).
+themes <- yaml::yaml.load(paste(readLines("publication_themes.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n"))
+cat("```{=html}\n",
+    '<link rel="stylesheet" href="assets/publication-themes.css">\n',
+    '<div id="pub-themes"></div>\n',
+    '<script type="application/json" id="pub-themes-data">',
+    jsonlite::toJSON(themes, auto_unbox = TRUE),
+    "</script>\n",
+    '<script src="assets/publication-themes.js"></script>\n',
+    "```\n", sep = "")
+```
+
+## 🌽 All papers by year {#all-papers}
+
+<p id="pub-filter-status"></p>
+
 ### 🌽 **2026**  
 
 **46** [Uncoupling the effects of highland maize chromosomal inversion *Inv4m* from leaf phosphorus deficiency responses](https://doi.org/10.64898/2026.05.22.727253). **PREPRINT**  

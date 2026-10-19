@@ -1,0 +1,68 @@
+# Publication themes for the Publications page. publications.Rmd reads this file.
+#
+# Papers are listed by their number on the Publications page (the bold number before
+# each title). A paper can belong to several themes.
+#
+# start_here: curated sets shown first. A set with `latest_year: true` is filled
+#             automatically with the papers of the newest year on the page.
+# themes:     the research lines. `color` is the dot shown on the card.
+
+start_here:
+  - id: landmark
+    label: Landmark papers
+    description: A few papers to start with, from soil-grown roots to the teosinte alleles behind highland adaptation.
+    papers: [34, 29, 28, 33, 19]
+
+  - id: recent
+    label: Most recent
+    description: The newest papers and preprints from the lab.
+    latest_year: true
+
+themes:
+  - id: highland
+    label: Maize highland adaptation
+    color: "#B4561A"
+    description: How maize landraces adapted to the highlands of Mexico, traced with mapping populations, genomics and reciprocal transplants.
+    papers: [41, 39, 36, 35, 33, 32, 30, 29, 27]
+
+  - id: introgression
+    label: "Teosinte introgressions: *Inv4m* and *HPC1*"
+    color: "#8D4A1F"
+    description: Wild alleles that highland maize borrowed from teosinte *mexicana*, from the *Inv4m* inversion to the phospholipase *HPC1*.
+    papers: [46, 43, 34, 28]
+
+  - id: flowering
+    label: Flowering time and photoperiod
+    color: "#0E7C86"
+    description: When maize flowers, from day-length genes edited in tropical maize to the highland alleles that shift flowering.
+    papers: [45, 43, 34]
+
+  - id: lipids
+    label: Lipids and metabolomics
+    color: "#6A4BB5"
+    description: Lipid and metabolite profiling across maize and sorghum populations, and the genes behind the variation.
+    papers: [44, 42, 37, 34]
+
+  - id: nutrients
+    label: Nitrogen and phosphorus efficiency
+    color: "#4E7D2B"
+    description: Growing maize with less fertilizer, from nitrogen use and low-phosphorus responses to help from mycorrhizal fungi.
+    papers: [46, 40, 26, 25, 23]
+
+  - id: roots
+    label: Roots and phenotyping
+    color: "#2D6FB8"
+    description: Imaging and modeling plant form, from soil-grown root systems with GLO-Roots to leaf angles in the field.
+    papers: [38, 31, 24, 22, 20, 19]
+
+  - id: iron
+    label: Iron nutrition and metal homeostasis
+    color: "#A4306B"
+    description: How plants take up, move and store iron and other metals, and how they respond to iron deficiency.
+    papers: [23, 18, 17, 15, 14, 13, 12, 11, 10, 7, 5]
+
+  - id: metals
+    label: Heavy metals and oxidative stress
+    color: "#6D5F3A"
+    description: Plant responses to cadmium, mercury and aluminum, and to contaminated soil amendments.
+    papers: [16, 9, 8, 6, 4, 3, 2, 1]
