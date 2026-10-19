@@ -10,8 +10,8 @@
 start_here:
   - id: landmark
     label: Landmark papers
-    description: A few papers to start with, from soil-grown roots to the teosinte alleles behind highland adaptation.
-    papers: [34, 29, 28, 33, 19]
+    description: Five papers to start with, from iron transport and soil-grown roots to highland teosinte alleles and a nitrogen-efficient, cold-tolerant maize.
+    papers: [7, 19, 34, 40, 43]
 
   - id: recent
     label: Most recent
