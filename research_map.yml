@@ -19,26 +19,26 @@ themes:
     color: "#2D6FB8"
     genome_wide: true
     summary: Statistical and machine-learning methods that combine genetic mapping and environmental data to find causal genes and predict which genotypes will thrive where.
-    sections: [predictive-modeling, candidate-genes]
+    sections: [genes-prediction]
 
   - id: evolution
     label: Evolution and highland adaptation
     color: "#B4561A"
     genome_wide: true
     summary: How maize adapted to the cold highlands of Mexico, and the wild teosinte alleles, from *Inv4m* and *HPC1* to whole introgression libraries, that we can bring back into modern maize.
-    sections: [highland-introgression, zeal, cml311-nils]
+    sections: [highland-alleles, wild-alleles]
 
   - id: metabolism
     label: Lipid metabolism
     color: "#6A4BB5"
     summary: How maize and sorghum remodel their membrane lipids to cope with cold and low phosphorus, from the *HPC1* phospholipase to population-scale lipidomics.
-    sections: [hpc1-structure, glycerolipids-highland, sorghum-lipidomics]
+    sections: [lipid-remodeling]
 
   - id: resilience
     label: Resilient, efficient crops
     color: "#4E7D2B"
     summary: Maize and sorghum that need less nitrogen and phosphorus fertilizer, release less N₂O and tolerate cold, so they can be planted earlier.
-    sections: [nsave, nue-pue, crispr-phytate, cold-tolerance]
+    sections: [nutrient-efficiency, cold-tolerance]
 
 loci:
   - id: inv4m

@@ -322,156 +322,58 @@ with low nutrient availability. Our work follows the lab’s name,
 <strong>A</strong>daptation, and falls into the four themes below.</p>
 <link rel="stylesheet" href="assets/research-map.css">
 <div id="research-map"></div>
-<script type="application/json" id="research-map-data">{"genome_label":"Maize genome (B73)","chromosomes_mb":[308.5,243.7,238,250.3,226.4,181.4,185.8,182.4,163,152.4],"themes":[{"id":"genetics","label":"Genetics and prediction","color":"#2D6FB8","genome_wide":true,"summary":"Statistical and machine-learning methods that combine genetic mapping and environmental data to find causal genes and predict which genotypes will thrive where.","sections":["predictive-modeling","candidate-genes"]},{"id":"evolution","label":"Evolution and highland adaptation","color":"#B4561A","genome_wide":true,"summary":"How maize adapted to the cold highlands of Mexico, and the wild teosinte alleles, from *Inv4m* and *HPC1* to whole introgression libraries, that we can bring back into modern maize.","sections":["highland-introgression","zeal","cml311-nils"]},{"id":"metabolism","label":"Lipid metabolism","color":"#6A4BB5","summary":"How maize and sorghum remodel their membrane lipids to cope with cold and low phosphorus, from the *HPC1* phospholipase to population-scale lipidomics.","sections":["hpc1-structure","glycerolipids-highland","sorghum-lipidomics"]},{"id":"resilience","label":"Resilient, efficient crops","color":"#4E7D2B","summary":"Maize and sorghum that need less nitrogen and phosphorus fertilizer, release less N₂O and tolerate cold, so they can be planted earlier.","sections":["nsave","nue-pue","crispr-phytate","cold-tolerance"]}],"loci":[{"id":"inv4m","label":"Inv4m","italic":true,"chr":4,"start_mb":171.7,"end_mb":185.9,"chr_length_mb":247,"themes":"evolution","url":"https://doi.org/10.64898/2026.06.16.732082"},{"id":"hpc1","label":"HPC1","italic":true,"chr":3,"start_mb":8.4976,"end_mb":8.4997,"themes":["evolution","metabolism"],"url":"https://doi.org/10.1073/pnas.2100036119"}]}</script>
+<script type="application/json" id="research-map-data">{"genome_label":"Maize genome (B73)","chromosomes_mb":[308.5,243.7,238,250.3,226.4,181.4,185.8,182.4,163,152.4],"themes":[{"id":"genetics","label":"Genetics and prediction","color":"#2D6FB8","genome_wide":true,"summary":"Statistical and machine-learning methods that combine genetic mapping and environmental data to find causal genes and predict which genotypes will thrive where.","sections":"genes-prediction"},{"id":"evolution","label":"Evolution and highland adaptation","color":"#B4561A","genome_wide":true,"summary":"How maize adapted to the cold highlands of Mexico, and the wild teosinte alleles, from *Inv4m* and *HPC1* to whole introgression libraries, that we can bring back into modern maize.","sections":["highland-alleles","wild-alleles"]},{"id":"metabolism","label":"Lipid metabolism","color":"#6A4BB5","summary":"How maize and sorghum remodel their membrane lipids to cope with cold and low phosphorus, from the *HPC1* phospholipase to population-scale lipidomics.","sections":"lipid-remodeling"},{"id":"resilience","label":"Resilient, efficient crops","color":"#4E7D2B","summary":"Maize and sorghum that need less nitrogen and phosphorus fertilizer, release less N₂O and tolerate cold, so they can be planted earlier.","sections":["nutrient-efficiency","cold-tolerance"]}],"loci":[{"id":"inv4m","label":"Inv4m","italic":true,"chr":4,"start_mb":171.7,"end_mb":185.9,"chr_length_mb":247,"themes":"evolution","url":"https://doi.org/10.64898/2026.06.16.732082"},{"id":"hpc1","label":"HPC1","italic":true,"chr":3,"start_mb":8.4976,"end_mb":8.4997,"themes":["evolution","metabolism"],"url":"https://doi.org/10.1073/pnas.2100036119"}]}</script>
 <script src="assets/research-map.js"></script>
-<div id="nsave" class="section level3">
-<h3>NSave Maize: <strong>N</strong><span
-class="math inline">\(_2\)</span>O <strong>S</strong>uppression and
-<strong>A</strong>mmonium a<strong>V</strong>ailability
-<strong>E</strong>nhancement</h3>
-<p>The University of Illinois, Urbana-Champaign (UIUC), in collaboration
-with North Carolina State University, the University of Arizona, and Oak
-Ridge National Lab, is developing NSave corn to reduce greenhouse gas
-emissions and enhance sustainability. By integrating traits from wild
-and modern corn, NSave seeks to lower nitrous oxide emissions by 50%,
-decrease fertilizer use by 55%, and sustain high yields. Field trials
-and advanced modeling will assess its economic and environmental
-impacts, while partnerships with industry aim to promote widespread
-adoption and advance climate-resilient agriculture.<br />
-<br></p>
+<div id="genes-prediction" class="section level3">
+<h3>Finding adaptive genes and predicting performance</h3>
+<p>Finding the genes behind a trait is hard when many genes each
+contribute a little. We develop statistical methods that combine several
+kinds of evidence, such as genome-wide association studies of metabolite
+levels and genetic differentiation among geolocated natural populations,
+to rank candidate genes and metabolic pathways. We are applying them to
+study how phosphorus deficiency and cold change lipid metabolism in
+sorghum, and they can be extended to bioenergy crops and other
+stresses.</p>
+<p>We also use machine learning to predict how maize and sorghum
+genotypes will perform in different environments and to guide breeding.
+Combining genomic data from landraces with soil nitrogen and phosphorus
+data, we model the adaptive potential of untested genotypes and the
+nutrient conditions that suit each genetic background, which helps us
+choose mapping populations for field trials. With transfer learning,
+models trained on metabolomic and lipidomic data from one species are
+fine-tuned for the other, taking advantage of the biochemistry and
+regulation that maize and sorghum share.</p>
 </div>
-<div id="nue-pue" class="section level3">
-<h3>Nitrogen Use Efficiency and Phosphorus Use Efficiency in Maize and
-Sorghum</h3>
-<p>Nitrogen Use Efficiency (NUE) and Phosphorus Use Efficiency (PUE) are
-critical measures of how effectively crops utilize nitrogen and
-phosphorus, two essential nutrients for plant growth. NUE and PUE refers
-to the ability of a plant to produce biomass or grain per unit of N or P
-available in the soil respectively. Both are essential for enhancing
-crop productivity, particularly in maize and sorghum, which serve as key
-staple crops globally. Improving NUE and PUE is crucial not only for
-boosting food production to meet the demands of a growing global
-population but also for mitigating the environmental consequences of
-excessive fertilizer use. High fertilizer application often leads to
-nutrient runoff, water pollution, and soil degradation. Our research
-focuses on reducing N and P content in maize and sorghum seeds, which
-can lead to a decreased reliance on chemical fertilizers. By optimizing
-nutrient allocation within the plant, we aim to improve nutrient use
-efficiency. Through population genetics analysis and GWAS, we have
-identified several alleles and genes that regulate nutrient uptake,
-translocation, and utilization.<br />
-<br></p>
-</div>
-<div id="crispr-phytate" class="section level3">
-<h3>CRISPR-Cas9-mediated knockout to reduce phosphorus in grains</h3>
-<p>Phosphorus is an essential nutrient for maize productivity, with a
-significant portion being allocated to the grains and subsequently
-removed during harvest. However, the primary form of phosphorus in maize
-grains, phytate, is indigestible by humans, leading to its excretion and
-contributing to the eutrophication of aquatic ecosystems. Reducing
-phosphorus accumulation in maize grains is therefore critical for
-promoting sustainable agricultural practices. This study utilizes
-CRISPR-Cas9 gene editing technology to knock out specific genes involved
-in phosphorus accumulation, aiming to mitigate its environmental impact
-while maintaining maize productivity.<br />
-<br></p>
-</div>
-<div id="cold-tolerance" class="section level3">
-<h3>Transcriptomic and phenotypic analysis of highland maize alleles to
-improve cold tolerance</h3>
-<p>Early maize planting can improve nitrogen uptake and reduce
-emissions, but it also increases exposure to cold temperatures, which
-limits growth and yield. Highland maize varieties from Mexico, like
-Palomero Toluqueño, contain unique alleles that have been lost during
-maize domestication. These alleles may be key to improving cold
-tolerance in modern maize. To investigate this, we are analyzing
-recombinant inbred lines (RILs) derived from a cross between Palomero
-Toluqueño and a commercial maize line. Through transcriptomic analysis
-and phenotypic evaluations of cold stress responses, we aim to uncover
-alleles and pathways that could enhance maize cold resilience, enabling
-earlier planting and better adaptation to fluctuating climates.</p>
+<div id="highland-alleles" class="section level3">
+<h3>Teosinte alleles behind highland adaptation</h3>
+<p>Maize was domesticated from teosinte <em>parviglumis</em> in
+southwest Mexico about 9,000 years ago and later spread into the cool,
+dry highlands of central Mexico, home of the wild teosinte
+<em>mexicana</em>. Using genome scans of Mexican traditional varieties
+and linkage mapping in controlled crosses, we identified two regions
+that highland maize inherited from <em>mexicana</em>: the phospholipase
+gene <em>HPC1</em> and the chromosomal inversion <em>Inv4m</em>. Both
+affect flowering time, and their effects depend on the environment.
+<em>HPC1</em> appears to act through phospholipid metabolism, while
+<em>Inv4m</em> may speed up flowering through a gene network that
+controls cell proliferation and the shoot apical meristem’s transition
+to flowering. Together they show how <em>mexicana</em> alleles could
+improve stress tolerance and reproductive fitness.</p>
 <div style="text-align: center;">
-<p><img src="images/plot.avif" style="width: 300px;"></p>
+<p><img src="images/manhattan.png" alt="Genotype-by-environment scan for days to anthesis across the maize genome, with HPC1 and Inv4m marked (Barnes et al. 2022)." style="width: 600px; max-width: 100%;"></p>
 </div>
-<p><br></p>
+<p>Read more: <a
+href="https://doi.org/10.1073/pnas.2100036119"><em>HPC1</em></a>
+(<em>PNAS</em>, 2022) and <a
+href="https://doi.org/10.64898/2026.06.16.732082"><em>Inv4m</em></a>
+(preprint, 2026).</p>
 </div>
-<div id="hpc1-structure" class="section level3">
-<h3>Structural characterization of HPC1 in highland maize</h3>
-<p>Previously, we have characterized the HPC1 gene, or High
-PhosphatidylCholine 1, and mapped its location within the maize genome.
-This gene was introgressed from teosinte mexicana and encodes for
-phospholipase A1, an enzyme that cleaves phosphatidylcholine, PC, to
-lysophosphatidylcholine, LPC. PC is capable of packing more tightly
-within the membrane, whereas LPC has a more fluid structure. In colder
-conditions, high levels of LPC in the cell membrane will result in
-cellular damage; this is something that can be combated with higher
-quantities of PC which is better suited for a stable membrane bilayer.
-Highland maize were found to have a SNP within the coding region of HPC1
-that mutates the flap lid and prevents functionality in the enzyme
-product. This contains a catalytic triad that is covered by a flap lid
-that facilitates substrate binding. Although the structure of
-phospholipase A1 has been predicted, it has yet to be crystalized to
-verify structural predictions regarding enzyme functionality. Finding a
-means to manipulate or select for these important structural components
-will help to create more adaptive maize.<br />
-<br></p>
-</div>
-<div id="highland-introgression" class="section level3">
-<h3>Testing adaptive value of highland teosinte introgression into
-maize</h3>
-<p>This research employs genetic analysis to understand the impact of
-highland teosinte introgression in maize local adaptation. Through
-genome scans of Mexican traditional varieties and linkage mapping in
-controlled crosses, I investigated two key regions from teosinte
-mexicana: the phospholipase gene HPC1 and the chromosomal inversion
-Inv4m. These loci exhibit strong genotype-by-environment interaction
-affecting flowering time. Mechanistic studies suggest that HPC1
-modulates flowering through phospholipid metabolism, while Inv4m might
-accelerate flowering via a gene network controlling cell proliferation
-and shoot apical meristem transition, showing how teosinte mexicana
-alleles could enhance stress tolerance and reproductive fitness.</p>
-<div style="text-align: center;">
-<p><img src="images/manhattan.png" style="width: 600px;"></p>
-</div>
-<p><br></p>
-</div>
-<div id="sorghum-lipidomics" class="section level3">
-<h3>Harnessing Lipidomics for Enhanced Sorghum Stress Tolerance</h3>
-<p>Our research leverages lipidomics to find the most important
-molecular mechanisms that enhance sorghum’s resilience to multiple
-stress conditions. Using a 400-genotype Sorghum Association Panel, we
-conducted a comprehensive lipidomics analysis across control, and low
-phosphorus, low nitrogen, and cold stress environment which we define as
-low-input environment. By analyzing the lipid profiles under each
-condition, we identified stress-responsive lipids and performed
-Genome-Wide Association Studies for each lipid, enabling us to pinpoint
-genetic loci linked to lipid-mediated stress adaptation. These candidate
-genes, now under validation, are being tested for their role in
-multi-stress tolerance through functional assays and molecular
-analysis.<br />
-<br></p>
-</div>
-<div id="predictive-modeling" class="section level3">
-<h3>Predictive Modeling for Adaptive Genotype Selection and
-Cross-Species Knowledge Transfer</h3>
-<p>We employ machine learning approaches to predict genotype-environment
-interactions and enhance selective breeding strategies for maize and
-sorghum. By integrating high-resolution genomic data from landraces with
-environmental variables like nitrogen and phosphorus in soil, we aim to
-model the adaptive potential of untested genotypes. This enables us to
-computationally infer the optimal nitrogen (N) and phosphorus (P)
-conditions for diverse genotypic backgrounds, allowing for precision
-selection of mapping populations for field validation. We are also
-working on deep learning architectures, including transfer learning
-frameworks, to bridge metabolomics and lipidomics knowledge across
-species specifically maize and sorghum. By training predictive models on
-one species and fine-tuning them for another, we exploit shared
-biochemical and regulatory patterns, unlocking scalable insights into
-stress adaptation and metabolic plasticity.<br />
-<br></p>
-</div>
-<div id="zeal" class="section level3">
-<h3>ZeaL: Zea Exotic Allele Library</h3>
+<div id="wild-alleles" class="section level3">
+<h3>Wild allele libraries: ZeaL and CML311 lines</h3>
+<p>Teosinte, the wild ancestor of maize, carries useful alleles that
+were largely lost during domestication, but its photoperiod response and
+growth habit make it hard to evaluate in the field. We move teosinte
+alleles into maize backgrounds so they can be tested directly.</p>
 <div class="float">
 <img src="images/zeal.webp" style="width:100.0%"
 alt="ZeaL: 82 teosinte accessions crossed into the maize inbred line B73 and backcrossed to BC2S3 lines (left), and where the teosinte accessions were collected across Mexico and Central America, by species (right)." />
@@ -480,103 +382,113 @@ maize inbred line B73 and backcrossed to BC<sub>2</sub>S<sub>3</sub>
 lines (left), and where the teosinte accessions were collected across
 Mexico and Central America, by species (right).</div>
 </div>
-<p>Teosinte, the wild ancestor of maize, harbors a rich reservoir of
-interesting traits that have been largely diminished during maize
-domestication. To recover these alleles, we developed ZeaL, the Zea
-Exotic Allele Library: a large teosinte introgression population built
-by crossing 82 georeferenced teosinte accessions, from five teosinte
-taxa collected across Mexico and Central America, into the temperate
-inbred line B73. Evaluating teosinte alleles directly is difficult
-because teosinte differs from maize in photoperiod response and growth
-habit. ZeaL addresses this by backcrossing twice to B73 and then
-selfing, producing BC<span class="math inline">\(_2\)</span>S<span
-class="math inline">\(_3\)</span> lines that each carry about 12.5% of a
-teosinte donor genome in a maize background that can be evaluated in
-temperate fields. The library now holds 2,178 BC<span
-class="math inline">\(_2\)</span>S<span
-class="math inline">\(_3\)</span> lines, with about 4,000 planned.</p>
-<p>We are using ZeaL to explore nutrient efficiency traits in wild
-relatives of maize. Maize is largely inefficient with nitrogen, leading
-to significant contributions to N<span
-class="math inline">\(_2\)</span>O, a prominent greenhouse gas. We
-expect <em>Zea diploperennis</em>, a perennial teosinte species, to
-harbor nutrient recycling alleles useful for improving maize nitrogen
-use efficiency. To investigate this, we are assessing ZeaL lines derived
-from <em>Z. diploperennis</em>. By planting them in nitrogen sufficient
-and deficient conditions, we can use hyperspectral reflectance, a
-reliable, nondestructive method of evaluating physiological traits, to
-evaluate these lines for nitrogen content. We hope to discover <em>Z.
-diploperennis</em> regions that confer a notable change in N
-content.<br />
-<br></p>
+<p><strong>ZeaL.</strong> The Zea Exotic Allele Library crosses 82
+georeferenced accessions of five teosinte taxa, collected across Mexico
+and Central America, into the temperate inbred line B73. Backcrossing
+twice to B73 and then selfing gives BC<sub>2</sub>S<sub>3</sub> lines
+that each carry about 12.5% of a teosinte genome and can be grown in
+temperate fields. The library has 2,178 lines, with about 4,000 planned.
+We are using it to explore nutrient-efficiency traits in wild relatives
+of maize. We expect the perennial teosinte <em>Zea diploperennis</em> to
+carry nutrient-recycling alleles that could make maize more nitrogen
+efficient, so we grow ZeaL lines derived from it with and without enough
+nitrogen and measure their nitrogen content with hyperspectral
+reflectance, a fast, nondestructive method.</p>
+<p><strong>CML311 introgression lines.</strong> We are also
+characterizing 2,208 near-isogenic lines from crosses between the elite
+tropical line CML311 and 85 teosinte plants, sampled from 78 wild
+populations that span nearly all <em>Zea</em> taxa. The introgressions
+were mapped by sequencing, and trials in three Mexican environments
+tested whether QTLs are consistent across teosinte donors.</p>
 </div>
-<div id="cml311-nils" class="section level3">
-<h3>Genetic and phenotypic characterization of wild teosinte alleles
-introgressed into elite maize line CML311</h3>
-<p>This research focuses on the genetic and phenotypic characterization
-of wild teosinte alleles introgressed into the elite maize line CML311.
-Using 2,208 near-isogenic lines (NILs) derived from crosses between 85
-teosinte plants (from 78 wild populations spanning nearly all Zea taxa)
-and the tropical maize line CML311, the goal is to investigate the
-potential of the wild alleles to improve modern maize. Introgressions
-were mapped using sequencing techniques, and phenotypic evaluations in
-three Mexican environments analyzed the consistency of QTLs among
-teosinte donors.<br />
-<br></p>
+<div id="lipid-remodeling" class="section level3">
+<h3>Membrane lipid remodeling in maize and sorghum</h3>
+<p>Plants remodel the glycerolipids in their membranes to cope with
+stress. In the cold they add phospholipids to keep membranes fluid, and
+when phosphorus is scarce they recycle phospholipids and replace them
+with galactolipids and sulfolipids. Highland maize faces both
+challenges, low temperatures and volcanic soils with little available
+phosphorus, in Mexico and again in the Andes, which makes it an ideal
+model for studying local and convergent adaptation. We think its
+glycerolipid metabolism was under strong selection in the highlands, and
+we map the loci behind lipid remodeling in populations grown in highland
+and lowland fields.</p>
+<p><strong>A highland phospholipase.</strong> <em>HPC1</em> (<em>High
+PhosphatidylCholine 1</em>), introgressed from teosinte
+<em>mexicana</em>, encodes a phospholipase A1 that cleaves
+phosphatidylcholine (PC) into lysophosphatidylcholine (LPC). PC helps
+keep membranes stable, while high levels of LPC can damage cells in the
+cold. In highland maize, a mutation in the flap lid, the part of the
+enzyme that covers its catalytic triad and helps bind the substrate,
+disrupts the enzyme. The enzyme’s structure has been predicted but not
+yet solved experimentally; we are characterizing it to learn how
+<em>HPC1</em> could be selected or modified to make maize more
+adaptive.</p>
+<p><strong>Sorghum lipidomics.</strong> We profiled the lipids of the
+400-genotype Sorghum Association Panel under control conditions and
+under low phosphorus, low nitrogen and cold. We identified
+stress-responsive lipids, ran a genome-wide association study for each
+one, and are now validating candidate genes for tolerance to multiple
+stresses. You can explore the data in the <a
+href="https://nirwan.shinyapps.io/SAP-Lipidomics-Database/">Sorghum
+Lipid Database (SoLD)</a>.</p>
+<p>Read more: <a
+href="https://doi.org/10.1073/pnas.2100036119"><em>HPC1</em></a>
+(<em>PNAS</em>, 2022), <a
+href="https://doi.org/10.64898/2026.05.07.723536"><em>Zea Lip</em>, an
+atlas of maize leaf glycerolipids</a> (preprint, 2026) and <a
+href="https://doi.org/10.64898/2026.06.05.727974">SoLD</a> (preprint,
+2026).</p>
 </div>
-<div id="glycerolipids-highland" class="section level3">
-<h3>Genetics of glycerolipid metabolism in highland maize</h3>
-<p>Maize (<em>Zea mays</em>) originated from Balsas teosinte (<em>Zea
-mays ssp. parviglumis</em>) in southwest Mexico around 9,000 years ago,
-with a secondary subspecies, Chalco teosinte (<em>Zea mays ssp.
-mexicana</em>), found in the cooler, drier highlands of central Mexico.
-After domestication, maize spread to the Mexican highlands, potentially
-benefiting from introgression with mexicana. Maize later migrated to
-South America, where a second highland colonization event occurred in
-the Andes.</p>
-<p>In both Mesoamerican and South American highlands, maize adapted to
-harsh environmental conditions, including higher radiation, lower air
-pressure, and temperature, as well as volcanic Andosol soils with low
-phosphorus bioavailability. This colonization serves as an ideal model
-for studying plant local adaptation and convergence/divergence in
-similar environments.</p>
-<p>Maize adapted to phosphorus-limiting soils through metabolic
-strategies, such as recycling phosphorus-containing compounds like RNA
-and phospholipids. Phospholipids, especially phosphatidylcholine, are
-crucial for membrane structure and function, including responses to
-environmental stimuli. In low-temperature conditions, plants increase
-phospholipids in membranes to modulate fluidity, while under phosphorus
-deficiency, they substitute phospholipids with galactolipids and
-sulfolipids. We hypothesize that maize’s glycerolipid metabolism
-underwent strong selective pressure during its adaptation to the Mexican
-highlands.</p>
-<p>Through quantitative genetics analysis of glycerolipid metabolism in
-maize from various mapping populations grown in highland and lowland
-conditions, we aim to identify loci involved in lipid remodeling in
-highland maize.<br />
-<br></p>
+<div id="nutrient-efficiency" class="section level3">
+<h3>Nitrogen and phosphorus efficiency</h3>
+<p>Maize and sorghum need large amounts of nitrogen and phosphorus
+fertilizer, and the excess pollutes water, degrades soil and adds to
+greenhouse gas emissions. We study how crops take up, move and use these
+nutrients, so they can produce high yields with less fertilizer.</p>
+<p><strong>NSave Maize.</strong> In NSave (N<sub>2</sub>O Suppression
+and Ammonium aVailability Enhancement), the University of Illinois
+Urbana-Champaign, NC State, the University of Arizona and Oak Ridge
+National Laboratory are combining traits from wild and modern maize to
+cut nitrous oxide emissions by 50% and fertilizer use by 55% while
+keeping yields high. Field trials and modeling will measure the economic
+and environmental impact, and industry partners will help bring NSave
+maize to farmers.</p>
+<p><strong>Less nitrogen and phosphorus in the grain.</strong> Much of
+the nitrogen and phosphorus a crop takes up goes into the grain and
+leaves the field at harvest. We aim to lower the nitrogen and phosphorus
+content of maize and sorghum grain so crops depend less on fertilizer,
+and with population genetics and genome-wide association studies we have
+found alleles and genes that control nutrient uptake, transport and use.
+Most grain phosphorus is stored as phytate, which people cannot digest;
+it is excreted and contributes to the eutrophication of lakes and
+rivers. We are using CRISPR-Cas9 to knock out genes involved in
+phosphorus accumulation in the grain while keeping maize productive.</p>
 </div>
-<div id="candidate-genes" class="section level3">
-<h3>Improving candidate gene discovery by combining multiple genetic
-mapping datasets</h3>
-<p>Identifying genes involved in plant adaptation to local habitats and
-environmental stresses is a key goal for plant scientists, aiding in
-crop breeding and understanding plant development, evolution, and stress
-responses. However, validating gene function and determining the impact
-of different gene variants is complex, especially when multiple genes
-contribute to a trait. This project aims to investigate the effects of
-phosphorus deficiency and cold stress on sorghum lipid metabolism and
-develop mathematical approaches to integrate data from genome-wide
-association studies and population genetics. By combining metabolic
-profiling of sorghum lines under stress with genetic differentiation
-from geolocated natural populations, the project seeks to identify and
-prioritize candidate genes and metabolic pathways. These methods can be
-applied to bioenergy crops and other environmental stresses.</p>
-<p><br> Have questions or want to know more? Reach out to <a
+<div id="cold-tolerance" class="section level3">
+<h3>Cold tolerance for earlier planting</h3>
+<p>Planting maize earlier in spring can improve nitrogen uptake and
+reduce emissions, but it exposes young plants to cold that limits growth
+and yield. Highland landraces from Mexico, such as Palomero Toluqueño,
+carry unique alleles that modern maize has lost, which may be key to
+improving its cold tolerance. We are measuring cold-stress responses and
+gene expression in recombinant inbred lines from a cross between
+Palomero Toluqueño and a commercial line, to find the alleles and
+pathways that would let maize be planted earlier and cope with a
+changing climate.</p>
+<div style="text-align: center;">
+<p><img src="images/plot.avif" alt="Diagram of the season from spring to winter: an arrow shifts the crop's growth curve earlier, into the cold of early spring." style="width: 300px; max-width: 100%;"></p>
+</div>
+<p>Read more: <a href="https://doi.org/10.1093/plcell/koaf139">Designing
+a nitrogen-efficient cold-tolerant maize for modern agricultural
+systems</a> (<em>The Plant Cell</em>, 2025).</p>
+</div>
+<div id="contact" class="section level3">
+<h3>Get in touch</h3>
+<p>Have questions or want to know more? Reach out to <a
 href="mailto:rrellan@ncsu.edu">Dr. Rellán-Álvarez</a> and use
 ‘Supercalifragilisticexpialidocious’ as the code word in the subject
-line!<br />
-<br></p>
+line!</p>
 </div>
 
 

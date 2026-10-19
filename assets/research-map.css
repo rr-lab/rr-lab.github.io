@@ -86,6 +86,11 @@
   text-underline-offset: .2em;
 }
 
+/* Space between the project sections. Padding, not margin: rmarkdown gives section headings a
+   negative top margin (to clear the fixed navbar on anchor links), which would cancel a margin.
+   scroll-margin-top (75px - padding) keeps anchor links landing below the navbar as before. */
+#research-map ~ .section.level3 { padding-top: 34px; scroll-margin-top: 41px; }
+
 /* Theme tags under each project heading */
 .rm-section-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: -4px 0 10px; }
 .rm-pill {
