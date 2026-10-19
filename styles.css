@@ -40,19 +40,22 @@ body {
   background-color: #dcedc8; /* Light green hover effect (young leaves) */
 }
 
-/* Links: blue with a solid underline, so they stand apart from the near-black
-   text at a glance (6.1:1 contrast on the yellow background, 6.3:1 on white cards). */
+/* Links: blue (6.1:1 on the yellow background, 6.3:1 on white cards) with a light
+   underline. The underline stays because blue alone is too close to the near-black
+   text for readers with colour-vision deficiency; it turns solid on hover. */
 a {
   color: #1a5fb4;
   text-decoration: underline;
-  text-decoration-thickness: 1.5px;
-  text-underline-offset: 0.16em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(26, 95, 180, 0.35);
+  text-underline-offset: 0.2em;
 }
 
 a:hover,
 a:focus {
   color: #0f3f80;
-  text-decoration-thickness: 2.5px;
+  text-decoration-color: currentColor;
+  text-decoration-thickness: 2px;
 }
 
 a:focus-visible {

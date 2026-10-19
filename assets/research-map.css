@@ -81,7 +81,9 @@
   padding: 6px 2px;
   color: #1a5fb4;
   text-decoration: underline;
-  text-decoration-thickness: 1.5px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(26, 95, 180, .35);
+  text-underline-offset: .2em;
 }
 
 /* Theme tags under each project heading */
