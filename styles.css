@@ -37,13 +37,15 @@ body {
 .navbar-brand { font-size: 21px; }
 
 /* Keep GEMMALAB on the left of the menu, on one line.
-   Wide screens: slightly tighter spacing so all sections fit beside the name.
-   Below 1200px they don't fit, so the menu folds into the menu button,
+   Wide screens: the navbar may use up to 1400px of the window (Bootstrap caps it at 1170px),
+   with slightly tighter spacing, so all sections fit beside the name.
+   Below 1280px they don't fit, so the menu folds into the menu button,
    as it already does on phones (Bootstrap's own breakpoint is 768px). */
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
+  .navbar .container { width: auto; max-width: 1400px; }
   .navbar-nav > li > a { padding-left: 11px; padding-right: 11px; }
 }
-@media (max-width: 1199px) {
+@media (max-width: 1279px) {
   .navbar-header { float: none; }
   .navbar-toggle { display: block; }
   .navbar-collapse { border-top: 1px solid transparent; }
@@ -155,7 +157,7 @@ details summary {
 .former-list ul { columns: 2 320px; column-gap: 40px; }
 .former-list li { break-inside: avoid; margin-bottom: 6px; }
 
-/* Tools page (tools.Rmd builds the cards from tools.yml) */
+/* Tools & Resources page (tools.Rmd builds the groups and cards from tools.yml) */
 .tools-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
@@ -189,6 +191,14 @@ details summary {
   gap: 6px 18px;
 }
 .tool-link { font-weight: 700; }
+/* Group headings (Populations and germplasm, Genomes and data...); scroll-margin keeps
+   anchor links (tools.html#genomes-data) clear of the fixed navbar. */
+.tools-group {
+  margin: 40px 0 0;
+  font-size: 28px;
+  scroll-margin-top: 80px;
+}
+.tools-group + .tools-grid { margin-top: 18px; }
 
 /* Home page: the "Interested in joining our lab?" box and the photo below it
    share one width and are centered, so their edges line up at every screen size. */

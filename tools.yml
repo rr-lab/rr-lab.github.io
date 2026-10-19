@@ -1,24 +1,107 @@
-# Tools page data. tools.Rmd builds one card per entry from this file.
+# Tools & Resources page data. tools.Rmd builds the page from this file:
+# a heading for each group, then one card per item.
 #
-# To add a tool or material: copy an entry. `kind` is the short label shown above
-# the name (Database, Software, Imaging platform, Seed stock, Protocol...).
-# `links` become the links at the bottom of the card.
+# To add an item: copy an entry into the right group. `kind` is the short label shown above
+# the name (Database, Mapping population, Genome assembly...). `links` become the links at the
+# bottom of the card. In names and descriptions, *text* is shown in italics (gene and species names).
+# Only list published or preprinted resources, and check every link before adding it.
 
-tools:
-  - name: Sorghum Lipid Database (SoLD)
-    kind: Database
-    description: >-
-      An interactive app for exploring lipid profiles across the Sorghum Association Panel
-      and how they vary with environment and genotype.
-    links:
-      - {label: Open the app, url: "https://nirwan.shinyapps.io/SAP-Lipidomics-Database/"}
-      - {label: Preprint, url: "https://doi.org/10.64898/2026.06.05.727974"}
+groups:
+  - id: populations
+    title: Populations and germplasm
+    items:
+      - name: ZeaL, the Zea Exotic Allele Library
+        kind: Teosinte introgression library
+        description: >-
+          2,178 BC₂S₃ lines, with about 4,000 planned, that carry segments of 82 georeferenced
+          teosinte accessions, from five taxa collected across Mexico and Central America,
+          in the inbred line B73.
+        links:
+          - {label: About ZeaL, url: "research.html#wild-alleles"}
 
-  - name: GLO-Roots
-    kind: Imaging platform
-    description: >-
-      An imaging platform for characterizing root systems grown in soil, with the code
-      to analyze its images.
-    links:
-      - {label: Code on GitHub, url: "https://github.com/rr-lab/GLO-Roots"}
-      - {label: Paper, url: "https://doi.org/10.7554/eLife.07597"}
+      - name: B73 × Palomero Toluqueño recombinant inbred lines
+        kind: Mapping population
+        description: >-
+          Lines from a cross between the reference line B73 and the Mexican highland variety
+          Palomero Toluqueño, evaluated in highland and lowland fields in Mexico to map
+          locally adaptive traits.
+        links:
+          - {label: "Paper (G3, 2022)", url: "https://doi.org/10.1093/g3journal/jkab447"}
+
+      - name: "*Inv4m* near-isogenic lines"
+        kind: Near-isogenic lines
+        description: >-
+          B73 lines carrying the *Inv4m* inversion from the highland variety Michoacán 21,
+          backcrossed for eight generations, to study its effects on flowering time, plant
+          height and phosphorus responses.
+        links:
+          - {label: Flowering preprint, url: "https://doi.org/10.64898/2026.06.16.732082"}
+          - {label: Phosphorus preprint, url: "https://doi.org/10.64898/2026.05.22.727253"}
+
+      - name: MexMAGIC
+        kind: Multi-parent population
+        description: >-
+          A multi-parent advanced generation inter-cross (MAGIC) population from eight Mexican
+          native maize varieties from distinct agroecological zones, for mapping traits that
+          vary with the environment. Developed with the Sawers lab.
+        links:
+          - {label: "Paper (New Phytologist, 2026)", url: "https://doi.org/10.1111/nph.71501"}
+
+  - id: genomes-data
+    title: Genomes and data
+    items:
+      - name: "*Inv4m* NIL genome"
+        kind: Genome assembly
+        description: >-
+          Genome assembly of the B73 near-isogenic line that carries the Michoacán 21 *Inv4m*
+          haplotype. It delimits the inversion precisely, to 15.2 Mb.
+        links:
+          - {label: Preprint, url: "https://doi.org/10.64898/2026.06.16.732082"}
+
+      - name: "*Zea* genomic variation map"
+        kind: Genomes
+        description: >-
+          Variation from 744 genomes covering maize and all wild *Zea* taxa, with more than
+          70 million SNPs. A collaboration led by Huazhong Agricultural University.
+        links:
+          - {label: "Paper (Nature Genetics, 2022)", url: "https://doi.org/10.1038/s41588-022-01184-y"}
+
+      - name: "*Zea Lip*"
+        kind: Lipid atlas
+        description: >-
+          Glycerolipid profiles across leaf development in B73, CML312 and Palomero Toluqueño,
+          with web tools to browse and compare lipid levels across leaves and genotypes.
+        links:
+          - {label: Browse the atlas, url: "https://rrellan.shinyapps.io/Zea-Lip/"}
+          - {label: eFP browser, url: "https://bar.utoronto.ca/~dev/efp_maize_lipid/cgi-bin/efpWeb.cgi"}
+          - {label: Preprint, url: "https://doi.org/10.64898/2026.05.07.723536"}
+
+      - name: Sorghum Lipid Database (SoLD)
+        kind: Database
+        description: >-
+          An interactive app for exploring lipid profiles across the Sorghum Association Panel
+          and how they vary with environment and genotype.
+        links:
+          - {label: Open the app, url: "https://nirwan.shinyapps.io/SAP-Lipidomics-Database/"}
+          - {label: Preprint, url: "https://doi.org/10.64898/2026.06.05.727974"}
+
+  - id: software
+    title: Software and code
+    items:
+      - name: GLO-Roots
+        kind: Imaging platform
+        description: >-
+          An imaging platform for characterizing root systems grown in soil, with the code
+          to analyze its images.
+        links:
+          - {label: Code on GitHub, url: "https://github.com/rr-lab/GLO-Roots"}
+          - {label: Paper, url: "https://doi.org/10.7554/eLife.07597"}
+
+      - name: Code on GitHub
+        kind: Code
+        description: >-
+          Analysis pipelines and code from our papers, in the lab's GitHub account and the one
+          we share with the Sawers lab.
+        links:
+          - {label: rr-lab, url: "https://github.com/rr-lab"}
+          - {label: sawers-rellan-labs, url: "https://github.com/sawers-rellan-labs"}

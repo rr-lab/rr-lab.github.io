@@ -1,31 +1,36 @@
 ---
-title: Tools
-pagetitle: Tools
+title: "Tools & Resources"
+pagetitle: "Tools & Resources"
 output: html_document
 ---
 
-Software, databases and research materials from the lab. More are on the way.
+Populations, genomes, data and software from the lab and our collaborators.
 
 ```{r tools, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
-# Builds one card per tool from tools.yml (see the comments in that file).
-tools <- yaml::yaml.load(paste(readLines("tools.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n"))$tools
+# Builds the page from tools.yml (see the comments in that file): a heading for each group,
+# then one card per item.
+groups <- yaml::yaml.load(paste(readLines("tools.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n"))$groups
 esc <- function(x) {
   x <- gsub("&", "&amp;", x, fixed = TRUE)
   x <- gsub("<", "&lt;", x, fixed = TRUE)
   gsub(">", "&gt;", x, fixed = TRUE)
 }
+# *text* becomes italics, for gene and species names
+md <- function(x) gsub("\\*([^*]+)\\*", "<em>\\1</em>", esc(x))
 cat("```{=html}\n")
-if (length(tools) == 0) {
+if (length(groups) == 0) {
   cat('<p class="tools-empty">Tools will be listed here soon.</p>\n')
-} else {
+}
+for (g in groups) {
+  cat(sprintf('<h2 class="tools-group" id="%s">%s</h2>\n', esc(g$id), md(g$title)))
   cat('<div class="tools-grid">\n')
-  for (t in tools) {
+  for (t in g$items) {
     links <- vapply(t$links, function(l)
       sprintf('<a class="tool-link" href="%s">%s</a>', esc(l$url), esc(l$label)), "")
     cat('<article class="tool-card">\n',
         if (!is.null(t$kind)) sprintf('<p class="tool-kind">%s</p>\n', esc(t$kind)) else "",
-        sprintf('<h3 class="tool-name">%s</h3>\n', esc(t$name)),
-        sprintf('<p class="tool-desc">%s</p>\n', esc(t$description)),
+        sprintf('<h3 class="tool-name">%s</h3>\n', md(t$name)),
+        sprintf('<p class="tool-desc">%s</p>\n', md(t$description)),
         if (length(links)) sprintf('<p class="tool-links">%s</p>\n', paste(links, collapse = " ")) else "",
         '</article>\n', sep = "")
   }
