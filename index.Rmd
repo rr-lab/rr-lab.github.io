@@ -21,17 +21,8 @@ Room 3122 (Office), Room 3110 (Shared open space), Room 3105 (Shared wet lab)</p
 
 <!-- Join -->
 
-<!-- Call to Action with Images on the Sides -->
-
-:::: {.container .p-3 .text-center style="background: #e8f5e9; border-radius: 10px; max-width: 900px; margin: auto; display: flex; align-items: center; justify-content: space-between;"}
-<!-- Left Image -->
-
-<img src="images/ncstate.png" style="width: 100px; flex-shrink: 0;"/>
-
-<!-- Main Text -->
-
 ::: {.container .p-3 .text-center style="background: #e8f5e9; border-radius: 10px; max-width: 800px; margin: auto;"}
-<p style="font-size: 18px;">
+<p style="font-size: 21px;">
 
 <b>Interested in joining our lab?</b>
 
@@ -41,11 +32,6 @@ Room 3122 (Office), Room 3110 (Shared open space), Room 3105 (Shared wet lab)</p
 
 <p>Learn about our <a href="expectations.html">lab philosophy</a> and expectations.</p>
 :::
-
-<!-- Right Image -->
-
-<img src="images/cals.png" style="width: 200px; flex-shrink: 0;"/>
-::::
 
 <!-- Images  -->
 
