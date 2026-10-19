@@ -75,6 +75,16 @@ groups:
         links:
           - {label: "Paper (Nature Genetics, 2022)", url: "https://doi.org/10.1038/s41588-022-01184-y"}
 
+      - name: MaizExpressN
+        kind: Expression database
+        description: >-
+          Look up a maize gene and see how its expression responds to nitrogen across published
+          RNA-seq studies, study by study and pooled by tissue, growth system, developmental stage
+          and genotype.
+        links:
+          - {label: Open the app, url: "https://01a155ac-51db-275e-103a-4c139985dd6d.share.connect.posit.cloud/"}
+          - {label: Code on GitHub, url: "https://github.com/sawers-rellan-labs/MaizExpressN"}
+
       - name: "*Zea Lip*"
         kind: Lipid atlas
         description: >-
