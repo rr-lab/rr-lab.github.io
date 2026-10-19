@@ -5,7 +5,7 @@
 # the name (Database, Mapping population, Genome assembly...). `links` become the links at the
 # bottom of the card. `collaboration` is an optional line under the description that credits
 # collaborating labs. In names, descriptions and collaborations, *text* is shown in italics
-# (gene and species names).
+# (gene and species names) and [text](url) becomes a link.
 # Only list published or preprinted resources, and check every link before adding it.
 
 groups:
@@ -64,7 +64,7 @@ groups:
           Toluqueño and Palomero de Jalisco), mid-elevations (Tabloncillo) and lowlands (Zapalote
           Chico), and the CIMMYT inbreds CML457 and CML459, adapted to the highlands, and CML530,
           adapted to acid soils. Deposited in MaizeGDB.
-        collaboration: From the HiLo project.
+        collaboration: "From the HiLo project, funded by [NSF award 1546719](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1546719)."
         links:
           - {label: HiLo genomes at MaizeGDB, url: "https://www.maizegdb.org/HiLo_project"}
 

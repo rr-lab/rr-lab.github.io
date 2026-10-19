@@ -15,8 +15,11 @@ esc <- function(x) {
   x <- gsub("<", "&lt;", x, fixed = TRUE)
   gsub(">", "&gt;", x, fixed = TRUE)
 }
-# *text* becomes italics, for gene and species names
-md <- function(x) gsub("\\*([^*]+)\\*", "<em>\\1</em>", esc(x))
+# *text* becomes italics (gene and species names) and [text](url) becomes a link
+md <- function(x) {
+  x <- gsub("\\[([^\\]]+)\\]\\(([^)]+)\\)", '<a href="\\2">\\1</a>', esc(x), perl = TRUE)
+  gsub("\\*([^*]+)\\*", "<em>\\1</em>", x)
+}
 cat("```{=html}\n")
 if (length(groups) == 0) {
   cat('<p class="tools-empty">Tools will be listed here soon.</p>\n')
