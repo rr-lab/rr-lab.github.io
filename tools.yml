@@ -57,6 +57,17 @@ groups:
   - id: genomes-data
     title: Genomes and data
     items:
+      - name: HiLo genomes
+        kind: Genome assemblies
+        description: >-
+          Seven annotated reference genomes: Mexican native maize from the highlands (Palomero
+          Toluqueño and Palomero de Jalisco), mid-elevations (Tabloncillo) and lowlands (Zapalote
+          Chico), and the CIMMYT inbreds CML457 and CML459, adapted to the highlands, and CML530,
+          adapted to acid soils. Deposited in MaizeGDB.
+        collaboration: From the HiLo project.
+        links:
+          - {label: HiLo genomes at MaizeGDB, url: "https://www.maizegdb.org/HiLo_project"}
+
       - name: "*Inv4m* NIL genome"
         kind: Genome assembly
         description: >-
