@@ -79,8 +79,9 @@
   border: none;
   background: none;
   padding: 6px 2px;
-  color: #33691e;
+  color: #1a5fb4;
   text-decoration: underline;
+  text-decoration-thickness: 1.5px;
 }
 
 /* Theme tags under each project heading */

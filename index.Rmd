@@ -37,9 +37,9 @@ Room 3122 (Office), Room 3110 (Shared open space), Room 3105 (Shared wet lab)</p
 
 </p>
 
-<p>Explore our <a href="research.html" class="text-success font-weight-bold">current research areas</a> for potential projects.</p>
+<p>Explore our <a href="research.html">current research areas</a> for potential projects.</p>
 
-<p>Learn about our <a href="expectations.html" class="text-success font-weight-bold">lab philosophy</a> and expectations.</p>
+<p>Learn about our <a href="expectations.html">lab philosophy</a> and expectations.</p>
 :::
 
 <!-- Right Image -->

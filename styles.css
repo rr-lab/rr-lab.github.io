@@ -40,19 +40,24 @@ body {
   background-color: #dcedc8; /* Light green hover effect (young leaves) */
 }
 
-/* Links: dark brown and underlined, so they stand out without relying on colour.
-   They turn green on hover (the old yellow hover was unreadable on this background). */
+/* Links: blue with a solid underline, so they stand apart from the near-black
+   text at a glance (6.1:1 contrast on the yellow background, 6.3:1 on white cards). */
 a {
-  color: #6b4a2f; /* Dark brown (corn husks), 7.7:1 contrast */
+  color: #1a5fb4;
   text-decoration: underline;
-  text-decoration-color: rgba(107, 74, 47, 0.45);
+  text-decoration-thickness: 1.5px;
   text-underline-offset: 0.16em;
 }
 
 a:hover,
 a:focus {
-  color: #33691e; /* Dark green (mature leaves) */
-  text-decoration-color: currentColor;
+  color: #0f3f80;
+  text-decoration-thickness: 2.5px;
+}
+
+a:focus-visible {
+  outline: 3px solid #ffd54f;
+  outline-offset: 2px;
 }
 
 .navbar a,
@@ -124,8 +129,8 @@ details summary {
 .person-role { display: block; font-size: 17px; font-weight: 600; color: #6d5f3a; margin-bottom: 8px; }
 .person-card > p:not(.person-name):not(.person-links) { font-size: 18px; }
 .person-links { display: flex; gap: 14px; align-items: center; flex-wrap: wrap; margin-top: 6px; }
-.person-links a { color: #6d5f3a; font-size: 19px; padding: 5px 0; text-decoration: none; }
-.person-links a:hover { color: #33691e; }
+.person-links a { color: #1a5fb4; font-size: 19px; padding: 5px 0; text-decoration: none; }
+.person-links a:hover { color: #0f3f80; }
 .former-list ul { columns: 2 320px; column-gap: 40px; }
 .former-list li { break-inside: avoid; margin-bottom: 6px; }
 
