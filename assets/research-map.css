@@ -42,6 +42,7 @@
   gap: 4px;
   padding-bottom: 22px;
   position: relative;
+  overflow-x: clip; /* a label near the right edge must not widen the page on phones */
 }
 .rm-chrom { flex: 1 1 0; height: 100%; display: flex; flex-direction: column; justify-content: flex-end; position: relative; min-width: 0; }
 .rm-barwrap { position: relative; width: 100%; }
@@ -57,14 +58,17 @@
 .rm-tag {
   position: absolute;
   left: 24px;
+  z-index: 2; /* above the next chromosome's bar, which would otherwise cover the label */
   transform: translateY(-50%);
-  font-size: 14px;
-  line-height: 1.1;
+  font-size: 16px;
+  line-height: 1.15;
   white-space: nowrap;
-  color: #3e3a2c;
-  background: rgba(255, 255, 255, .85);
-  padding: 1px 3px;
-  border-radius: 3px;
+  color: #2a3122;
+  background: #ffffff;
+  border: 1px solid #d8cfa8;
+  padding: 2px 6px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(62, 58, 44, .15);
   pointer-events: none;
 }
 .rm-num { position: absolute; bottom: -22px; left: 0; width: 18px; text-align: center; font-size: 14px; color: #6d5f3a; }
@@ -106,8 +110,5 @@
 @media (max-width: 600px) {
   #research-map { padding: 16px 14px; }
   .rm-bar, .rm-num { width: 14px; }
-  .rm-tag { left: 17px; font-size: 12px; }
-}
-@media (max-width: 480px) {
-  .rm-tag { display: none !important; }
+  .rm-tag { left: 17px; font-size: 14px; padding: 1px 4px; }
 }
