@@ -171,3 +171,24 @@ details summary {
   gap: 6px 18px;
 }
 .tool-link { font-weight: 700; }
+
+/* Home page: the "Interested in joining our lab?" box and the photo below it
+   share one width and are centered, so their edges line up at every screen size. */
+.home-join,
+.home-photo {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-join {
+  background: #e8f5e9;
+  border-radius: 10px;
+  padding: 16px 20px;
+}
+.home-photo { margin-top: 20px; }
+.home-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
