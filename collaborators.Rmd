@@ -7,7 +7,7 @@ output: html_document
 
 ---
 
-### 🌽 ARPA-e  
+### ARPA-e  
 
 <div style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
 
@@ -28,7 +28,7 @@ output: html_document
 
 <br>
 
-### 🌽 CERCA: **C**ircular **E**conomy that **R**eimagines **C**orn **A**griculture 
+### CERCA: **C**ircular **E**conomy that **R**eimagines **C**orn **A**griculture 
 <br>
 
 <div style="columns: 2; -webkit-columns: 2; -moz-columns: 2;">
@@ -78,7 +78,7 @@ output: html_document
 </div>  
 <br>
 
-### 🌽 Maize adaption to highlands 
+### Maize adaption to highlands 
 
 - [Graham Coop](https://gcbias.org/)    
 - [Sherry Flint-García](http://web.missouri.edu/~flint-garcias/home.html)  
@@ -87,12 +87,12 @@ output: html_document
 - [Jeffrey Ross-Ibarra](http://www.rilab.org/)  
 - [Dan Runcie](http://runcielab.ucdavis.edu/)  
 
-### 🌽 Metabolomics
+### Metabolomics
 
 - [Oliver Fiehn](http://fiehnlab.ucdavis.edu/)
 
 
-### 🌽 Phosphorus nutrition
+### Phosphorus nutrition
 
 - [Ruairidh Sawers](http://www.langebio.cinvestav.mx/?pag=369)
 - [Victor Raboy](https://www.researchgate.net/scientific-contributions/Victor-Raboy-39880567)

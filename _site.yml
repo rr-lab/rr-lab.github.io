@@ -14,6 +14,9 @@ navbar:
     - text: "Publications"
       icon: fa-file-text
       href: publications.html
+    - text: "Tools"
+      icon: fa-wrench
+      href: tools.html
     - text: "Photo Album"
       icon: fa-camera
       href: photos.html

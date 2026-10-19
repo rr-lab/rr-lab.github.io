@@ -26,7 +26,7 @@ output: html_document
   <strong>Celebrating 100 Years of Crop and Soil Sciences - 2024</strong>
 </div>
 
-## 🌽 **GEMMA lab crew**
+## **GEMMA lab crew**
 
 ```{r crew, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
 # Builds the people cards from people.yml (see the comments in that file).

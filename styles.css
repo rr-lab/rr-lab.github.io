@@ -1,7 +1,21 @@
-/* Background and Text Colors */
+/* Background and text: near-black body text, larger type, more line spacing.
+   Headings stay dark green. */
 body {
   background-color: #fffde7; /* Light yellow background (corn kernels) */
-  color: #33691e; /* Dark green text (mature leaves) */
+  color: #2a3122; /* Near-black text with a green tint (13:1 contrast) */
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+/* Keep running text to a comfortable line length. */
+.main-container p,
+.main-container li,
+.main-container dd {
+  max-width: 72ch;
+}
+.main-container .text-center p {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Navbar Styling */
@@ -18,18 +32,42 @@ body {
   background-color: #dcedc8; /* Light green hover effect (young leaves) */
 }
 
-/* Links */
+/* Links: dark brown and underlined, so they stand out without relying on colour.
+   They turn green on hover (the old yellow hover was unreadable on this background). */
 a {
-  color: #8d6e63; /* Brown links (corn stalks or husks) */
+  color: #6b4a2f; /* Dark brown (corn husks), 7.7:1 contrast */
+  text-decoration: underline;
+  text-decoration-color: rgba(107, 74, 47, 0.45);
+  text-underline-offset: 0.16em;
 }
 
-a:hover {
-  color: #ffd54f; /* Golden yellow hover effect (ripe corn) */
+a:hover,
+a:focus {
+  color: #33691e; /* Dark green (mature leaves) */
+  text-decoration-color: currentColor;
+}
+
+.navbar a,
+.navbar a:hover,
+.navbar a:focus,
+.btn,
+.btn:hover {
+  text-decoration: none;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   color: #33691e; /* Dark green headings (mature leaves) */
+  line-height: 1.25;
+}
+h2 { margin-top: 1.8em; }
+h3 { margin-top: 1.5em; }
+
+/* "What we did" summaries on the Publications page */
+details summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: #33691e;
 }
 
 /* Buttons */
@@ -81,3 +119,38 @@ h1, h2, h3, h4, h5, h6 {
 .person-links a:hover { color: #33691e; }
 .former-list ul { columns: 2 320px; column-gap: 40px; }
 .former-list li { break-inside: avoid; margin-bottom: 6px; }
+
+/* Tools page (tools.Rmd builds the cards from tools.yml) */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 16px;
+  margin: 24px 0 40px;
+}
+.tool-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px 20px;
+  background: #ffffff;
+  border: 1px solid #ece3bf;
+  border-radius: 10px;
+}
+.main-container .tool-card p { margin: 0; max-width: none; }
+.tool-kind {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #6d5f3a;
+}
+.tool-name { margin: 0; font-size: 20px; }
+.tool-desc { font-size: 16px; color: #3e3a2c; }
+.main-container .tool-card .tool-links {
+  margin-top: auto;
+  padding-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 18px;
+}
+.tool-link { font-weight: 700; }

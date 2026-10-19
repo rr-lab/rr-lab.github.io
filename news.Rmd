@@ -6,7 +6,7 @@ output: html_document
 
 
 ---
-### 🌽 2026  
+### 2026  
 
 - Hannah gave a talk at the INTRINSyC seminar in September.
 
@@ -26,7 +26,7 @@ output: html_document
 
 - Jill Love joined the lab as a postdoc, and Sanaa Jain, Maheera Hassan and Sam Strimple joined as undergraduate researchers. Welcome!
 
-### 🌽 2025  
+### 2025  
 
 
 
@@ -44,7 +44,7 @@ output: html_document
 
 - Brock Davis joined the lab as an undergraduate researcher.  
 
-### 🌽 2024  
+### 2024  
 
 - Rubén visited several EMBRAPA units in Brazil
 
@@ -73,7 +73,7 @@ output: html_document
 - Ruben was awarded with the **M. Rhoades Early-Career Maize Genetics Award**.   
 
 
-### 🌽 2023
+### 2023
 
 - Nirwan visited the laboratory of Ed Buckler (Cornell University). 
 
@@ -95,7 +95,7 @@ output: html_document
 
 - Pascual Blanco is now working as full time field tecnhnician. 
 
-### 🌽 2022
+### 2022
 
 - Nirwan Tandukar, a PhD student from the Functional Genomics Program joined the lab to work in the DOE CAREER project in January 2022
 
@@ -107,7 +107,7 @@ output: html_document
 
 - Pascual Blanco joined the lab as a part time field technician. 
 
-### 🌽 2020-2021  
+### 2020-2021  
 
 Lot's of things happened during this time in the world and our lab. To summarize:
 
@@ -122,11 +122,11 @@ Lot's of things happened during this time in the world and our lab. To summarize
 - We got a Scientific Exchanges grant from the Foregign Agricultural Service to work with our colleagues in Perú.  
 
 
-### 🌽 2020
+### 2020
 
 - August. Andi Kur joined the lab and will start her PhD in the Genetics program with a fellowship from the AgBioFews Program. 
 
-### 🌽 2019
+### 2019
 
 - October 10th Fausto gave a talk at NCSU's Intrynsic group.  
 
@@ -162,7 +162,7 @@ Lot's of things happened during this time in the world and our lab. To summarize
 
 - January 1st. **Our lab has moved to the North Carolina State University, Deparment of Structural and Molecular Biochemistry.** 
 
-### 🌽 2018
+### 2018
 
 - August 5-10th. Karla gave a talk at the 12th International Plant Molecular Biology Congress in Montepellier. 
 
@@ -180,7 +180,7 @@ Lot's of things happened during this time in the world and our lab. To summarize
 
 - January 12th. Rubén gave a talk at the [MexPopGen](https://mexpopgen.wordpress.com/) meeting organized in Langebio. 
 
-### 🌽 2017
+### 2017
 
 - November 13-17th. We were part of the organizing committee of the SMB Plant Biochemistry Meeting in Puerto Vallarta.
 
@@ -216,7 +216,7 @@ Lot's of things happened during this time in the world and our lab. To summarize
 <img src="https://raw.githubusercontent.com/rr-lab/lab_info/master/img/winter_nursery.png" width="500">
 
 
-### 🌽 2016
+### 2016
 
 - December 19. Our collaboration with Luis Herrera-Estrella´s lab on *Malate-dependent Fe accumulation is a critical checkpoint in the root developmental response to low phosphate* is now up on [biorxiv](http://biorxiv.org/content/early/2016/12/19/095497).
 

@@ -1,0 +1,24 @@
+# Tools page data. tools.Rmd builds one card per entry from this file.
+#
+# To add a tool or material: copy an entry. `kind` is the short label shown above
+# the name (Database, Software, Imaging platform, Seed stock, Protocol...).
+# `links` become the links at the bottom of the card.
+
+tools:
+  - name: Sorghum Lipid Database (SoLD)
+    kind: Database
+    description: >-
+      An interactive app for exploring lipid profiles across the Sorghum Association Panel
+      and how they vary with environment and genotype.
+    links:
+      - {label: Open the app, url: "https://nirwan.shinyapps.io/SAP-Lipidomics-Database/"}
+      - {label: Preprint, url: "https://doi.org/10.64898/2026.06.05.727974"}
+
+  - name: GLO-Roots
+    kind: Imaging platform
+    description: >-
+      An imaging platform for characterizing root systems grown in soil, with the code
+      to analyze its images.
+    links:
+      - {label: Code on GitHub, url: "https://github.com/rr-lab/GLO-Roots"}
+      - {label: Paper, url: "https://doi.org/10.7554/eLife.07597"}

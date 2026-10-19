@@ -8,7 +8,7 @@ output: html_document
 ---
 
 
-## 🌽 General Rules
+## General Rules
 
 ### **Safety first** 
 
@@ -39,7 +39,7 @@ We follow the ICMJE criteria for authorship:
 4. Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.  
 Projects evolve over time and authorship, inclusion and author order will be re-evaluated accordingly.
 
-## 🌽 **Specific rules for the different members of the lab**
+## **Specific rules for the different members of the lab**
 
 ### Postdocs and senior PhD students.  
 

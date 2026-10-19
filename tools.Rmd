@@ -1,0 +1,35 @@
+---
+title: Tools
+pagetitle: Tools
+output: html_document
+---
+
+Software, databases and research materials from the lab. More are on the way.
+
+```{r tools, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+# Builds one card per tool from tools.yml (see the comments in that file).
+tools <- yaml::yaml.load(paste(readLines("tools.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n"))$tools
+esc <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  gsub(">", "&gt;", x, fixed = TRUE)
+}
+cat("```{=html}\n")
+if (length(tools) == 0) {
+  cat('<p class="tools-empty">Tools will be listed here soon.</p>\n')
+} else {
+  cat('<div class="tools-grid">\n')
+  for (t in tools) {
+    links <- vapply(t$links, function(l)
+      sprintf('<a class="tool-link" href="%s">%s</a>', esc(l$url), esc(l$label)), "")
+    cat('<article class="tool-card">\n',
+        if (!is.null(t$kind)) sprintf('<p class="tool-kind">%s</p>\n', esc(t$kind)) else "",
+        sprintf('<h3 class="tool-name">%s</h3>\n', esc(t$name)),
+        sprintf('<p class="tool-desc">%s</p>\n', esc(t$description)),
+        if (length(links)) sprintf('<p class="tool-links">%s</p>\n', paste(links, collapse = " ")) else "",
+        '</article>\n', sep = "")
+  }
+  cat("</div>\n")
+}
+cat("```\n")
+```
