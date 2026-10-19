@@ -30,6 +30,7 @@ groups:
           Lines from a cross between the reference line B73 and the Mexican highland variety
           Palomero Toluqueño, evaluated in highland and lowland fields in Mexico to map
           locally adaptive traits.
+        collaboration: A collaboration led by the lab of Ruairidh Sawers.
         links:
           - {label: "Paper (G3, 2022)", url: "https://doi.org/10.1093/g3journal/jkab447"}
 
@@ -50,7 +51,7 @@ groups:
           A multi-parent advanced generation inter-cross (MAGIC) population from eight Mexican
           native maize varieties from distinct agroecological zones, for mapping traits that
           vary with the environment.
-        collaboration: In collaboration with the lab of Ruairidh Sawers.
+        collaboration: A collaboration led by the lab of Ruairidh Sawers.
         links:
           - {label: "Paper (New Phytologist, 2026)", url: "https://doi.org/10.1111/nph.71501"}
 
