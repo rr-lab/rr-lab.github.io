@@ -3,7 +3,9 @@
 #
 # To add an item: copy an entry into the right group. `kind` is the short label shown above
 # the name (Database, Mapping population, Genome assembly...). `links` become the links at the
-# bottom of the card. In names and descriptions, *text* is shown in italics (gene and species names).
+# bottom of the card. `collaboration` is an optional line under the description that credits
+# collaborating labs. In names, descriptions and collaborations, *text* is shown in italics
+# (gene and species names).
 # Only list published or preprinted resources, and check every link before adding it.
 
 groups:
@@ -16,6 +18,9 @@ groups:
           2,178 BC₂S₃ lines, with about 4,000 planned, that carry segments of 82 georeferenced
           teosinte accessions, from five taxa collected across Mexico and Central America,
           in the inbred line B73.
+        collaboration: >-
+          In collaboration with the labs of James Holland, Jesús Sánchez, Ruairidh Sawers,
+          Edward Buckler and Matthew Hufford.
         links:
           - {label: About ZeaL, url: "research.html#wild-alleles"}
 
@@ -34,6 +39,7 @@ groups:
           B73 lines carrying the *Inv4m* inversion from the highland variety Michoacán 21,
           backcrossed for eight generations, to study its effects on flowering time, plant
           height and phosphorus responses.
+        collaboration: In collaboration with the lab of Ruairidh Sawers.
         links:
           - {label: Flowering preprint, url: "https://doi.org/10.64898/2026.06.16.732082"}
           - {label: Phosphorus preprint, url: "https://doi.org/10.64898/2026.05.22.727253"}
@@ -43,7 +49,8 @@ groups:
         description: >-
           A multi-parent advanced generation inter-cross (MAGIC) population from eight Mexican
           native maize varieties from distinct agroecological zones, for mapping traits that
-          vary with the environment. Developed with the Sawers lab.
+          vary with the environment.
+        collaboration: In collaboration with the lab of Ruairidh Sawers.
         links:
           - {label: "Paper (New Phytologist, 2026)", url: "https://doi.org/10.1111/nph.71501"}
 
@@ -55,6 +62,7 @@ groups:
         description: >-
           Genome assembly of the B73 near-isogenic line that carries the Michoacán 21 *Inv4m*
           haplotype. It delimits the inversion precisely, to 15.2 Mb.
+        collaboration: In collaboration with the lab of Ruairidh Sawers.
         links:
           - {label: Preprint, url: "https://doi.org/10.64898/2026.06.16.732082"}
 
@@ -62,7 +70,8 @@ groups:
         kind: Genomes
         description: >-
           Variation from 744 genomes covering maize and all wild *Zea* taxa, with more than
-          70 million SNPs. A collaboration led by Huazhong Agricultural University.
+          70 million SNPs.
+        collaboration: A collaboration led by Huazhong Agricultural University.
         links:
           - {label: "Paper (Nature Genetics, 2022)", url: "https://doi.org/10.1038/s41588-022-01184-y"}
 

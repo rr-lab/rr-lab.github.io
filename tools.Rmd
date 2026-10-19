@@ -31,6 +31,7 @@ for (g in groups) {
         if (!is.null(t$kind)) sprintf('<p class="tool-kind">%s</p>\n', esc(t$kind)) else "",
         sprintf('<h3 class="tool-name">%s</h3>\n', md(t$name)),
         sprintf('<p class="tool-desc">%s</p>\n', md(t$description)),
+        if (!is.null(t$collaboration)) sprintf('<p class="tool-collab">%s</p>\n', md(t$collaboration)) else "",
         if (length(links)) sprintf('<p class="tool-links">%s</p>\n', paste(links, collapse = " ")) else "",
         '</article>\n', sep = "")
   }

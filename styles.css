@@ -183,6 +183,7 @@ details summary {
 }
 .tool-name { margin: 0; font-size: 23px; }
 .tool-desc { font-size: 18px; color: #3e3a2c; }
+.tool-collab { font-size: 16px; color: #6d5f3a; }
 .main-container .tool-card .tool-links {
   margin-top: auto;
   padding-top: 8px;
