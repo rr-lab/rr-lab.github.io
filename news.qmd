@@ -12,7 +12,7 @@ What's been happening in the lab.
 ::: {.timeline}
 - Hannah gave a talk at the INTRINSyC seminar in September.
 
-- Tao Zhong won the Paper of the Year award at the NC State Genetics and Genomics Retreat.
+- Tao Zhong won the Paper of the Year award at the NC State Genetics and Genomics Retreat for [The maize mitogen-activated protein kinase kinase kinase gene *ZmMAPKKK45* is associated with multiple disease resistance](https://doi.org/10.1111/nph.70828) (*New Phytologist*).
 
 - Hannah and Lauren won best poster awards at the GGA retreat.
 
