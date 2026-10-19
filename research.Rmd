@@ -8,7 +8,7 @@ output: html_document
 ---
 
 
-We are broadly interested in understanding the metabolic and morphological mechanisms that plants have developed to adapt to soils with low nutrient availability. See below the major research interests of our lab. 
+We are broadly interested in understanding the metabolic and morphological mechanisms that plants have developed to adapt to soils with low nutrient availability. Our work follows the lab's name, **G**enetics, **E**volution and **M**etabolism of **M**aize **A**daptation, and falls into the four themes below. 
 
 ```{r research-map, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
 # Builds the research map from research_map.yml (see the comments in that file).
