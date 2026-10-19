@@ -34,7 +34,7 @@
 
 .rm-body { display: flex; flex-wrap: wrap; gap: 20px 36px; align-items: flex-start; }
 .rm-figure { flex: 1 1 420px; min-width: 0; }
-.rm-genome { font-size: 13px; font-weight: 700; color: #6d5f3a; margin-bottom: 8px; }
+.rm-genome { font-size: 15px; font-weight: 700; color: #6d5f3a; margin-bottom: 8px; }
 .rm-karyotype {
   height: 240px;
   display: flex;
@@ -58,7 +58,7 @@
   position: absolute;
   left: 24px;
   transform: translateY(-50%);
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.1;
   white-space: nowrap;
   color: #3e3a2c;
@@ -67,13 +67,13 @@
   border-radius: 3px;
   pointer-events: none;
 }
-.rm-num { position: absolute; bottom: -22px; left: 0; width: 18px; text-align: center; font-size: 12px; color: #6d5f3a; }
+.rm-num { position: absolute; bottom: -22px; left: 0; width: 18px; text-align: center; font-size: 14px; color: #6d5f3a; }
 
 .rm-caption { flex: 1 1 260px; min-width: 0; }
 .rm-caption p { margin: 0 0 8px; }
-.rm-title { font-weight: 700; font-size: 18px; display: flex; align-items: center; gap: 8px; }
-.rm-loci { font-size: 15px; }
-.rm-status { margin: 14px 0 0; font-size: 15px; }
+.rm-title { font-weight: 700; font-size: 21px; display: flex; align-items: center; gap: 8px; }
+.rm-loci { font-size: 17px; }
+.rm-status { margin: 14px 0 0; font-size: 17px; }
 .rm-status:empty { display: none; }
 .rm-reset {
   border: none;
@@ -88,7 +88,7 @@
 .rm-pill {
   min-height: 30px;
   padding: 2px 12px;
-  font-size: 13px;
+  font-size: 15px;
   border: 1px solid #d8cfa8;
   background: #ffffff;
   color: #3e3a2c;
@@ -98,7 +98,7 @@
 @media (max-width: 600px) {
   #research-map { padding: 16px 14px; }
   .rm-bar, .rm-num { width: 14px; }
-  .rm-tag { left: 17px; font-size: 11px; }
+  .rm-tag { left: 17px; font-size: 12px; }
 }
 @media (max-width: 480px) {
   .rm-tag { display: none !important; }
