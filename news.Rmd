@@ -8,6 +8,10 @@ output: html_document
 ---
 ### 2026  
 
+- Jill's [paper on adaptive phenotypic plasticity in the cutleaf monkeyflower](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.71365) made the [cover of *New Phytologist*](https://nph.onlinelibrary.wiley.com/toc/14698137/2026/252/4)!
+
+    <img src="images/news/new-phytologist-2026-252-4-cover.png" alt="Cover of New Phytologist, volume 252, issue 4" width="114" height="150">
+
 - Hannah gave a talk at the INTRINSyC seminar in September.
 
 - Tao Zhong won the Paper of the Year award at the NC State Genetics and Genomics Retreat for [The maize mitogen-activated protein kinase kinase kinase gene *ZmMAPKKK45* is associated with multiple disease resistance](https://doi.org/10.1111/nph.70828) (*New Phytologist*).
