@@ -1,0 +1,121 @@
+/* Dark mode toggle and dark colours.
+   assets/theme-head.html sets data-theme="dark" on <html> (the visitor's choice, or else their
+   system setting) and assets/theme.js adds the toggle to the top menu. Each dark rule mirrors
+   a light rule in styles.css or in a page's own stylesheet (research map, publication themes,
+   photo album), with "html[data-theme="dark"]" in front so it wins. */
+
+/* ---- The toggle, at the end of the top menu ---- */
+.theme-toggle {
+  display: block;
+  height: 60px;
+  padding: 0 11px;
+  border: 0;
+  background: transparent;
+  color: #33691e;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+.theme-toggle:hover { background-color: #dcedc8; }
+.theme-toggle:focus-visible { outline: 3px solid #ffd54f; outline-offset: -3px; }
+.theme-label { display: none; }
+@media (max-width: 1279px) {   /* folded menu: a full-width row with a label */
+  .theme-toggle { height: auto; width: 100%; padding: 10px 15px; text-align: left; font-size: 17px; }
+  .theme-label { display: inline; margin-left: 10px; }
+}
+
+/* ---- Dark colours ---- */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --rm-bar: #4a4d3f;    /* research map chromosome bars (research-map.js) */
+  --rm-grey: #77796b;   /* research map loci outside the selected theme */
+}
+html[data-theme="dark"] body { background-color: #1a1c16; color: #e4e1d0; }
+
+/* Top menu: dark corn instead of ripe corn */
+html[data-theme="dark"] .navbar { background-color: #3b3415; border-color: #5a4a1e; }
+html[data-theme="dark"] .navbar-brand,
+html[data-theme="dark"] .navbar-nav > li > a,
+html[data-theme="dark"] .theme-toggle { color: #ffe082 !important; }
+html[data-theme="dark"] .navbar-nav > li > a:hover,
+html[data-theme="dark"] .navbar-nav > li > a:focus,
+html[data-theme="dark"] .theme-toggle:hover { background-color: #4d4420; }
+html[data-theme="dark"] .navbar-default .navbar-nav > .active > a,
+html[data-theme="dark"] .navbar-default .navbar-nav > .active > a:hover,
+html[data-theme="dark"] .navbar-default .navbar-nav > .active > a:focus { background-color: #24200c; }
+html[data-theme="dark"] .navbar-default .navbar-toggle { border-color: #ffe082; }
+html[data-theme="dark"] .navbar-default .navbar-toggle:hover,
+html[data-theme="dark"] .navbar-default .navbar-toggle:focus { background-color: #4d4420; }
+html[data-theme="dark"] .navbar-default .navbar-toggle .icon-bar { background-color: #ffe082; }
+html[data-theme="dark"] .navbar-collapse { border-color: #5a4a1e; }
+
+/* Text, headings and links */
+html[data-theme="dark"] h1, html[data-theme="dark"] h2, html[data-theme="dark"] h3,
+html[data-theme="dark"] h4, html[data-theme="dark"] h5, html[data-theme="dark"] h6,
+html[data-theme="dark"] details summary { color: #9ccc65; }
+html[data-theme="dark"] a { color: #8ab4f8; text-decoration-color: rgba(138, 180, 248, 0.45); }
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] a:focus { color: #b3cdfb; text-decoration-color: currentColor; }
+html[data-theme="dark"] hr { border-top-color: #3a3d31; }
+html[data-theme="dark"] blockquote { border-left-color: #3a3d31; }
+html[data-theme="dark"] .table > thead > tr > th,
+html[data-theme="dark"] .table > tbody > tr > td,
+html[data-theme="dark"] .table > thead > tr > td,
+html[data-theme="dark"] .table > tbody > tr > th { border-color: #3a3d31; }
+html[data-theme="dark"] code { background-color: #2a2d24; color: #f0c674; }
+html[data-theme="dark"] pre { background-color: #23261e; border-color: #3a3d31; color: #e4e1d0; }
+html[data-theme="dark"] .btn { background-color: #3b3415; color: #ffe082; }
+html[data-theme="dark"] .btn:hover { background-color: #4d4420; }
+
+/* Home page */
+html[data-theme="dark"] .home-join { background: #22301f; }
+
+/* People */
+html[data-theme="dark"] .people-grid { border-top-color: #9ccc65; }
+html[data-theme="dark"] .person-card { border-bottom-color: #3a3d31; }
+html[data-theme="dark"] .person-photo { background: #2a2d24; box-shadow: 0 0 0 1px #3a3d31; }
+html[data-theme="dark"] .person-role { color: #c9bf9f; }
+
+/* Research map and the CRISPR gene boxes (assets/research-map.css) */
+html[data-theme="dark"] #research-map { background: #23261e; border-color: #3a3d31; }
+html[data-theme="dark"] .rm-chip { background: #2a2d24; border-color: #4a4d3f; color: #c5e1a5; }
+html[data-theme="dark"] .rm-chip:hover { background: #33402a; }
+html[data-theme="dark"] .rm-chip[aria-pressed="true"] { background: #9ccc65; border-color: #9ccc65; color: #1a1c16; }
+html[data-theme="dark"] .rm-chip[aria-pressed="true"] .rm-dot { box-shadow: 0 0 0 2px #1a1c16; }
+html[data-theme="dark"] .rm-genome,
+html[data-theme="dark"] .rm-num { color: #c9bf9f; }
+html[data-theme="dark"] .rm-tag { color: #f0eddc; background: #2a2d24; border-color: #5a5d4f; box-shadow: none; }
+html[data-theme="dark"] .rm-reset { color: #8ab4f8; text-decoration-color: rgba(138, 180, 248, 0.45); }
+html[data-theme="dark"] .rm-pill { background: #2a2d24; color: #dcd8c6; }
+html[data-theme="dark"] .rm-pill:hover { background: #33402a; }
+html[data-theme="dark"] .crispr-box { background: #23261e; border-color: #3a3d31; border-left-color: #7cb342; }
+html[data-theme="dark"] .crispr-flag { color: #ffe08a; background: #4a3b00; border-color: #8a6d1a; }
+
+/* Publication themes (assets/publication-themes.css) */
+html[data-theme="dark"] .pt-group,
+html[data-theme="dark"] .pt-count { color: #c9bf9f; }
+html[data-theme="dark"] .pt-card { background: #23261e; color: #dcd8c6; border-color: #3a3d31; }
+html[data-theme="dark"] .pt-card:hover { background: #2a3324; border-color: #9ccc65; }
+html[data-theme="dark"] .pt-card[aria-pressed="true"] { background: #2e3a26; border-color: #9ccc65; }
+html[data-theme="dark"] .pt-name { color: #9ccc65; }
+html[data-theme="dark"] .pt-desc { color: #cfc9b2; }
+html[data-theme="dark"] .pt-go,
+html[data-theme="dark"] .pt-reset { color: #8ab4f8; text-decoration-color: rgba(138, 180, 248, 0.45); }
+html[data-theme="dark"] .pt-card:hover .pt-go { color: #b3cdfb; }
+html[data-theme="dark"] .pt-status { background: #23261e; border-color: #3a3d31; }
+
+/* Tools & Resources */
+html[data-theme="dark"] .tool-card { background: #23261e; border-color: #3a3d31; }
+html[data-theme="dark"] .tool-kind,
+html[data-theme="dark"] .tool-collab { color: #c9bf9f; }
+html[data-theme="dark"] .tool-desc { color: #dcd8c6; }
+
+/* Photo album (assets/photo-album.css) */
+html[data-theme="dark"] .main-container a.pa-year { background: #2a2d24; border-color: #4a4d3f; color: #c5e1a5; }
+html[data-theme="dark"] .main-container a.pa-year:hover { background: #33402a; color: #c5e1a5; }
+html[data-theme="dark"] .main-container a.pa-year[aria-current="true"] { background: #9ccc65; border-color: #9ccc65; color: #1a1c16; }
+html[data-theme="dark"] .pa-year .pa-n,
+html[data-theme="dark"] .pa-heading .pa-n { color: #c9bf9f; }
+html[data-theme="dark"] .pa-year[aria-current="true"] .pa-n { color: #2e3a22; }
+html[data-theme="dark"] .pa-open { background: #2a2d24; }
+html[data-theme="dark"] .main-container .pa-item figcaption { color: #d2ccb6; }

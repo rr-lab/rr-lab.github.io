@@ -18,8 +18,8 @@
   var loci = list(data.loci);
   var lens = list(data.chromosomes_mb).map(Number);
   var maxLen = Math.max.apply(null, lens);
-  var GREY = '#c9c2a8';
-  var BAR = '#e4dec8';
+  var GREY = 'var(--rm-grey, #c9c2a8)';   // CSS variables, so assets/theme.css can darken them
+  var BAR = 'var(--rm-bar, #e4dec8)';
 
   var themeById = {};
   themes.forEach(function (t) { t.sections = list(t.sections); themeById[t.id] = t; });

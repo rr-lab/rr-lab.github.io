@@ -1,0 +1,15 @@
+<script>
+/* Dark mode: apply the visitor's saved choice, or else their system setting, before the
+   page draws. assets/theme.js adds the toggle to the top menu; assets/theme.css has the
+   dark colours. Included in every page by _site.yml (includes: in_header). */
+(function () {
+  try {
+    var saved = localStorage.getItem('gemma-theme');
+    if (saved === 'dark' || (!saved && window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  } catch (e) {}
+})();
+</script>
+<script src="assets/theme.js" defer></script>
