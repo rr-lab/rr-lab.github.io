@@ -313,73 +313,115 @@ $(document).ready(function () {
 </div>
 
 
-<hr />
-<!-- Collage Style Photo Album -->
-<style>
-  .photo-album {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Increase the minimum column width */
-    gap: 20px; /* Adjust the spacing between images */
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1600px; /* Maximize the width for larger screens */
-  }
-
-  .photo-album img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px; /* Larger rounded corners */
-    object-fit: cover;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-  }
-
-  .photo-album img:hover {
-    transform: scale(1.2); /* Increase zoom effect on hover */
-    opacity: 0.9;
-  }
-
-  /* Specific classes for large images */
-  .large-img {
-    grid-column: span 2; /* Larger images span two columns */
-    grid-row: span 2; /* Larger images span two rows */
-  }
-
-  .extra-large-img {
-    grid-column: span 3; /* Extra-large images span three columns */
-    grid-row: span 2; /* Extra-large images span two rows */
-  }
-
-  h1 {
-    text-align: left; /* Align the title to the left */
-    font-size: 50px; /* Larger title */
-    color: #2c6b2f; /* Darker green color */
-    margin-bottom: 40px; /* More space below the title */
-    padding-left: 20px; /* Add padding to the left for some spacing */
-  }
-</style>
-<!-- Image Gallery -->
-<div class="photo-album">
-<p><!-- First row of images -->
-<img src="images/IMG_6091.jpg" class="large-img">
-<img src="images/PXL_20240619_160211079.jpg">
-<img src="images/IMG_4816.jpg">
-<img src="images/wolf.jpg" class="extra-large-img">
-<img src="images/PXL_20240524_202620539.jpg" class="large-img"></p>
-<p><!-- Second row of images --> <img src="images/20241212_135930.jpg">
-<img src="images/PXL_20240619_151659240.jpg">
-<img src="images/image%20(2).png" class="large-img">
-<img src="images/20240301_203614.jpg"></p>
-<p><!-- Third row of images --> <img src="images/ruben.jpg">
-<img src="images/IMG_6097.jpg"></p>
-<p><!-- Fourth row of images --> <img src="images/IMG_6087.jpg">
-<img src="images/20240616_092651.jpg"></p>
-<p><!-- Fifth row of images -->
-<img src="images/gruandruben.png" class="large-img">
-<img src="images/minions.png"></p>
-<p><!-- Sixth row of images -->
-<img src="images/bar.png" class="extra-large-img">
-<img src="images/20250113_112944.jpg"></p>
+<p>Pick a year to see only its photos. Click a photo to see it
+larger.</p>
+<link rel="stylesheet" href="assets/photo-album.css">
+<div id="photo-album">
+<nav class="pa-years" aria-label="Show the photos of one year">
+<a class="pa-year" href="#photo-album" data-year="all">All years <span class="pa-n">45</span></a>
+<a class="pa-year" href="#2025" data-year="2025">2025 <span class="pa-n">3</span></a>
+<a class="pa-year" href="#2024" data-year="2024">2024 <span class="pa-n">15</span></a>
+<a class="pa-year" href="#2023" data-year="2023">2023 <span class="pa-n">10</span></a>
+<a class="pa-year" href="#2022" data-year="2022">2022 <span class="pa-n">4</span></a>
+<a class="pa-year" href="#2019" data-year="2019">2019 <span class="pa-n">2</span></a>
+<a class="pa-year" href="#2018" data-year="2018">2018 <span class="pa-n">3</span></a>
+<a class="pa-year" href="#2017" data-year="2017">2017 <span class="pa-n">5</span></a>
+<a class="pa-year" href="#2016" data-year="2016">2016 <span class="pa-n">2</span></a>
+<a class="pa-year" href="#2015" data-year="2015">2015 <span class="pa-n">1</span></a>
+</nav>
+<p class="pa-status" aria-live="polite"></p>
+<section class="pa-section" id="2025" data-year="2025">
+<h2 class="pa-heading">2025 <span class="pa-n">3 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2025-carolina-and-nirwan-wallsits.jpg"><img src="images/album/thumbs/2025-carolina-and-nirwan-wallsits.jpg" alt="Carolina and Nirwan doing wall sits" loading="lazy" decoding="async"></a><figcaption>Carolina and Nirwan doing wall sits</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2025-nirwan-and-hannah-geared-up-with-the-fieldspec.jpg"><img src="images/album/thumbs/2025-nirwan-and-hannah-geared-up-with-the-fieldspec.jpg" alt="Nirwan and Hannah geared up with the FieldSpec" loading="lazy" decoding="async"></a><figcaption>Nirwan and Hannah geared up with the FieldSpec</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2025-sushi-party-at-hannahs-house.jpg"><img src="images/album/thumbs/2025-sushi-party-at-hannahs-house.jpg" alt="Sushi party at Hannah's house" loading="lazy" decoding="async"></a><figcaption>Sushi party at Hannah's house</figcaption></figure>
 </div>
+</section>
+<section class="pa-section" id="2024" data-year="2024">
+<h2 class="pa-heading">2024 <span class="pa-n">15 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-after-a-cerca-dissection-i-think.jpg"><img src="images/album/thumbs/2024-after-a-cerca-dissection-i-think.jpg" alt="After a CERCA dissection" loading="lazy" decoding="async"></a><figcaption>After a CERCA dissection</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-after-maize-meeting-nc.jpg"><img src="images/album/thumbs/2024-after-maize-meeting-nc.jpg" alt="After the maize meeting in NC" loading="lazy" decoding="async"></a><figcaption>After the maize meeting in NC</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-after-sampling-jordan-s-heirlooms.jpg"><img src="images/album/thumbs/2024-after-sampling-jordan-s-heirlooms.jpg" alt="After sampling Jordan's heirlooms" loading="lazy" decoding="async"></a><figcaption>After sampling Jordan's heirlooms</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-fausto-and-shannon-graduation.jpg"><img src="images/album/thumbs/2024-fausto-and-shannon-graduation.jpg" alt="Fausto and Shannon's graduation" loading="lazy" decoding="async"></a><figcaption>Fausto and Shannon's graduation</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-fausto-with-a-balloon-after-his-defense.jpg"><img src="images/album/thumbs/2024-fausto-with-a-balloon-after-his-defense.jpg" alt="Fausto with a balloon after his defense" loading="lazy" decoding="async"></a><figcaption>Fausto with a balloon after his defense</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-faustos-defense.jpg"><img src="images/album/thumbs/2024-faustos-defense.jpg" alt="Fausto's defense" loading="lazy" decoding="async"></a><figcaption>Fausto's defense</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-i-think-ruben-just-gave-an-intrinsyc-but-another-one.jpg"><img src="images/album/thumbs/2024-i-think-ruben-just-gave-an-intrinsyc-but-another-one.jpg" alt="After Rubén's INTRINSyC talk" loading="lazy" decoding="async"></a><figcaption>After Rubén's INTRINSyC talk</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-i-think-ruben-just-gave-an-intrinsyc-but-funny.jpg"><img src="images/album/thumbs/2024-i-think-ruben-just-gave-an-intrinsyc-but-funny.jpg" alt="After Rubén's INTRINSyC talk" loading="lazy" decoding="async"></a><figcaption>After Rubén's INTRINSyC talk</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-i-think-ruben-just-gave-an-intrinsyc.jpg"><img src="images/album/thumbs/2024-i-think-ruben-just-gave-an-intrinsyc.jpg" alt="After Rubén's INTRINSyC talk" loading="lazy" decoding="async"></a><figcaption>After Rubén's INTRINSyC talk</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-katelyn-giving-a-drone-demo-with-the-juntos-students.jpg"><img src="images/album/thumbs/2024-katelyn-giving-a-drone-demo-with-the-juntos-students.jpg" alt="Katelyn giving a drone demo to the JUNTOS students" loading="lazy" decoding="async"></a><figcaption>Katelyn giving a drone demo to the JUNTOS students</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-kuya-using-the-fieldspec.jpg"><img src="images/album/thumbs/2024-kuya-using-the-fieldspec.jpg" alt="Kuya using the FieldSpec" loading="lazy" decoding="async"></a><figcaption>Kuya using the FieldSpec</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-pascual-the-goat-harvesting.jpg"><img src="images/album/thumbs/2024-pascual-the-goat-harvesting.jpg" alt="Pascual, the GOAT, harvesting" loading="lazy" decoding="async"></a><figcaption>Pascual, the GOAT, harvesting</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-pascual-with-the-juntos-students.jpg"><img src="images/album/thumbs/2024-pascual-with-the-juntos-students.jpg" alt="Pascual with the JUNTOS students" loading="lazy" decoding="async"></a><figcaption>Pascual with the JUNTOS students</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-ruben-eating-the-blueberry-pie-hannah-made-using-a-tassel-bag-as-a-plate.jpg"><img src="images/album/thumbs/2024-ruben-eating-the-blueberry-pie-hannah-made-using-a-tassel-bag-as-a-plate.jpg" alt="Rubén eating the blueberry pie Hannah made, using a tassel bag as a plate" loading="lazy" decoding="async"></a><figcaption>Rubén eating the blueberry pie Hannah made, using a tassel bag as a plate</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2024-some-of-us-with-mr-and-mrs-wuf.jpg"><img src="images/album/thumbs/2024-some-of-us-with-mr-and-mrs-wuf.jpg" alt="Some of us with Mr. and Mrs. Wuf" loading="lazy" decoding="async"></a><figcaption>Some of us with Mr. and Mrs. Wuf</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2023" data-year="2023">
+<h2 class="pa-heading">2023 <span class="pa-n">10 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-destiny-passed-her-prelims.jpg"><img src="images/album/thumbs/2023-destiny-passed-her-prelims.jpg" alt="Destiny passed her prelims" loading="lazy" decoding="async"></a><figcaption>Destiny passed her prelims</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-fall-cold-zeal-rna-sampling-2.jpg"><img src="images/album/thumbs/2023-fall-cold-zeal-rna-sampling-2.jpg" alt="Fall (cold) ZeaL RNA sampling" loading="lazy" decoding="async"></a><figcaption>Fall (cold) ZeaL RNA sampling</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-fall-cold-zeal-rna-sampling-3.jpg"><img src="images/album/thumbs/2023-fall-cold-zeal-rna-sampling-3.jpg" alt="Fall (cold) ZeaL RNA sampling" loading="lazy" decoding="async"></a><figcaption>Fall (cold) ZeaL RNA sampling</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-fall-cold-zeal-rna-sampling-4.jpg"><img src="images/album/thumbs/2023-fall-cold-zeal-rna-sampling-4.jpg" alt="Fall (cold) ZeaL RNA sampling" loading="lazy" decoding="async"></a><figcaption>Fall (cold) ZeaL RNA sampling</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-fall-cold-zeal-rna-sampling.jpg"><img src="images/album/thumbs/2023-fall-cold-zeal-rna-sampling.jpg" alt="Fall (cold) ZeaL RNA sampling" loading="lazy" decoding="async"></a><figcaption>Fall (cold) ZeaL RNA sampling</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-gene-editing-meeting.jpg"><img src="images/album/thumbs/2023-gene-editing-meeting.jpg" alt="Gene editing meeting" loading="lazy" decoding="async"></a><figcaption>Gene editing meeting</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-ruben-and-canela-at-the-field.jpg"><img src="images/album/thumbs/2023-ruben-and-canela-at-the-field.jpg" alt="Rubén and Canela in the field" loading="lazy" decoding="async"></a><figcaption>Rubén and Canela in the field</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-ruben-tenure-celebration.jpg"><img src="images/album/thumbs/2023-ruben-tenure-celebration.jpg" alt="Rubén's tenure celebration" loading="lazy" decoding="async"></a><figcaption>Rubén's tenure celebration</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-spring-zeal-rna-sampling-2.jpg"><img src="images/album/thumbs/2023-spring-zeal-rna-sampling-2.jpg" alt="Spring ZeaL RNA sampling" loading="lazy" decoding="async"></a><figcaption>Spring ZeaL RNA sampling</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2023-spring-zeal-rna-sampling.jpg"><img src="images/album/thumbs/2023-spring-zeal-rna-sampling.jpg" alt="Spring ZeaL RNA sampling" loading="lazy" decoding="async"></a><figcaption>Spring ZeaL RNA sampling</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2022" data-year="2022">
+<h2 class="pa-heading">2022 <span class="pa-n">4 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2022-gga-symposium-and-fausto-allison-and-nirwan-got-awards.jpg"><img src="images/album/thumbs/2022-gga-symposium-and-fausto-allison-and-nirwan-got-awards.jpg" alt="GGA symposium, where Fausto, Allison and Nirwan got awards" loading="lazy" decoding="async"></a><figcaption>GGA symposium, where Fausto, Allison and Nirwan got awards</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2022-popsicles-with-jims-lab-on-july-4th.jpg"><img src="images/album/thumbs/2022-popsicles-with-jims-lab-on-july-4th.jpg" alt="Popsicles with Jim's lab on July 4th" loading="lazy" decoding="async"></a><figcaption>Popsicles with Jim's lab on July 4th</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2022-shannon-and-destiny-harvest.jpg"><img src="images/album/thumbs/2022-shannon-and-destiny-harvest.jpg" alt="Shannon and Destiny at harvest" loading="lazy" decoding="async"></a><figcaption>Shannon and Destiny at harvest</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2022-visiting-ruairidh-sawers-lab-at-psu.jpg"><img src="images/album/thumbs/2022-visiting-ruairidh-sawers-lab-at-psu.jpg" alt="Visiting Ruairidh Sawers's lab at PSU" loading="lazy" decoding="async"></a><figcaption>Visiting Ruairidh Sawers's lab at PSU</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2019" data-year="2019">
+<h2 class="pa-heading">2019 <span class="pa-n">2 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2019-ruairidh-and-ruben-visiting-cimmyt-headquarters.jpg"><img src="images/album/thumbs/2019-ruairidh-and-ruben-visiting-cimmyt-headquarters.jpg" alt="Ruairidh and Rubén visiting CIMMYT headquarters" loading="lazy" decoding="async"></a><figcaption>Ruairidh and Rubén visiting CIMMYT headquarters</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2019-at-cimmyt-metepec-station-in-front-of-norman-borlaug-s-room.jpg"><img src="images/album/thumbs/2019-at-cimmyt-metepec-station-in-front-of-norman-borlaug-s-room.jpg" alt="At CIMMYT's Metepec station, in front of Norman Borlaug's room" loading="lazy" decoding="async"></a><figcaption>At CIMMYT's Metepec station, in front of Norman Borlaug's room</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2018" data-year="2018">
+<h2 class="pa-heading">2018 <span class="pa-n">3 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2018-at-the-fat-boy-in-bucerias-after-a-long-day-of-nursery-work.jpg"><img src="images/album/thumbs/2018-at-the-fat-boy-in-bucerias-after-a-long-day-of-nursery-work.jpg" alt="At the Fat Boy in Bucerías after a long day of nursery work" loading="lazy" decoding="async"></a><figcaption>At the Fat Boy in Bucerías after a long day of nursery work</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2018-planting-in-the-cimmyt-metepec-station-with-the-cimmyt-crew.jpg"><img src="images/album/thumbs/2018-planting-in-the-cimmyt-metepec-station-with-the-cimmyt-crew.jpg" alt="Planting at CIMMYT's Metepec station with the CIMMYT crew" loading="lazy" decoding="async"></a><figcaption>Planting at CIMMYT's Metepec station with the CIMMYT crew</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2018-wild-teosinte-mexicana-just-outside-of-langebio.jpg"><img src="images/album/thumbs/2018-wild-teosinte-mexicana-just-outside-of-langebio.jpg" alt="Wild teosinte mexicana just outside Langebio" loading="lazy" decoding="async"></a><figcaption>Wild teosinte <em>mexicana</em> just outside Langebio</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2017" data-year="2017">
+<h2 class="pa-heading">2017 <span class="pa-n">5 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2017-at-our-highest-field-in-the-slopes-of-the-nevado-de-toluca-with-ruairidh-denisse-costich-and-the-farmer-we-worked-with.jpg"><img src="images/album/thumbs/2017-at-our-highest-field-in-the-slopes-of-the-nevado-de-toluca-with-ruairidh-denisse-costich-and-the-farmer-we-worked-with.jpg" alt="At our highest field, on the slopes of the Nevado de Toluca, with Ruairidh, Denise Costich and the farmer we worked with" loading="lazy" decoding="async"></a><figcaption>At our highest field, on the slopes of the Nevado de Toluca, with Ruairidh, Denise Costich and the farmer we worked with</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2017-journal-club-al-fresco.jpg"><img src="images/album/thumbs/2017-journal-club-al-fresco.jpg" alt="Journal club al fresco" loading="lazy" decoding="async"></a><figcaption>Journal club al fresco</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2017-karla-with-the-best-wedding-bouquet-ever.jpg"><img src="images/album/thumbs/2017-karla-with-the-best-wedding-bouquet-ever.jpg" alt="Karla with the best wedding bouquet ever" loading="lazy" decoding="async"></a><figcaption>Karla with the best wedding bouquet ever</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2017-morning-meeting-in-bucerias-before-heading-to-the-field.jpg"><img src="images/album/thumbs/2017-morning-meeting-in-bucerias-before-heading-to-the-field.jpg" alt="Morning meeting in Bucerías before heading to the field" loading="lazy" decoding="async"></a><figcaption>Morning meeting in Bucerías before heading to the field</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2017-our-local-diploperennis-had-babies.jpg"><img src="images/album/thumbs/2017-our-local-diploperennis-had-babies.jpg" alt="Our local diploperennis had babies" loading="lazy" decoding="async"></a><figcaption>Our local <em>diploperennis</em> had babies</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2016" data-year="2016">
+<h2 class="pa-heading">2016 <span class="pa-n">2 photos</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2016-en-route-to-metepec-stopped-to-check-a-teosinte-mexican-mesa-central-site.jpg"><img src="images/album/thumbs/2016-en-route-to-metepec-stopped-to-check-a-teosinte-mexican-mesa-central-site.jpg" alt="En route to Metepec, we stopped to check a teosinte mexicana site in the Mesa Central" loading="lazy" decoding="async"></a><figcaption>En route to Metepec, we stopped to check a teosinte <em>mexicana</em> site in the Mesa Central</figcaption></figure>
+<figure class="pa-item"><a class="pa-open" href="images/album/2016-sampling-tissue-for-rna-seq-in-vallarta.jpg"><img src="images/album/thumbs/2016-sampling-tissue-for-rna-seq-in-vallarta.jpg" alt="Sampling tissue for RNA-seq in Vallarta" loading="lazy" decoding="async"></a><figcaption>Sampling tissue for RNA-seq in Vallarta</figcaption></figure>
+</div>
+</section>
+<section class="pa-section" id="2015" data-year="2015">
+<h2 class="pa-heading">2015 <span class="pa-n">1 photo</span></h2>
+<div class="pa-grid">
+<figure class="pa-item"><a class="pa-open" href="images/album/2015-shelling-teosinte-at-langebio-with-li-anna-michelle-and-jeff.jpg"><img src="images/album/thumbs/2015-shelling-teosinte-at-langebio-with-li-anna-michelle-and-jeff.jpg" alt="Shelling teosinte at Langebio with Li, Anna, Michelle and Jeff" loading="lazy" decoding="async"></a><figcaption>Shelling teosinte at Langebio with Li, Anna, Michelle and Jeff</figcaption></figure>
+</div>
+</section>
+</div>
+<script src="assets/photo-album.js"></script>
 
 
 

@@ -1,0 +1,238 @@
+# Lab photo album. photos.Rmd builds the Photo Album page from this file.
+#
+# scripts/import_photos.R adds new photos from the shared drive's "Lab pictures" folder and
+# keeps what is already here, so edit captions (and the order within a year) in this file.
+# The page shows years newest first; a year's photos appear in the order listed here.
+
+photos:
+  - source: 2015 Shelling teosinte at Langebio with Li, Anna, Michelle and Jeff.jpg
+    year: 2015
+    caption: Shelling teosinte at Langebio with Li, Anna, Michelle and Jeff
+    file: images/album/2015-shelling-teosinte-at-langebio-with-li-anna-michelle-and-jeff.jpg
+    thumb: images/album/thumbs/2015-shelling-teosinte-at-langebio-with-li-anna-michelle-and-jeff.jpg
+  - source: 2016 En route to Metepec stopped to check a teosinte mexican mesa central
+      site.jpg
+    year: 2016
+    caption: En route to Metepec, we stopped to check a teosinte *mexicana* site in
+      the Mesa Central
+    file: images/album/2016-en-route-to-metepec-stopped-to-check-a-teosinte-mexican-mesa-central-site.jpg
+    thumb: images/album/thumbs/2016-en-route-to-metepec-stopped-to-check-a-teosinte-mexican-mesa-central-site.jpg
+  - source: 2016 Sampling tissue for RNA Seq in Vallarta.jpg
+    year: 2016
+    caption: Sampling tissue for RNA-seq in Vallarta
+    file: images/album/2016-sampling-tissue-for-rna-seq-in-vallarta.jpg
+    thumb: images/album/thumbs/2016-sampling-tissue-for-rna-seq-in-vallarta.jpg
+  - source: 2017 At our highest field in the slopes of the Nevado de Toluca with Ruairidh,
+      Denisse Costich and the farmer we worked with.jpg
+    year: 2017
+    caption: At our highest field, on the slopes of the Nevado de Toluca, with Ruairidh,
+      Denise Costich and the farmer we worked with
+    file: images/album/2017-at-our-highest-field-in-the-slopes-of-the-nevado-de-toluca-with-ruairidh-denisse-costich-and-the-farmer-we-worked-with.jpg
+    thumb: images/album/thumbs/2017-at-our-highest-field-in-the-slopes-of-the-nevado-de-toluca-with-ruairidh-denisse-costich-and-the-farmer-we-worked-with.jpg
+  - source: 2017 Journal club al fresco.jpg
+    year: 2017
+    caption: Journal club al fresco
+    file: images/album/2017-journal-club-al-fresco.jpg
+    thumb: images/album/thumbs/2017-journal-club-al-fresco.jpg
+  - source: 2017 Karla with the best wedding bouquet ever.jpg
+    year: 2017
+    caption: Karla with the best wedding bouquet ever
+    file: images/album/2017-karla-with-the-best-wedding-bouquet-ever.jpg
+    thumb: images/album/thumbs/2017-karla-with-the-best-wedding-bouquet-ever.jpg
+  - source: 2017 Morning meeting in Bucerias before heading to the field.jpg
+    year: 2017
+    caption: Morning meeting in Bucerías before heading to the field
+    file: images/album/2017-morning-meeting-in-bucerias-before-heading-to-the-field.jpg
+    thumb: images/album/thumbs/2017-morning-meeting-in-bucerias-before-heading-to-the-field.jpg
+  - source: 2017 our local diploperennis had babies.jpg
+    year: 2017
+    caption: Our local *diploperennis* had babies
+    file: images/album/2017-our-local-diploperennis-had-babies.jpg
+    thumb: images/album/thumbs/2017-our-local-diploperennis-had-babies.jpg
+  - source: 2018 At the Fat Boy in Bucerias after a long day of nursery work.jpg
+    year: 2018
+    caption: At the Fat Boy in Bucerías after a long day of nursery work
+    file: images/album/2018-at-the-fat-boy-in-bucerias-after-a-long-day-of-nursery-work.jpg
+    thumb: images/album/thumbs/2018-at-the-fat-boy-in-bucerias-after-a-long-day-of-nursery-work.jpg
+  - source: 2018 Planting in the Cimmyt Metepec station with the Cimmyt crew.jpg
+    year: 2018
+    caption: Planting at CIMMYT's Metepec station with the CIMMYT crew
+    file: images/album/2018-planting-in-the-cimmyt-metepec-station-with-the-cimmyt-crew.jpg
+    thumb: images/album/thumbs/2018-planting-in-the-cimmyt-metepec-station-with-the-cimmyt-crew.jpg
+  - source: 2018 Wild teosinte mexicana just outside of Langebio.jpg
+    year: 2018
+    caption: Wild teosinte *mexicana* just outside Langebio
+    file: images/album/2018-wild-teosinte-mexicana-just-outside-of-langebio.jpg
+    thumb: images/album/thumbs/2018-wild-teosinte-mexicana-just-outside-of-langebio.jpg
+  - source: 2019 Ruairidh and Ruben visiting Cimmyt headquarters .jpg
+    year: 2019
+    caption: Ruairidh and Rubén visiting CIMMYT headquarters
+    file: images/album/2019-ruairidh-and-ruben-visiting-cimmyt-headquarters.jpg
+    thumb: images/album/thumbs/2019-ruairidh-and-ruben-visiting-cimmyt-headquarters.jpg
+  - source: 2019_At Cimmyt Metepec Station in front of Norman Borlaug's room.png
+    year: 2019
+    caption: At CIMMYT's Metepec station, in front of Norman Borlaug's room
+    file: images/album/2019-at-cimmyt-metepec-station-in-front-of-norman-borlaug-s-room.jpg
+    thumb: images/album/thumbs/2019-at-cimmyt-metepec-station-in-front-of-norman-borlaug-s-room.jpg
+  - source: 2022 gga symposium and fausto allison and nirwan got awards.jpg
+    year: 2022
+    caption: GGA symposium, where Fausto, Allison and Nirwan got awards
+    file: images/album/2022-gga-symposium-and-fausto-allison-and-nirwan-got-awards.jpg
+    thumb: images/album/thumbs/2022-gga-symposium-and-fausto-allison-and-nirwan-got-awards.jpg
+  - source: 2022 popsicles with jims lab on july 4th.jpg
+    year: 2022
+    caption: Popsicles with Jim's lab on July 4th
+    file: images/album/2022-popsicles-with-jims-lab-on-july-4th.jpg
+    thumb: images/album/thumbs/2022-popsicles-with-jims-lab-on-july-4th.jpg
+  - source: 2022 shannon and destiny harvest.jpg
+    year: 2022
+    caption: Shannon and Destiny at harvest
+    file: images/album/2022-shannon-and-destiny-harvest.jpg
+    thumb: images/album/thumbs/2022-shannon-and-destiny-harvest.jpg
+  - source: 2022 visiting Ruairidh Sawers Lab at PSU.jpg
+    year: 2022
+    caption: Visiting Ruairidh Sawers's lab at PSU
+    file: images/album/2022-visiting-ruairidh-sawers-lab-at-psu.jpg
+    thumb: images/album/thumbs/2022-visiting-ruairidh-sawers-lab-at-psu.jpg
+  - source: 2023 destiny passed her prelims.jpg
+    year: 2023
+    caption: Destiny passed her prelims
+    file: images/album/2023-destiny-passed-her-prelims.jpg
+    thumb: images/album/thumbs/2023-destiny-passed-her-prelims.jpg
+  - source: 2023 Fall (cold) ZeaL RNA sampling 2.jpg
+    year: 2023
+    caption: Fall (cold) ZeaL RNA sampling
+    file: images/album/2023-fall-cold-zeal-rna-sampling-2.jpg
+    thumb: images/album/thumbs/2023-fall-cold-zeal-rna-sampling-2.jpg
+  - source: 2023 Fall (cold) ZeaL RNA sampling 3.jpg
+    year: 2023
+    caption: Fall (cold) ZeaL RNA sampling
+    file: images/album/2023-fall-cold-zeal-rna-sampling-3.jpg
+    thumb: images/album/thumbs/2023-fall-cold-zeal-rna-sampling-3.jpg
+  - source: 2023 Fall (cold) ZeaL RNA sampling 4.jpg
+    year: 2023
+    caption: Fall (cold) ZeaL RNA sampling
+    file: images/album/2023-fall-cold-zeal-rna-sampling-4.jpg
+    thumb: images/album/thumbs/2023-fall-cold-zeal-rna-sampling-4.jpg
+  - source: 2023 Fall (cold) ZeaL RNA sampling.jpg
+    year: 2023
+    caption: Fall (cold) ZeaL RNA sampling
+    file: images/album/2023-fall-cold-zeal-rna-sampling.jpg
+    thumb: images/album/thumbs/2023-fall-cold-zeal-rna-sampling.jpg
+  - source: 2023 gene editing meeting.jpg
+    year: 2023
+    caption: Gene editing meeting
+    file: images/album/2023-gene-editing-meeting.jpg
+    thumb: images/album/thumbs/2023-gene-editing-meeting.jpg
+  - source: 2023 ruben and canela at the field.jpg
+    year: 2023
+    caption: Rubén and Canela in the field
+    file: images/album/2023-ruben-and-canela-at-the-field.jpg
+    thumb: images/album/thumbs/2023-ruben-and-canela-at-the-field.jpg
+  - source: 2023 ruben tenure celebration.jpg
+    year: 2023
+    caption: Rubén's tenure celebration
+    file: images/album/2023-ruben-tenure-celebration.jpg
+    thumb: images/album/thumbs/2023-ruben-tenure-celebration.jpg
+  - source: 2023 spring ZeaL RNA sampling 2.jpg
+    year: 2023
+    caption: Spring ZeaL RNA sampling
+    file: images/album/2023-spring-zeal-rna-sampling-2.jpg
+    thumb: images/album/thumbs/2023-spring-zeal-rna-sampling-2.jpg
+  - source: 2023 spring ZeaL RNA sampling.jpg
+    year: 2023
+    caption: Spring ZeaL RNA sampling
+    file: images/album/2023-spring-zeal-rna-sampling.jpg
+    thumb: images/album/thumbs/2023-spring-zeal-rna-sampling.jpg
+  - source: 2024 after a cerca dissection i think.jpg
+    year: 2024
+    caption: After a CERCA dissection
+    file: images/album/2024-after-a-cerca-dissection-i-think.jpg
+    thumb: images/album/thumbs/2024-after-a-cerca-dissection-i-think.jpg
+  - source: 2024 after maize meeting @ NC.jpg
+    year: 2024
+    caption: After the maize meeting in NC
+    file: images/album/2024-after-maize-meeting-nc.jpg
+    thumb: images/album/thumbs/2024-after-maize-meeting-nc.jpg
+  - source: 2024 after sampling jordan's heirlooms.png
+    year: 2024
+    caption: After sampling Jordan's heirlooms
+    file: images/album/2024-after-sampling-jordan-s-heirlooms.jpg
+    thumb: images/album/thumbs/2024-after-sampling-jordan-s-heirlooms.jpg
+  - source: 2024 fausto and shannon graduation.jpg
+    year: 2024
+    caption: Fausto and Shannon's graduation
+    file: images/album/2024-fausto-and-shannon-graduation.jpg
+    thumb: images/album/thumbs/2024-fausto-and-shannon-graduation.jpg
+  - source: 2024 fausto with a balloon after his defense.jpg
+    year: 2024
+    caption: Fausto with a balloon after his defense
+    file: images/album/2024-fausto-with-a-balloon-after-his-defense.jpg
+    thumb: images/album/thumbs/2024-fausto-with-a-balloon-after-his-defense.jpg
+  - source: 2024 faustos defense.jpg
+    year: 2024
+    caption: Fausto's defense
+    file: images/album/2024-faustos-defense.jpg
+    thumb: images/album/thumbs/2024-faustos-defense.jpg
+  - source: 2024 i think ruben just gave an intrinsyc but another one.jpg
+    year: 2024
+    caption: After Rubén's INTRINSyC talk
+    file: images/album/2024-i-think-ruben-just-gave-an-intrinsyc-but-another-one.jpg
+    thumb: images/album/thumbs/2024-i-think-ruben-just-gave-an-intrinsyc-but-another-one.jpg
+  - source: 2024 i think ruben just gave an intrinsyc but funny.jpg
+    year: 2024
+    caption: After Rubén's INTRINSyC talk
+    file: images/album/2024-i-think-ruben-just-gave-an-intrinsyc-but-funny.jpg
+    thumb: images/album/thumbs/2024-i-think-ruben-just-gave-an-intrinsyc-but-funny.jpg
+  - source: 2024 i think ruben just gave an intrinsyc.jpg
+    year: 2024
+    caption: After Rubén's INTRINSyC talk
+    file: images/album/2024-i-think-ruben-just-gave-an-intrinsyc.jpg
+    thumb: images/album/thumbs/2024-i-think-ruben-just-gave-an-intrinsyc.jpg
+  - source: 2024 katelyn giving a drone demo with the juntos students.jpg
+    year: 2024
+    caption: Katelyn giving a drone demo to the JUNTOS students
+    file: images/album/2024-katelyn-giving-a-drone-demo-with-the-juntos-students.jpg
+    thumb: images/album/thumbs/2024-katelyn-giving-a-drone-demo-with-the-juntos-students.jpg
+  - source: 2024 kuya using the fieldspec.jpg
+    year: 2024
+    caption: Kuya using the FieldSpec
+    file: images/album/2024-kuya-using-the-fieldspec.jpg
+    thumb: images/album/thumbs/2024-kuya-using-the-fieldspec.jpg
+  - source: 2024 pascual the goat harvesting.png
+    year: 2024
+    caption: Pascual, the GOAT, harvesting
+    file: images/album/2024-pascual-the-goat-harvesting.jpg
+    thumb: images/album/thumbs/2024-pascual-the-goat-harvesting.jpg
+  - source: 2024 pascual with the juntos students.jpg
+    year: 2024
+    caption: Pascual with the JUNTOS students
+    file: images/album/2024-pascual-with-the-juntos-students.jpg
+    thumb: images/album/thumbs/2024-pascual-with-the-juntos-students.jpg
+  - source: 2024 ruben eating the blueberry pie hannah made using a tassel bag as
+      a plate.jpg
+    year: 2024
+    caption: Rubén eating the blueberry pie Hannah made, using a tassel bag as a plate
+    file: images/album/2024-ruben-eating-the-blueberry-pie-hannah-made-using-a-tassel-bag-as-a-plate.jpg
+    thumb: images/album/thumbs/2024-ruben-eating-the-blueberry-pie-hannah-made-using-a-tassel-bag-as-a-plate.jpg
+  - source: 2024 some of us with mr and mrs wuf.jpg
+    year: 2024
+    caption: Some of us with Mr. and Mrs. Wuf
+    file: images/album/2024-some-of-us-with-mr-and-mrs-wuf.jpg
+    thumb: images/album/thumbs/2024-some-of-us-with-mr-and-mrs-wuf.jpg
+  - source: 2025 carolina and nirwan wallsits.jpg
+    year: 2025
+    caption: Carolina and Nirwan doing wall sits
+    file: images/album/2025-carolina-and-nirwan-wallsits.jpg
+    thumb: images/album/thumbs/2025-carolina-and-nirwan-wallsits.jpg
+  - source: 2025 nirwan and hannah geared up with the fieldspec.HEIC
+    year: 2025
+    caption: Nirwan and Hannah geared up with the FieldSpec
+    file: images/album/2025-nirwan-and-hannah-geared-up-with-the-fieldspec.jpg
+    thumb: images/album/thumbs/2025-nirwan-and-hannah-geared-up-with-the-fieldspec.jpg
+  - source: 2025 sushi party at hannahs house.jpg
+    year: 2025
+    caption: Sushi party at Hannah's house
+    file: images/album/2025-sushi-party-at-hannahs-house.jpg
+    thumb: images/album/thumbs/2025-sushi-party-at-hannahs-house.jpg
+

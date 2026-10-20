@@ -4,82 +4,46 @@ pagetitle: Photo Album
 output: html_document
 ---
 
+Pick a year to see only its photos. Click a photo to see it larger.
 
----
-<!-- Collage Style Photo Album -->
-<style>
-  .photo-album {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Increase the minimum column width */
-    gap: 20px; /* Adjust the spacing between images */
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1600px; /* Maximize the width for larger screens */
+```{r album, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
+# Builds the album from photos.yml (see the comments in that file). New photos come from
+# the shared drive with scripts/import_photos.R.
+photos <- yaml::read_yaml("photos.yml")$photos
+esc <- function(x) {
+  x <- gsub("&", "&amp;", x, fixed = TRUE)
+  x <- gsub("<", "&lt;", x, fixed = TRUE)
+  x <- gsub(">", "&gt;", x, fixed = TRUE)
+  gsub('"', "&quot;", x, fixed = TRUE)
+}
+md <- function(x) gsub("\\*([^*]+)\\*", "<em>\\1</em>", esc(x))  # *mexicana* in italics
+plain <- function(x) esc(gsub("*", "", x, fixed = TRUE))
+year_of <- vapply(photos, function(p) as.integer(p$year), 0L)
+years <- sort(unique(year_of), decreasing = TRUE)
+n_photos <- function(n) paste(n, if (n == 1) "photo" else "photos")
+
+cat("```{=html}\n",
+    '<link rel="stylesheet" href="assets/photo-album.css">\n',
+    '<div id="photo-album">\n',
+    # Year buttons: plain links to each year's section; photo-album.js turns them into a filter
+    '<nav class="pa-years" aria-label="Show the photos of one year">\n',
+    sprintf('<a class="pa-year" href="#photo-album" data-year="all">All years <span class="pa-n">%d</span></a>\n',
+            length(photos)),
+    paste(sprintf('<a class="pa-year" href="#%d" data-year="%d">%d <span class="pa-n">%d</span></a>',
+                  years, years, years, vapply(years, function(y) sum(year_of == y), 0L)), collapse = "\n"),
+    '\n</nav>\n<p class="pa-status" aria-live="polite"></p>\n', sep = "")
+for (y in years) {
+  ps <- photos[year_of == y]
+  cat(sprintf('<section class="pa-section" id="%d" data-year="%d">\n', y, y),
+      sprintf('<h2 class="pa-heading">%d <span class="pa-n">%s</span></h2>\n', y, n_photos(length(ps))),
+      '<div class="pa-grid">\n', sep = "")
+  for (p in ps) {
+    cat(sprintf(paste0('<figure class="pa-item"><a class="pa-open" href="%s">',
+                       '<img src="%s" alt="%s" loading="lazy" decoding="async"></a>',
+                       '<figcaption>%s</figcaption></figure>\n'),
+                esc(p$file), esc(p$thumb), plain(p$caption), md(p$caption)))
   }
-
-  .photo-album img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px; /* Larger rounded corners */
-    object-fit: cover;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-  }
-
-  .photo-album img:hover {
-    transform: scale(1.2); /* Increase zoom effect on hover */
-    opacity: 0.9;
-  }
-
-  /* Specific classes for large images */
-  .large-img {
-    grid-column: span 2; /* Larger images span two columns */
-    grid-row: span 2; /* Larger images span two rows */
-  }
-
-  .extra-large-img {
-    grid-column: span 3; /* Extra-large images span three columns */
-    grid-row: span 2; /* Extra-large images span two rows */
-  }
-
-  h1 {
-    text-align: left; /* Align the title to the left */
-    font-size: 50px; /* Larger title */
-    color: #2c6b2f; /* Darker green color */
-    margin-bottom: 40px; /* More space below the title */
-    padding-left: 20px; /* Add padding to the left for some spacing */
-  }
-</style>
-
-
-<!-- Image Gallery -->
-<div class="photo-album">
-  <!-- First row of images -->
-  <img src="images/IMG_6091.jpg" class="large-img">
-  <img src="images/PXL_20240619_160211079.jpg">
-  <img src="images/IMG_4816.jpg">
-  <img src="images/wolf.jpg" class="extra-large-img">
-  <img src="images/PXL_20240524_202620539.jpg" class="large-img">
-  
-
-  <!-- Second row of images -->
-  <img src="images/20241212_135930.jpg">
-  <img src="images/PXL_20240619_151659240.jpg">
-  <img src="images/image (2).png" class="large-img">
-  <img src="images/20240301_203614.jpg">
-
-  <!-- Third row of images -->
-  <img src="images/ruben.jpg">
-  <img src="images/IMG_6097.jpg">
-
-  <!-- Fourth row of images -->
-  <img src="images/IMG_6087.jpg">
-  <img src="images/20240616_092651.jpg">
- 
-   <!-- Fifth row of images -->
-  <img src="images/gruandruben.png" class="large-img">
-  <img src="images/minions.png">
-
-  <!-- Sixth row of images -->
-  <img src="images/bar.png" class="extra-large-img">
-  <img src="images/20250113_112944.jpg">
-</div>
+  cat("</div>\n</section>\n")
+}
+cat('</div>\n<script src="assets/photo-album.js"></script>\n', "```\n", sep = "")
+```
