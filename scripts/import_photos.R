@@ -8,7 +8,9 @@
 # writes web-sized copies with ImageMagick (images/album/, thumbnails in images/album/thumbs/),
 # turned upright and with camera metadata (including GPS location) removed, and adds new photos
 # to photos.yml. Captions already in photos.yml are kept, so fix captions there. Videos,
-# subfolders and files without a year are skipped. Then render the page:
+# subfolders and files without a year are skipped. A photo that is not in the folder can be
+# added to photos.yml by hand, with `source:` set to its path in this repository.
+# Then render the page:
 #   Rscript -e 'rmarkdown::render_site("photos.Rmd")'
 # Needs ImageMagick (brew install imagemagick).
 
@@ -88,6 +90,7 @@ for (f in sort(files)) {
 }
 
 gone <- setdiff(known, files)
+gone <- gone[!file.exists(gone)]   # photos added by hand from this repository are not gone
 header <- c(
   "# Lab photo album. photos.Rmd builds the Photo Album page from this file.",
   "#",

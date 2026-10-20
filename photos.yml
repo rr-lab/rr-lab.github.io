@@ -217,7 +217,8 @@ photos:
     thumb: images/album/thumbs/2024-ruben-eating-the-blueberry-pie-hannah-made-using-a-tassel-bag-as-a-plate.jpg
   - source: 2024 some of us with mr and mrs wuf.jpg
     year: 2024
-    caption: Some of us with Mr. and Mrs. Wuf
+    caption: Some of us with Mr. and Mrs. Wuf, celebrating 100 years of Crop and Soil
+      Sciences
     file: images/album/2024-some-of-us-with-mr-and-mrs-wuf.jpg
     thumb: images/album/thumbs/2024-some-of-us-with-mr-and-mrs-wuf.jpg
   - source: 2025 carolina and nirwan wallsits.jpg
@@ -235,4 +236,9 @@ photos:
     caption: Sushi party at Hannah's house
     file: images/album/2025-sushi-party-at-hannahs-house.jpg
     thumb: images/album/thumbs/2025-sushi-party-at-hannahs-house.jpg
+  - source: images/2022_nursery.jpg
+    year: 2022
+    caption: Summer nursery
+    file: images/album/2022-summer-nursery.jpg
+    thumb: images/album/thumbs/2022-summer-nursery.jpg
 

@@ -7,25 +7,6 @@ output: html_document
 
 ---
 
-
-<!-- Centered Images -->
-<style>
-  .centered {
-    text-align: center;
-  }
-</style>
-
-<div class="centered">
-  <img src="images/2022_nursery.jpg" style="width: 600px;">
-  <br>
-  <strong>Summer 2022 Nursery</strong>
-  <br><br>
-
-  <img src="images/wolf.jpg" style="width: 600px;">
-  <br>
-  <strong>Celebrating 100 Years of Crop and Soil Sciences - 2024</strong>
-</div>
-
 ## **GEMMA lab crew**
 
 ```{r crew, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
