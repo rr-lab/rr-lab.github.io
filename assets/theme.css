@@ -75,6 +75,16 @@ html[data-theme="dark"] .person-card { border-bottom-color: #3a3d31; }
 html[data-theme="dark"] .person-photo { background: #2a2d24; box-shadow: 0 0 0 1px #3a3d31; }
 html[data-theme="dark"] .person-role { color: #c9bf9f; }
 
+/* People filters (assets/people-filter.css) */
+html[data-theme="dark"] .pf-label,
+html[data-theme="dark"] .pf-n { color: #c9bf9f; }
+html[data-theme="dark"] .pf-chip { background: #2a2d24; border-color: #4a4d3f; color: #c5e1a5; }
+html[data-theme="dark"] .pf-chip:hover { background: #33402a; }
+html[data-theme="dark"] .pf-chip[aria-pressed="true"] { background: #9ccc65; border-color: #9ccc65; color: #1a1c16; }
+html[data-theme="dark"] .pf-chip[aria-pressed="true"] .pf-dot { box-shadow: 0 0 0 2px #1a1c16; }
+html[data-theme="dark"] .pf-chip[aria-pressed="true"] .pf-n { color: #2e3a22; }
+html[data-theme="dark"] .pf-reset { color: #8ab4f8; text-decoration-color: rgba(138, 180, 248, 0.45); }
+
 /* Research map and the CRISPR gene boxes (assets/research-map.css) */
 html[data-theme="dark"] #research-map { background: #23261e; border-color: #3a3d31; }
 html[data-theme="dark"] .rm-chip { background: #2a2d24; border-color: #4a4d3f; color: #c5e1a5; }

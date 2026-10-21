@@ -330,8 +330,13 @@ $(document).ready(function () {
 
 
 <hr />
+<link rel="stylesheet" href="assets/people-filter.css">
+<div id="people-filter"></div>
+<script type="application/json" id="people-filter-data">{"groups":[{"id":"principal-investigator","label":"PI"},{"id":"postdocs","label":"Postdocs"},{"id":"graduate-students","label":"Graduate students"},{"id":"undergraduate-researchers","label":"Undergraduates"},{"id":"staff","label":"Staff"}],"themes":[{"id":"genetics","label":"Genetics and prediction","color":"#2D6FB8"},{"id":"evolution","label":"Evolution and highland adaptation","color":"#B4561A"},{"id":"metabolism","label":"Lipid metabolism","color":"#6A4BB5"},{"id":"resilience","label":"Resilient, efficient crops","color":"#4E7D2B"}]}</script>
+<script src="assets/people-filter.js"></script>
 <div class="people-grid">
-<div class="person-card">
+<div class="person-card" data-group="undergraduate-researchers"
+data-themes="">
 <p><img class="person-photo" src="images/people/brock-davis.jpg" alt="Photo of Brock Davis" loading="lazy"></p>
 <p class="person-name">
 Brock Davis
@@ -340,7 +345,8 @@ Brock Davis
 major</span></p>
 <p>Brock joined the lab in 2025.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="postdocs"
+data-themes="genetics metabolism">
 <p><img class="person-photo" src="images/people/fausto-rodriguez-zapata.jpg" alt="Photo of Fausto Rodríguez Zapata" loading="lazy"></p>
 <p class="person-name">
 Fausto Rodríguez Zapata
@@ -353,7 +359,7 @@ phosphorus deficiency.</p>
 <a href="https://github.com/faustovrz" aria-label="GitHub"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
 </p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="graduate-students" data-themes="">
 <p><img class="person-photo" src="images/people/hannah-pil.jpg" alt="Photo of Hannah Pil" loading="lazy"></p>
 <p class="person-name">
 Hannah Pil
@@ -363,7 +369,7 @@ Hannah Pil
 then <a href="https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6">she has
 become a master corn pollinator</a>.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="postdocs" data-themes="resilience">
 <p><img class="person-photo" src="images/people/jill-love.jpg" alt="Photo of Jill Love" loading="lazy"></p>
 <p class="person-name">
 Jill Love
@@ -375,7 +381,8 @@ and <a
 href="https://sustainablesoils.wordpress.ncsu.edu/research-group/">Alex
 Woodley</a>.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="graduate-students"
+data-themes="metabolism">
 <p><img class="person-photo" src="images/people/lauren-insko.jpg" alt="Photo of Lauren Insko" loading="lazy"></p>
 <p class="person-name">
 Lauren Insko
@@ -387,7 +394,7 @@ regulatory elements of the gene <em>High PhosphatidylCholine 1</em> as
 well as identifying structural elements of the phospholipase protein
 product.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="staff" data-themes="resilience">
 <p><img class="person-photo" src="images/people/lina-lopez-corona.jpg" alt="Photo of Lina López-Corona" loading="lazy"></p>
 <p class="person-name">
 Lina López-Corona
@@ -396,7 +403,8 @@ Lina López-Corona
 project</span></p>
 <p>Lina joined the lab in fall 2023.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="undergraduate-researchers"
+data-themes="">
 <p><img class="person-photo" src="images/people/maheera-hassan.jpg" alt="Photo of Maheera Hassan" loading="lazy"></p>
 <p class="person-name">
 Maheera Hassan
@@ -405,7 +413,8 @@ Maheera Hassan
 major</span></p>
 <p>Maheera joined the lab in 2026.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="postdocs"
+data-themes="genetics metabolism">
 <p><img class="person-photo" src="images/people/nirwan-tandukar.jpg" alt="Photo of Nirwan Tandukar" loading="lazy"></p>
 <p class="person-name">
 Nirwan Tandukar
@@ -418,7 +427,8 @@ adaptation to abiotic stresses, and built the <a
 href="https://nirwan.shinyapps.io/SAP-Lipidomics-Database/">Sorghum
 Lipid Database</a>.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="staff"
+data-themes="genetics evolution metabolism resilience">
 <p><img class="person-photo" src="images/people/pascual-blanco.jpg" alt="Photo of Pascual Blanco" loading="lazy"></p>
 <p class="person-name">
 Pascual Blanco
@@ -427,7 +437,8 @@ Pascual Blanco
 <p>Pascual joined the lab in fall 2021. He manages all our field
 operations.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="principal-investigator"
+data-themes="genetics evolution metabolism resilience">
 <p><img class="person-photo" src="images/people/ruben-rellan-alvarez.jpg" alt="Photo of Rubén Rellán-Álvarez" loading="lazy"></p>
 <p class="person-name">
 Rubén Rellán-Álvarez
@@ -441,7 +452,8 @@ Structural Biochemistry at NC State.</p>
 <a href="https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing" aria-label="CV"><i class="fa fa-file-text" aria-hidden="true"></i></a>
 </p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="undergraduate-researchers"
+data-themes="">
 <p><img class="person-photo" src="images/people/sam-strimple.jpg" alt="Photo of Sam Strimple" loading="lazy"></p>
 <p class="person-name">
 Sam Strimple
@@ -450,7 +462,8 @@ Sam Strimple
 major</span></p>
 <p>Sam joined the lab in 2026.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="undergraduate-researchers"
+data-themes="">
 <p><img class="person-photo" src="images/people/sanaa-jain.jpg" alt="Photo of Sanaa Jain" loading="lazy"></p>
 <p class="person-name">
 Sanaa Jain
@@ -459,7 +472,8 @@ Sanaa Jain
 major</span></p>
 <p>Sanaa joined the lab in 2026 through the SAPLINGs program.</p>
 </div>
-<div class="person-card">
+<div class="person-card" data-group="graduate-students"
+data-themes="evolution resilience">
 <p><img class="person-photo" src="images/people/zehta-fazler.jpg" alt="Photo of Zehta Fazler" loading="lazy"></p>
 <p class="person-name">
 Zehta Fazler

@@ -5,10 +5,16 @@
 # To add a photo: save a square headshot (about 400 x 400 px) as images/people/<photo name>
 #   and set `photo:` to that path. If the file is missing, the card shows a corn-ear placeholder.
 # Bios and roles can use Markdown (*italics*, [links](https://...)).
+# group:  the role filter on the page: Principal investigator, Postdocs, Graduate students,
+#         Undergraduate researchers or Staff.
+# themes: the research-theme filter, by the theme ids in research_map.yml (genetics, evolution,
+#         metabolism, resilience). A person can have several themes, or none ([]).
 
 current:
   - name: Rubén Rellán-Álvarez
     role: Principal Investigator
+    group: Principal investigator
+    themes: [genetics, evolution, metabolism, resilience]
     photo: images/people/ruben-rellan-alvarez.jpg
     bio: >-
       Rubén is an Associate Professor in the Department of Molecular and Structural
@@ -20,6 +26,8 @@ current:
 
   - name: Fausto Rodríguez Zapata
     role: Postdoc
+    group: Postdocs
+    themes: [genetics, metabolism]
     photo: images/people/fausto-rodriguez-zapata.jpg
     bio: >-
       Fausto studies maize glycerolipid quantitative and population genetics and genetic
@@ -28,6 +36,8 @@ current:
       - {icon: fa-github-alt, label: GitHub, url: "https://github.com/faustovrz"}
   - name: Jill Love
     role: Postdoc
+    group: Postdocs
+    themes: [resilience]
     photo: images/people/jill-love.jpg
     bio: >-
       Jill joined the lab in 2026. She works on the ARPA-E NSave Maize project with
@@ -35,6 +45,8 @@ current:
       [Alex Woodley](https://sustainablesoils.wordpress.ncsu.edu/research-group/).
   - name: Nirwan Tandukar
     role: Postdoc
+    group: Postdocs
+    themes: [genetics, metabolism]
     photo: images/people/nirwan-tandukar.jpg
     bio: >-
       Nirwan joined the lab in January 2022 as a PhD student, completed his PhD in July 2026
@@ -44,27 +56,37 @@ current:
 
   - name: Pascual Blanco
     role: Field Technician
+    group: Staff
+    themes: [genetics, evolution, metabolism, resilience]
     photo: images/people/pascual-blanco.jpg
     bio: Pascual joined the lab in fall 2021. He manages all our field operations.
   - name: Lina López-Corona
     role: Project Manager, ARPA-E NSave Maize project
+    group: Staff
+    themes: [resilience]
     photo: images/people/lina-lopez-corona.jpg
     bio: Lina joined the lab in fall 2023.
 
   - name: Hannah Pil
     role: PhD Candidate, Genetics Program
+    group: Graduate students
+    themes: []
     photo: images/people/hannah-pil.jpg
     bio: >-
       Hannah joined the lab in summer 2021 as an undergraduate and since then
       [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
   - name: Zehta Fazler
     role: PhD Student, Genetics Program
+    group: Graduate students
+    themes: [evolution, resilience]
     photo: images/people/zehta-fazler.jpg
     bio: >-
       Zehta joined the lab in December 2024. She is working on the genetic mechanisms that
       drive cold stress tolerance, with an emphasis on evolutionary diversity in maize.
   - name: Lauren Insko
     role: PhD Student, Structural and Molecular Biochemistry Program
+    group: Graduate students
+    themes: [metabolism]
     photo: images/people/lauren-insko.jpg
     bio: >-
       Lauren joined the lab in January 2025. She is working on identifying regulatory
@@ -73,18 +95,26 @@ current:
 
   - name: Brock Davis
     role: Undergraduate Researcher, Genetics major
+    group: Undergraduate researchers
+    themes: []
     photo: images/people/brock-davis.jpg
     bio: Brock joined the lab in 2025.
   - name: Sanaa Jain
     role: Undergraduate Researcher, Biochemistry major
+    group: Undergraduate researchers
+    themes: []
     photo: images/people/sanaa-jain.jpg
     bio: Sanaa joined the lab in 2026 through the SAPLINGs program.
   - name: Maheera Hassan
     role: Undergraduate Researcher, Genetics major
+    group: Undergraduate researchers
+    themes: []
     photo: images/people/maheera-hassan.jpg
     bio: Maheera joined the lab in 2026.
   - name: Sam Strimple
     role: Undergraduate Researcher, Genetics major
+    group: Undergraduate researchers
+    themes: []
     photo: images/people/sam-strimple.jpg
     bio: Sam joined the lab in 2026.
 
