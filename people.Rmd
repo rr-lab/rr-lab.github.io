@@ -19,14 +19,24 @@ card <- function(p) {
   } else {
     '<img class="person-photo is-placeholder" src="images/people/corn-ear.svg" alt="">'
   }
-  links <- ""
-  if (length(p$links)) {
-    links <- paste0('<p class="person-links">', paste(vapply(p$links, function(l)
-      sprintf('<a href="%s" aria-label="%s"><i class="fa %s" aria-hidden="true"></i></a>',
-              l$url, l$label, l$icon), ""), collapse = " "), "</p>")
+  # Email, GitHub, LinkedIn and website from their own fields, then any other links (a CV)
+  linkedin <- p$linkedin
+  if (!is.null(linkedin) && !grepl("^https?://", linkedin)) {
+    linkedin <- paste0("https://www.linkedin.com/in/", linkedin, "/")
   }
-  # data-group and data-themes are what the filters above the grid select on
-  attrs <- sprintf(' data-group="%s" data-themes="%s"', slug(p$group), paste(unlist(p$themes), collapse = " "))
+  all_links <- c(Filter(Negate(is.null), list(
+    if (!is.null(p$email)) list(icon = "fa-envelope", label = "Email", url = paste0("mailto:", p$email)),
+    if (!is.null(p$github)) list(icon = "fa-github", label = "GitHub", url = paste0("https://github.com/", p$github)),
+    if (!is.null(linkedin)) list(icon = "fa-linkedin", label = "LinkedIn", url = linkedin),
+    if (!is.null(p$website)) list(icon = "fa-globe", label = "Website", url = p$website))), p$links)
+  links <- ""
+  if (length(all_links)) {
+    links <- paste0('<p class="person-links">', paste(vapply(all_links, function(l)
+      sprintf('<a href="%s" aria-label="%s: %s" title="%s"><i class="fa %s" aria-hidden="true"></i></a>',
+              l$url, l$label, p$name, l$label, l$icon), ""), collapse = " "), "</p>")
+  }
+  # data-group is what the role filter above the grid selects on
+  attrs <- sprintf(' data-group="%s"', slug(p$group))
   paste0("::: {.person-card", attrs, "}\n", photo, "\n\n",
          '<p class="person-name">', p$name, "</p>\n\n",
          "[", p$role, "]{.person-role}\n\n",
@@ -34,15 +44,12 @@ card <- function(p) {
          links, "\n:::\n\n")
 }
 
-# Filters above the grid, by role (group in people.yml) and by research theme (themes, with the
-# labels and colours of research_map.yml). assets/people-filter.js builds the buttons.
+# Role filter above the grid (group in people.yml). assets/people-filter.js builds the buttons.
 groups <- c("Principal investigator" = "PI", "Postdocs" = "Postdocs",
             "Graduate students" = "Graduate students",
             "Undergraduate researchers" = "Undergraduates", "Staff" = "Staff")
-themes <- yaml::read_yaml("research_map.yml")$themes
 filter_data <- list(
-  groups = unname(Map(function(g, label) list(id = slug(g), label = label), names(groups), groups)),
-  themes = lapply(themes, function(x) list(id = x$id, label = x$label, color = x$color)))
+  groups = unname(Map(function(g, label) list(id = slug(g), label = label), names(groups), groups)))
 cat("```{=html}\n",
     '<link rel="stylesheet" href="assets/people-filter.css">\n',
     '<div id="people-filter"></div>\n',

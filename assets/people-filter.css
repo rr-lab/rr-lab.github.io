@@ -1,5 +1,5 @@
-/* People page filters (assets/people-filter.js builds them from people.yml and
-   research_map.yml). Colours follow styles.css; dark mode is in assets/theme.css. */
+/* People page role filter (assets/people-filter.js builds it from people.yml).
+   Colours follow styles.css; dark mode is in assets/theme.css. */
 #people-filter { margin: 12px 0 8px; }
 .pf-row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0 0 10px; }
 .pf-label {
@@ -28,10 +28,8 @@
 }
 .pf-chip:hover { background: #dcedc8; }
 .pf-chip[aria-pressed="true"] { background: #33691e; border-color: #33691e; color: #ffffff; }
-.pf-chip[aria-pressed="true"] .pf-dot { box-shadow: 0 0 0 2px #ffffff; }
 .pf-chip:focus-visible,
 .pf-reset:focus-visible { outline: 3px solid #ffd54f; outline-offset: 2px; }
-.pf-dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 auto; }
 .pf-n { font-size: 13px; color: #6d5f3a; }
 .pf-chip[aria-pressed="true"] .pf-n { color: #e8f5e9; }
 .pf-status { margin: 2px 0 0; }
