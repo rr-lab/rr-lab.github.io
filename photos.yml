@@ -305,4 +305,9 @@ photos:
     caption: Moving from Polk to PSB
     file: images/album/2025-moving-from-polk-to-psb.jpg
     thumb: images/album/thumbs/2025-moving-from-polk-to-psb.jpg
+  - source: images/nevado_de_toluca.png
+    year: 2017
+    caption: Highland field site on the slopes of the Nevado de Toluca
+    file: images/album/2017-nevado-de-toluca-highland-field-site.jpg
+    thumb: images/album/thumbs/2017-nevado-de-toluca-highland-field-site.jpg
 

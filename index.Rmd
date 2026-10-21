@@ -2,9 +2,15 @@
 pagetitle: GEMMALAB
 ---
 
-<!-- break -->
-
-<br> <br> <!-- break -->
+```{=html}
+<div class="home-banner">
+  <img src="images/banner/teosinte-maize-jalisco-1800.jpg"
+       srcset="images/banner/teosinte-maize-jalisco-1200.jpg 1200w,
+               images/banner/teosinte-maize-jalisco-1800.jpg 1800w,
+               images/banner/teosinte-maize-jalisco-2400.jpg 2400w"
+       sizes="100vw" alt="Teosinte growing in a maize field in Jalisco, Mexico" fetchpriority="high">
+</div>
+```
 
 # **G**enetics, **E**volution and **M**etabolism of **M**aize **A**daptation Lab  
 
@@ -39,5 +45,4 @@ Room 3122 (Office), Room 3110 (Shared open space), Room 3105 (Shared wet lab)</p
 
 <!-- Images  -->
 
-<div class="home-photo"><img src="images/nevado_de_toluca.png" alt="Nevado de Toluca highland site"></div>
 

@@ -196,23 +196,27 @@ details summary {
 }
 .tools-group + .tools-grid { margin-top: 18px; }
 
-/* Home page: the "Interested in joining our lab?" box and the photo below it
-   share one width and are centered, so their edges line up at every screen size. */
-.home-join,
-.home-photo {
+/* Home page: the "Interested in joining our lab?" box, centred */
+.home-join {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-.home-join {
   background: #e8f5e9;
   border-radius: 10px;
   padding: 16px 20px;
 }
-.home-photo { margin-top: 20px; }
-.home-photo img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+
+/* Home page banner: the full width of the window, directly under the menu. As it is cropped
+   to a strip, the image keeps the teosinte tassels and the mountain in view. */
+body { overflow-x: clip; }   /* so the full-width banner never adds a sideways scroll */
+.home-banner {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: -15px;   /* the page leaves 75px above the content for the 60px menu */
+  margin-bottom: 28px;
+  height: 420px;
+  overflow: hidden;
+  background: #dcedc8;
 }
+.home-banner img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 40% 35%; }
+@media (max-width: 600px) { .home-banner { height: 220px; } }
