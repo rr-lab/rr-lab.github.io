@@ -71,7 +71,6 @@ html[data-theme="dark"] .btn:hover { background-color: #4d4420; }
 html[data-theme="dark"] .home-join { background: #22301f; }
 
 /* People */
-html[data-theme="dark"] .people-grid { border-top-color: #9ccc65; }
 html[data-theme="dark"] .person-card { border-bottom-color: #3a3d31; }
 html[data-theme="dark"] .person-photo { background: #2a2d24; box-shadow: 0 0 0 1px #3a3d31; }
 html[data-theme="dark"] .person-role { color: #c9bf9f; }

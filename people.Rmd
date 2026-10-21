@@ -30,11 +30,11 @@ card <- function(p) {
          links, "\n:::\n\n")
 }
 
-for (g in people$current) {
-  cat("### ", g$group, "\n\n:::: {.people-grid}\n", sep = "")
-  for (p in g$members) cat(card(p))
-  cat("::::\n\n")
-}
+# Everyone in one grid, in alphabetical order by first name (accents ignored).
+names <- vapply(people$current, function(p) p$name, "")
+cat(":::: {.people-grid}\n")
+for (p in people$current[order(tolower(iconv(names, "UTF-8", "ASCII//TRANSLIT")))]) cat(card(p))
+cat("::::\n\n")
 
 cat("### **Former lab members**\n\n::: {.former-list}\n")
 for (p in people$former) cat("- **", p$name, "** ", p$role, "\n", sep = "")

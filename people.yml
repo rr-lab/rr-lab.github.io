@@ -1,101 +1,92 @@
 # People page data. people.Rmd builds the cards from this file.
 #
-# To add a person: copy an entry into the right group.
+# To add a person: copy an entry anywhere under `current:`. The page shows everyone in one grid,
+#   in alphabetical order by first name, so the order here does not matter.
 # To add a photo: save a square headshot (about 400 x 400 px) as images/people/<photo name>
 #   and set `photo:` to that path. If the file is missing, the card shows a corn-ear placeholder.
 # Bios and roles can use Markdown (*italics*, [links](https://...)).
 
 current:
-  - group: Principal investigator
-    members:
-      - name: Rubén Rellán-Álvarez
-        role: Principal Investigator
-        photo: images/people/ruben-rellan-alvarez.jpg
-        bio: >-
-          Rubén is an Associate Professor in the Department of Molecular and Structural
-          Biochemistry at NC State.
-        links:
-          - {icon: fa-github-alt, label: GitHub, url: "https://github.com/rellan"}
-          - {icon: fa-envelope, label: Email, url: "mailto:rrellan@ncsu.edu"}
-          - {icon: fa-file-text, label: CV, url: "https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing"}
+  - name: Rubén Rellán-Álvarez
+    role: Principal Investigator
+    photo: images/people/ruben-rellan-alvarez.jpg
+    bio: >-
+      Rubén is an Associate Professor in the Department of Molecular and Structural
+      Biochemistry at NC State.
+    links:
+      - {icon: fa-github-alt, label: GitHub, url: "https://github.com/rellan"}
+      - {icon: fa-envelope, label: Email, url: "mailto:rrellan@ncsu.edu"}
+      - {icon: fa-file-text, label: CV, url: "https://docs.google.com/document/d/1E65ePNEtdPm-f0BjjZN7RnOAzFzaW1RXS_hcn-Y8_Ls/edit?usp=sharing"}
 
-  - group: Postdocs
-    members:
-      - name: Fausto Rodríguez Zapata
-        role: Postdoc
-        photo: images/people/fausto-rodriguez-zapata.jpg
-        bio: >-
-          Fausto studies maize glycerolipid quantitative and population genetics and genetic
-          associations with soil variables involved in phosphorus deficiency.
-        links:
-          - {icon: fa-github-alt, label: GitHub, url: "https://github.com/faustovrz"}
-      - name: Jill Love
-        role: Postdoc
-        photo: images/people/jill-love.jpg
-        bio: >-
-          Jill joined the lab in 2026. She works on the ARPA-E NSave Maize project with
-          [Joe Gage](https://gagelab.wordpress.ncsu.edu/) and
-          [Alex Woodley](https://sustainablesoils.wordpress.ncsu.edu/research-group/).
-      - name: Nirwan Tandukar
-        role: Postdoc
-        photo: images/people/nirwan-tandukar.jpg
-        bio: >-
-          Nirwan joined the lab in January 2022 as a PhD student, completed his PhD in July 2026
-          and is now a postdoc in the lab. He develops approaches that use multiple genetic
-          datasets to identify genes involved in adaptation to abiotic stresses, and built the
-          [Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).
+  - name: Fausto Rodríguez Zapata
+    role: Postdoc
+    photo: images/people/fausto-rodriguez-zapata.jpg
+    bio: >-
+      Fausto studies maize glycerolipid quantitative and population genetics and genetic
+      associations with soil variables involved in phosphorus deficiency.
+    links:
+      - {icon: fa-github-alt, label: GitHub, url: "https://github.com/faustovrz"}
+  - name: Jill Love
+    role: Postdoc
+    photo: images/people/jill-love.jpg
+    bio: >-
+      Jill joined the lab in 2026. She works on the ARPA-E NSave Maize project with
+      [Joe Gage](https://gagelab.wordpress.ncsu.edu/) and
+      [Alex Woodley](https://sustainablesoils.wordpress.ncsu.edu/research-group/).
+  - name: Nirwan Tandukar
+    role: Postdoc
+    photo: images/people/nirwan-tandukar.jpg
+    bio: >-
+      Nirwan joined the lab in January 2022 as a PhD student, completed his PhD in July 2026
+      and is now a postdoc in the lab. He develops approaches that use multiple genetic
+      datasets to identify genes involved in adaptation to abiotic stresses, and built the
+      [Sorghum Lipid Database](https://nirwan.shinyapps.io/SAP-Lipidomics-Database/).
 
-  - group: Staff
-    members:
-      - name: Pascual Blanco
-        role: Field Technician
-        photo: images/people/pascual-blanco.jpg
-        bio: Pascual joined the lab in fall 2021. He manages all our field operations.
-      - name: Lina López-Corona
-        role: Project Manager, ARPA-E NSave Maize project
-        photo: images/people/lina-lopez-corona.jpg
-        bio: Lina joined the lab in fall 2023.
+  - name: Pascual Blanco
+    role: Field Technician
+    photo: images/people/pascual-blanco.jpg
+    bio: Pascual joined the lab in fall 2021. He manages all our field operations.
+  - name: Lina López-Corona
+    role: Project Manager, ARPA-E NSave Maize project
+    photo: images/people/lina-lopez-corona.jpg
+    bio: Lina joined the lab in fall 2023.
 
-  - group: Graduate students
-    members:
-      - name: Hannah Pil
-        role: PhD Candidate, Genetics Program
-        photo: images/people/hannah-pil.jpg
-        bio: >-
-          Hannah joined the lab in summer 2021 as an undergraduate and since then
-          [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
-      - name: Zehta Fazler
-        role: PhD Student, Genetics Program
-        photo: images/people/zehta-fazler.jpg
-        bio: >-
-          Zehta joined the lab in December 2024. She is working on the genetic mechanisms that
-          drive cold stress tolerance, with an emphasis on evolutionary diversity in maize.
-      - name: Lauren Insko
-        role: PhD Student, Structural and Molecular Biochemistry Program
-        photo: images/people/lauren-insko.jpg
-        bio: >-
-          Lauren joined the lab in January 2025. She is working on identifying regulatory
-          elements of the gene *High PhosphatidylCholine 1* as well as identifying structural
-          elements of the phospholipase protein product.
+  - name: Hannah Pil
+    role: PhD Candidate, Genetics Program
+    photo: images/people/hannah-pil.jpg
+    bio: >-
+      Hannah joined the lab in summer 2021 as an undergraduate and since then
+      [she has become a master corn pollinator](https://photos.app.goo.gl/B7gZ5gMczcBoPXcG6).
+  - name: Zehta Fazler
+    role: PhD Student, Genetics Program
+    photo: images/people/zehta-fazler.jpg
+    bio: >-
+      Zehta joined the lab in December 2024. She is working on the genetic mechanisms that
+      drive cold stress tolerance, with an emphasis on evolutionary diversity in maize.
+  - name: Lauren Insko
+    role: PhD Student, Structural and Molecular Biochemistry Program
+    photo: images/people/lauren-insko.jpg
+    bio: >-
+      Lauren joined the lab in January 2025. She is working on identifying regulatory
+      elements of the gene *High PhosphatidylCholine 1* as well as identifying structural
+      elements of the phospholipase protein product.
 
-  - group: Undergraduate researchers
-    members:
-      - name: Brock Davis
-        role: Undergraduate Researcher, Genetics major
-        photo: images/people/brock-davis.jpg
-        bio: Brock joined the lab in 2025.
-      - name: Sanaa Jain
-        role: Undergraduate Researcher, Biochemistry major
-        photo: images/people/sanaa-jain.jpg
-        bio: Sanaa joined the lab in 2026 through the SAPLINGs program.
-      - name: Maheera Hassan
-        role: Undergraduate Researcher, Genetics major
-        photo: images/people/maheera-hassan.jpg
-        bio: Maheera joined the lab in 2026.
-      - name: Sam Strimple
-        role: Undergraduate Researcher, Genetics major
-        photo: images/people/sam-strimple.jpg
-        bio: Sam joined the lab in 2026.
+  - name: Brock Davis
+    role: Undergraduate Researcher, Genetics major
+    photo: images/people/brock-davis.jpg
+    bio: Brock joined the lab in 2025.
+  - name: Sanaa Jain
+    role: Undergraduate Researcher, Biochemistry major
+    photo: images/people/sanaa-jain.jpg
+    bio: Sanaa joined the lab in 2026 through the SAPLINGs program.
+  - name: Maheera Hassan
+    role: Undergraduate Researcher, Genetics major
+    photo: images/people/maheera-hassan.jpg
+    bio: Maheera joined the lab in 2026.
+  - name: Sam Strimple
+    role: Undergraduate Researcher, Genetics major
+    photo: images/people/sam-strimple.jpg
+    bio: Sam joined the lab in 2026.
 
 former:
   - {name: Carolina Escalona-Weldt, role: Lab Manager/Technician}
