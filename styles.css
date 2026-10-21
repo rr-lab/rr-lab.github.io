@@ -119,7 +119,7 @@ details summary {
 }
 
 /* People cards (people.Rmd builds them from people.yml).
-   Headshot size, rules and hover follow the quarto-redesign branch, in this site's colours. */
+   Headshot size and rules follow the quarto-redesign branch, in this site's colours. */
 .people-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -143,11 +143,7 @@ details summary {
   border-radius: 50%;
   background: #f6f1d6;
   box-shadow: 0 0 0 1px #e3dab3;
-  transition: filter .2s ease;
 }
-.person-card img.person-photo:not(.is-placeholder) { filter: url(#gemma-duotone); }
-.person-card:hover img.person-photo:not(.is-placeholder),
-.person-card:focus-within img.person-photo:not(.is-placeholder) { filter: none; }
 .person-name { font-weight: 700; font-size: 21px; line-height: 1.3; }
 .person-role { display: block; font-size: 17px; font-weight: 600; color: #6d5f3a; margin-bottom: 8px; }
 .person-card > p:not(.person-name):not(.person-links) { font-size: 18px; }

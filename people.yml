@@ -3,7 +3,6 @@
 # To add a person: copy an entry into the right group.
 # To add a photo: save a square headshot (about 400 x 400 px) as images/people/<photo name>
 #   and set `photo:` to that path. If the file is missing, the card shows a corn-ear placeholder.
-# Photos appear in the site's green duotone and switch to full colour when a visitor hovers over the card.
 # Bios and roles can use Markdown (*italics*, [links](https://...)).
 
 current:
@@ -33,7 +32,10 @@ current:
       - name: Jill Love
         role: Postdoc
         photo: images/people/jill-love.jpg
-        bio: Jill joined the lab in 2026.
+        bio: >-
+          Jill joined the lab in 2026. She works on the ARPA-E NSave Maize project with
+          [Joe Gage](https://gagelab.wordpress.ncsu.edu/) and
+          [Alex Woodley](https://sustainablesoils.wordpress.ncsu.edu/research-group/).
       - name: Nirwan Tandukar
         role: Postdoc
         photo: images/people/nirwan-tandukar.jpg

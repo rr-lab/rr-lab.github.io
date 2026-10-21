@@ -7,22 +7,9 @@ output: html_document
 
 ---
 
-## **GEMMA lab crew**
-
 ```{r crew, echo=FALSE, results='asis', warning=FALSE, message=FALSE}
 # Builds the people cards from people.yml (see the comments in that file).
 people <- yaml::yaml.load(paste(readLines("people.yml", encoding = "UTF-8", warn = FALSE), collapse = "\n"))
-
-# Headshots are shown in the site's green duotone and switch to full colour on hover.
-cat("```{=html}\n",
-    '<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">',
-    '<filter id="gemma-duotone" color-interpolation-filters="sRGB">',
-    '<feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0.2126 0.7152 0.0722 0 0  0 0 0 1 0"/>',
-    '<feComponentTransfer>',
-    '<feFuncR type="table" tableValues="0.200 1.000"/>',
-    '<feFuncG type="table" tableValues="0.412 0.992"/>',
-    '<feFuncB type="table" tableValues="0.118 0.906"/>',
-    '</feComponentTransfer></filter></svg>\n```\n\n', sep = "")
 
 card <- function(p) {
   photo <- if (!is.null(p$photo) && file.exists(p$photo)) {
