@@ -32,6 +32,9 @@ cat("```{=html}\n",
 
 ### **2026**  
 
+**47** [Two roads to a full ear: How maize domestication shaped form and function](https://doi.org/10.1111/jipb.70427). **COMMENTARY**  
+**Rubén Rellán-Álvarez**.
+
 **46** [Uncoupling the effects of highland maize chromosomal inversion *Inv4m* from leaf phosphorus deficiency responses](https://doi.org/10.64898/2026.05.22.727253). **PREPRINT**  
 **Fausto Rodríguez-Zapata, Ruthie Locklear, Allison C. Barnes, Nirwan Tandukar**, Sergio Pérez-Limón, Melanie Perryman, Miguel A. Piñeros, Jonathan Odilón Ojeda-Rivera, Daniel Runcie, Ruairidh Sawers, **Rubén Rellán-Álvarez**.
 
@@ -44,7 +47,7 @@ cat("```{=html}\n",
 **43** [The teosinte *mexicana* chromosomal inversion *Inv4m* modulates maize flowering time, plant height, and growth regulation gene networks](https://doi.org/10.64898/2026.06.16.732082). **PREPRINT**  
 **Fausto Rodríguez-Zapata, Hannah Pil, Nirwan Tandukar, Lauren Insko, Carolina Escalona-Weldt, Zehta Fazler**, Alejandro Aragón-Raygoza, Melanie Perryman, Sergio Pérez-Limón, Sandra Senyo Fometu, Josh Strable, Daniel Runcie, Ruairidh Sawers, **Rubén Rellán-Álvarez**.
 
-**42** [*Zea Lip*: an atlas of glycerolipid profiles across leaf development in maize](https://doi.org/10.64898/2026.05.07.723536). **PREPRINT**  
+**42** [*Zea Lip*: an atlas of glycerolipid profiles across leaf development in maize](https://doi.org/10.64898/2026.05.07.723536). **PREPRINT**, accepted for publication.  
 **Karla A. Juárez Núñez**, Guillaume Lobet, **Nirwan Tandukar**, Eric Jadidzadeh, Asher Pasha, Nicholas J. Provart, James B. Holland, **Rubén Rellán-Álvarez, Allison C. Barnes**.
 
 **41** [The MexMAGIC population reveals the genetic architecture of traits exhibiting clinal variation in Mexican native maize](https://doi.org/10.1111/nph.71501).  

@@ -8,6 +8,8 @@ output: html_document
 ---
 ### 2026  
 
+- Rubén's commentary [Two roads to a full ear: How maize domestication shaped form and function](https://doi.org/10.1111/jipb.70427) is out in the *Journal of Integrative Plant Biology*.
+
 - Jill's paper from her PhD in [Kathleen Ferris's lab](https://kathleengferristulane.wordpress.com/) on [adaptive phenotypic plasticity in the cutleaf monkeyflower](https://nph.onlinelibrary.wiley.com/doi/10.1111/nph.71365) made the [cover of *New Phytologist*](https://nph.onlinelibrary.wiley.com/toc/14698137/2026/252/4)!
 
     <img src="images/news/new-phytologist-2026-252-4-cover.png" alt="Cover of New Phytologist, volume 252, issue 4" width="114" height="150">
